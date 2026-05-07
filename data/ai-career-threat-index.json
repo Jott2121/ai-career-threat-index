@@ -1,0 +1,3961 @@
+{
+  "metadata": {
+    "name": "AI Career Threat Index",
+    "version": "2026.2",
+    "lastUpdated": "2026-05-06",
+    "license": "MIT",
+    "creator": "MeritForge AI",
+    "source": "https://www.meritforgeai.com",
+    "canonicalUrl": "https://www.meritforgeai.com/data/ai-career-threat-index/",
+    "methodologyUrl": "https://www.meritforgeai.com/methodology/threat-index/",
+    "description": "Proprietary scoring of 65+ professions on AI displacement risk. Each role is decomposed into tasks, mapped against current AI capability and labor-market signals, and scored 0-100 (higher = greater displacement risk).",
+    "riskBands": [
+      {
+        "name": "Low",
+        "range": [
+          0,
+          35
+        ]
+      },
+      {
+        "name": "Moderate",
+        "range": [
+          36,
+          50
+        ]
+      },
+      {
+        "name": "High",
+        "range": [
+          51,
+          75
+        ]
+      },
+      {
+        "name": "Very High",
+        "range": [
+          76,
+          100
+        ]
+      }
+    ],
+    "roleCount": 76,
+    "categoryCount": 10
+  },
+  "categories": [
+    "Technology",
+    "Business & Finance",
+    "Marketing & Sales",
+    "Administrative & Operations",
+    "Healthcare",
+    "Legal",
+    "Education",
+    "Creative",
+    "HR & Recruiting",
+    "Project & Product Management"
+  ],
+  "roles": [
+    {
+      "slug": "software-engineer",
+      "title": "Software Engineer",
+      "category": "Technology",
+      "score": 25,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Writing boilerplate code and scaffolding",
+        "Debugging common error patterns",
+        "Writing unit tests for simple functions",
+        "Code documentation and inline comments"
+      ],
+      "tasksGrowing": [
+        "System architecture and design decisions",
+        "Cross-team technical leadership",
+        "Debugging complex distributed systems"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$110,000 - $200,000",
+      "salary": {
+        "low": 110000,
+        "high": 200000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI-Assisted Development (Copilot, Cursor)",
+          "link": "/guides/ai-coding-tools/"
+        },
+        {
+          "skill": "Prompt Engineering for Code Generation",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "AI System Design & Architecture",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "Software engineers who learn to direct AI coding tools are 2-3x more productive. The role is shifting from writing every line to orchestrating AI-generated code and owning architecture.",
+      "historicalScores": {
+        "Q1 2025": 18,
+        "Q3 2025": 20,
+        "Q1 2026": 23,
+        "Q2 2026": 25
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Healthcare": -5,
+        "Government": -10
+      }
+    },
+    {
+      "slug": "data-scientist",
+      "title": "Data Scientist",
+      "category": "Technology",
+      "score": 20,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Exploratory data analysis on structured datasets",
+        "Building standard ML models (regression, classification)",
+        "Creating routine data visualizations",
+        "Data cleaning and preprocessing"
+      ],
+      "tasksGrowing": [
+        "Framing business problems as data problems",
+        "Interpreting results for non-technical stakeholders",
+        "Designing novel ML approaches for unique challenges"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$120,000 - $190,000",
+      "salary": {
+        "low": 120000,
+        "high": 190000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "LLM Fine-Tuning & Evaluation",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "AI Strategy & Business Translation",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Advanced MLOps & Model Governance",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "AutoML handles routine modeling, but data scientists who can frame problems, design experiments, and translate findings into business action are more in demand than ever.",
+      "historicalScores": {
+        "Q1 2025": 14,
+        "Q3 2025": 16,
+        "Q1 2026": 18,
+        "Q2 2026": 20
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Healthcare": -3,
+        "Government": -8
+      }
+    },
+    {
+      "slug": "devops-engineer",
+      "title": "DevOps Engineer",
+      "category": "Technology",
+      "score": 30,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Writing CI/CD pipeline configurations",
+        "Infrastructure provisioning with templates",
+        "Log monitoring and basic alerting",
+        "Routine deployment processes"
+      ],
+      "tasksGrowing": [
+        "Incident response and complex troubleshooting",
+        "Security-focused infrastructure design",
+        "Multi-cloud architecture optimization"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$115,000 - $185,000",
+      "salary": {
+        "low": 115000,
+        "high": 185000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AIOps and Intelligent Automation",
+          "link": "/guides/ai-coding-tools/"
+        },
+        {
+          "skill": "Cloud Security & Zero Trust",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Platform Engineering Leadership",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "AI is automating routine DevOps tasks like pipeline configs and basic monitoring. Engineers who focus on platform strategy, security, and incident response will see their value grow.",
+      "historicalScores": {
+        "Q1 2025": 22,
+        "Q3 2025": 25,
+        "Q1 2026": 28,
+        "Q2 2026": 30
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 2,
+        "Government": -8
+      }
+    },
+    {
+      "slug": "qa-test-engineer",
+      "title": "QA/Test Engineer",
+      "category": "Technology",
+      "score": 55,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Writing and running regression test suites",
+        "Manual UI testing against specifications",
+        "Test case documentation",
+        "Bug report creation for common issues",
+        "Cross-browser compatibility checks"
+      ],
+      "tasksGrowing": [
+        "Testing AI/ML system outputs for accuracy",
+        "Performance and security testing strategy",
+        "User experience validation and edge cases"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$75,000 - $130,000",
+      "salary": {
+        "low": 75000,
+        "high": 130000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI-Powered Test Automation (Testim, Mabl)",
+          "link": "/guides/ai-coding-tools/"
+        },
+        {
+          "skill": "ML Model Testing & Validation",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Security Testing & Penetration Testing",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "AI test generation tools can now write and maintain test suites faster than manual efforts. QA engineers should pivot toward AI output validation, security testing, and quality strategy.",
+      "historicalScores": {
+        "Q1 2025": 40,
+        "Q3 2025": 45,
+        "Q1 2026": 50,
+        "Q2 2026": 55
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Manufacturing": -3
+      }
+    },
+    {
+      "slug": "it-support-specialist",
+      "title": "IT Support Specialist",
+      "category": "Technology",
+      "score": 65,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Answering common troubleshooting questions",
+        "Password resets and account provisioning",
+        "Software installation and updates",
+        "Basic network connectivity diagnosis",
+        "Ticket routing and categorization"
+      ],
+      "tasksGrowing": [
+        "Complex system integration troubleshooting",
+        "Cybersecurity incident first response",
+        "AI tool administration and user training"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$45,000 - $75,000",
+      "salary": {
+        "low": 45000,
+        "high": 75000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Cybersecurity Fundamentals",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "AI Tool Administration",
+          "link": "/guides/ai-agents-guide/"
+        },
+        {
+          "skill": "Cloud Platform Management",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "AI chatbots and automated ticketing systems now resolve 40-60% of tier-1 support requests. IT specialists who move into security, cloud management, or AI tool administration will stay relevant.",
+      "historicalScores": {
+        "Q1 2025": 50,
+        "Q3 2025": 55,
+        "Q1 2026": 60,
+        "Q2 2026": 65
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Government": -8,
+        "Healthcare": -5
+      }
+    },
+    {
+      "slug": "web-developer",
+      "title": "Web Developer",
+      "category": "Technology",
+      "score": 45,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Building landing pages from designs",
+        "Writing CSS and responsive layouts",
+        "Implementing standard UI components",
+        "Basic API integration work"
+      ],
+      "tasksGrowing": [
+        "Complex interactive application development",
+        "Performance optimization and accessibility",
+        "AI feature integration and prompt-driven UIs"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$70,000 - $140,000",
+      "salary": {
+        "low": 70000,
+        "high": 140000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI-Powered Development Tools",
+          "link": "/guides/ai-coding-tools/"
+        },
+        {
+          "skill": "Full-Stack Architecture",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "AI/ML Integration in Web Apps",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "AI can generate standard web pages and components quickly, but complex interactive applications, accessibility work, and AI-integrated features still need experienced developers.",
+      "historicalScores": {
+        "Q1 2025": 30,
+        "Q3 2025": 35,
+        "Q1 2026": 40,
+        "Q2 2026": 45
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "ux-designer",
+      "title": "UX Designer",
+      "category": "Technology",
+      "score": 35,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Creating wireframes and basic mockups",
+        "Generating design variations and iterations",
+        "Building design system components",
+        "Producing placeholder content and copy"
+      ],
+      "tasksGrowing": [
+        "User research and behavioral insights",
+        "AI interaction design and conversational UX",
+        "Strategic design thinking for complex products"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$85,000 - $150,000",
+      "salary": {
+        "low": 85000,
+        "high": 150000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Interaction & Conversational Design",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "User Research Methods",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "AI Design Tools (Figma AI, Galileo)",
+          "link": "/guides/ai-coding-tools/"
+        }
+      ],
+      "insight": "AI can generate mockups and variations fast, but understanding user needs, designing for AI-human interaction, and strategic design thinking remain deeply human skills.",
+      "historicalScores": {
+        "Q1 2025": 25,
+        "Q3 2025": 28,
+        "Q1 2026": 32,
+        "Q2 2026": 35
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Healthcare": -3,
+        "Finance": 2
+      }
+    },
+    {
+      "slug": "database-administrator",
+      "title": "Database Administrator",
+      "category": "Technology",
+      "score": 50,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Query optimization for common patterns",
+        "Routine backup and recovery procedures",
+        "Performance monitoring and basic tuning",
+        "Schema documentation and migration scripts"
+      ],
+      "tasksGrowing": [
+        "Complex data architecture for AI workloads",
+        "Database security and compliance management",
+        "Multi-cloud data strategy and governance"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$80,000 - $140,000",
+      "salary": {
+        "low": 80000,
+        "high": 140000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Cloud Database Architecture (AWS/GCP)",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Data Security & Compliance",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Vector Database Management",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "Automated tuning and cloud-managed databases handle routine DBA tasks. Specialists in data architecture for AI workloads, vector databases, and security are increasingly sought after.",
+      "historicalScores": {
+        "Q1 2025": 38,
+        "Q3 2025": 42,
+        "Q1 2026": 46,
+        "Q2 2026": 50
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "cybersecurity-analyst",
+      "title": "Cybersecurity Analyst",
+      "category": "Technology",
+      "score": 20,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Log analysis for known threat patterns",
+        "Vulnerability scanning with standard tools",
+        "Generating routine compliance reports",
+        "Phishing email classification"
+      ],
+      "tasksGrowing": [
+        "Threat hunting for novel attack vectors",
+        "AI system security and adversarial defense",
+        "Incident response leadership and forensics"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$90,000 - $165,000",
+      "salary": {
+        "low": 90000,
+        "high": 165000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Security & Adversarial ML",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Threat Intelligence & Hunting",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Cloud Security Architecture",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "AI creates new attack surfaces faster than it automates defense. Security analysts who understand AI-specific threats — prompt injection, model poisoning, data exfiltration — are in high demand.",
+      "historicalScores": {
+        "Q1 2025": 15,
+        "Q3 2025": 17,
+        "Q1 2026": 18,
+        "Q2 2026": 20
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 5,
+        "Government": -3
+      }
+    },
+    {
+      "slug": "systems-administrator",
+      "title": "Systems Administrator",
+      "category": "Technology",
+      "score": 55,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Server provisioning and configuration",
+        "Patch management and OS updates",
+        "User account management",
+        "Routine monitoring and alerting",
+        "Backup scheduling and verification"
+      ],
+      "tasksGrowing": [
+        "Hybrid cloud strategy and migration",
+        "Security hardening and zero-trust implementation",
+        "Automation architecture and orchestration"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$65,000 - $115,000",
+      "salary": {
+        "low": 65000,
+        "high": 115000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Cloud Architecture (AWS/Azure/GCP)",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Infrastructure as Code (Terraform)",
+          "link": "/guides/ai-coding-tools/"
+        },
+        {
+          "skill": "Security & Compliance Automation",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "Cloud platforms and AI-driven automation are replacing traditional sysadmin tasks. Moving toward cloud architecture, security, or platform engineering is the strongest career path forward.",
+      "historicalScores": {
+        "Q1 2025": 42,
+        "Q3 2025": 46,
+        "Q1 2026": 50,
+        "Q2 2026": 55
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Government": -8,
+        "Manufacturing": -3
+      }
+    },
+    {
+      "slug": "financial-analyst",
+      "title": "Financial Analyst",
+      "category": "Business & Finance",
+      "score": 58,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Building financial models from templates",
+        "Pulling and formatting financial data",
+        "Creating standard reports and dashboards",
+        "Variance analysis on recurring metrics",
+        "Earnings summary preparation"
+      ],
+      "tasksGrowing": [
+        "Strategic financial advisory for executives",
+        "Scenario planning for unprecedented events",
+        "M&A due diligence and deal structuring"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$65,000 - $120,000",
+      "salary": {
+        "low": 65000,
+        "high": 120000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI-Powered Financial Modeling",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Strategic Finance & Advisory",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Data Science for Finance",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI can build models and run analyses in minutes that used to take days. Analysts who focus on strategic interpretation, relationship management, and judgment calls under uncertainty will thrive.",
+      "historicalScores": {
+        "Q1 2025": 45,
+        "Q3 2025": 50,
+        "Q1 2026": 54,
+        "Q2 2026": 58
+      },
+      "industryModifiers": {
+        "Finance": 5,
+        "Tech": 3,
+        "Government": -8,
+        "Retail": 2
+      }
+    },
+    {
+      "slug": "accountant",
+      "title": "Accountant",
+      "category": "Business & Finance",
+      "score": 62,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Transaction categorization and reconciliation",
+        "Standard tax return preparation",
+        "Invoice processing and matching",
+        "Monthly closing procedures",
+        "Basic audit workpaper preparation"
+      ],
+      "tasksGrowing": [
+        "Complex tax strategy and planning",
+        "Forensic accounting and fraud detection",
+        "Business advisory and financial planning"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$55,000 - $105,000",
+      "salary": {
+        "low": 55000,
+        "high": 105000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Accounting Tools (Botkeeper, Vic.ai)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Tax Strategy & Advisory",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Forensic Accounting & Fraud Analytics",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "Routine bookkeeping and tax prep are rapidly automating. Accountants who move into advisory, complex tax strategy, or forensic specialization will see growing demand.",
+      "historicalScores": {
+        "Q1 2025": 48,
+        "Q3 2025": 53,
+        "Q1 2026": 58,
+        "Q2 2026": 62
+      },
+      "industryModifiers": {
+        "Finance": 3,
+        "Tech": 5,
+        "Government": -8,
+        "Retail": 2
+      }
+    },
+    {
+      "slug": "management-consultant",
+      "title": "Management Consultant",
+      "category": "Business & Finance",
+      "score": 35,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Market research and data gathering",
+        "Slide deck creation and formatting",
+        "Benchmarking against industry databases",
+        "Standard framework application"
+      ],
+      "tasksGrowing": [
+        "Client relationship management and trust-building",
+        "Change management and organizational transformation",
+        "Custom strategy for novel business challenges"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$90,000 - $200,000",
+      "salary": {
+        "low": 90000,
+        "high": 200000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Strategy Consulting",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "AI-Powered Research & Analysis",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Change Management for AI Adoption",
+          "link": "/guides/ai-agents-guide/"
+        }
+      ],
+      "insight": "AI handles research and deck-building faster, but clients pay for judgment, relationships, and implementation support. Consultants who specialize in AI transformation are in peak demand.",
+      "historicalScores": {
+        "Q1 2025": 25,
+        "Q3 2025": 28,
+        "Q1 2026": 32,
+        "Q2 2026": 35
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "business-analyst",
+      "title": "Business Analyst",
+      "category": "Business & Finance",
+      "score": 48,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Requirements documentation from meetings",
+        "Process mapping for standard workflows",
+        "Creating user stories from templates",
+        "Data querying and report generation"
+      ],
+      "tasksGrowing": [
+        "Stakeholder negotiation and alignment",
+        "Complex process redesign with AI integration",
+        "Product-market fit analysis and validation"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$70,000 - $120,000",
+      "salary": {
+        "low": 70000,
+        "high": 120000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Process Automation",
+          "link": "/guides/ai-agents-guide/"
+        },
+        {
+          "skill": "Product Management Fundamentals",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "AI-Enhanced Business Intelligence",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "AI can draft requirements and map simple processes, but understanding organizational politics, facilitating alignment across teams, and redesigning workflows around AI remain human strengths.",
+      "historicalScores": {
+        "Q1 2025": 35,
+        "Q3 2025": 40,
+        "Q1 2026": 44,
+        "Q2 2026": 48
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Healthcare": -3
+      }
+    },
+    {
+      "slug": "auditor",
+      "title": "Auditor",
+      "category": "Business & Finance",
+      "score": 60,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Sampling and testing routine transactions",
+        "Checklist-based compliance verification",
+        "Workpaper preparation and documentation",
+        "Reconciliation testing",
+        "Standard audit report drafting"
+      ],
+      "tasksGrowing": [
+        "Risk assessment for complex, novel scenarios",
+        "AI system auditing and algorithmic accountability",
+        "Fraud investigation and forensic analysis"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$60,000 - $115,000",
+      "salary": {
+        "low": 60000,
+        "high": 115000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI & Algorithm Auditing",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Data Analytics for Audit (ACL, IDEA)",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "IT Audit & Cybersecurity Risk",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "AI can test 100% of transactions instead of samples, reshaping audit work. Auditors who specialize in AI systems auditing, IT risk, and fraud analytics will find strong career growth.",
+      "historicalScores": {
+        "Q1 2025": 45,
+        "Q3 2025": 50,
+        "Q1 2026": 55,
+        "Q2 2026": 60
+      },
+      "industryModifiers": {
+        "Finance": 5,
+        "Tech": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "insurance-underwriter",
+      "title": "Insurance Underwriter",
+      "category": "Business & Finance",
+      "score": 68,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Standard risk assessment on common policies",
+        "Premium calculation using rating tables",
+        "Application data verification",
+        "Policy renewal processing",
+        "Basic claims eligibility screening"
+      ],
+      "tasksGrowing": [
+        "Complex commercial and specialty underwriting",
+        "Emerging risk evaluation (climate, cyber, AI)",
+        "Broker relationship management and deal structuring"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$55,000 - $110,000",
+      "salary": {
+        "low": 55000,
+        "high": 110000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Risk Modeling & Insurtech",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Specialty Lines Underwriting",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Data Analytics for Risk Assessment",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI now handles most standard personal lines underwriting. The career path forward is in complex commercial risks, emerging categories like cyber insurance, and relationship-driven deal structuring.",
+      "historicalScores": {
+        "Q1 2025": 52,
+        "Q3 2025": 58,
+        "Q1 2026": 63,
+        "Q2 2026": 68
+      },
+      "industryModifiers": {
+        "Finance": 5,
+        "Tech": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "tax-preparer",
+      "title": "Tax Preparer",
+      "category": "Business & Finance",
+      "score": 72,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Individual tax return preparation (1040, W-2)",
+        "Data entry from tax documents",
+        "Standard deduction optimization",
+        "State tax filing and compliance",
+        "E-filing and submission processing"
+      ],
+      "tasksGrowing": [
+        "Complex multi-entity tax planning",
+        "International tax strategy",
+        "Tax controversy and IRS representation"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$40,000 - $75,000",
+      "salary": {
+        "low": 40000,
+        "high": 75000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Advanced Tax Planning & Strategy",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "AI Tax Software Proficiency",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Business Advisory Services",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI tax software can now handle most individual returns with minimal human input. Tax professionals should specialize in complex situations — multi-state, international, or business tax planning.",
+      "historicalScores": {
+        "Q1 2025": 58,
+        "Q3 2025": 63,
+        "Q1 2026": 68,
+        "Q2 2026": 72
+      },
+      "industryModifiers": {
+        "Finance": 3,
+        "Tech": 5,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "loan-officer",
+      "title": "Loan Officer",
+      "category": "Business & Finance",
+      "score": 65,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Pre-qualification calculations",
+        "Application processing and document collection",
+        "Credit analysis for standard profiles",
+        "Rate comparison and loan product matching",
+        "Compliance checklist verification"
+      ],
+      "tasksGrowing": [
+        "Complex lending scenarios (commercial, construction)",
+        "Client relationship building and financial counseling",
+        "Portfolio risk management and strategy"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$45,000 - $120,000",
+      "salary": {
+        "low": 45000,
+        "high": 120000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Commercial Lending Expertise",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Financial Advisory & Planning",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Fintech & AI Lending Platforms",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "Online lenders and AI underwriting handle most standard loans now. Loan officers who build deep client relationships and master complex commercial lending remain valuable.",
+      "historicalScores": {
+        "Q1 2025": 50,
+        "Q3 2025": 55,
+        "Q1 2026": 60,
+        "Q2 2026": 65
+      },
+      "industryModifiers": {
+        "Finance": 5,
+        "Tech": 3,
+        "Retail": 2
+      }
+    },
+    {
+      "slug": "budget-analyst",
+      "title": "Budget Analyst",
+      "category": "Business & Finance",
+      "score": 55,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Budget variance reporting",
+        "Spending trend analysis and forecasting",
+        "Cost allocation calculations",
+        "Standard budget template preparation"
+      ],
+      "tasksGrowing": [
+        "Strategic resource allocation advisory",
+        "Cross-departmental budget negotiation",
+        "AI-driven financial planning and scenario modeling"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$60,000 - $100,000",
+      "salary": {
+        "low": 60000,
+        "high": 100000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Financial Planning Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Strategic Finance & FP&A",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Data Visualization & Storytelling",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI automates variance reporting and forecasting, but budget analysts who can advise leadership on resource strategy and facilitate cross-department negotiations add irreplaceable value.",
+      "historicalScores": {
+        "Q1 2025": 40,
+        "Q3 2025": 45,
+        "Q1 2026": 50,
+        "Q2 2026": 55
+      },
+      "industryModifiers": {
+        "Finance": 3,
+        "Government": -8,
+        "Tech": 2
+      }
+    },
+    {
+      "slug": "compliance-officer",
+      "title": "Compliance Officer",
+      "category": "Business & Finance",
+      "score": 45,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Regulatory change monitoring",
+        "Standard compliance checklist reviews",
+        "Policy document drafting from templates",
+        "Training completion tracking"
+      ],
+      "tasksGrowing": [
+        "AI governance and ethical AI policy development",
+        "Complex regulatory interpretation and strategy",
+        "Building compliance culture across organizations"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$70,000 - $135,000",
+      "salary": {
+        "low": 70000,
+        "high": 135000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Governance & Ethics Frameworks",
+          "link": "/guides/ai-agents-guide/"
+        },
+        {
+          "skill": "RegTech & Compliance Automation",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Risk Management Certification",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI regulation is exploding — the EU AI Act, state-level laws, and industry standards all need human experts. Compliance officers who specialize in AI governance are entering a high-growth niche.",
+      "historicalScores": {
+        "Q1 2025": 38,
+        "Q3 2025": 40,
+        "Q1 2026": 42,
+        "Q2 2026": 45
+      },
+      "industryModifiers": {
+        "Finance": 5,
+        "Healthcare": -3,
+        "Tech": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "marketing-manager",
+      "title": "Marketing Manager",
+      "category": "Marketing & Sales",
+      "score": 40,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Campaign performance reporting",
+        "A/B test setup and basic analysis",
+        "Social media scheduling and posting",
+        "Email campaign template creation"
+      ],
+      "tasksGrowing": [
+        "Brand strategy and market positioning",
+        "Cross-channel campaign orchestration",
+        "Customer insight synthesis and persona development"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$75,000 - $140,000",
+      "salary": {
+        "low": 75000,
+        "high": 140000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Marketing Automation",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Marketing Analytics & Attribution",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "AI Content Strategy",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "AI handles campaign execution and reporting, but marketing managers who own brand strategy, customer insight, and cross-channel orchestration are more needed as channels multiply.",
+      "historicalScores": {
+        "Q1 2025": 30,
+        "Q3 2025": 33,
+        "Q1 2026": 37,
+        "Q2 2026": 40
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 3,
+        "Healthcare": -5
+      }
+    },
+    {
+      "slug": "social-media-manager",
+      "title": "Social Media Manager",
+      "category": "Marketing & Sales",
+      "score": 52,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Generating post captions and hashtags",
+        "Scheduling content across platforms",
+        "Basic engagement metrics reporting",
+        "Creating simple graphics and visuals",
+        "Competitor content monitoring"
+      ],
+      "tasksGrowing": [
+        "Community building and crisis management",
+        "Influencer relationship strategy",
+        "Brand voice development and audience insight"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$50,000 - $90,000",
+      "salary": {
+        "low": 50000,
+        "high": 90000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Content Creation Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Community Management & Strategy",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Social Analytics & Attribution",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI can generate posts and schedule content, but authentic community engagement, crisis management, and brand voice consistency still depend on human judgment and emotional intelligence.",
+      "historicalScores": {
+        "Q1 2025": 38,
+        "Q3 2025": 42,
+        "Q1 2026": 48,
+        "Q2 2026": 52
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Retail": 5,
+        "Healthcare": -5
+      }
+    },
+    {
+      "slug": "seo-specialist",
+      "title": "SEO Specialist",
+      "category": "Marketing & Sales",
+      "score": 58,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Keyword research and clustering",
+        "Meta tag and title optimization",
+        "Technical SEO audits using tools",
+        "Content brief generation",
+        "Backlink opportunity identification"
+      ],
+      "tasksGrowing": [
+        "AI search optimization (SGE, Perplexity)",
+        "Content strategy for zero-click search",
+        "Technical implementation and site architecture"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$55,000 - $100,000",
+      "salary": {
+        "low": 55000,
+        "high": 100000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Search Optimization (SGE/AIO)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Technical SEO & Site Architecture",
+          "link": "/guides/ai-coding-tools/"
+        },
+        {
+          "skill": "Content Strategy & Analytics",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "AI tools automate keyword research and audits, and AI search is changing how people find content. SEO specialists who master AI search optimization and technical implementation will stay in demand.",
+      "historicalScores": {
+        "Q1 2025": 42,
+        "Q3 2025": 48,
+        "Q1 2026": 53,
+        "Q2 2026": 58
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 3,
+        "Healthcare": -3
+      }
+    },
+    {
+      "slug": "copywriter",
+      "title": "Copywriter",
+      "category": "Marketing & Sales",
+      "score": 65,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Product descriptions and catalog copy",
+        "Email subject lines and preview text",
+        "Social media ad copy variations",
+        "SEO-optimized blog drafts",
+        "Landing page copy from briefs"
+      ],
+      "tasksGrowing": [
+        "Brand voice development and guidelines",
+        "High-stakes persuasive copy (sales pages, launches)",
+        "Creative campaign concepts and storytelling"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$45,000 - $90,000",
+      "salary": {
+        "low": 45000,
+        "high": 90000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Writing Tool Mastery",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Brand Strategy & Voice Architecture",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Conversion Optimization",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI writes adequate copy fast and cheap. Copywriters who survive will be those who create brand voice, craft high-stakes persuasive copy, and develop creative campaigns AI cannot replicate.",
+      "historicalScores": {
+        "Q1 2025": 45,
+        "Q3 2025": 52,
+        "Q1 2026": 60,
+        "Q2 2026": 65
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 3,
+        "Healthcare": -5
+      }
+    },
+    {
+      "slug": "content-writer",
+      "title": "Content Writer",
+      "category": "Marketing & Sales",
+      "score": 68,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "First drafts of informational articles",
+        "Content repurposing across formats",
+        "Listicle and round-up creation",
+        "Content calendar planning",
+        "Basic fact-checking and research synthesis"
+      ],
+      "tasksGrowing": [
+        "Original reporting and expert interviews",
+        "Thought leadership with unique perspectives",
+        "Content strategy and editorial direction"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$42,000 - $85,000",
+      "salary": {
+        "low": 42000,
+        "high": 85000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI-Assisted Content Production",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Editorial Strategy & Voice",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Subject Matter Expertise Development",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI generates passable content at scale, crushing demand for generic writing. Content writers with deep subject expertise, original research ability, and editorial judgment will command premium rates.",
+      "historicalScores": {
+        "Q1 2025": 48,
+        "Q3 2025": 55,
+        "Q1 2026": 62,
+        "Q2 2026": 68
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 3,
+        "Healthcare": -3
+      }
+    },
+    {
+      "slug": "sales-representative",
+      "title": "Sales Representative",
+      "category": "Marketing & Sales",
+      "score": 38,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Lead scoring and qualification",
+        "CRM data entry and pipeline updates",
+        "Follow-up email drafting",
+        "Meeting scheduling and preparation"
+      ],
+      "tasksGrowing": [
+        "Complex deal negotiation and closing",
+        "Strategic account relationship management",
+        "Consultative selling for technical products"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$50,000 - $130,000",
+      "salary": {
+        "low": 50000,
+        "high": 130000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Sales Tools (Gong, Outreach, Clari)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Consultative Selling Methodology",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Sales Analytics & Forecasting",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI handles lead scoring and outreach automation, but complex B2B sales still depend on human trust, relationship-building, and the ability to understand nuanced client needs.",
+      "historicalScores": {
+        "Q1 2025": 30,
+        "Q3 2025": 33,
+        "Q1 2026": 35,
+        "Q2 2026": 38
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Retail": 5,
+        "Manufacturing": -3
+      }
+    },
+    {
+      "slug": "advertising-manager",
+      "title": "Advertising Manager",
+      "category": "Marketing & Sales",
+      "score": 42,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Ad creative testing and optimization",
+        "Budget allocation across channels",
+        "Campaign performance reporting",
+        "Audience targeting and segmentation"
+      ],
+      "tasksGrowing": [
+        "Creative strategy and brand storytelling",
+        "Cross-platform campaign architecture",
+        "Privacy-first advertising strategy"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$70,000 - $130,000",
+      "salary": {
+        "low": 70000,
+        "high": 130000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Ad Platforms & Optimization",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Privacy-First Marketing Strategy",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Creative Strategy & Direction",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI optimizes bids and targeting automatically, but advertising managers who own creative strategy, manage privacy regulations, and orchestrate multi-channel campaigns remain essential.",
+      "historicalScores": {
+        "Q1 2025": 32,
+        "Q3 2025": 35,
+        "Q1 2026": 38,
+        "Q2 2026": 42
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "market-research-analyst",
+      "title": "Market Research Analyst",
+      "category": "Marketing & Sales",
+      "score": 55,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Survey design and distribution",
+        "Data tabulation and cross-tabulation",
+        "Competitive market monitoring",
+        "Standard market sizing calculations"
+      ],
+      "tasksGrowing": [
+        "Qualitative research and customer empathy",
+        "Strategic insight generation for leadership",
+        "Research design for novel questions"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$55,000 - $100,000",
+      "salary": {
+        "low": 55000,
+        "high": 100000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Analytics & Survey Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Qualitative Research Methods",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Data Storytelling & Visualization",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI processes survey data and tracks competitors faster than humans. Research analysts who excel at qualitative insight, asking the right questions, and translating data into strategy will thrive.",
+      "historicalScores": {
+        "Q1 2025": 40,
+        "Q3 2025": 45,
+        "Q1 2026": 50,
+        "Q2 2026": 55
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 3,
+        "Finance": 2
+      }
+    },
+    {
+      "slug": "pr-specialist",
+      "title": "PR Specialist",
+      "category": "Marketing & Sales",
+      "score": 45,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Press release drafting from templates",
+        "Media list building and updates",
+        "Coverage monitoring and clipping",
+        "Event logistics coordination"
+      ],
+      "tasksGrowing": [
+        "Crisis communication and reputation management",
+        "Journalist relationship building",
+        "Strategic narrative development"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$50,000 - $95,000",
+      "salary": {
+        "low": 50000,
+        "high": 95000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Media Monitoring Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Crisis Communication Strategy",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Digital PR & Content Marketing",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI drafts releases and monitors coverage, but genuine media relationships, crisis management under pressure, and strategic narrative creation require human expertise and emotional intelligence.",
+      "historicalScores": {
+        "Q1 2025": 35,
+        "Q3 2025": 38,
+        "Q1 2026": 42,
+        "Q2 2026": 45
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Healthcare": -3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "email-marketing-specialist",
+      "title": "Email Marketing Specialist",
+      "category": "Marketing & Sales",
+      "score": 60,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Email template design and coding",
+        "Subject line generation and testing",
+        "List segmentation based on standard criteria",
+        "Drip campaign sequence creation",
+        "Basic performance reporting"
+      ],
+      "tasksGrowing": [
+        "Advanced personalization strategy",
+        "Email deliverability and reputation management",
+        "Revenue attribution and lifecycle optimization"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$50,000 - $90,000",
+      "salary": {
+        "low": 50000,
+        "high": 90000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Email Platforms (Klaviyo, Braze)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Marketing Automation Architecture",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Customer Lifecycle Strategy",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI generates subject lines, segments audiences, and even writes email copy. Specialists who focus on lifecycle strategy, deliverability expertise, and revenue attribution will stay ahead.",
+      "historicalScores": {
+        "Q1 2025": 42,
+        "Q3 2025": 48,
+        "Q1 2026": 55,
+        "Q2 2026": 60
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 5,
+        "Healthcare": -5
+      }
+    },
+    {
+      "slug": "administrative-assistant",
+      "title": "Administrative Assistant",
+      "category": "Administrative & Operations",
+      "score": 78,
+      "riskLevel": "Very High",
+      "tasksAtRisk": [
+        "Calendar management and scheduling",
+        "Email drafting and response",
+        "Document formatting and organization",
+        "Meeting notes and action items",
+        "Travel booking and expense reports"
+      ],
+      "tasksGrowing": [
+        "Executive relationship management",
+        "Complex project coordination",
+        "Office culture and team operations"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$35,000 - $55,000",
+      "salary": {
+        "low": 35000,
+        "high": 55000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Productivity Tools (Microsoft 365 Copilot)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Project Management Fundamentals",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Executive Operations & Chief of Staff Skills",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI scheduling assistants, email drafters, and meeting summarizers are replacing core admin tasks. Pivoting toward project coordination, operations management, or executive chief-of-staff roles is key.",
+      "historicalScores": {
+        "Q1 2025": 62,
+        "Q3 2025": 68,
+        "Q1 2026": 74,
+        "Q2 2026": 78
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Government": -8,
+        "Healthcare": -3
+      }
+    },
+    {
+      "slug": "data-entry-clerk",
+      "title": "Data Entry Clerk",
+      "category": "Administrative & Operations",
+      "score": 88,
+      "riskLevel": "Very High",
+      "tasksAtRisk": [
+        "Manual data input from forms and documents",
+        "Spreadsheet population and formatting",
+        "Database record creation and updates",
+        "Invoice data extraction",
+        "Document scanning and digitization"
+      ],
+      "tasksGrowing": [
+        "Data quality assurance and exception handling",
+        "AI tool training and feedback",
+        "Process improvement identification"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$28,000 - $42,000",
+      "salary": {
+        "low": 28000,
+        "high": 42000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Data Analytics & Spreadsheet Automation",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "AI Tool Administration",
+          "link": "/guides/ai-agents-guide/"
+        },
+        {
+          "skill": "Process Automation (RPA)",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "OCR, AI document processing, and automated data extraction have made manual data entry largely obsolete. Building skills in data analytics or process automation is the strongest path forward.",
+      "historicalScores": {
+        "Q1 2025": 78,
+        "Q3 2025": 82,
+        "Q1 2026": 85,
+        "Q2 2026": 88
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Government": -5,
+        "Manufacturing": -3
+      }
+    },
+    {
+      "slug": "executive-assistant",
+      "title": "Executive Assistant",
+      "category": "Administrative & Operations",
+      "score": 62,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Calendar coordination and scheduling",
+        "Email screening and drafting responses",
+        "Travel arrangements and itineraries",
+        "Meeting preparation and materials assembly",
+        "Expense report processing"
+      ],
+      "tasksGrowing": [
+        "Strategic executive support and decision prep",
+        "Confidential project management",
+        "Stakeholder relationship management"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$55,000 - $95,000",
+      "salary": {
+        "low": 55000,
+        "high": 95000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Executive Productivity Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Project & Program Management",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Business Operations Strategy",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI handles scheduling and email, but executive assistants who function as strategic partners — managing confidential projects, preparing decision briefs, and handling stakeholder relationships — remain essential.",
+      "historicalScores": {
+        "Q1 2025": 48,
+        "Q3 2025": 53,
+        "Q1 2026": 58,
+        "Q2 2026": 62
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Finance": 2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "office-manager",
+      "title": "Office Manager",
+      "category": "Administrative & Operations",
+      "score": 55,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Vendor management and ordering supplies",
+        "Policy documentation and updates",
+        "Basic facility scheduling",
+        "Onboarding paperwork coordination",
+        "Budget tracking for office expenses"
+      ],
+      "tasksGrowing": [
+        "Workplace experience and culture design",
+        "Cross-functional operations leadership",
+        "Hybrid work policy and technology management"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$45,000 - $75,000",
+      "salary": {
+        "low": 45000,
+        "high": 75000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Operations Management & Process Design",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Workplace Technology Management",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "People Operations Fundamentals",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "Automated procurement and digital workflows reduce traditional office manager tasks. Those who evolve into workplace experience leaders managing hybrid environments and team culture will grow.",
+      "historicalScores": {
+        "Q1 2025": 42,
+        "Q3 2025": 46,
+        "Q1 2026": 50,
+        "Q2 2026": 55
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Government": -5,
+        "Healthcare": -3
+      }
+    },
+    {
+      "slug": "receptionist",
+      "title": "Receptionist",
+      "category": "Administrative & Operations",
+      "score": 75,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Answering routine phone calls and routing",
+        "Visitor check-in and badging",
+        "Basic scheduling and appointment booking",
+        "Mail sorting and distribution"
+      ],
+      "tasksGrowing": [
+        "VIP guest experience and hospitality",
+        "Security coordination and emergency response",
+        "Facility and workspace management"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$28,000 - $42,000",
+      "salary": {
+        "low": 28000,
+        "high": 42000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Customer Experience & Hospitality",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Facility Security & Safety",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Administrative Technology Tools",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI phone systems, digital check-in kiosks, and chatbot receptionists are widespread. Transitioning into facility management, security coordination, or customer experience roles offers more stability.",
+      "historicalScores": {
+        "Q1 2025": 60,
+        "Q3 2025": 65,
+        "Q1 2026": 70,
+        "Q2 2026": 75
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Healthcare": -5,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "payroll-specialist",
+      "title": "Payroll Specialist",
+      "category": "Administrative & Operations",
+      "score": 72,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Payroll processing and calculations",
+        "Tax withholding computations",
+        "Direct deposit setup and management",
+        "Time and attendance tracking",
+        "Standard payroll reporting"
+      ],
+      "tasksGrowing": [
+        "Multi-state and international payroll compliance",
+        "Payroll system integration and migration",
+        "Compensation strategy and analytics"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$45,000 - $70,000",
+      "salary": {
+        "low": 45000,
+        "high": 70000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "HRIS & Payroll System Administration",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Compensation Analytics",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Multi-State Tax Compliance",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "Payroll automation software handles most routine processing. Specialists who master complex multi-state compliance, system integrations, and compensation analytics will remain in demand.",
+      "historicalScores": {
+        "Q1 2025": 58,
+        "Q3 2025": 63,
+        "Q1 2026": 68,
+        "Q2 2026": 72
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Finance": 2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "procurement-specialist",
+      "title": "Procurement Specialist",
+      "category": "Administrative & Operations",
+      "score": 58,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Purchase order creation and processing",
+        "Vendor comparison for standard items",
+        "Invoice matching and approval routing",
+        "Catalog management and pricing updates"
+      ],
+      "tasksGrowing": [
+        "Strategic supplier relationship management",
+        "Complex contract negotiation",
+        "Supply chain risk assessment and mitigation"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$55,000 - $90,000",
+      "salary": {
+        "low": 55000,
+        "high": 90000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Procurement Platforms",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Strategic Sourcing & Negotiation",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Supply Chain Risk Management",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI automates purchase orders and vendor comparisons, but strategic sourcing, complex negotiations, and supply chain risk assessment need human judgment and relationship skills.",
+      "historicalScores": {
+        "Q1 2025": 45,
+        "Q3 2025": 48,
+        "Q1 2026": 53,
+        "Q2 2026": 58
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Manufacturing": -3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "supply-chain-analyst",
+      "title": "Supply Chain Analyst",
+      "category": "Administrative & Operations",
+      "score": 50,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Demand forecasting with historical data",
+        "Inventory level optimization calculations",
+        "Standard logistics reporting",
+        "Supplier performance scorecarding"
+      ],
+      "tasksGrowing": [
+        "Supply chain disruption response strategy",
+        "Multi-tier supply network design",
+        "Sustainability and ESG supply chain planning"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$60,000 - $100,000",
+      "salary": {
+        "low": 60000,
+        "high": 100000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Supply Chain Optimization Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Supply Chain Risk & Resilience",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Data Science for Operations",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI excels at demand forecasting and inventory optimization, but supply chain analysts who manage disruptions, design resilient networks, and plan for sustainability remain essential.",
+      "historicalScores": {
+        "Q1 2025": 38,
+        "Q3 2025": 42,
+        "Q1 2026": 46,
+        "Q2 2026": 50
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Manufacturing": 5,
+        "Retail": 3
+      }
+    },
+    {
+      "slug": "logistics-coordinator",
+      "title": "Logistics Coordinator",
+      "category": "Administrative & Operations",
+      "score": 55,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Shipment tracking and status updates",
+        "Route optimization and scheduling",
+        "Carrier rate comparison",
+        "Customs documentation preparation"
+      ],
+      "tasksGrowing": [
+        "Exception handling and crisis logistics",
+        "Carrier relationship management",
+        "Last-mile delivery innovation strategy"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$42,000 - $70,000",
+      "salary": {
+        "low": 42000,
+        "high": 70000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Logistics Platforms (Project44, FourKites)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Supply Chain Management Certification",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Operations Management",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "AI handles routing, tracking, and rate comparison. Logistics coordinators who manage exceptions, build carrier relationships, and solve complex multi-modal transportation challenges add unique value.",
+      "historicalScores": {
+        "Q1 2025": 42,
+        "Q3 2025": 46,
+        "Q1 2026": 50,
+        "Q2 2026": 55
+      },
+      "industryModifiers": {
+        "Retail": 3,
+        "Manufacturing": 2,
+        "Tech": 3
+      }
+    },
+    {
+      "slug": "facilities-manager",
+      "title": "Facilities Manager",
+      "category": "Administrative & Operations",
+      "score": 35,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Work order management and tracking",
+        "Preventive maintenance scheduling",
+        "Energy usage monitoring and reporting",
+        "Space utilization data collection"
+      ],
+      "tasksGrowing": [
+        "Workplace experience design for hybrid teams",
+        "Sustainability program leadership",
+        "Building technology integration and smart building management"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$60,000 - $100,000",
+      "salary": {
+        "low": 60000,
+        "high": 100000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Smart Building Technology (IoT)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Sustainability & Energy Management",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Workplace Experience Design",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI sensors and smart building systems automate monitoring, but facilities managers who design workplace experiences, lead sustainability programs, and manage building technology portfolios are growing in importance.",
+      "historicalScores": {
+        "Q1 2025": 28,
+        "Q3 2025": 30,
+        "Q1 2026": 32,
+        "Q2 2026": 35
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Manufacturing": -2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "physician",
+      "title": "Physician",
+      "category": "Healthcare",
+      "score": 15,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Reviewing standard lab results and imaging",
+        "Drafting clinical notes and documentation",
+        "Drug interaction checking",
+        "Standard treatment protocol selection"
+      ],
+      "tasksGrowing": [
+        "Complex diagnostic reasoning and differential diagnosis",
+        "Patient communication and shared decision-making",
+        "Procedural and surgical interventions"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$200,000 - $400,000+",
+      "salary": {
+        "low": 200000,
+        "high": 400000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Clinical AI Tool Proficiency",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "AI-Assisted Diagnostics",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Health Informatics",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI assists with documentation, diagnostics, and drug checks, but physicians who combine clinical judgment with AI tools become more effective — not less needed. The human element of medicine is irreplaceable.",
+      "historicalScores": {
+        "Q1 2025": 10,
+        "Q3 2025": 12,
+        "Q1 2026": 13,
+        "Q2 2026": 15
+      },
+      "industryModifiers": {
+        "Healthcare": 3,
+        "Tech": 5,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "nurse",
+      "title": "Nurse (RN)",
+      "category": "Healthcare",
+      "score": 18,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Vital signs monitoring and charting",
+        "Medication administration documentation",
+        "Patient education on standard conditions",
+        "Care plan documentation"
+      ],
+      "tasksGrowing": [
+        "Direct patient care and clinical assessment",
+        "Patient advocacy and family communication",
+        "Care coordination across complex cases"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$60,000 - $110,000",
+      "salary": {
+        "low": 60000,
+        "high": 110000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Health Informatics & EHR Optimization",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Telehealth & Remote Monitoring",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Clinical Leadership",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI reduces documentation burden and flags potential issues, freeing nurses for what matters most — direct patient care. Nursing demand continues to outpace supply significantly.",
+      "historicalScores": {
+        "Q1 2025": 12,
+        "Q3 2025": 14,
+        "Q1 2026": 16,
+        "Q2 2026": 18
+      },
+      "industryModifiers": {
+        "Healthcare": 2,
+        "Government": -3
+      }
+    },
+    {
+      "slug": "pharmacist",
+      "title": "Pharmacist",
+      "category": "Healthcare",
+      "score": 40,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Prescription verification and dispensing",
+        "Drug interaction screening",
+        "Insurance claim adjudication",
+        "Inventory management and ordering"
+      ],
+      "tasksGrowing": [
+        "Clinical pharmacy and patient consultation",
+        "Complex medication therapy management",
+        "Pharmacogenomics and personalized medicine"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$120,000 - $160,000",
+      "salary": {
+        "low": 120000,
+        "high": 160000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Clinical Pharmacy Specialization",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Pharmacogenomics",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "AI in Drug Development & Safety",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "Automated dispensing and AI interaction checkers handle routine pharmacy tasks. Pharmacists expanding into clinical consultation, medication therapy management, and personalized medicine will flourish.",
+      "historicalScores": {
+        "Q1 2025": 30,
+        "Q3 2025": 33,
+        "Q1 2026": 37,
+        "Q2 2026": 40
+      },
+      "industryModifiers": {
+        "Healthcare": 3,
+        "Retail": 5,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "medical-coder",
+      "title": "Medical Coder",
+      "category": "Healthcare",
+      "score": 65,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Assigning ICD-10 and CPT codes from notes",
+        "Claims submission and follow-up",
+        "Code validation against documentation",
+        "Denial management for common rejections",
+        "Charge capture review"
+      ],
+      "tasksGrowing": [
+        "Complex surgical and specialty coding",
+        "Coding compliance and audit preparation",
+        "AI coding tool oversight and quality assurance"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$40,000 - $70,000",
+      "salary": {
+        "low": 40000,
+        "high": 70000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Medical Coding Tools (3M, Nuance)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Clinical Documentation Improvement",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Healthcare Compliance & Auditing",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI coding engines now assign codes with 90%+ accuracy for common encounters. Coders who specialize in complex cases, audit AI-generated codes, and lead documentation improvement programs will stay relevant.",
+      "historicalScores": {
+        "Q1 2025": 48,
+        "Q3 2025": 53,
+        "Q1 2026": 60,
+        "Q2 2026": 65
+      },
+      "industryModifiers": {
+        "Healthcare": 3,
+        "Tech": 5,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "radiologist",
+      "title": "Radiologist",
+      "category": "Healthcare",
+      "score": 45,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Screening standard imaging for common findings",
+        "Measurements and quantification on routine scans",
+        "Report generation for normal studies",
+        "Image quality assessment"
+      ],
+      "tasksGrowing": [
+        "Complex and ambiguous case interpretation",
+        "Interventional radiology procedures",
+        "AI model validation and quality oversight"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$300,000 - $500,000+",
+      "salary": {
+        "low": 300000,
+        "high": 500000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Imaging Tool Proficiency",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Interventional Radiology",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "AI Validation & Clinical Informatics",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI flags findings and triages urgent cases, but radiologists who interpret complex ambiguous images, perform interventional procedures, and validate AI outputs remain essential to patient safety.",
+      "historicalScores": {
+        "Q1 2025": 38,
+        "Q3 2025": 40,
+        "Q1 2026": 42,
+        "Q2 2026": 45
+      },
+      "industryModifiers": {
+        "Healthcare": 3,
+        "Tech": 5
+      }
+    },
+    {
+      "slug": "healthcare-administrator",
+      "title": "Healthcare Administrator",
+      "category": "Healthcare",
+      "score": 42,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Patient scheduling optimization",
+        "Claims processing and billing oversight",
+        "Staff scheduling and shift management",
+        "Compliance reporting for standard metrics"
+      ],
+      "tasksGrowing": [
+        "Healthcare strategy and service line development",
+        "Regulatory change management (AI-specific rules)",
+        "Patient experience and quality improvement leadership"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$70,000 - $130,000",
+      "salary": {
+        "low": 70000,
+        "high": 130000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Healthcare AI Implementation",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Health Informatics Certification",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Change Management for Digital Health",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "AI optimizes scheduling, billing, and reporting, but healthcare administrators who lead AI implementation, manage regulatory complexity, and improve patient experience are growing in strategic importance.",
+      "historicalScores": {
+        "Q1 2025": 32,
+        "Q3 2025": 35,
+        "Q1 2026": 38,
+        "Q2 2026": 42
+      },
+      "industryModifiers": {
+        "Healthcare": 3,
+        "Government": -8,
+        "Tech": 3
+      }
+    },
+    {
+      "slug": "physical-therapist",
+      "title": "Physical Therapist",
+      "category": "Healthcare",
+      "score": 12,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Exercise program documentation",
+        "Progress note generation",
+        "Outcome measure tracking",
+        "Home exercise program printouts"
+      ],
+      "tasksGrowing": [
+        "Hands-on manual therapy and treatment",
+        "Patient motivation and behavioral change",
+        "Complex movement assessment and planning"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$75,000 - $110,000",
+      "salary": {
+        "low": 75000,
+        "high": 110000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Telehealth & Digital PT Platforms",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Wearable Tech & Motion Analysis",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Specialized Clinical Certifications",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "Physical therapy is inherently hands-on and relationship-based. AI handles documentation and tracking, actually freeing PTs to focus on what they do best — treating patients. Demand is strong and growing.",
+      "historicalScores": {
+        "Q1 2025": 8,
+        "Q3 2025": 9,
+        "Q1 2026": 10,
+        "Q2 2026": 12
+      },
+      "industryModifiers": {
+        "Healthcare": 2,
+        "Government": -2
+      }
+    },
+    {
+      "slug": "medical-transcriptionist",
+      "title": "Medical Transcriptionist",
+      "category": "Healthcare",
+      "score": 82,
+      "riskLevel": "Very High",
+      "tasksAtRisk": [
+        "Transcribing physician dictation",
+        "Formatting medical reports and letters",
+        "Editing speech-to-text output",
+        "Chart documentation from audio recordings",
+        "Discharge summary preparation"
+      ],
+      "tasksGrowing": [
+        "AI transcription quality assurance",
+        "Clinical documentation improvement",
+        "Medical language specialist consulting"
+      ],
+      "salaryTrend": "declining",
+      "salaryRange": "$30,000 - $50,000",
+      "salary": {
+        "low": 30000,
+        "high": 50000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Clinical Documentation Improvement (CDI)",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Health Informatics",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Medical Coding Certification",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "AI speech-to-text has largely replaced manual medical transcription. Transitioning into clinical documentation improvement, health informatics, or medical coding offers a stronger career trajectory.",
+      "historicalScores": {
+        "Q1 2025": 70,
+        "Q3 2025": 74,
+        "Q1 2026": 78,
+        "Q2 2026": 82
+      },
+      "industryModifiers": {
+        "Healthcare": 3,
+        "Tech": 5,
+        "Government": -3
+      }
+    },
+    {
+      "slug": "lab-technician",
+      "title": "Lab Technician",
+      "category": "Healthcare",
+      "score": 48,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Routine sample processing and analysis",
+        "Quality control data logging",
+        "Standard test result interpretation",
+        "Equipment calibration scheduling"
+      ],
+      "tasksGrowing": [
+        "Complex specimen troubleshooting",
+        "New assay validation and development",
+        "Lab automation system management"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$45,000 - $70,000",
+      "salary": {
+        "low": 45000,
+        "high": 70000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Lab Automation Technology",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Molecular Diagnostics",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "Quality Management Systems",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "Automated analyzers and AI handle routine testing, but lab techs who manage automation systems, troubleshoot complex specimens, and validate new testing methods remain essential to clinical labs.",
+      "historicalScores": {
+        "Q1 2025": 35,
+        "Q3 2025": 40,
+        "Q1 2026": 44,
+        "Q2 2026": 48
+      },
+      "industryModifiers": {
+        "Healthcare": 3,
+        "Manufacturing": 2,
+        "Tech": 3
+      }
+    },
+    {
+      "slug": "mental-health-counselor",
+      "title": "Mental Health Counselor",
+      "category": "Healthcare",
+      "score": 10,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Session note documentation",
+        "Treatment plan template completion",
+        "Screening assessment scoring",
+        "Appointment scheduling and reminders"
+      ],
+      "tasksGrowing": [
+        "Therapeutic relationship building",
+        "Complex case conceptualization",
+        "Crisis intervention and safety planning"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$45,000 - $85,000",
+      "salary": {
+        "low": 45000,
+        "high": 85000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Telehealth Therapy Platforms",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "AI-Assisted Clinical Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Specialized Therapy Modalities (EMDR, DBT)",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "Mental health care is fundamentally about human connection. AI chatbots handle surface-level check-ins, but therapy requires empathy, clinical judgment, and trust that AI cannot replicate. Demand is surging.",
+      "historicalScores": {
+        "Q1 2025": 8,
+        "Q3 2025": 8,
+        "Q1 2026": 9,
+        "Q2 2026": 10
+      },
+      "industryModifiers": {
+        "Healthcare": 2,
+        "Government": -2
+      }
+    },
+    {
+      "slug": "lawyer",
+      "title": "Lawyer",
+      "category": "Legal",
+      "score": 30,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Legal research and case law review",
+        "Contract drafting from templates",
+        "Document review and due diligence",
+        "Brief section drafting for routine motions"
+      ],
+      "tasksGrowing": [
+        "Courtroom advocacy and negotiation",
+        "Client counseling and strategic advice",
+        "Complex deal structuring and novel legal questions"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$80,000 - $250,000+",
+      "salary": {
+        "low": 80000,
+        "high": 250000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Legal Research Tools (Westlaw AI, CoCounsel)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Legal Technology Strategy",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "AI Law & Regulatory Expertise",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI accelerates research and drafting, making lawyers more productive — not obsolete. Lawyers who master AI tools and specialize in AI-related law (IP, liability, regulation) are positioned for growth.",
+      "historicalScores": {
+        "Q1 2025": 22,
+        "Q3 2025": 25,
+        "Q1 2026": 27,
+        "Q2 2026": 30
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Government": -8
+      }
+    },
+    {
+      "slug": "paralegal",
+      "title": "Paralegal",
+      "category": "Legal",
+      "score": 58,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Document organization and indexing",
+        "Legal research for standard questions",
+        "Filing preparation and court submissions",
+        "Contract review for standard clauses",
+        "Discovery document processing"
+      ],
+      "tasksGrowing": [
+        "Complex litigation support and case strategy",
+        "Client communication and relationship management",
+        "E-discovery management and technology oversight"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$45,000 - $80,000",
+      "salary": {
+        "low": 45000,
+        "high": 80000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Legal Tools & E-Discovery Platforms",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Legal Project Management",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Specialized Practice Area Knowledge",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI handles document review and standard research at scale. Paralegals who master legal AI tools, specialize in complex practice areas, and manage technology-driven workflows will remain valuable.",
+      "historicalScores": {
+        "Q1 2025": 42,
+        "Q3 2025": 48,
+        "Q1 2026": 53,
+        "Q2 2026": 58
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Finance": 2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "legal-secretary",
+      "title": "Legal Secretary",
+      "category": "Legal",
+      "score": 68,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Document formatting and filing",
+        "Calendar management and court deadline tracking",
+        "Correspondence drafting from templates",
+        "Billing entry and time tracking",
+        "Client intake form processing"
+      ],
+      "tasksGrowing": [
+        "Complex case coordination and management",
+        "Court relationship management",
+        "Legal technology administration"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$38,000 - $65,000",
+      "salary": {
+        "low": 38000,
+        "high": 65000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Legal Technology Administration",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Legal Project Coordination",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Paralegal Certification",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI handles document formatting, scheduling, and correspondence. Legal secretaries should consider paralegal certification and legal technology specialization to expand their role and career options.",
+      "historicalScores": {
+        "Q1 2025": 52,
+        "Q3 2025": 58,
+        "Q1 2026": 63,
+        "Q2 2026": 68
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Finance": 2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "contract-reviewer",
+      "title": "Contract Reviewer",
+      "category": "Legal",
+      "score": 70,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Standard clause identification and flagging",
+        "Contract comparison against templates",
+        "Obligation and deadline extraction",
+        "Risk scoring on standard contract types",
+        "Metadata extraction and categorization"
+      ],
+      "tasksGrowing": [
+        "Negotiation strategy for non-standard terms",
+        "Complex multi-party agreement analysis",
+        "AI contract tool training and oversight"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$50,000 - $90,000",
+      "salary": {
+        "low": 50000,
+        "high": 90000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Contract Analysis Tools (Kira, Ironclad)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Commercial Law Specialization",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Legal Operations & Process Design",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI contract analysis tools review thousands of contracts in hours. Reviewers who oversee AI output, handle complex non-standard agreements, and inform negotiation strategy will continue to add value.",
+      "historicalScores": {
+        "Q1 2025": 55,
+        "Q3 2025": 60,
+        "Q1 2026": 65,
+        "Q2 2026": 70
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "compliance-analyst",
+      "title": "Compliance Analyst",
+      "category": "Legal",
+      "score": 48,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Regulatory change tracking and alerts",
+        "Policy gap analysis against frameworks",
+        "Compliance reporting and documentation",
+        "Employee training tracking and records"
+      ],
+      "tasksGrowing": [
+        "AI regulatory compliance (EU AI Act, state laws)",
+        "Investigation and incident management",
+        "Cross-border compliance strategy"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$60,000 - $100,000",
+      "salary": {
+        "low": 60000,
+        "high": 100000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Governance & Risk Frameworks",
+          "link": "/guides/ai-agents-guide/"
+        },
+        {
+          "skill": "RegTech Tools & Automation",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Certified Compliance Professional",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI tracks regulatory changes and generates reports, but compliance analysts who specialize in AI-specific regulations and complex cross-border requirements are entering a high-growth niche.",
+      "historicalScores": {
+        "Q1 2025": 38,
+        "Q3 2025": 42,
+        "Q1 2026": 45,
+        "Q2 2026": 48
+      },
+      "industryModifiers": {
+        "Finance": 5,
+        "Tech": 3,
+        "Healthcare": -3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "teacher",
+      "title": "Teacher (K-12)",
+      "category": "Education",
+      "score": 22,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Lesson plan drafting and resource gathering",
+        "Grading objective assessments",
+        "Progress report generation",
+        "Creating study materials and worksheets"
+      ],
+      "tasksGrowing": [
+        "Student mentorship and emotional support",
+        "Differentiated instruction for diverse learners",
+        "Classroom management and culture building"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$45,000 - $80,000",
+      "salary": {
+        "low": 45000,
+        "high": 80000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Teaching Tools (Khan Academy, Diffit)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Differentiated Instruction Methods",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "EdTech Integration & Digital Literacy",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI generates lesson plans and grades quizzes, freeing teachers for what matters most — mentoring students, managing classrooms, and providing the human connection young learners need.",
+      "historicalScores": {
+        "Q1 2025": 16,
+        "Q3 2025": 18,
+        "Q1 2026": 20,
+        "Q2 2026": 22
+      },
+      "industryModifiers": {
+        "Government": -5,
+        "Tech": 3
+      }
+    },
+    {
+      "slug": "college-professor",
+      "title": "College Professor",
+      "category": "Education",
+      "score": 25,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Creating standard lecture materials",
+        "Grading essays with rubrics (first pass)",
+        "Generating reading lists and syllabi",
+        "Administrative paperwork and reporting"
+      ],
+      "tasksGrowing": [
+        "Original research and knowledge creation",
+        "Seminar facilitation and Socratic discussion",
+        "Graduate mentorship and career advising"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$60,000 - $150,000",
+      "salary": {
+        "low": 60000,
+        "high": 150000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI-Enhanced Research Methods",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "AI Literacy Curriculum Development",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Digital Pedagogy",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI assists with course materials and grading, but professors who produce original research, facilitate deep learning through discussion, and mentor the next generation are irreplaceable in higher education.",
+      "historicalScores": {
+        "Q1 2025": 18,
+        "Q3 2025": 20,
+        "Q1 2026": 22,
+        "Q2 2026": 25
+      },
+      "industryModifiers": {
+        "Government": -3,
+        "Tech": 3
+      }
+    },
+    {
+      "slug": "corporate-trainer",
+      "title": "Corporate Trainer",
+      "category": "Education",
+      "score": 45,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Creating training slide decks and handouts",
+        "Scheduling and logistics coordination",
+        "Knowledge assessment quiz creation",
+        "Training completion tracking and reporting"
+      ],
+      "tasksGrowing": [
+        "Live facilitation and workshop leadership",
+        "Organizational change management",
+        "AI skill-building program design"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$55,000 - $95,000",
+      "salary": {
+        "low": 55000,
+        "high": 95000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Training Program Design",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Learning Management Systems (LMS)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Change Management Certification",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI creates training materials and tracks progress, but live facilitation, organizational change leadership, and designing AI upskilling programs are high-value human contributions.",
+      "historicalScores": {
+        "Q1 2025": 32,
+        "Q3 2025": 36,
+        "Q1 2026": 40,
+        "Q2 2026": 45
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "instructional-designer",
+      "title": "Instructional Designer",
+      "category": "Education",
+      "score": 48,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Storyboard creation for standard courses",
+        "Assessment question generation",
+        "Content conversion between formats",
+        "Course template customization"
+      ],
+      "tasksGrowing": [
+        "Learning experience strategy and architecture",
+        "Immersive learning design (VR/AR/simulation)",
+        "Performance consulting and needs analysis"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$60,000 - $100,000",
+      "salary": {
+        "low": 60000,
+        "high": 100000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Course Creation Tools (Synthesia, Articulate)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Learning Science & Experience Design",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Immersive Learning Technologies",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI generates course content and assessments quickly, but instructional designers who apply learning science, design immersive experiences, and align training with business outcomes will stay in demand.",
+      "historicalScores": {
+        "Q1 2025": 35,
+        "Q3 2025": 38,
+        "Q1 2026": 43,
+        "Q2 2026": 48
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Healthcare": -3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "academic-advisor",
+      "title": "Academic Advisor",
+      "category": "Education",
+      "score": 38,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Degree audit and requirement checking",
+        "Course scheduling and conflict resolution",
+        "Standard FAQ responses about programs",
+        "Transfer credit evaluation"
+      ],
+      "tasksGrowing": [
+        "Career counseling and goal alignment",
+        "At-risk student intervention and support",
+        "Holistic student success coaching"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$40,000 - $65,000",
+      "salary": {
+        "low": 40000,
+        "high": 65000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Student Success Analytics",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Career Counseling Methods",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Mental Health First Aid",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI chatbots answer routine questions and check degree requirements. Advisors who focus on student success coaching, career exploration, and at-risk intervention provide the human support students need most.",
+      "historicalScores": {
+        "Q1 2025": 28,
+        "Q3 2025": 32,
+        "Q1 2026": 35,
+        "Q2 2026": 38
+      },
+      "industryModifiers": {
+        "Government": -3,
+        "Tech": 2
+      }
+    },
+    {
+      "slug": "tutor",
+      "title": "Tutor",
+      "category": "Education",
+      "score": 55,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Explaining standard concepts and formulas",
+        "Practice problem generation and correction",
+        "Study schedule creation",
+        "Homework help for routine assignments",
+        "Test prep for standardized exams"
+      ],
+      "tasksGrowing": [
+        "Motivational coaching and accountability",
+        "Identifying and addressing learning gaps",
+        "Executive function and study skills coaching"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$25,000 - $60,000",
+      "salary": {
+        "low": 25000,
+        "high": 60000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Tutoring Platforms (Khan Academy, Khanmigo)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Learning Disabilities & Differentiation",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Executive Function Coaching",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI tutors like Khanmigo explain concepts 24/7, but human tutors who provide accountability, adapt to emotional needs, and coach executive function skills offer something AI cannot match.",
+      "historicalScores": {
+        "Q1 2025": 38,
+        "Q3 2025": 42,
+        "Q1 2026": 48,
+        "Q2 2026": 55
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Government": -3
+      }
+    },
+    {
+      "slug": "graphic-designer",
+      "title": "Graphic Designer",
+      "category": "Creative",
+      "score": 52,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Creating social media graphics from templates",
+        "Generating logo concepts and variations",
+        "Photo editing and retouching",
+        "Banner and ad creative production",
+        "Icon and illustration generation"
+      ],
+      "tasksGrowing": [
+        "Brand identity system development",
+        "Creative direction and art direction",
+        "Complex multi-channel design systems"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$50,000 - $95,000",
+      "salary": {
+        "low": 50000,
+        "high": 95000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Design Tools (Midjourney, Firefly, Figma AI)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Brand Identity & Design Systems",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Motion Design & Animation",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI generates graphics and variations in seconds, reducing demand for production design. Graphic designers who own brand systems, creative direction, and motion design will remain highly valued.",
+      "historicalScores": {
+        "Q1 2025": 35,
+        "Q3 2025": 40,
+        "Q1 2026": 46,
+        "Q2 2026": 52
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Retail": 3,
+        "Manufacturing": -3
+      }
+    },
+    {
+      "slug": "video-editor",
+      "title": "Video Editor",
+      "category": "Creative",
+      "score": 42,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Rough cut assembly from raw footage",
+        "Auto-captioning and subtitle generation",
+        "Color correction using presets",
+        "Audio noise reduction and leveling"
+      ],
+      "tasksGrowing": [
+        "Narrative storytelling and pacing",
+        "Complex multi-cam and effects compositing",
+        "Creative direction and client collaboration"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$50,000 - $100,000",
+      "salary": {
+        "low": 50000,
+        "high": 100000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Video Tools (Runway, Descript, CapCut)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Motion Graphics & VFX",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Storytelling & Narrative Design",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI handles rough cuts, captions, and color grading, but skilled editors who craft compelling narratives, manage complex projects, and collaborate with clients will continue to command premium rates.",
+      "historicalScores": {
+        "Q1 2025": 30,
+        "Q3 2025": 34,
+        "Q1 2026": 38,
+        "Q2 2026": 42
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Retail": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "photographer",
+      "title": "Photographer",
+      "category": "Creative",
+      "score": 35,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Basic photo editing and batch processing",
+        "Product photography for e-commerce",
+        "Stock photo production",
+        "Photo metadata and keywording"
+      ],
+      "tasksGrowing": [
+        "Event and portrait photography (physical presence)",
+        "Creative direction and art direction for shoots",
+        "Specialized photography (architecture, food, fashion)"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$35,000 - $85,000",
+      "salary": {
+        "low": 35000,
+        "high": 85000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Photo Editing (Lightroom AI, Luminar)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Creative Direction & Art Direction",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Video & Multimedia Production",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI generates stock imagery and handles editing, but photographers who show up in person — for events, portraits, and specialized shoots — provide an experience AI cannot replicate.",
+      "historicalScores": {
+        "Q1 2025": 25,
+        "Q3 2025": 28,
+        "Q1 2026": 32,
+        "Q2 2026": 35
+      },
+      "industryModifiers": {
+        "Retail": 3,
+        "Tech": 2,
+        "Government": -3
+      }
+    },
+    {
+      "slug": "technical-writer",
+      "title": "Technical Writer",
+      "category": "Creative",
+      "score": 60,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "API documentation from code comments",
+        "User guide drafts from feature specs",
+        "FAQ and knowledge base generation",
+        "Release notes and changelog creation",
+        "Style guide-compliant formatting"
+      ],
+      "tasksGrowing": [
+        "Complex system documentation strategy",
+        "Developer experience and information architecture",
+        "Technical content for marketing and thought leadership"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$60,000 - $110,000",
+      "salary": {
+        "low": 60000,
+        "high": 110000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Docs-as-Code & API Documentation",
+          "link": "/guides/ai-coding-tools/"
+        },
+        {
+          "skill": "Information Architecture",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Developer Experience (DX) Writing",
+          "link": "/guides/ai-skills-resume/"
+        }
+      ],
+      "insight": "AI generates documentation from code effectively, but technical writers who design information architecture, improve developer experience, and create strategic content are becoming more valuable.",
+      "historicalScores": {
+        "Q1 2025": 42,
+        "Q3 2025": 48,
+        "Q1 2026": 54,
+        "Q2 2026": 60
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Healthcare": -3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "journalist",
+      "title": "Journalist",
+      "category": "Creative",
+      "score": 48,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Earnings report summaries and data-driven stories",
+        "Sports scores and game recaps",
+        "Aggregating news from multiple sources",
+        "Fact-checking standard claims"
+      ],
+      "tasksGrowing": [
+        "Investigative reporting and original sourcing",
+        "Feature writing with narrative depth",
+        "Analysis and opinion with unique perspective"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$40,000 - $90,000",
+      "salary": {
+        "low": 40000,
+        "high": 90000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Research & OSINT Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Data Journalism & Visualization",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Audience Growth & Newsletter Strategy",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI writes commodity news (earnings, scores, weather), but journalists who do original reporting, investigate stories, and bring unique perspective are more important in an AI-saturated information environment.",
+      "historicalScores": {
+        "Q1 2025": 35,
+        "Q3 2025": 40,
+        "Q1 2026": 44,
+        "Q2 2026": 48
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Government": -3
+      }
+    },
+    {
+      "slug": "music-producer",
+      "title": "Music Producer",
+      "category": "Creative",
+      "score": 38,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Creating beats and loops from samples",
+        "Basic mixing and mastering",
+        "Generating background music and jingles",
+        "Sound effect creation and editing"
+      ],
+      "tasksGrowing": [
+        "Artist development and creative vision",
+        "Live performance and sound engineering",
+        "Complex album production and sonic identity"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$40,000 - $120,000",
+      "salary": {
+        "low": 40000,
+        "high": 120000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Music Tools (Suno, Udio, Soundraw)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Artist Development & A&R",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Live Sound Engineering",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI generates beats and background music, but producers who shape an artist's sonic vision, engineer live performances, and craft full albums bring creative judgment AI lacks.",
+      "historicalScores": {
+        "Q1 2025": 28,
+        "Q3 2025": 32,
+        "Q1 2026": 35,
+        "Q2 2026": 38
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Retail": 2
+      }
+    },
+    {
+      "slug": "hr-manager",
+      "title": "HR Manager",
+      "category": "HR & Recruiting",
+      "score": 38,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Policy documentation and handbook updates",
+        "Standard employee inquiry responses",
+        "Benefits enrollment processing",
+        "Compliance training scheduling"
+      ],
+      "tasksGrowing": [
+        "Employee relations and conflict resolution",
+        "Organizational culture and engagement strategy",
+        "AI policy development and workforce planning"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$70,000 - $130,000",
+      "salary": {
+        "low": 70000,
+        "high": 130000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI HR Tools (Workday AI, Lattice)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "People Analytics & Workforce Planning",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "AI Governance & Ethics in HR",
+          "link": "/guides/ai-agents-guide/"
+        }
+      ],
+      "insight": "AI automates policy lookups and benefits processing, but HR managers who build culture, resolve complex employee situations, and develop AI workforce strategies are more important than ever.",
+      "historicalScores": {
+        "Q1 2025": 28,
+        "Q3 2025": 32,
+        "Q1 2026": 35,
+        "Q2 2026": 38
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 2,
+        "Government": -8
+      }
+    },
+    {
+      "slug": "recruiter",
+      "title": "Recruiter",
+      "category": "HR & Recruiting",
+      "score": 55,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Resume screening and shortlisting",
+        "Initial candidate outreach messages",
+        "Interview scheduling and coordination",
+        "Job description writing",
+        "Candidate status tracking and updates"
+      ],
+      "tasksGrowing": [
+        "Candidate relationship building and selling",
+        "Complex hiring strategy for leadership roles",
+        "Employer branding and talent market intelligence"
+      ],
+      "salaryTrend": "mixed",
+      "salaryRange": "$50,000 - $110,000",
+      "salary": {
+        "low": 50000,
+        "high": 110000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Sourcing Tools (SeekOut, hireEZ)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Executive & Strategic Recruiting",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Employer Branding & Talent Marketing",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI screens resumes and writes outreach at scale, but recruiters who build genuine candidate relationships, sell opportunities to passive talent, and advise on hiring strategy add irreplaceable value.",
+      "historicalScores": {
+        "Q1 2025": 40,
+        "Q3 2025": 45,
+        "Q1 2026": 50,
+        "Q2 2026": 55
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Government": -5,
+        "Retail": 3
+      }
+    },
+    {
+      "slug": "compensation-analyst",
+      "title": "Compensation Analyst",
+      "category": "HR & Recruiting",
+      "score": 52,
+      "riskLevel": "High",
+      "tasksAtRisk": [
+        "Market salary data collection and benchmarking",
+        "Pay equity analysis and reporting",
+        "Job evaluation and grading calculations",
+        "Compensation survey participation"
+      ],
+      "tasksGrowing": [
+        "Total rewards strategy design",
+        "Executive compensation and equity planning",
+        "AI-driven pay transparency compliance"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$65,000 - $110,000",
+      "salary": {
+        "low": 65000,
+        "high": 110000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Compensation Platforms (Payscale, Pave)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Total Rewards Strategy",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "People Analytics & Data Science",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI automates benchmarking and analysis, but compensation analysts who design total rewards strategy, handle executive comp, and ensure pay transparency compliance are in growing demand.",
+      "historicalScores": {
+        "Q1 2025": 38,
+        "Q3 2025": 42,
+        "Q1 2026": 48,
+        "Q2 2026": 52
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "training-coordinator",
+      "title": "Training Coordinator",
+      "category": "HR & Recruiting",
+      "score": 48,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Training session scheduling and room booking",
+        "Attendance tracking and certificate generation",
+        "Course catalog management",
+        "Post-training survey distribution"
+      ],
+      "tasksGrowing": [
+        "Learning program strategy and ROI measurement",
+        "AI upskilling program design and delivery",
+        "Vendor evaluation and partnership management"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$45,000 - $70,000",
+      "salary": {
+        "low": 45000,
+        "high": 70000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "Learning Management System (LMS) Administration",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "AI Training Program Design",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "Training ROI Measurement",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI handles scheduling, tracking, and survey distribution, but training coordinators who design AI upskilling programs and measure learning ROI position themselves as strategic partners.",
+      "historicalScores": {
+        "Q1 2025": 35,
+        "Q3 2025": 38,
+        "Q1 2026": 43,
+        "Q2 2026": 48
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Government": -5,
+        "Healthcare": -3
+      }
+    },
+    {
+      "slug": "hr-generalist",
+      "title": "HR Generalist",
+      "category": "HR & Recruiting",
+      "score": 42,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Employee FAQ responses and policy lookups",
+        "New hire onboarding checklist management",
+        "Leave tracking and basic case management",
+        "Standard employment verification"
+      ],
+      "tasksGrowing": [
+        "Employee experience and engagement programs",
+        "Complex employee relations case management",
+        "HR technology implementation and change management"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$50,000 - $85,000",
+      "salary": {
+        "low": 50000,
+        "high": 85000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "HRIS & AI HR Platforms",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Employee Relations & Investigations",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "HR Analytics & Reporting",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI chatbots answer routine HR questions and manage onboarding checklists. Generalists who focus on employee relations, experience design, and HR technology management will see their roles expand.",
+      "historicalScores": {
+        "Q1 2025": 30,
+        "Q3 2025": 34,
+        "Q1 2026": 38,
+        "Q2 2026": 42
+      },
+      "industryModifiers": {
+        "Tech": 3,
+        "Finance": 2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "project-manager",
+      "title": "Project Manager",
+      "category": "Project & Product Management",
+      "score": 35,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Status report creation and distribution",
+        "Schedule and timeline management",
+        "Meeting notes and action item tracking",
+        "Resource allocation for standard projects"
+      ],
+      "tasksGrowing": [
+        "Stakeholder management and conflict resolution",
+        "Risk management for complex programs",
+        "Cross-functional team leadership and motivation"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$80,000 - $140,000",
+      "salary": {
+        "low": 80000,
+        "high": 140000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Project Management Tools (Notion AI, Asana AI)",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Agile & SAFe Certification",
+          "link": "/guides/best-ai-certifications/"
+        },
+        {
+          "skill": "AI Project Delivery & Implementation",
+          "link": "/guides/ai-career-paths/"
+        }
+      ],
+      "insight": "AI automates status reports, scheduling, and action tracking. Project managers who lead stakeholder alignment, manage risks, and motivate teams through complex programs are more needed, not less.",
+      "historicalScores": {
+        "Q1 2025": 25,
+        "Q3 2025": 28,
+        "Q1 2026": 32,
+        "Q2 2026": 35
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "product-manager",
+      "title": "Product Manager",
+      "category": "Project & Product Management",
+      "score": 22,
+      "riskLevel": "Low",
+      "tasksAtRisk": [
+        "Competitive analysis data gathering",
+        "User feedback synthesis and categorization",
+        "Feature specification drafting",
+        "Sprint planning documentation"
+      ],
+      "tasksGrowing": [
+        "Product vision and strategy definition",
+        "Customer discovery and market sensing",
+        "Cross-functional team alignment on priorities"
+      ],
+      "salaryTrend": "rising",
+      "salaryRange": "$100,000 - $180,000",
+      "salary": {
+        "low": 100000,
+        "high": 180000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Product Strategy",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "AI/ML Product Development",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Data-Driven Decision Making",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI gathers data and drafts specs, but product managers who define product vision, make hard prioritization calls, and align organizations around a strategy are among the most AI-resilient roles.",
+      "historicalScores": {
+        "Q1 2025": 16,
+        "Q3 2025": 18,
+        "Q1 2026": 20,
+        "Q2 2026": 22
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Healthcare": -3
+      }
+    },
+    {
+      "slug": "scrum-master",
+      "title": "Scrum Master",
+      "category": "Project & Product Management",
+      "score": 40,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Sprint metrics tracking and reporting",
+        "Meeting facilitation notes and summaries",
+        "Burndown and velocity chart generation",
+        "Retrospective data aggregation"
+      ],
+      "tasksGrowing": [
+        "Team coaching and psychological safety building",
+        "Organizational agility transformation",
+        "Impediment resolution requiring political skill"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$85,000 - $140,000",
+      "salary": {
+        "low": 85000,
+        "high": 140000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI-Enhanced Agile Practices",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Team Coaching & Facilitation",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "SAFe or ICAgile Certification",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI tracks metrics and generates reports, but Scrum Masters who build psychological safety, coach teams through conflict, and remove organizational impediments bring value that requires human skill.",
+      "historicalScores": {
+        "Q1 2025": 30,
+        "Q3 2025": 33,
+        "Q1 2026": 37,
+        "Q2 2026": 40
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 2,
+        "Government": -5
+      }
+    },
+    {
+      "slug": "program-manager",
+      "title": "Program Manager",
+      "category": "Project & Product Management",
+      "score": 30,
+      "riskLevel": "Moderate",
+      "tasksAtRisk": [
+        "Cross-project status aggregation",
+        "Dependency tracking and visualization",
+        "Resource capacity planning spreadsheets",
+        "Executive summary report generation"
+      ],
+      "tasksGrowing": [
+        "Multi-program strategic alignment",
+        "Executive stakeholder management",
+        "Complex risk mitigation across programs"
+      ],
+      "salaryTrend": "stable",
+      "salaryRange": "$100,000 - $170,000",
+      "salary": {
+        "low": 100000,
+        "high": 170000,
+        "currency": "USD"
+      },
+      "defenseSkills": [
+        {
+          "skill": "AI Portfolio Management Tools",
+          "link": "/guides/ai-skills-resume/"
+        },
+        {
+          "skill": "Strategic Planning & Execution",
+          "link": "/guides/ai-career-paths/"
+        },
+        {
+          "skill": "PgMP or PMP Certification",
+          "link": "/guides/best-ai-certifications/"
+        }
+      ],
+      "insight": "AI aggregates status and tracks dependencies, but program managers who align multiple programs to business strategy, manage executive relationships, and mitigate complex risks are deeply valued.",
+      "historicalScores": {
+        "Q1 2025": 22,
+        "Q3 2025": 25,
+        "Q1 2026": 27,
+        "Q2 2026": 30
+      },
+      "industryModifiers": {
+        "Tech": 5,
+        "Finance": 3,
+        "Government": -5
+      }
+    }
+  ]
+}

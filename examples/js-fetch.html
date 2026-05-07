@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Career Threat Index — Browser example</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; max-width: 880px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1F2937; }
+    h1 { font-size: 1.6rem; }
+    .meta { color: #6B7280; font-size: 0.9rem; margin-bottom: 1.5rem; }
+    .filter-row { display: flex; gap: 0.5rem; margin: 1rem 0 1.5rem; }
+    select, input { padding: 0.5rem 0.75rem; border: 1px solid #D1D5DB; border-radius: 6px; font-size: 0.95rem; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { text-align: left; padding: 0.6rem 0.85rem; border-bottom: 1px solid #E5E7EB; }
+    th { font-weight: 600; color: #6B7280; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .score-cell { font-family: ui-monospace, monospace; font-weight: 700; }
+    .band-Low { color: #16A34A; }
+    .band-Moderate { color: #D97706; }
+    .band-High { color: #DC2626; }
+    .band-VeryHigh { color: #991B1B; }
+    .attribution { margin-top: 2rem; font-size: 0.85rem; color: #6B7280; }
+    .attribution a { color: #C2410C; }
+  </style>
+</head>
+<body>
+  <h1>AI Career Threat Index — Live</h1>
+  <p class="meta" id="meta">Loading…</p>
+
+  <div class="filter-row">
+    <select id="cat">
+      <option value="">All categories</option>
+    </select>
+    <select id="band">
+      <option value="">All risk bands</option>
+      <option value="Low">Low</option>
+      <option value="Moderate">Moderate</option>
+      <option value="High">High</option>
+      <option value="Very High">Very High</option>
+    </select>
+    <input type="search" id="q" placeholder="Search role…" />
+  </div>
+
+  <table>
+    <thead>
+      <tr><th>Role</th><th>Category</th><th>Score</th><th>Risk</th></tr>
+    </thead>
+    <tbody id="rows"></tbody>
+  </table>
+
+  <p class="attribution">Data from the <a href="https://www.meritforgeai.com/data/ai-career-threat-index/" rel="noopener">AI Career Threat Index</a> by MeritForge AI · MIT licensed.</p>
+
+  <script>
+    const URL = 'https://www.meritforgeai.com/data/ai-career-threat-index.json';
+
+    let allRoles = [];
+
+    function makeRow(r) {
+      const tr = document.createElement('tr');
+
+      const td1 = document.createElement('td');
+      const a = document.createElement('a');
+      a.href = `https://www.meritforgeai.com/threat-index/${r.slug}/`;
+      a.target = '_blank';
+      a.rel = 'noopener';
+      a.textContent = r.title;
+      td1.appendChild(a);
+
+      const td2 = document.createElement('td');
+      td2.textContent = r.category;
+
+      const td3 = document.createElement('td');
+      td3.className = 'score-cell';
+      td3.textContent = r.score;
+
+      const td4 = document.createElement('td');
+      td4.className = 'band-' + r.riskLevel.replace(' ', '');
+      td4.textContent = r.riskLevel;
+
+      tr.appendChild(td1);
+      tr.appendChild(td2);
+      tr.appendChild(td3);
+      tr.appendChild(td4);
+      return tr;
+    }
+
+    function render() {
+      const cat = document.getElementById('cat').value;
+      const band = document.getElementById('band').value;
+      const q = document.getElementById('q').value.toLowerCase();
+
+      const filtered = allRoles.filter(r => {
+        if (cat && r.category !== cat) return false;
+        if (band && r.riskLevel !== band) return false;
+        if (q && !r.title.toLowerCase().includes(q)) return false;
+        return true;
+      });
+
+      const tbody = document.getElementById('rows');
+      while (tbody.firstChild) tbody.removeChild(tbody.firstChild);
+      filtered.forEach(r => tbody.appendChild(makeRow(r)));
+    }
+
+    fetch(URL).then(r => r.json()).then(data => {
+      allRoles = data.roles;
+      const meta = document.getElementById('meta');
+      meta.textContent = `${data.roles.length} roles · ${data.categories.length} categories · v${data.metadata.version} · updated ${data.metadata.lastUpdated}`;
+
+      const catSelect = document.getElementById('cat');
+      data.categories.forEach(c => {
+        const opt = document.createElement('option');
+        opt.value = c; opt.textContent = c;
+        catSelect.appendChild(opt);
+      });
+
+      ['cat', 'band', 'q'].forEach(id => {
+        document.getElementById(id).addEventListener('input', render);
+      });
+
+      render();
+    });
+  </script>
+</body>
+</html>
