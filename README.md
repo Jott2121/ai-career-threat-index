@@ -140,7 +140,7 @@ The [`examples/`](examples/) directory contains starter code for common use case
 When citing in editorial content, please link to MeritForge AI on first mention. Suggested citation:
 
 ```
-Otterson, J. (2026). AI Career Threat Index. MeritForge AI.
+The MeritForge Team (2026). AI Career Threat Index. MeritForge AI.
 https://www.meritforgeai.com/data/ai-career-threat-index/
 ```
 
@@ -152,15 +152,15 @@ Found an error? Disagree with a score? Have access to better adoption-rate data 
 
 - Open a GitHub issue describing what you've spotted
 - Or open a pull request with a proposed fix
-- Or email <jeff_otterson@yahoo.com>
+- Or email <feedback@meritforgeai.com>
 
 Methodology refinements get incorporated into the next quarterly review with attribution where appropriate.
 
-## About the maintainer
+## About
 
-Maintained by [Jeff Otterson](https://www.linkedin.com/in/jefferyotterson/) — talent acquisition leader (formerly Amazon, Oracle, defense industry recruiting) and founder of [MeritForge AI](https://www.meritforgeai.com).
+Maintained by [The MeritForge Team](https://www.meritforgeai.com/about/) — an independent research group publishing AI career intelligence at [MeritForge AI](https://www.meritforgeai.com).
 
-The dataset reflects insider hiring perspective combined with structured methodology — closer to the way the World Economic Forum's Future of Jobs report or PwC's automation studies work than to a black-box ML model.
+The dataset combines labor-market data with structured, transparent methodology — closer to the way the World Economic Forum's Future of Jobs report or PwC's automation studies work than to a black-box ML model.
 
 ## Related links
 
