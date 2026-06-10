@@ -16,7 +16,7 @@ This is the canonical data repository. The interactive tool, full methodology, c
 
 Most discussion of AI and jobs is anecdotal. This dataset gives one numeric answer per role plus a structured breakdown of the tasks driving the score. It's intended for journalists, researchers, career coaches, HR teams, and developers building career-related applications.
 
-Use cases we've seen:
+Intended use cases:
 - Editorial pieces citing displacement risk by occupation
 - HR workforce planning models
 - Resume-tool integrations that show users their role's risk
@@ -95,6 +95,8 @@ Each role record has the following fields:
 | `historicalScores` | object | Quarterly scoring snapshots: `{ "Q1 2025": 18, ... }` |
 | `industryModifiers` | object | Per-industry score adjustments: `{ "Tech": 5, "Government": -10, ... }` |
 
+Note: scores within 5 points of a band boundary may retain their prior band across quarterly reviews for stability.
+
 Top-level structure:
 
 ```json
@@ -109,9 +111,9 @@ Top-level structure:
 
 The 0–100 score is a weighted composite of three factors:
 
-1. **Task automation potential (50%)** — Percentage of the role's tasks current AI can perform with ≥90% reliability
-2. **AI tool maturity (30%)** — Maturity and deployment of relevant AI capabilities
-3. **Industry adoption rate (20%)** — Percentage of employers actively using AI for those tasks
+1. **Task automation potential (50%)**: Percentage of the role's tasks current AI can perform with ≥90% reliability
+2. **AI tool maturity (30%)**: Maturity and deployment of relevant AI capabilities
+3. **Industry adoption rate (20%)**: Percentage of employers actively using AI for those tasks
 
 Sources: O*NET task lists, public AI capability benchmarks, employer surveys (BCG, Gallup, WEF, McKinsey), job posting analytics, BLS Occupational Employment Statistics.
 
@@ -121,21 +123,21 @@ Reviewed quarterly. Mid-quarter changes <5 points absorbed without band changes 
 
 ## Data files
 
-- [`data/ai-career-threat-index.json`](data/ai-career-threat-index.json) — Full dataset, structured
-- [`data/ai-career-threat-index.csv`](data/ai-career-threat-index.csv) — Flat table, one row per role
-- [`data/changelog.md`](data/changelog.md) — Version history and notable score movements
+- [`data/ai-career-threat-index.json`](data/ai-career-threat-index.json): Full dataset, structured
+- [`data/ai-career-threat-index.csv`](data/ai-career-threat-index.csv): Flat table, one row per role
+- [`data/changelog.md`](data/changelog.md): Version history and notable score movements
 
 ## Examples
 
 The [`examples/`](examples/) directory contains starter code for common use cases:
 
-- `python-analysis.py` — Risk-band aggregation, salary-trend correlations
-- `js-fetch.html` — Browser-side fetch and rendering
-- `r-correlation.R` — Salary range vs. risk score correlation analysis
+- `python-analysis.py`: Risk-band aggregation, salary-trend correlations
+- `js-fetch.html`: Browser-side fetch and rendering
+- `r-correlation.R`: Salary range vs. risk score correlation analysis
 
 ## License
 
-[MIT License](LICENSE) — commercial use permitted with attribution.
+[MIT License](LICENSE). Commercial use permitted with attribution.
 
 When citing in editorial content, please link to MeritForge AI on first mention. Suggested citation:
 
@@ -158,9 +160,9 @@ Methodology refinements get incorporated into the next quarterly review with att
 
 ## About
 
-Maintained by [The MeritForge Team](https://www.meritforgeai.com/about/) — an independent research group publishing AI career intelligence at [MeritForge AI](https://www.meritforgeai.com).
+Maintained by [The MeritForge Team](https://www.meritforgeai.com/about/), an independent research group publishing AI career intelligence at [MeritForge AI](https://www.meritforgeai.com). Methodology reviewed quarterly.
 
-The dataset combines labor-market data with structured, transparent methodology — closer to the way the World Economic Forum's Future of Jobs report or PwC's automation studies work than to a black-box ML model.
+The dataset combines labor-market data with structured, transparent methodology, closer to the way the World Economic Forum's Future of Jobs report or PwC's automation studies work than to a black-box ML model.
 
 ## Related links
 
@@ -173,3 +175,5 @@ The dataset combines labor-market data with structured, transparent methodology 
 ---
 
 ⭐ **If this dataset was useful, please star this repo.** Stars help researchers and journalists find the dataset.
+
+Built and maintained by [Jeff Otterson](https://github.com/Jott2121)

@@ -17,9 +17,9 @@ Initial public release of the dataset to GitHub. Snapshots the May 6, 2026 state
 | Role | Q1 2025 | Q2 2026 | Δ | Note |
 |---|---|---|---|---|
 | Data Entry Clerk | 78 | 88 | +10 | OCR + agentic doc processing closing the last gap |
-| Content Writer | 48 | 68 | +20 | Largest increase; commodity content production now AI-default |
+| Content Writer | 48 | 68 | +20 | Tied for largest increase (with Copywriter); commodity content production now AI-default |
 | Tax Preparer | 58 | 72 | +14 | TurboTax-class AI handles individual returns end-to-end |
-| Copywriter | 45 | 65 | +20 | AI marketing copy at scale |
+| Copywriter | 45 | 65 | +20 | Tied for largest increase (with Content Writer); AI marketing copy at scale |
 | Receptionist | 60 | 75 | +15 | AI phone systems + digital check-in widespread |
 | Insurance Underwriter | 52 | 68 | +16 | Personal lines fully automated |
 | Tutor | 38 | 55 | +17 | Khanmigo-class tutors rolling out |
@@ -29,7 +29,7 @@ Initial public release of the dataset to GitHub. Snapshots the May 6, 2026 state
 
 ### Methodology baseline
 - Three-factor weighted composite: 50% task automation potential, 30% AI tool maturity, 20% industry adoption
-- Quarterly review by domain experts
+- Methodology reviewed quarterly
 - Score changes <5 points absorbed without band changes
 
 ## Future releases

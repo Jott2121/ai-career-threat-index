@@ -8,7 +8,7 @@
     "source": "https://www.meritforgeai.com",
     "canonicalUrl": "https://www.meritforgeai.com/data/ai-career-threat-index/",
     "methodologyUrl": "https://www.meritforgeai.com/methodology/threat-index/",
-    "description": "Proprietary scoring of 65+ professions on AI displacement risk. Each role is decomposed into tasks, mapped against current AI capability and labor-market signals, and scored 0-100 (higher = greater displacement risk).",
+    "description": "Open dataset scoring 76 professions on AI displacement risk (MIT licensed). Each role is decomposed into tasks, mapped against current AI capability and labor-market signals, and scored 0-100 (higher = greater displacement risk).",
     "riskBands": [
       {
         "name": "Low",
@@ -39,6 +39,7 @@
         ]
       }
     ],
+    "riskBandsNote": "Scores within 5 points of a band boundary may retain their prior band across quarterly reviews for stability.",
     "roleCount": 76,
     "categoryCount": 10
   },

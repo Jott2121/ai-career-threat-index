@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "AI Career Threat Index"
+type: dataset
+authors:
+  - family-names: "Otterson"
+    given-names: "Jeff"
+version: "2026.2"
+date-released: "2026-05-06"
+license: MIT
+repository-code: "https://github.com/Jott2121/ai-career-threat-index"
+url: "https://www.meritforgeai.com/data/ai-career-threat-index/"
+abstract: >-
+  Open dataset scoring 76 professions on AI displacement risk
+  (0-100) using a three-factor weighted methodology: task
+  automation potential, AI tool maturity, and industry adoption
+  rate. Reviewed quarterly.
+keywords:
+  - artificial intelligence
+  - labor market
+  - automation
+  - careers
+  - dataset

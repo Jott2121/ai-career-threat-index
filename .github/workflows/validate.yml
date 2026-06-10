@@ -1,0 +1,52 @@
+name: Validate dataset
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate JSON dataset
+        run: |
+          python - <<'EOF'
+          import json
+          import sys
+
+          path = "data/ai-career-threat-index.json"
+          try:
+              with open(path) as f:
+                  data = json.load(f)
+          except json.JSONDecodeError as e:
+              sys.exit(f"FAIL: {path} is not valid JSON: {e}")
+
+          errors = []
+
+          roles = data.get("roles", [])
+          if len(roles) != 76:
+              errors.append(f"Expected 76 roles, found {len(roles)}")
+
+          role_count = data.get("metadata", {}).get("roleCount")
+          if role_count != len(roles):
+              errors.append(
+                  f"metadata.roleCount ({role_count}) does not match "
+                  f"actual role count ({len(roles)})"
+              )
+
+          if errors:
+              for e in errors:
+                  print(f"FAIL: {e}")
+              sys.exit(1)
+
+          print(f"OK: valid JSON, {len(roles)} roles, roleCount matches")
+          EOF
