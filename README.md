@@ -7,6 +7,7 @@
 ![Categories](https://img.shields.io/badge/Categories-10-blue)
 ![Updated](https://img.shields.io/badge/Updated-2026--05--06-green)
 ![Version](https://img.shields.io/badge/Version-2026.2-green)
+[![HF Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-yellow)](https://huggingface.co/datasets/Jott2121/ai-career-threat-index)
 
 The **AI Career Threat Index** is a structured dataset that scores 76 professions on AI displacement risk. Each role is decomposed into representative tasks, mapped against current AI capability, and weighted by industry adoption rate to produce a 0–100 score.
 
