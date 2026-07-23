@@ -1,0 +1,54 @@
+{
+ "slug": "scrum-master",
+ "title": "Scrum Master",
+ "category": "Project & Product Management",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Sprint metrics tracking and reporting",
+  "Meeting facilitation notes and summaries",
+  "Burndown and velocity chart generation",
+  "Retrospective data aggregation"
+ ],
+ "tasksGrowing": [
+  "Team coaching and psychological safety building",
+  "Organizational agility transformation",
+  "Impediment resolution requiring political skill"
+ ],
+ "salary": {
+  "low": 85000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Enhanced Agile Practices",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Team Coaching & Facilitation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "SAFe or ICAgile Certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI tracks metrics and generates reports, but Scrum Masters who build psychological safety, coach teams through conflict, and remove organizational impediments bring value that requires human skill.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 2,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 30,
+  "Q3 2025": 33,
+  "Q1 2026": 37,
+  "Q2 2026": 40
+ },
+ "prevRiskLevel": "Moderate"
+}

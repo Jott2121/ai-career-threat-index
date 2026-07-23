@@ -1,0 +1,54 @@
+{
+ "slug": "devops-engineer",
+ "title": "DevOps Engineer",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Writing CI/CD pipeline configurations",
+  "Infrastructure provisioning with templates",
+  "Log monitoring and basic alerting",
+  "Routine deployment processes"
+ ],
+ "tasksGrowing": [
+  "Incident response and complex troubleshooting",
+  "Security-focused infrastructure design",
+  "Multi-cloud architecture optimization"
+ ],
+ "salary": {
+  "low": 115000,
+  "high": 185000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AIOps and Intelligent Automation",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Cloud Security & Zero Trust",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Platform Engineering Leadership",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI is automating routine DevOps tasks like pipeline configs and basic monitoring. Engineers who focus on platform strategy, security, and incident response will see their value grow.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 2,
+  "Government": -8
+ },
+ "historicalScores": {
+  "Q1 2025": 22,
+  "Q3 2025": 25,
+  "Q1 2026": 28,
+  "Q2 2026": 30
+ },
+ "prevRiskLevel": "Moderate"
+}

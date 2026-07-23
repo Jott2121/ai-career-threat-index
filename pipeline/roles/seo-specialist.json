@@ -1,0 +1,55 @@
+{
+ "slug": "seo-specialist",
+ "title": "SEO Specialist",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Keyword research and clustering",
+  "Meta tag and title optimization",
+  "Technical SEO audits using tools",
+  "Content brief generation",
+  "Backlink opportunity identification"
+ ],
+ "tasksGrowing": [
+  "AI search optimization (SGE, Perplexity)",
+  "Content strategy for zero-click search",
+  "Technical implementation and site architecture"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Search Optimization (SGE/AIO)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Technical SEO & Site Architecture",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Content Strategy & Analytics",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI tools automate keyword research and audits, and AI search is changing how people find content. SEO specialists who master AI search optimization and technical implementation will stay in demand.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Healthcare": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 42,
+  "Q3 2025": 48,
+  "Q1 2026": 53,
+  "Q2 2026": 58
+ },
+ "prevRiskLevel": "High"
+}

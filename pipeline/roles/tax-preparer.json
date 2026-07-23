@@ -1,0 +1,55 @@
+{
+ "slug": "tax-preparer",
+ "title": "Tax Preparer",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Individual tax return preparation (1040, W-2)",
+  "Data entry from tax documents",
+  "Standard deduction optimization",
+  "State tax filing and compliance",
+  "E-filing and submission processing"
+ ],
+ "tasksGrowing": [
+  "Complex multi-entity tax planning",
+  "International tax strategy",
+  "Tax controversy and IRS representation"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 75000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Advanced Tax Planning & Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Tax Software Proficiency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Business Advisory Services",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI tax software can now handle most individual returns with minimal human input. Tax professionals should specialize in complex situations — multi-state, international, or business tax planning.",
+ "industryModifiers": {
+  "Finance": 3,
+  "Tech": 5,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 58,
+  "Q3 2025": 63,
+  "Q1 2026": 68,
+  "Q2 2026": 72
+ },
+ "prevRiskLevel": "High"
+}

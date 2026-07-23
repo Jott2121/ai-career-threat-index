@@ -1,0 +1,54 @@
+{
+ "slug": "supply-chain-analyst",
+ "title": "Supply Chain Analyst",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Demand forecasting with historical data",
+  "Inventory level optimization calculations",
+  "Standard logistics reporting",
+  "Supplier performance scorecarding"
+ ],
+ "tasksGrowing": [
+  "Supply chain disruption response strategy",
+  "Multi-tier supply network design",
+  "Sustainability and ESG supply chain planning"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Supply Chain Optimization Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Supply Chain Risk & Resilience",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Data Science for Operations",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI excels at demand forecasting and inventory optimization, but supply chain analysts who manage disruptions, design resilient networks, and plan for sustainability remain essential.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Manufacturing": 5,
+  "Retail": 3
+ },
+ "historicalScores": {
+  "Q1 2025": 38,
+  "Q3 2025": 42,
+  "Q1 2026": 46,
+  "Q2 2026": 50
+ },
+ "prevRiskLevel": "Moderate"
+}

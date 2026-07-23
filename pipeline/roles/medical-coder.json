@@ -1,0 +1,55 @@
+{
+ "slug": "medical-coder",
+ "title": "Medical Coder",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Assigning ICD-10 and CPT codes from notes",
+  "Claims submission and follow-up",
+  "Code validation against documentation",
+  "Denial management for common rejections",
+  "Charge capture review"
+ ],
+ "tasksGrowing": [
+  "Complex surgical and specialty coding",
+  "Coding compliance and audit preparation",
+  "AI coding tool oversight and quality assurance"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 70000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Medical Coding Tools (3M, Nuance)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Clinical Documentation Improvement",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Healthcare Compliance & Auditing",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI coding engines now assign codes with 90%+ accuracy for common encounters. Coders who specialize in complex cases, audit AI-generated codes, and lead documentation improvement programs will stay relevant.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Tech": 5,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 48,
+  "Q3 2025": 53,
+  "Q1 2026": 60,
+  "Q2 2026": 65
+ },
+ "prevRiskLevel": "High"
+}

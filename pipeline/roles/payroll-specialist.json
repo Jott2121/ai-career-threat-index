@@ -1,0 +1,55 @@
+{
+ "slug": "payroll-specialist",
+ "title": "Payroll Specialist",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Payroll processing and calculations",
+  "Tax withholding computations",
+  "Direct deposit setup and management",
+  "Time and attendance tracking",
+  "Standard payroll reporting"
+ ],
+ "tasksGrowing": [
+  "Multi-state and international payroll compliance",
+  "Payroll system integration and migration",
+  "Compensation strategy and analytics"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 70000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "HRIS & Payroll System Administration",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Compensation Analytics",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Multi-State Tax Compliance",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Payroll automation software handles most routine processing. Specialists who master complex multi-state compliance, system integrations, and compensation analytics will remain in demand.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Finance": 2,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 58,
+  "Q3 2025": 63,
+  "Q1 2026": 68,
+  "Q2 2026": 72
+ },
+ "prevRiskLevel": "High"
+}

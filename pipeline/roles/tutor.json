@@ -1,0 +1,54 @@
+{
+ "slug": "tutor",
+ "title": "Tutor",
+ "category": "Education",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Explaining standard concepts and formulas",
+  "Practice problem generation and correction",
+  "Study schedule creation",
+  "Homework help for routine assignments",
+  "Test prep for standardized exams"
+ ],
+ "tasksGrowing": [
+  "Motivational coaching and accountability",
+  "Identifying and addressing learning gaps",
+  "Executive function and study skills coaching"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 60000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Tutoring Platforms (Khan Academy, Khanmigo)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Learning Disabilities & Differentiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Executive Function Coaching",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI tutors like Khanmigo explain concepts 24/7, but human tutors who provide accountability, adapt to emotional needs, and coach executive function skills offer something AI cannot match.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Government": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 38,
+  "Q3 2025": 42,
+  "Q1 2026": 48,
+  "Q2 2026": 55
+ },
+ "prevRiskLevel": "High"
+}

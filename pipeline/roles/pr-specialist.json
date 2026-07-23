@@ -1,0 +1,54 @@
+{
+ "slug": "pr-specialist",
+ "title": "PR Specialist",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Press release drafting from templates",
+  "Media list building and updates",
+  "Coverage monitoring and clipping",
+  "Event logistics coordination"
+ ],
+ "tasksGrowing": [
+  "Crisis communication and reputation management",
+  "Journalist relationship building",
+  "Strategic narrative development"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Media Monitoring Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Crisis Communication Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Digital PR & Content Marketing",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI drafts releases and monitors coverage, but genuine media relationships, crisis management under pressure, and strategic narrative creation require human expertise and emotional intelligence.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Healthcare": -3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 35,
+  "Q3 2025": 38,
+  "Q1 2026": 42,
+  "Q2 2026": 45
+ },
+ "prevRiskLevel": "Moderate"
+}

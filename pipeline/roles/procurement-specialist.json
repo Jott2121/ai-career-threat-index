@@ -1,0 +1,54 @@
+{
+ "slug": "procurement-specialist",
+ "title": "Procurement Specialist",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Purchase order creation and processing",
+  "Vendor comparison for standard items",
+  "Invoice matching and approval routing",
+  "Catalog management and pricing updates"
+ ],
+ "tasksGrowing": [
+  "Strategic supplier relationship management",
+  "Complex contract negotiation",
+  "Supply chain risk assessment and mitigation"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Procurement Platforms",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Strategic Sourcing & Negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Supply Chain Risk Management",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI automates purchase orders and vendor comparisons, but strategic sourcing, complex negotiations, and supply chain risk assessment need human judgment and relationship skills.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Manufacturing": -3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 45,
+  "Q3 2025": 48,
+  "Q1 2026": 53,
+  "Q2 2026": 58
+ },
+ "prevRiskLevel": "High"
+}

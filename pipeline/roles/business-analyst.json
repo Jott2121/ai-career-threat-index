@@ -1,0 +1,54 @@
+{
+ "slug": "business-analyst",
+ "title": "Business Analyst",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Requirements documentation from meetings",
+  "Process mapping for standard workflows",
+  "Creating user stories from templates",
+  "Data querying and report generation"
+ ],
+ "tasksGrowing": [
+  "Stakeholder negotiation and alignment",
+  "Complex process redesign with AI integration",
+  "Product-market fit analysis and validation"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 120000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Process Automation",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Product Management Fundamentals",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-Enhanced Business Intelligence",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI can draft requirements and map simple processes, but understanding organizational politics, facilitating alignment across teams, and redesigning workflows around AI remain human strengths.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Healthcare": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 35,
+  "Q3 2025": 40,
+  "Q1 2026": 44,
+  "Q2 2026": 48
+ },
+ "prevRiskLevel": "Moderate"
+}

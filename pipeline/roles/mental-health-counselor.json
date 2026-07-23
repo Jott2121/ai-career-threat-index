@@ -1,0 +1,53 @@
+{
+ "slug": "mental-health-counselor",
+ "title": "Mental Health Counselor",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Session note documentation",
+  "Treatment plan template completion",
+  "Screening assessment scoring",
+  "Appointment scheduling and reminders"
+ ],
+ "tasksGrowing": [
+  "Therapeutic relationship building",
+  "Complex case conceptualization",
+  "Crisis intervention and safety planning"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Telehealth Therapy Platforms",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-Assisted Clinical Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Specialized Therapy Modalities (EMDR, DBT)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Mental health care is fundamentally about human connection. AI chatbots handle surface-level check-ins, but therapy requires empathy, clinical judgment, and trust that AI cannot replicate. Demand is surging.",
+ "industryModifiers": {
+  "Healthcare": 2,
+  "Government": -2
+ },
+ "historicalScores": {
+  "Q1 2025": 8,
+  "Q3 2025": 8,
+  "Q1 2026": 9,
+  "Q2 2026": 10
+ },
+ "prevRiskLevel": "Low"
+}

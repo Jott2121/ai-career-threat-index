@@ -1,0 +1,55 @@
+{
+ "slug": "copywriter",
+ "title": "Copywriter",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Product descriptions and catalog copy",
+  "Email subject lines and preview text",
+  "Social media ad copy variations",
+  "SEO-optimized blog drafts",
+  "Landing page copy from briefs"
+ ],
+ "tasksGrowing": [
+  "Brand voice development and guidelines",
+  "High-stakes persuasive copy (sales pages, launches)",
+  "Creative campaign concepts and storytelling"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI Writing Tool Mastery",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Brand Strategy & Voice Architecture",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Conversion Optimization",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI writes adequate copy fast and cheap. Copywriters who survive will be those who create brand voice, craft high-stakes persuasive copy, and develop creative campaigns AI cannot replicate.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Healthcare": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 45,
+  "Q3 2025": 52,
+  "Q1 2026": 60,
+  "Q2 2026": 65
+ },
+ "prevRiskLevel": "High"
+}

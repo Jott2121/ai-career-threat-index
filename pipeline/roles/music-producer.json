@@ -1,0 +1,53 @@
+{
+ "slug": "music-producer",
+ "title": "Music Producer",
+ "category": "Creative",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Creating beats and loops from samples",
+  "Basic mixing and mastering",
+  "Generating background music and jingles",
+  "Sound effect creation and editing"
+ ],
+ "tasksGrowing": [
+  "Artist development and creative vision",
+  "Live performance and sound engineering",
+  "Complex album production and sonic identity"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 120000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Music Tools (Suno, Udio, Soundraw)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Artist Development & A&R",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Live Sound Engineering",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI generates beats and background music, but producers who shape an artist's sonic vision, engineer live performances, and craft full albums bring creative judgment AI lacks.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Retail": 2
+ },
+ "historicalScores": {
+  "Q1 2025": 28,
+  "Q3 2025": 32,
+  "Q1 2026": 35,
+  "Q2 2026": 38
+ },
+ "prevRiskLevel": "Moderate"
+}

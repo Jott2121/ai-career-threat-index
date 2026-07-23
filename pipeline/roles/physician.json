@@ -1,0 +1,54 @@
+{
+ "slug": "physician",
+ "title": "Physician",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Reviewing standard lab results and imaging",
+  "Drafting clinical notes and documentation",
+  "Drug interaction checking",
+  "Standard treatment protocol selection"
+ ],
+ "tasksGrowing": [
+  "Complex diagnostic reasoning and differential diagnosis",
+  "Patient communication and shared decision-making",
+  "Procedural and surgical interventions"
+ ],
+ "salary": {
+  "low": 200000,
+  "high": 400000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Clinical AI Tool Proficiency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI-Assisted Diagnostics",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Health Informatics",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI assists with documentation, diagnostics, and drug checks, but physicians who combine clinical judgment with AI tools become more effective — not less needed. The human element of medicine is irreplaceable.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Tech": 5,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 10,
+  "Q3 2025": 12,
+  "Q1 2026": 13,
+  "Q2 2026": 15
+ },
+ "prevRiskLevel": "Low"
+}

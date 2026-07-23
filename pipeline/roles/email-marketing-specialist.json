@@ -1,0 +1,55 @@
+{
+ "slug": "email-marketing-specialist",
+ "title": "Email Marketing Specialist",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Email template design and coding",
+  "Subject line generation and testing",
+  "List segmentation based on standard criteria",
+  "Drip campaign sequence creation",
+  "Basic performance reporting"
+ ],
+ "tasksGrowing": [
+  "Advanced personalization strategy",
+  "Email deliverability and reputation management",
+  "Revenue attribution and lifecycle optimization"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Email Platforms (Klaviyo, Braze)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Marketing Automation Architecture",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Customer Lifecycle Strategy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI generates subject lines, segments audiences, and even writes email copy. Specialists who focus on lifecycle strategy, deliverability expertise, and revenue attribution will stay ahead.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 5,
+  "Healthcare": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 42,
+  "Q3 2025": 48,
+  "Q1 2026": 55,
+  "Q2 2026": 60
+ },
+ "prevRiskLevel": "High"
+}

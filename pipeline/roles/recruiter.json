@@ -1,0 +1,56 @@
+{
+ "slug": "recruiter",
+ "title": "Recruiter",
+ "category": "HR & Recruiting",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Resume screening and shortlisting",
+  "Initial candidate outreach messages",
+  "Interview scheduling and coordination",
+  "Job description writing",
+  "Candidate status tracking and updates"
+ ],
+ "tasksGrowing": [
+  "Candidate relationship building and selling",
+  "Complex hiring strategy for leadership roles",
+  "Employer branding and talent market intelligence"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Sourcing Tools (SeekOut, hireEZ)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Executive & Strategic Recruiting",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Employer Branding & Talent Marketing",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI screens resumes and writes outreach at scale, but recruiters who build genuine candidate relationships, sell opportunities to passive talent, and advise on hiring strategy add irreplaceable value.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -5,
+  "Retail": 3
+ },
+ "historicalScores": {
+  "Q1 2025": 40,
+  "Q3 2025": 45,
+  "Q1 2026": 50,
+  "Q2 2026": 55
+ },
+ "prevRiskLevel": "High"
+}

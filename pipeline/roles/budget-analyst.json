@@ -1,0 +1,54 @@
+{
+ "slug": "budget-analyst",
+ "title": "Budget Analyst",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Budget variance reporting",
+  "Spending trend analysis and forecasting",
+  "Cost allocation calculations",
+  "Standard budget template preparation"
+ ],
+ "tasksGrowing": [
+  "Strategic resource allocation advisory",
+  "Cross-departmental budget negotiation",
+  "AI-driven financial planning and scenario modeling"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Financial Planning Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Strategic Finance & FP&A",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Data Visualization & Storytelling",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI automates variance reporting and forecasting, but budget analysts who can advise leadership on resource strategy and facilitate cross-department negotiations add irreplaceable value.",
+ "industryModifiers": {
+  "Finance": 3,
+  "Government": -8,
+  "Tech": 2
+ },
+ "historicalScores": {
+  "Q1 2025": 40,
+  "Q3 2025": 45,
+  "Q1 2026": 50,
+  "Q2 2026": 55
+ },
+ "prevRiskLevel": "High"
+}

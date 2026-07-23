@@ -1,0 +1,54 @@
+{
+ "slug": "compensation-analyst",
+ "title": "Compensation Analyst",
+ "category": "HR & Recruiting",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Market salary data collection and benchmarking",
+  "Pay equity analysis and reporting",
+  "Job evaluation and grading calculations",
+  "Compensation survey participation"
+ ],
+ "tasksGrowing": [
+  "Total rewards strategy design",
+  "Executive compensation and equity planning",
+  "AI-driven pay transparency compliance"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Compensation Platforms (Payscale, Pave)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Total Rewards Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "People Analytics & Data Science",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI automates benchmarking and analysis, but compensation analysts who design total rewards strategy, handle executive comp, and ensure pay transparency compliance are in growing demand.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 38,
+  "Q3 2025": 42,
+  "Q1 2026": 48,
+  "Q2 2026": 52
+ },
+ "prevRiskLevel": "High"
+}

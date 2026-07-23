@@ -1,0 +1,54 @@
+{
+ "slug": "sales-representative",
+ "title": "Sales Representative",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Lead scoring and qualification",
+  "CRM data entry and pipeline updates",
+  "Follow-up email drafting",
+  "Meeting scheduling and preparation"
+ ],
+ "tasksGrowing": [
+  "Complex deal negotiation and closing",
+  "Strategic account relationship management",
+  "Consultative selling for technical products"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Sales Tools (Gong, Outreach, Clari)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Consultative Selling Methodology",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Sales Analytics & Forecasting",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI handles lead scoring and outreach automation, but complex B2B sales still depend on human trust, relationship-building, and the ability to understand nuanced client needs.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Retail": 5,
+  "Manufacturing": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 30,
+  "Q3 2025": 33,
+  "Q1 2026": 35,
+  "Q2 2026": 38
+ },
+ "prevRiskLevel": "Moderate"
+}

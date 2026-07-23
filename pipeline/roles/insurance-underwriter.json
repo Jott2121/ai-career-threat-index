@@ -1,0 +1,55 @@
+{
+ "slug": "insurance-underwriter",
+ "title": "Insurance Underwriter",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Standard risk assessment on common policies",
+  "Premium calculation using rating tables",
+  "Application data verification",
+  "Policy renewal processing",
+  "Basic claims eligibility screening"
+ ],
+ "tasksGrowing": [
+  "Complex commercial and specialty underwriting",
+  "Emerging risk evaluation (climate, cyber, AI)",
+  "Broker relationship management and deal structuring"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Risk Modeling & Insurtech",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Specialty Lines Underwriting",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Data Analytics for Risk Assessment",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now handles most standard personal lines underwriting. The career path forward is in complex commercial risks, emerging categories like cyber insurance, and relationship-driven deal structuring.",
+ "industryModifiers": {
+  "Finance": 5,
+  "Tech": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 52,
+  "Q3 2025": 58,
+  "Q1 2026": 63,
+  "Q2 2026": 68
+ },
+ "prevRiskLevel": "High"
+}

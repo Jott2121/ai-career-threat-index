@@ -1,0 +1,55 @@
+{
+ "slug": "compliance-analyst",
+ "title": "Compliance Analyst",
+ "category": "Legal",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Regulatory change tracking and alerts",
+  "Policy gap analysis against frameworks",
+  "Compliance reporting and documentation",
+  "Employee training tracking and records"
+ ],
+ "tasksGrowing": [
+  "AI regulatory compliance (EU AI Act, state laws)",
+  "Investigation and incident management",
+  "Cross-border compliance strategy"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI Governance & Risk Frameworks",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "RegTech Tools & Automation",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Certified Compliance Professional",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI tracks regulatory changes and generates reports, but compliance analysts who specialize in AI-specific regulations and complex cross-border requirements are entering a high-growth niche.",
+ "industryModifiers": {
+  "Finance": 5,
+  "Tech": 3,
+  "Healthcare": -3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 38,
+  "Q3 2025": 42,
+  "Q1 2026": 45,
+  "Q2 2026": 48
+ },
+ "prevRiskLevel": "Moderate"
+}

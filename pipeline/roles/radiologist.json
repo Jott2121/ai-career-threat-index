@@ -1,0 +1,53 @@
+{
+ "slug": "radiologist",
+ "title": "Radiologist",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Screening standard imaging for common findings",
+  "Measurements and quantification on routine scans",
+  "Report generation for normal studies",
+  "Image quality assessment"
+ ],
+ "tasksGrowing": [
+  "Complex and ambiguous case interpretation",
+  "Interventional radiology procedures",
+  "AI model validation and quality oversight"
+ ],
+ "salary": {
+  "low": 300000,
+  "high": 500000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Imaging Tool Proficiency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Interventional Radiology",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Validation & Clinical Informatics",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI flags findings and triages urgent cases, but radiologists who interpret complex ambiguous images, perform interventional procedures, and validate AI outputs remain essential to patient safety.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Tech": 5
+ },
+ "historicalScores": {
+  "Q1 2025": 38,
+  "Q3 2025": 40,
+  "Q1 2026": 42,
+  "Q2 2026": 45
+ },
+ "prevRiskLevel": "Moderate"
+}

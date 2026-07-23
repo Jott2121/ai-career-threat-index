@@ -1,0 +1,54 @@
+{
+ "slug": "video-editor",
+ "title": "Video Editor",
+ "category": "Creative",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Rough cut assembly from raw footage",
+  "Auto-captioning and subtitle generation",
+  "Color correction using presets",
+  "Audio noise reduction and leveling"
+ ],
+ "tasksGrowing": [
+  "Narrative storytelling and pacing",
+  "Complex multi-cam and effects compositing",
+  "Creative direction and client collaboration"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Video Tools (Runway, Descript, CapCut)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Motion Graphics & VFX",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Storytelling & Narrative Design",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI handles rough cuts, captions, and color grading, but skilled editors who craft compelling narratives, manage complex projects, and collaborate with clients will continue to command premium rates.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Retail": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 30,
+  "Q3 2025": 34,
+  "Q1 2026": 38,
+  "Q2 2026": 42
+ },
+ "prevRiskLevel": "Moderate"
+}

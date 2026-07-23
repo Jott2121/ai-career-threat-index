@@ -1,0 +1,54 @@
+{
+ "slug": "logistics-coordinator",
+ "title": "Logistics Coordinator",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Shipment tracking and status updates",
+  "Route optimization and scheduling",
+  "Carrier rate comparison",
+  "Customs documentation preparation"
+ ],
+ "tasksGrowing": [
+  "Exception handling and crisis logistics",
+  "Carrier relationship management",
+  "Last-mile delivery innovation strategy"
+ ],
+ "salary": {
+  "low": 42000,
+  "high": 70000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Logistics Platforms (Project44, FourKites)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Supply Chain Management Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Operations Management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI handles routing, tracking, and rate comparison. Logistics coordinators who manage exceptions, build carrier relationships, and solve complex multi-modal transportation challenges add unique value.",
+ "industryModifiers": {
+  "Retail": 3,
+  "Manufacturing": 2,
+  "Tech": 3
+ },
+ "historicalScores": {
+  "Q1 2025": 42,
+  "Q3 2025": 46,
+  "Q1 2026": 50,
+  "Q2 2026": 55
+ },
+ "prevRiskLevel": "High"
+}

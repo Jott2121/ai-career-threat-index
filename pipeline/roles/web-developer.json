@@ -1,0 +1,54 @@
+{
+ "slug": "web-developer",
+ "title": "Web Developer",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Building landing pages from designs",
+  "Writing CSS and responsive layouts",
+  "Implementing standard UI components",
+  "Basic API integration work"
+ ],
+ "tasksGrowing": [
+  "Complex interactive application development",
+  "Performance optimization and accessibility",
+  "AI feature integration and prompt-driven UIs"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Powered Development Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Full-Stack Architecture",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI/ML Integration in Web Apps",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI can generate standard web pages and components quickly, but complex interactive applications, accessibility work, and AI-integrated features still need experienced developers.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 30,
+  "Q3 2025": 35,
+  "Q1 2026": 40,
+  "Q2 2026": 45
+ },
+ "prevRiskLevel": "Moderate"
+}

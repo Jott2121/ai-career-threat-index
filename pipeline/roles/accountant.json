@@ -1,0 +1,56 @@
+{
+ "slug": "accountant",
+ "title": "Accountant",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Transaction categorization and reconciliation",
+  "Standard tax return preparation",
+  "Invoice processing and matching",
+  "Monthly closing procedures",
+  "Basic audit workpaper preparation"
+ ],
+ "tasksGrowing": [
+  "Complex tax strategy and planning",
+  "Forensic accounting and fraud detection",
+  "Business advisory and financial planning"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 105000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Accounting Tools (Botkeeper, Vic.ai)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Tax Strategy & Advisory",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Forensic Accounting & Fraud Analytics",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Routine bookkeeping and tax prep are rapidly automating. Accountants who move into advisory, complex tax strategy, or forensic specialization will see growing demand.",
+ "industryModifiers": {
+  "Finance": 3,
+  "Tech": 5,
+  "Government": -8,
+  "Retail": 2
+ },
+ "historicalScores": {
+  "Q1 2025": 48,
+  "Q3 2025": 53,
+  "Q1 2026": 58,
+  "Q2 2026": 62
+ },
+ "prevRiskLevel": "High"
+}

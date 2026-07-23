@@ -1,0 +1,54 @@
+{
+ "slug": "training-coordinator",
+ "title": "Training Coordinator",
+ "category": "HR & Recruiting",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Training session scheduling and room booking",
+  "Attendance tracking and certificate generation",
+  "Course catalog management",
+  "Post-training survey distribution"
+ ],
+ "tasksGrowing": [
+  "Learning program strategy and ROI measurement",
+  "AI upskilling program design and delivery",
+  "Vendor evaluation and partnership management"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 70000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Learning Management System (LMS) Administration",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI Training Program Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Training ROI Measurement",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI handles scheduling, tracking, and survey distribution, but training coordinators who design AI upskilling programs and measure learning ROI position themselves as strategic partners.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Government": -5,
+  "Healthcare": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 35,
+  "Q3 2025": 38,
+  "Q1 2026": 43,
+  "Q2 2026": 48
+ },
+ "prevRiskLevel": "Moderate"
+}

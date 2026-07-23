@@ -1,0 +1,54 @@
+{
+ "slug": "photographer",
+ "title": "Photographer",
+ "category": "Creative",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Basic photo editing and batch processing",
+  "Product photography for e-commerce",
+  "Stock photo production",
+  "Photo metadata and keywording"
+ ],
+ "tasksGrowing": [
+  "Event and portrait photography (physical presence)",
+  "Creative direction and art direction for shoots",
+  "Specialized photography (architecture, food, fashion)"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Photo Editing (Lightroom AI, Luminar)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Creative Direction & Art Direction",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Video & Multimedia Production",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI generates stock imagery and handles editing, but photographers who show up in person — for events, portraits, and specialized shoots — provide an experience AI cannot replicate.",
+ "industryModifiers": {
+  "Retail": 3,
+  "Tech": 2,
+  "Government": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 25,
+  "Q3 2025": 28,
+  "Q1 2026": 32,
+  "Q2 2026": 35
+ },
+ "prevRiskLevel": "Moderate"
+}

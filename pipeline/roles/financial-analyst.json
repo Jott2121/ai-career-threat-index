@@ -1,0 +1,56 @@
+{
+ "slug": "financial-analyst",
+ "title": "Financial Analyst",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Building financial models from templates",
+  "Pulling and formatting financial data",
+  "Creating standard reports and dashboards",
+  "Variance analysis on recurring metrics",
+  "Earnings summary preparation"
+ ],
+ "tasksGrowing": [
+  "Strategic financial advisory for executives",
+  "Scenario planning for unprecedented events",
+  "M&A due diligence and deal structuring"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 120000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Powered Financial Modeling",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Strategic Finance & Advisory",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Data Science for Finance",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI can build models and run analyses in minutes that used to take days. Analysts who focus on strategic interpretation, relationship management, and judgment calls under uncertainty will thrive.",
+ "industryModifiers": {
+  "Finance": 5,
+  "Tech": 3,
+  "Government": -8,
+  "Retail": 2
+ },
+ "historicalScores": {
+  "Q1 2025": 45,
+  "Q3 2025": 50,
+  "Q1 2026": 54,
+  "Q2 2026": 58
+ },
+ "prevRiskLevel": "High"
+}

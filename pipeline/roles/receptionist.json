@@ -1,0 +1,54 @@
+{
+ "slug": "receptionist",
+ "title": "Receptionist",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Answering routine phone calls and routing",
+  "Visitor check-in and badging",
+  "Basic scheduling and appointment booking",
+  "Mail sorting and distribution"
+ ],
+ "tasksGrowing": [
+  "VIP guest experience and hospitality",
+  "Security coordination and emergency response",
+  "Facility and workspace management"
+ ],
+ "salary": {
+  "low": 28000,
+  "high": 42000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Customer Experience & Hospitality",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Facility Security & Safety",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Administrative Technology Tools",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI phone systems, digital check-in kiosks, and chatbot receptionists are widespread. Transitioning into facility management, security coordination, or customer experience roles offers more stability.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Healthcare": -5,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 60,
+  "Q3 2025": 65,
+  "Q1 2026": 70,
+  "Q2 2026": 75
+ },
+ "prevRiskLevel": "High"
+}

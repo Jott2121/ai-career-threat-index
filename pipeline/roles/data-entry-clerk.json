@@ -1,0 +1,56 @@
+{
+ "slug": "data-entry-clerk",
+ "title": "Data Entry Clerk",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Manual data input from forms and documents",
+  "Spreadsheet population and formatting",
+  "Database record creation and updates",
+  "Invoice data extraction",
+  "Document scanning and digitization"
+ ],
+ "tasksGrowing": [
+  "Data quality assurance and exception handling",
+  "AI tool training and feedback",
+  "Process improvement identification"
+ ],
+ "salary": {
+  "low": 28000,
+  "high": 42000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Data Analytics & Spreadsheet Automation",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI Tool Administration",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Process Automation (RPA)",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "OCR, AI document processing, and automated data extraction have made manual data entry largely obsolete. Building skills in data analytics or process automation is the strongest path forward.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -5,
+  "Manufacturing": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 78,
+  "Q3 2025": 82,
+  "Q1 2026": 85,
+  "Q2 2026": 88
+ },
+ "prevRiskLevel": "Very High"
+}

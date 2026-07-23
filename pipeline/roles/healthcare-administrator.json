@@ -1,0 +1,54 @@
+{
+ "slug": "healthcare-administrator",
+ "title": "Healthcare Administrator",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Patient scheduling optimization",
+  "Claims processing and billing oversight",
+  "Staff scheduling and shift management",
+  "Compliance reporting for standard metrics"
+ ],
+ "tasksGrowing": [
+  "Healthcare strategy and service line development",
+  "Regulatory change management (AI-specific rules)",
+  "Patient experience and quality improvement leadership"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Healthcare AI Implementation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Health Informatics Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Change Management for Digital Health",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI optimizes scheduling, billing, and reporting, but healthcare administrators who lead AI implementation, manage regulatory complexity, and improve patient experience are growing in strategic importance.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Government": -8,
+  "Tech": 3
+ },
+ "historicalScores": {
+  "Q1 2025": 32,
+  "Q3 2025": 35,
+  "Q1 2026": 38,
+  "Q2 2026": 42
+ },
+ "prevRiskLevel": "Moderate"
+}

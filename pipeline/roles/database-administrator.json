@@ -1,0 +1,54 @@
+{
+ "slug": "database-administrator",
+ "title": "Database Administrator",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Query optimization for common patterns",
+  "Routine backup and recovery procedures",
+  "Performance monitoring and basic tuning",
+  "Schema documentation and migration scripts"
+ ],
+ "tasksGrowing": [
+  "Complex data architecture for AI workloads",
+  "Database security and compliance management",
+  "Multi-cloud data strategy and governance"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Cloud Database Architecture (AWS/GCP)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Data Security & Compliance",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Vector Database Management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Automated tuning and cloud-managed databases handle routine DBA tasks. Specialists in data architecture for AI workloads, vector databases, and security are increasingly sought after.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 38,
+  "Q3 2025": 42,
+  "Q1 2026": 46,
+  "Q2 2026": 50
+ },
+ "prevRiskLevel": "Moderate"
+}

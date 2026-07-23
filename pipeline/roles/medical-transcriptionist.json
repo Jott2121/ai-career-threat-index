@@ -1,0 +1,55 @@
+{
+ "slug": "medical-transcriptionist",
+ "title": "Medical Transcriptionist",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Transcribing physician dictation",
+  "Formatting medical reports and letters",
+  "Editing speech-to-text output",
+  "Chart documentation from audio recordings",
+  "Discharge summary preparation"
+ ],
+ "tasksGrowing": [
+  "AI transcription quality assurance",
+  "Clinical documentation improvement",
+  "Medical language specialist consulting"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 50000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Clinical Documentation Improvement (CDI)",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Health Informatics",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Medical Coding Certification",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI speech-to-text has largely replaced manual medical transcription. Transitioning into clinical documentation improvement, health informatics, or medical coding offers a stronger career trajectory.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Tech": 5,
+  "Government": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 70,
+  "Q3 2025": 74,
+  "Q1 2026": 78,
+  "Q2 2026": 82
+ },
+ "prevRiskLevel": "Very High"
+}

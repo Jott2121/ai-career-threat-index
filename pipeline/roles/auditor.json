@@ -1,0 +1,55 @@
+{
+ "slug": "auditor",
+ "title": "Auditor",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Sampling and testing routine transactions",
+  "Checklist-based compliance verification",
+  "Workpaper preparation and documentation",
+  "Reconciliation testing",
+  "Standard audit report drafting"
+ ],
+ "tasksGrowing": [
+  "Risk assessment for complex, novel scenarios",
+  "AI system auditing and algorithmic accountability",
+  "Fraud investigation and forensic analysis"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 115000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI & Algorithm Auditing",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Data Analytics for Audit (ACL, IDEA)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "IT Audit & Cybersecurity Risk",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI can test 100% of transactions instead of samples, reshaping audit work. Auditors who specialize in AI systems auditing, IT risk, and fraud analytics will find strong career growth.",
+ "industryModifiers": {
+  "Finance": 5,
+  "Tech": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 45,
+  "Q3 2025": 50,
+  "Q1 2026": 55,
+  "Q2 2026": 60
+ },
+ "prevRiskLevel": "High"
+}

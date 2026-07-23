@@ -1,0 +1,53 @@
+{
+ "slug": "nurse",
+ "title": "Nurse (RN)",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Vital signs monitoring and charting",
+  "Medication administration documentation",
+  "Patient education on standard conditions",
+  "Care plan documentation"
+ ],
+ "tasksGrowing": [
+  "Direct patient care and clinical assessment",
+  "Patient advocacy and family communication",
+  "Care coordination across complex cases"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Health Informatics & EHR Optimization",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Telehealth & Remote Monitoring",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Clinical Leadership",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI reduces documentation burden and flags potential issues, freeing nurses for what matters most — direct patient care. Nursing demand continues to outpace supply significantly.",
+ "industryModifiers": {
+  "Healthcare": 2,
+  "Government": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 12,
+  "Q3 2025": 14,
+  "Q1 2026": 16,
+  "Q2 2026": 18
+ },
+ "prevRiskLevel": "Low"
+}

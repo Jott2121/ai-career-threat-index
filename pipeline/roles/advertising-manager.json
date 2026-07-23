@@ -1,0 +1,54 @@
+{
+ "slug": "advertising-manager",
+ "title": "Advertising Manager",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Ad creative testing and optimization",
+  "Budget allocation across channels",
+  "Campaign performance reporting",
+  "Audience targeting and segmentation"
+ ],
+ "tasksGrowing": [
+  "Creative strategy and brand storytelling",
+  "Cross-platform campaign architecture",
+  "Privacy-first advertising strategy"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Ad Platforms & Optimization",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Privacy-First Marketing Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Creative Strategy & Direction",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI optimizes bids and targeting automatically, but advertising managers who own creative strategy, manage privacy regulations, and orchestrate multi-channel campaigns remain essential.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 32,
+  "Q3 2025": 35,
+  "Q1 2026": 38,
+  "Q2 2026": 42
+ },
+ "prevRiskLevel": "Moderate"
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "data-scientist",
+ "title": "Data Scientist",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Exploratory data analysis on structured datasets",
+  "Building standard ML models (regression, classification)",
+  "Creating routine data visualizations",
+  "Data cleaning and preprocessing"
+ ],
+ "tasksGrowing": [
+  "Framing business problems as data problems",
+  "Interpreting results for non-technical stakeholders",
+  "Designing novel ML approaches for unique challenges"
+ ],
+ "salary": {
+  "low": 120000,
+  "high": 190000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "LLM Fine-Tuning & Evaluation",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI Strategy & Business Translation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Advanced MLOps & Model Governance",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AutoML handles routine modeling, but data scientists who can frame problems, design experiments, and translate findings into business action are more in demand than ever.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Healthcare": -3,
+  "Government": -8
+ },
+ "historicalScores": {
+  "Q1 2025": 14,
+  "Q3 2025": 16,
+  "Q1 2026": 18,
+  "Q2 2026": 20
+ },
+ "prevRiskLevel": "Low"
+}

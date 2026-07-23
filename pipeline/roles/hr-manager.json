@@ -1,0 +1,54 @@
+{
+ "slug": "hr-manager",
+ "title": "HR Manager",
+ "category": "HR & Recruiting",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Policy documentation and handbook updates",
+  "Standard employee inquiry responses",
+  "Benefits enrollment processing",
+  "Compliance training scheduling"
+ ],
+ "tasksGrowing": [
+  "Employee relations and conflict resolution",
+  "Organizational culture and engagement strategy",
+  "AI policy development and workforce planning"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI HR Tools (Workday AI, Lattice)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "People Analytics & Workforce Planning",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Governance & Ethics in HR",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "AI automates policy lookups and benefits processing, but HR managers who build culture, resolve complex employee situations, and develop AI workforce strategies are more important than ever.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 2,
+  "Government": -8
+ },
+ "historicalScores": {
+  "Q1 2025": 28,
+  "Q3 2025": 32,
+  "Q1 2026": 35,
+  "Q2 2026": 38
+ },
+ "prevRiskLevel": "Moderate"
+}

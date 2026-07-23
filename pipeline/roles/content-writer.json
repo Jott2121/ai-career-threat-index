@@ -1,0 +1,55 @@
+{
+ "slug": "content-writer",
+ "title": "Content Writer",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "First drafts of informational articles",
+  "Content repurposing across formats",
+  "Listicle and round-up creation",
+  "Content calendar planning",
+  "Basic fact-checking and research synthesis"
+ ],
+ "tasksGrowing": [
+  "Original reporting and expert interviews",
+  "Thought leadership with unique perspectives",
+  "Content strategy and editorial direction"
+ ],
+ "salary": {
+  "low": 42000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Content Production",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Editorial Strategy & Voice",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Subject Matter Expertise Development",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI generates passable content at scale, crushing demand for generic writing. Content writers with deep subject expertise, original research ability, and editorial judgment will command premium rates.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Healthcare": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 48,
+  "Q3 2025": 55,
+  "Q1 2026": 62,
+  "Q2 2026": 68
+ },
+ "prevRiskLevel": "High"
+}

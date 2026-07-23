@@ -1,0 +1,54 @@
+{
+ "slug": "hr-generalist",
+ "title": "HR Generalist",
+ "category": "HR & Recruiting",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Employee FAQ responses and policy lookups",
+  "New hire onboarding checklist management",
+  "Leave tracking and basic case management",
+  "Standard employment verification"
+ ],
+ "tasksGrowing": [
+  "Employee experience and engagement programs",
+  "Complex employee relations case management",
+  "HR technology implementation and change management"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "HRIS & AI HR Platforms",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Employee Relations & Investigations",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "HR Analytics & Reporting",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI chatbots answer routine HR questions and manage onboarding checklists. Generalists who focus on employee relations, experience design, and HR technology management will see their roles expand.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Finance": 2,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 30,
+  "Q3 2025": 34,
+  "Q1 2026": 38,
+  "Q2 2026": 42
+ },
+ "prevRiskLevel": "Moderate"
+}

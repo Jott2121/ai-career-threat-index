@@ -1,0 +1,53 @@
+{
+ "slug": "journalist",
+ "title": "Journalist",
+ "category": "Creative",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Earnings report summaries and data-driven stories",
+  "Sports scores and game recaps",
+  "Aggregating news from multiple sources",
+  "Fact-checking standard claims"
+ ],
+ "tasksGrowing": [
+  "Investigative reporting and original sourcing",
+  "Feature writing with narrative depth",
+  "Analysis and opinion with unique perspective"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Research & OSINT Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Data Journalism & Visualization",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Audience Growth & Newsletter Strategy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI writes commodity news (earnings, scores, weather), but journalists who do original reporting, investigate stories, and bring unique perspective are more important in an AI-saturated information environment.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Government": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 35,
+  "Q3 2025": 40,
+  "Q1 2026": 44,
+  "Q2 2026": 48
+ },
+ "prevRiskLevel": "Moderate"
+}

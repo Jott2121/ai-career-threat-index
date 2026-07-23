@@ -1,0 +1,54 @@
+{
+ "slug": "product-manager",
+ "title": "Product Manager",
+ "category": "Project & Product Management",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Competitive analysis data gathering",
+  "User feedback synthesis and categorization",
+  "Feature specification drafting",
+  "Sprint planning documentation"
+ ],
+ "tasksGrowing": [
+  "Product vision and strategy definition",
+  "Customer discovery and market sensing",
+  "Cross-functional team alignment on priorities"
+ ],
+ "salary": {
+  "low": 100000,
+  "high": 180000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI Product Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI/ML Product Development",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Data-Driven Decision Making",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI gathers data and drafts specs, but product managers who define product vision, make hard prioritization calls, and align organizations around a strategy are among the most AI-resilient roles.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Healthcare": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 16,
+  "Q3 2025": 18,
+  "Q1 2026": 20,
+  "Q2 2026": 22
+ },
+ "prevRiskLevel": "Low"
+}

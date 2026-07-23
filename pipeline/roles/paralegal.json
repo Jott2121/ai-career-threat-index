@@ -1,0 +1,55 @@
+{
+ "slug": "paralegal",
+ "title": "Paralegal",
+ "category": "Legal",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Document organization and indexing",
+  "Legal research for standard questions",
+  "Filing preparation and court submissions",
+  "Contract review for standard clauses",
+  "Discovery document processing"
+ ],
+ "tasksGrowing": [
+  "Complex litigation support and case strategy",
+  "Client communication and relationship management",
+  "E-discovery management and technology oversight"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Legal Tools & E-Discovery Platforms",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Legal Project Management",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Specialized Practice Area Knowledge",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI handles document review and standard research at scale. Paralegals who master legal AI tools, specialize in complex practice areas, and manage technology-driven workflows will remain valuable.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Finance": 2,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 42,
+  "Q3 2025": 48,
+  "Q1 2026": 53,
+  "Q2 2026": 58
+ },
+ "prevRiskLevel": "High"
+}

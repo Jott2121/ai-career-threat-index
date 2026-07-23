@@ -1,0 +1,55 @@
+{
+ "slug": "administrative-assistant",
+ "title": "Administrative Assistant",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Calendar management and scheduling",
+  "Email drafting and response",
+  "Document formatting and organization",
+  "Meeting notes and action items",
+  "Travel booking and expense reports"
+ ],
+ "tasksGrowing": [
+  "Executive relationship management",
+  "Complex project coordination",
+  "Office culture and team operations"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 55000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI Productivity Tools (Microsoft 365 Copilot)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Project Management Fundamentals",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Executive Operations & Chief of Staff Skills",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI scheduling assistants, email drafters, and meeting summarizers are replacing core admin tasks. Pivoting toward project coordination, operations management, or executive chief-of-staff roles is key.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Government": -8,
+  "Healthcare": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 62,
+  "Q3 2025": 68,
+  "Q1 2026": 74,
+  "Q2 2026": 78
+ },
+ "prevRiskLevel": "Very High"
+}

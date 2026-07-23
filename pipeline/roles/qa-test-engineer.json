@@ -1,0 +1,55 @@
+{
+ "slug": "qa-test-engineer",
+ "title": "QA/Test Engineer",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Writing and running regression test suites",
+  "Manual UI testing against specifications",
+  "Test case documentation",
+  "Bug report creation for common issues",
+  "Cross-browser compatibility checks"
+ ],
+ "tasksGrowing": [
+  "Testing AI/ML system outputs for accuracy",
+  "Performance and security testing strategy",
+  "User experience validation and edge cases"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI-Powered Test Automation (Testim, Mabl)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "ML Model Testing & Validation",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Security Testing & Penetration Testing",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI test generation tools can now write and maintain test suites faster than manual efforts. QA engineers should pivot toward AI output validation, security testing, and quality strategy.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Manufacturing": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 40,
+  "Q3 2025": 45,
+  "Q1 2026": 50,
+  "Q2 2026": 55
+ },
+ "prevRiskLevel": "High"
+}

@@ -1,0 +1,55 @@
+{
+ "slug": "graphic-designer",
+ "title": "Graphic Designer",
+ "category": "Creative",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Creating social media graphics from templates",
+  "Generating logo concepts and variations",
+  "Photo editing and retouching",
+  "Banner and ad creative production",
+  "Icon and illustration generation"
+ ],
+ "tasksGrowing": [
+  "Brand identity system development",
+  "Creative direction and art direction",
+  "Complex multi-channel design systems"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Design Tools (Midjourney, Firefly, Figma AI)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Brand Identity & Design Systems",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Motion Design & Animation",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI generates graphics and variations in seconds, reducing demand for production design. Graphic designers who own brand systems, creative direction, and motion design will remain highly valued.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Manufacturing": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 35,
+  "Q3 2025": 40,
+  "Q1 2026": 46,
+  "Q2 2026": 52
+ },
+ "prevRiskLevel": "High"
+}

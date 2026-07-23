@@ -1,0 +1,53 @@
+{
+ "slug": "academic-advisor",
+ "title": "Academic Advisor",
+ "category": "Education",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Degree audit and requirement checking",
+  "Course scheduling and conflict resolution",
+  "Standard FAQ responses about programs",
+  "Transfer credit evaluation"
+ ],
+ "tasksGrowing": [
+  "Career counseling and goal alignment",
+  "At-risk student intervention and support",
+  "Holistic student success coaching"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 65000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Student Success Analytics",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Career Counseling Methods",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Mental Health First Aid",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI chatbots answer routine questions and check degree requirements. Advisors who focus on student success coaching, career exploration, and at-risk intervention provide the human support students need most.",
+ "industryModifiers": {
+  "Government": -3,
+  "Tech": 2
+ },
+ "historicalScores": {
+  "Q1 2025": 28,
+  "Q3 2025": 32,
+  "Q1 2026": 35,
+  "Q2 2026": 38
+ },
+ "prevRiskLevel": "Moderate"
+}

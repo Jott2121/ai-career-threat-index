@@ -1,0 +1,55 @@
+{
+ "slug": "software-engineer",
+ "title": "Software Engineer",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Writing boilerplate code and scaffolding",
+  "Debugging common error patterns",
+  "Writing unit tests for simple functions",
+  "Code documentation and inline comments"
+ ],
+ "tasksGrowing": [
+  "System architecture and design decisions",
+  "Cross-team technical leadership",
+  "Debugging complex distributed systems"
+ ],
+ "salary": {
+  "low": 110000,
+  "high": 200000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Development (Copilot, Cursor)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Prompt Engineering for Code Generation",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI System Design & Architecture",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Software engineers who learn to direct AI coding tools are 2-3x more productive. The role is shifting from writing every line to orchestrating AI-generated code and owning architecture.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Healthcare": -5,
+  "Government": -10
+ },
+ "historicalScores": {
+  "Q1 2025": 18,
+  "Q3 2025": 20,
+  "Q1 2026": 23,
+  "Q2 2026": 25
+ },
+ "prevRiskLevel": "Low"
+}

@@ -1,0 +1,54 @@
+{
+ "slug": "ux-designer",
+ "title": "UX Designer",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Creating wireframes and basic mockups",
+  "Generating design variations and iterations",
+  "Building design system components",
+  "Producing placeholder content and copy"
+ ],
+ "tasksGrowing": [
+  "User research and behavioral insights",
+  "AI interaction design and conversational UX",
+  "Strategic design thinking for complex products"
+ ],
+ "salary": {
+  "low": 85000,
+  "high": 150000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Interaction & Conversational Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "User Research Methods",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI Design Tools (Figma AI, Galileo)",
+   "link": "/guides/ai-coding-tools/"
+  }
+ ],
+ "insight": "AI can generate mockups and variations fast, but understanding user needs, designing for AI-human interaction, and strategic design thinking remain deeply human skills.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Healthcare": -3,
+  "Finance": 2
+ },
+ "historicalScores": {
+  "Q1 2025": 25,
+  "Q3 2025": 28,
+  "Q1 2026": 32,
+  "Q2 2026": 35
+ },
+ "prevRiskLevel": "Moderate"
+}

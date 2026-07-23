@@ -1,0 +1,55 @@
+{
+ "slug": "social-media-manager",
+ "title": "Social Media Manager",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Generating post captions and hashtags",
+  "Scheduling content across platforms",
+  "Basic engagement metrics reporting",
+  "Creating simple graphics and visuals",
+  "Competitor content monitoring"
+ ],
+ "tasksGrowing": [
+  "Community building and crisis management",
+  "Influencer relationship strategy",
+  "Brand voice development and audience insight"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Content Creation Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Community Management & Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Social Analytics & Attribution",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI can generate posts and schedule content, but authentic community engagement, crisis management, and brand voice consistency still depend on human judgment and emotional intelligence.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Retail": 5,
+  "Healthcare": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 38,
+  "Q3 2025": 42,
+  "Q1 2026": 48,
+  "Q2 2026": 52
+ },
+ "prevRiskLevel": "High"
+}

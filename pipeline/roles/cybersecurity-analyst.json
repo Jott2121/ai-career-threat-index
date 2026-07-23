@@ -1,0 +1,54 @@
+{
+ "slug": "cybersecurity-analyst",
+ "title": "Cybersecurity Analyst",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Log analysis for known threat patterns",
+  "Vulnerability scanning with standard tools",
+  "Generating routine compliance reports",
+  "Phishing email classification"
+ ],
+ "tasksGrowing": [
+  "Threat hunting for novel attack vectors",
+  "AI system security and adversarial defense",
+  "Incident response leadership and forensics"
+ ],
+ "salary": {
+  "low": 90000,
+  "high": 165000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI Security & Adversarial ML",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Threat Intelligence & Hunting",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Cloud Security Architecture",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI creates new attack surfaces faster than it automates defense. Security analysts who understand AI-specific threats — prompt injection, model poisoning, data exfiltration — are in high demand.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 5,
+  "Government": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 15,
+  "Q3 2025": 17,
+  "Q1 2026": 18,
+  "Q2 2026": 20
+ },
+ "prevRiskLevel": "Low"
+}

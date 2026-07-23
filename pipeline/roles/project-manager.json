@@ -1,0 +1,54 @@
+{
+ "slug": "project-manager",
+ "title": "Project Manager",
+ "category": "Project & Product Management",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Status report creation and distribution",
+  "Schedule and timeline management",
+  "Meeting notes and action item tracking",
+  "Resource allocation for standard projects"
+ ],
+ "tasksGrowing": [
+  "Stakeholder management and conflict resolution",
+  "Risk management for complex programs",
+  "Cross-functional team leadership and motivation"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Project Management Tools (Notion AI, Asana AI)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Agile & SAFe Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI Project Delivery & Implementation",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI automates status reports, scheduling, and action tracking. Project managers who lead stakeholder alignment, manage risks, and motivate teams through complex programs are more needed, not less.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 2,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 25,
+  "Q3 2025": 28,
+  "Q1 2026": 32,
+  "Q2 2026": 35
+ },
+ "prevRiskLevel": "Moderate"
+}

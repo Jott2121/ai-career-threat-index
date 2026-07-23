@@ -1,0 +1,53 @@
+{
+ "slug": "teacher",
+ "title": "Teacher (K-12)",
+ "category": "Education",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Lesson plan drafting and resource gathering",
+  "Grading objective assessments",
+  "Progress report generation",
+  "Creating study materials and worksheets"
+ ],
+ "tasksGrowing": [
+  "Student mentorship and emotional support",
+  "Differentiated instruction for diverse learners",
+  "Classroom management and culture building"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Teaching Tools (Khan Academy, Diffit)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Differentiated Instruction Methods",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "EdTech Integration & Digital Literacy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI generates lesson plans and grades quizzes, freeing teachers for what matters most — mentoring students, managing classrooms, and providing the human connection young learners need.",
+ "industryModifiers": {
+  "Government": -5,
+  "Tech": 3
+ },
+ "historicalScores": {
+  "Q1 2025": 16,
+  "Q3 2025": 18,
+  "Q1 2026": 20,
+  "Q2 2026": 22
+ },
+ "prevRiskLevel": "Low"
+}

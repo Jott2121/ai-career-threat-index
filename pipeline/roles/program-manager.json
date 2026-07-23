@@ -1,0 +1,54 @@
+{
+ "slug": "program-manager",
+ "title": "Program Manager",
+ "category": "Project & Product Management",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Cross-project status aggregation",
+  "Dependency tracking and visualization",
+  "Resource capacity planning spreadsheets",
+  "Executive summary report generation"
+ ],
+ "tasksGrowing": [
+  "Multi-program strategic alignment",
+  "Executive stakeholder management",
+  "Complex risk mitigation across programs"
+ ],
+ "salary": {
+  "low": 100000,
+  "high": 170000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Portfolio Management Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Strategic Planning & Execution",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "PgMP or PMP Certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI aggregates status and tracks dependencies, but program managers who align multiple programs to business strategy, manage executive relationships, and mitigate complex risks are deeply valued.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 22,
+  "Q3 2025": 25,
+  "Q1 2026": 27,
+  "Q2 2026": 30
+ },
+ "prevRiskLevel": "Moderate"
+}

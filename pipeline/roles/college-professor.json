@@ -1,0 +1,53 @@
+{
+ "slug": "college-professor",
+ "title": "College Professor",
+ "category": "Education",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Creating standard lecture materials",
+  "Grading essays with rubrics (first pass)",
+  "Generating reading lists and syllabi",
+  "Administrative paperwork and reporting"
+ ],
+ "tasksGrowing": [
+  "Original research and knowledge creation",
+  "Seminar facilitation and Socratic discussion",
+  "Graduate mentorship and career advising"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 150000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Enhanced Research Methods",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI Literacy Curriculum Development",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Digital Pedagogy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI assists with course materials and grading, but professors who produce original research, facilitate deep learning through discussion, and mentor the next generation are irreplaceable in higher education.",
+ "industryModifiers": {
+  "Government": -3,
+  "Tech": 3
+ },
+ "historicalScores": {
+  "Q1 2025": 18,
+  "Q3 2025": 20,
+  "Q1 2026": 22,
+  "Q2 2026": 25
+ },
+ "prevRiskLevel": "Low"
+}

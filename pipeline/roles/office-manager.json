@@ -1,0 +1,55 @@
+{
+ "slug": "office-manager",
+ "title": "Office Manager",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Vendor management and ordering supplies",
+  "Policy documentation and updates",
+  "Basic facility scheduling",
+  "Onboarding paperwork coordination",
+  "Budget tracking for office expenses"
+ ],
+ "tasksGrowing": [
+  "Workplace experience and culture design",
+  "Cross-functional operations leadership",
+  "Hybrid work policy and technology management"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 75000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Operations Management & Process Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Workplace Technology Management",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "People Operations Fundamentals",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Automated procurement and digital workflows reduce traditional office manager tasks. Those who evolve into workplace experience leaders managing hybrid environments and team culture will grow.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Government": -5,
+  "Healthcare": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 42,
+  "Q3 2025": 46,
+  "Q1 2026": 50,
+  "Q2 2026": 55
+ },
+ "prevRiskLevel": "High"
+}

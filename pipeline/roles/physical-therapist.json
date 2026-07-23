@@ -1,0 +1,53 @@
+{
+ "slug": "physical-therapist",
+ "title": "Physical Therapist",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Exercise program documentation",
+  "Progress note generation",
+  "Outcome measure tracking",
+  "Home exercise program printouts"
+ ],
+ "tasksGrowing": [
+  "Hands-on manual therapy and treatment",
+  "Patient motivation and behavioral change",
+  "Complex movement assessment and planning"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Telehealth & Digital PT Platforms",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Wearable Tech & Motion Analysis",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Specialized Clinical Certifications",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Physical therapy is inherently hands-on and relationship-based. AI handles documentation and tracking, actually freeing PTs to focus on what they do best — treating patients. Demand is strong and growing.",
+ "industryModifiers": {
+  "Healthcare": 2,
+  "Government": -2
+ },
+ "historicalScores": {
+  "Q1 2025": 8,
+  "Q3 2025": 9,
+  "Q1 2026": 10,
+  "Q2 2026": 12
+ },
+ "prevRiskLevel": "Low"
+}

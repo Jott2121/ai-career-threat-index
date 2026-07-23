@@ -1,0 +1,54 @@
+{
+ "slug": "management-consultant",
+ "title": "Management Consultant",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Market research and data gathering",
+  "Slide deck creation and formatting",
+  "Benchmarking against industry databases",
+  "Standard framework application"
+ ],
+ "tasksGrowing": [
+  "Client relationship management and trust-building",
+  "Change management and organizational transformation",
+  "Custom strategy for novel business challenges"
+ ],
+ "salary": {
+  "low": 90000,
+  "high": 200000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI Strategy Consulting",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-Powered Research & Analysis",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Change Management for AI Adoption",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "AI handles research and deck-building faster, but clients pay for judgment, relationships, and implementation support. Consultants who specialize in AI transformation are in peak demand.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 25,
+  "Q3 2025": 28,
+  "Q1 2026": 32,
+  "Q2 2026": 35
+ },
+ "prevRiskLevel": "Moderate"
+}

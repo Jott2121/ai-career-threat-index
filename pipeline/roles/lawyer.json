@@ -1,0 +1,54 @@
+{
+ "slug": "lawyer",
+ "title": "Lawyer",
+ "category": "Legal",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Legal research and case law review",
+  "Contract drafting from templates",
+  "Document review and due diligence",
+  "Brief section drafting for routine motions"
+ ],
+ "tasksGrowing": [
+  "Courtroom advocacy and negotiation",
+  "Client counseling and strategic advice",
+  "Complex deal structuring and novel legal questions"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 250000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Legal Research Tools (Westlaw AI, CoCounsel)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Legal Technology Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Law & Regulatory Expertise",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI accelerates research and drafting, making lawyers more productive — not obsolete. Lawyers who master AI tools and specialize in AI-related law (IP, liability, regulation) are positioned for growth.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -8
+ },
+ "historicalScores": {
+  "Q1 2025": 22,
+  "Q3 2025": 25,
+  "Q1 2026": 27,
+  "Q2 2026": 30
+ },
+ "prevRiskLevel": "Moderate"
+}

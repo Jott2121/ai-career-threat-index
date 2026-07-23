@@ -1,0 +1,55 @@
+{
+ "slug": "systems-administrator",
+ "title": "Systems Administrator",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Server provisioning and configuration",
+  "Patch management and OS updates",
+  "User account management",
+  "Routine monitoring and alerting",
+  "Backup scheduling and verification"
+ ],
+ "tasksGrowing": [
+  "Hybrid cloud strategy and migration",
+  "Security hardening and zero-trust implementation",
+  "Automation architecture and orchestration"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 115000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Cloud Architecture (AWS/Azure/GCP)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Infrastructure as Code (Terraform)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Security & Compliance Automation",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Cloud platforms and AI-driven automation are replacing traditional sysadmin tasks. Moving toward cloud architecture, security, or platform engineering is the strongest career path forward.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Government": -8,
+  "Manufacturing": -3
+ },
+ "historicalScores": {
+  "Q1 2025": 42,
+  "Q3 2025": 46,
+  "Q1 2026": 50,
+  "Q2 2026": 55
+ },
+ "prevRiskLevel": "High"
+}

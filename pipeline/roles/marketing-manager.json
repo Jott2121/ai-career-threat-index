@@ -1,0 +1,54 @@
+{
+ "slug": "marketing-manager",
+ "title": "Marketing Manager",
+ "category": "Marketing & Sales",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Campaign performance reporting",
+  "A/B test setup and basic analysis",
+  "Social media scheduling and posting",
+  "Email campaign template creation"
+ ],
+ "tasksGrowing": [
+  "Brand strategy and market positioning",
+  "Cross-channel campaign orchestration",
+  "Customer insight synthesis and persona development"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Marketing Automation",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Marketing Analytics & Attribution",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI Content Strategy",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI handles campaign execution and reporting, but marketing managers who own brand strategy, customer insight, and cross-channel orchestration are more needed as channels multiply.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Healthcare": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 30,
+  "Q3 2025": 33,
+  "Q1 2026": 37,
+  "Q2 2026": 40
+ },
+ "prevRiskLevel": "Moderate"
+}

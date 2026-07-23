@@ -1,0 +1,55 @@
+{
+ "slug": "it-support-specialist",
+ "title": "IT Support Specialist",
+ "category": "Technology",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Answering common troubleshooting questions",
+  "Password resets and account provisioning",
+  "Software installation and updates",
+  "Basic network connectivity diagnosis",
+  "Ticket routing and categorization"
+ ],
+ "tasksGrowing": [
+  "Complex system integration troubleshooting",
+  "Cybersecurity incident first response",
+  "AI tool administration and user training"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 75000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Cybersecurity Fundamentals",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI Tool Administration",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Cloud Platform Management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI chatbots and automated ticketing systems now resolve 40-60% of tier-1 support requests. IT specialists who move into security, cloud management, or AI tool administration will stay relevant.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Government": -8,
+  "Healthcare": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 50,
+  "Q3 2025": 55,
+  "Q1 2026": 60,
+  "Q2 2026": 65
+ },
+ "prevRiskLevel": "High"
+}

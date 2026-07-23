@@ -1,0 +1,54 @@
+{
+ "slug": "lab-technician",
+ "title": "Lab Technician",
+ "category": "Healthcare",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Routine sample processing and analysis",
+  "Quality control data logging",
+  "Standard test result interpretation",
+  "Equipment calibration scheduling"
+ ],
+ "tasksGrowing": [
+  "Complex specimen troubleshooting",
+  "New assay validation and development",
+  "Lab automation system management"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 70000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Lab Automation Technology",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Molecular Diagnostics",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Quality Management Systems",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Automated analyzers and AI handle routine testing, but lab techs who manage automation systems, troubleshoot complex specimens, and validate new testing methods remain essential to clinical labs.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Manufacturing": 2,
+  "Tech": 3
+ },
+ "historicalScores": {
+  "Q1 2025": 35,
+  "Q3 2025": 40,
+  "Q1 2026": 44,
+  "Q2 2026": 48
+ },
+ "prevRiskLevel": "Moderate"
+}

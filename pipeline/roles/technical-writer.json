@@ -1,0 +1,55 @@
+{
+ "slug": "technical-writer",
+ "title": "Technical Writer",
+ "category": "Creative",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "API documentation from code comments",
+  "User guide drafts from feature specs",
+  "FAQ and knowledge base generation",
+  "Release notes and changelog creation",
+  "Style guide-compliant formatting"
+ ],
+ "tasksGrowing": [
+  "Complex system documentation strategy",
+  "Developer experience and information architecture",
+  "Technical content for marketing and thought leadership"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Docs-as-Code & API Documentation",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Information Architecture",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Developer Experience (DX) Writing",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI generates documentation from code effectively, but technical writers who design information architecture, improve developer experience, and create strategic content are becoming more valuable.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Healthcare": -3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 42,
+  "Q3 2025": 48,
+  "Q1 2026": 54,
+  "Q2 2026": 60
+ },
+ "prevRiskLevel": "High"
+}

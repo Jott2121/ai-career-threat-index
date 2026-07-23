@@ -1,0 +1,54 @@
+{
+ "slug": "instructional-designer",
+ "title": "Instructional Designer",
+ "category": "Education",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Storyboard creation for standard courses",
+  "Assessment question generation",
+  "Content conversion between formats",
+  "Course template customization"
+ ],
+ "tasksGrowing": [
+  "Learning experience strategy and architecture",
+  "Immersive learning design (VR/AR/simulation)",
+  "Performance consulting and needs analysis"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Course Creation Tools (Synthesia, Articulate)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Learning Science & Experience Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Immersive Learning Technologies",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI generates course content and assessments quickly, but instructional designers who apply learning science, design immersive experiences, and align training with business outcomes will stay in demand.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Healthcare": -3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 35,
+  "Q3 2025": 38,
+  "Q1 2026": 43,
+  "Q2 2026": 48
+ },
+ "prevRiskLevel": "Moderate"
+}

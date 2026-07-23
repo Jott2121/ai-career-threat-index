@@ -1,0 +1,54 @@
+{
+ "slug": "corporate-trainer",
+ "title": "Corporate Trainer",
+ "category": "Education",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Creating training slide decks and handouts",
+  "Scheduling and logistics coordination",
+  "Knowledge assessment quiz creation",
+  "Training completion tracking and reporting"
+ ],
+ "tasksGrowing": [
+  "Live facilitation and workshop leadership",
+  "Organizational change management",
+  "AI skill-building program design"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Training Program Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Learning Management Systems (LMS)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Change Management Certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI creates training materials and tracks progress, but live facilitation, organizational change leadership, and designing AI upskilling programs are high-value human contributions.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 2,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 32,
+  "Q3 2025": 36,
+  "Q1 2026": 40,
+  "Q2 2026": 45
+ },
+ "prevRiskLevel": "Moderate"
+}

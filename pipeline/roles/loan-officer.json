@@ -1,0 +1,55 @@
+{
+ "slug": "loan-officer",
+ "title": "Loan Officer",
+ "category": "Business & Finance",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Pre-qualification calculations",
+  "Application processing and document collection",
+  "Credit analysis for standard profiles",
+  "Rate comparison and loan product matching",
+  "Compliance checklist verification"
+ ],
+ "tasksGrowing": [
+  "Complex lending scenarios (commercial, construction)",
+  "Client relationship building and financial counseling",
+  "Portfolio risk management and strategy"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 120000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Commercial Lending Expertise",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Financial Advisory & Planning",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Fintech & AI Lending Platforms",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Online lenders and AI underwriting handle most standard loans now. Loan officers who build deep client relationships and master complex commercial lending remain valuable.",
+ "industryModifiers": {
+  "Finance": 5,
+  "Tech": 3,
+  "Retail": 2
+ },
+ "historicalScores": {
+  "Q1 2025": 50,
+  "Q3 2025": 55,
+  "Q1 2026": 60,
+  "Q2 2026": 65
+ },
+ "prevRiskLevel": "High"
+}

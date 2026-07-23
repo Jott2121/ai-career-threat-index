@@ -1,0 +1,55 @@
+{
+ "slug": "executive-assistant",
+ "title": "Executive Assistant",
+ "category": "Administrative & Operations",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Calendar coordination and scheduling",
+  "Email screening and drafting responses",
+  "Travel arrangements and itineraries",
+  "Meeting preparation and materials assembly",
+  "Expense report processing"
+ ],
+ "tasksGrowing": [
+  "Strategic executive support and decision prep",
+  "Confidential project management",
+  "Stakeholder relationship management"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Executive Productivity Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Project & Program Management",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Business Operations Strategy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI handles scheduling and email, but executive assistants who function as strategic partners — managing confidential projects, preparing decision briefs, and handling stakeholder relationships — remain essential.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Finance": 2,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 48,
+  "Q3 2025": 53,
+  "Q1 2026": 58,
+  "Q2 2026": 62
+ },
+ "prevRiskLevel": "High"
+}

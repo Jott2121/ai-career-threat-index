@@ -1,0 +1,55 @@
+{
+ "slug": "contract-reviewer",
+ "title": "Contract Reviewer",
+ "category": "Legal",
+ "socCode": "",
+ "tier": 1,
+ "subscores": {},
+ "rationales": {},
+ "tasksAtRisk": [
+  "Standard clause identification and flagging",
+  "Contract comparison against templates",
+  "Obligation and deadline extraction",
+  "Risk scoring on standard contract types",
+  "Metadata extraction and categorization"
+ ],
+ "tasksGrowing": [
+  "Negotiation strategy for non-standard terms",
+  "Complex multi-party agreement analysis",
+  "AI contract tool training and oversight"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Contract Analysis Tools (Kira, Ironclad)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Commercial Law Specialization",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Legal Operations & Process Design",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI contract analysis tools review thousands of contracts in hours. Reviewers who oversee AI output, handle complex non-standard agreements, and inform negotiation strategy will continue to add value.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -5
+ },
+ "historicalScores": {
+  "Q1 2025": 55,
+  "Q3 2025": 60,
+  "Q1 2026": 65,
+  "Q2 2026": 70
+ },
+ "prevRiskLevel": "High"
+}
