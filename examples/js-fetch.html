@@ -50,7 +50,7 @@
   <p class="attribution">Data from the <a href="https://www.meritforgeai.com/data/ai-career-threat-index/" rel="noopener">AI Career Threat Index</a> by MeritForge AI · MIT licensed.</p>
 
   <script>
-    const URL = 'https://www.meritforgeai.com/data/ai-career-threat-index.json';
+    const URL = 'https://raw.githubusercontent.com/Jott2121/ai-career-threat-index/main/data/ai-career-threat-index.json';
 
     let allRoles = [];
 
@@ -59,7 +59,7 @@
 
       const td1 = document.createElement('td');
       const a = document.createElement('a');
-      a.href = `https://www.meritforgeai.com/threat-index/${r.slug}/`;
+      a.href = `https://jott2121.github.io/ai-career-threat-index/#/role/${r.slug}/`;
       a.target = '_blank';
       a.rel = 'noopener';
       a.textContent = r.title;

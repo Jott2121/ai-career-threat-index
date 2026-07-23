@@ -6,19 +6,25 @@ type: dataset
 authors:
   - family-names: "Otterson"
     given-names: "Jeff"
-version: "2026.2"
-date-released: "2026-05-06"
+version: "2026.3"
+date-released: "2026-07-23"
 license: MIT
 repository-code: "https://github.com/Jott2121/ai-career-threat-index"
-url: "https://www.meritforgeai.com/data/ai-career-threat-index/"
+url: "https://jott2121.github.io/ai-career-threat-index/"
 abstract: >-
-  Open dataset scoring 76 professions on AI displacement risk
-  (0-100) using a three-factor weighted methodology: task
-  automation potential, AI tool maturity, and industry adoption
-  rate. Reviewed quarterly.
+  Open dataset scoring 300 US professions on AI displacement risk
+  (0-100). Methodology v2 publishes four sub-scores per role - task
+  automation potential, AI tool maturity, employer adoption, and
+  agentic exposure (exposure to autonomous multi-step agents) - with
+  written rationales, combined by an open formula. Includes a full
+  crosswalk of all 867 BLS SOC 2018 detailed occupations to their
+  nearest scored role. Scores are structured editorial estimates
+  against a published rubric. Reviewed quarterly.
 keywords:
   - artificial intelligence
   - labor market
   - automation
   - careers
   - dataset
+  - autonomous agents
+  - occupations

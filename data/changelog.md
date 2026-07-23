@@ -3,6 +3,53 @@
 All notable changes to the AI Career Threat Index dataset are documented here.
 Versioning follows the format `YEAR.QUARTER` — e.g., `2026.2` is the second-quarter 2026 review.
 
+## [2026.3] — 2026-07-23
+
+The big one: methodology v2, 300 roles, full transparency.
+
+### Coverage
+- **76 → 300 roles**; 10 → 15 categories (adds Skilled Trades & Construction,
+  Transportation & Logistics, Hospitality/Food & Personal Service, Science &
+  Engineering, Public Service & Safety)
+- Every role now carries a **BLS SOC 2018 code** and a **BLS-OES-anchored salary
+  range** with a named anchor (`salarySource`)
+- New **`data/soc-crosswalk.csv`**: all 867 SOC 2018 detailed occupations mapped to
+  their nearest scored role with match quality
+- New roles begin their history at Q3 2026 — earlier quarters are never backfilled
+
+### Methodology v2 (breaking change in how scores are derived, not in the schema)
+- Composite is now computed from **four published sub-scores** —
+  `taskAutomation`, `toolMaturity`, `adoption`, and the new **`agenticExposure`**
+  (exposure to autonomous multi-step agents, distinct from copilot-style tools) —
+  via an open realization-model formula. Full rubric: `pipeline/RUBRIC.md`.
+- Sub-scores and one-sentence rationales are published per role; the dataset
+  regenerates deterministically from per-role source files (`pipeline/roles/`).
+- Historical quarters (Q1 2025 – Q2 2026) were published under methodology v1
+  (50/30/20 composite) and are retained as published.
+- Quarterly moves larger than ±8 points now require a stated **restatement**
+  reason, recorded on the role and in the quarterly report.
+- Two editorial tiers: tier 1 (~130 head roles: full insight + industry
+  modifiers), tier 2 (concise insight).
+
+### Schema (additive only)
+- JSON adds: `socCode`, `tier`, `subscores`, `rationales`, `agenticRisk`,
+  `salarySource`, optional `restatement`
+- CSV appends columns after `score_q2_2026`: `score_q3_2026`, `soc_code`, `tier`,
+  `sub_task_automation`, `sub_tool_maturity`, `sub_adoption`,
+  `sub_agentic_exposure`, `agentic_risk` — existing column order unchanged
+- Defense-skill links are now absolute URLs
+
+### Infrastructure
+- Interactive explorer on GitHub Pages (`site/`)
+- Zero-dependency MCP server (`mcp/`) — query the dataset from any MCP client
+- CI now proves the dataset regenerates deterministically from sources, runs the
+  full integrity suite, and smoke-tests the MCP server
+- Quarterly Winners & Losers report: `reports/2026-q3-winners-losers.md`
+
+### Notable Q2 → Q3 movements
+See `reports/2026-q3-winners-losers.md` for the full movers tables and any
+restatements.
+
 ## [2026.2] — 2026-05-06
 
 Initial public release of the dataset to GitHub. Snapshots the May 6, 2026 state.

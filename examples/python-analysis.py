@@ -12,7 +12,7 @@ import sys
 from collections import Counter
 from urllib.request import urlopen
 
-DATA_URL = "https://www.meritforgeai.com/data/ai-career-threat-index.json"
+DATA_URL = "https://raw.githubusercontent.com/Jott2121/ai-career-threat-index/main/data/ai-career-threat-index.json"
 
 
 def load():

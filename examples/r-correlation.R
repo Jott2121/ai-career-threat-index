@@ -8,7 +8,7 @@
 
 # Load
 library(jsonlite)
-data <- fromJSON("https://www.meritforgeai.com/data/ai-career-threat-index.json", flatten = TRUE)
+data <- fromJSON("https://raw.githubusercontent.com/Jott2121/ai-career-threat-index/main/data/ai-career-threat-index.json", flatten = TRUE)
 roles <- data$roles
 cat(sprintf("Loaded %d roles from version %s (updated %s)\n",
             nrow(roles), data$metadata$version, data$metadata$lastUpdated))
