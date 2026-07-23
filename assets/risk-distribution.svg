@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="240" viewBox="0 0 720 240" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<text x="36" y="16" font-size="14" fill="#898781" text-anchor="start" font-weight="600">Score distribution — 300 roles</text>
+<rect x="39.0" y="91.9" width="60.8" height="108.1" rx="4" fill="#0ca30c"/>
+<text x="69.4" y="86.88571428571429" font-size="11" fill="#898781" text-anchor="middle">44</text>
+<text x="69.4" y="216" font-size="10" fill="#898781" text-anchor="middle">0</text>
+<rect x="105.8" y="62.4" width="60.8" height="137.6" rx="4" fill="#0ca30c"/>
+<text x="136.2" y="57.400000000000006" font-size="11" fill="#898781" text-anchor="middle">56</text>
+<text x="136.2" y="216" font-size="10" fill="#898781" text-anchor="middle">10</text>
+<rect x="172.6" y="28.0" width="60.8" height="172.0" rx="4" fill="#0ca30c"/>
+<text x="203.0" y="23.0" font-size="11" fill="#898781" text-anchor="middle">70</text>
+<text x="203.0" y="216" font-size="10" fill="#898781" text-anchor="middle">20</text>
+<rect x="239.4" y="114.0" width="60.8" height="86.0" rx="4" fill="#0ca30c"/>
+<text x="269.79999999999995" y="109.0" font-size="11" fill="#898781" text-anchor="middle">35</text>
+<text x="269.79999999999995" y="216" font-size="10" fill="#898781" text-anchor="middle">30</text>
+<rect x="306.2" y="101.7" width="60.8" height="98.3" rx="4" fill="#fab219"/>
+<text x="336.59999999999997" y="96.71428571428572" font-size="11" fill="#898781" text-anchor="middle">40</text>
+<text x="336.59999999999997" y="216" font-size="10" fill="#898781" text-anchor="middle">40</text>
+<rect x="373.0" y="123.8" width="60.8" height="76.2" rx="4" fill="#ec835a"/>
+<text x="403.4" y="118.82857142857144" font-size="11" fill="#898781" text-anchor="middle">31</text>
+<text x="403.4" y="216" font-size="10" fill="#898781" text-anchor="middle">50</text>
+<rect x="439.8" y="160.7" width="60.8" height="39.3" rx="4" fill="#ec835a"/>
+<text x="470.19999999999993" y="155.68571428571428" font-size="11" fill="#898781" text-anchor="middle">16</text>
+<text x="470.19999999999993" y="216" font-size="10" fill="#898781" text-anchor="middle">60</text>
+<rect x="506.6" y="185.3" width="60.8" height="14.7" rx="4" fill="#ec835a"/>
+<text x="537.0" y="180.25714285714287" font-size="11" fill="#898781" text-anchor="middle">6</text>
+<text x="537.0" y="216" font-size="10" fill="#898781" text-anchor="middle">70</text>
+<rect x="573.4" y="197.5" width="60.8" height="2.5" rx="4" fill="#d03b3b"/>
+<text x="603.8" y="192.54285714285714" font-size="11" fill="#898781" text-anchor="middle">1</text>
+<text x="603.8" y="216" font-size="10" fill="#898781" text-anchor="middle">80</text>
+<rect x="640.2" y="197.5" width="60.8" height="2.5" rx="4" fill="#d03b3b"/>
+<text x="670.5999999999999" y="192.54285714285714" font-size="11" fill="#898781" text-anchor="middle">1</text>
+<text x="670.5999999999999" y="216" font-size="10" fill="#898781" text-anchor="middle">90</text>
+<line x1="36" y1="200" x2="704" y2="200" stroke="#898781" stroke-opacity="0.4"/>
+<circle cx="41" cy="230" r="5" fill="#0ca30c"/>
+<text x="50" y="234" font-size="11" fill="#898781" text-anchor="start">Low</text>
+<circle cx="86" cy="230" r="5" fill="#fab219"/>
+<text x="95" y="234" font-size="11" fill="#898781" text-anchor="start">Moderate</text>
+<circle cx="166" cy="230" r="5" fill="#ec835a"/>
+<text x="175" y="234" font-size="11" fill="#898781" text-anchor="start">High</text>
+<circle cx="218" cy="230" r="5" fill="#d03b3b"/>
+<text x="227" y="234" font-size="11" fill="#898781" text-anchor="start">Very High</text>
+</svg>

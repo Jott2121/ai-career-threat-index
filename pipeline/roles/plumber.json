@@ -1,0 +1,59 @@
+{
+ "slug": "plumber",
+ "title": "Plumber",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2152",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 6,
+  "toolMaturity": 35,
+  "adoption": 18,
+  "agenticExposure": 6
+ },
+ "rationales": {
+  "taskAutomation": "Pipe fitting, leak diagnosis in tight physical spaces, and code-compliant installation are almost entirely manual, licensed acts AI cannot perform end-to-end.",
+  "toolMaturity": "Generic scheduling and invoicing apps exist, but no shipped tool does the trade's physical diagnostic or installation work.",
+  "adoption": "Most plumbing shops remain phone-and-paper operations; AI use is confined to a minority of larger service franchises' back offices.",
+  "agenticExposure": "An agent can route service calls and draft invoices, a sliver of the job, while diagnosis and repair stay entirely human."
+ },
+ "tasksAtRisk": [
+  "Service-call scheduling and dispatch routing",
+  "Invoice and estimate generation",
+  "Parts and materials reordering",
+  "Customer appointment reminders and follow-up"
+ ],
+ "tasksGrowing": [
+  "Complex leak and pipe-failure diagnosis in older buildings",
+  "Backflow and code-compliance judgment calls",
+  "Client consultation on repipe vs. repair decisions"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 88000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2152, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Backflow prevention and code-compliance certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI-assisted scheduling and dispatch software fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Water-efficiency and repipe consulting skills",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Plumbing is one of the lowest-risk trades in the index: licensed, hands-in-the-wall work has no automatable substitute, and even the back office runs mostly on phone calls rather than software. What is changing is dispatch and invoicing, where AI scheduling tools are starting to cut administrative overhead for larger service franchises.",
+ "industryModifiers": {
+  "Government": -8,
+  "Real Estate": -4,
+  "Manufacturing": 5,
+  "Tech": 6,
+  "Hospitality": -3
+ }
+}

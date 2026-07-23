@@ -1,0 +1,58 @@
+{
+ "slug": "restaurant-server",
+ "title": "Restaurant Server",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "35-3031",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 22,
+  "toolMaturity": 55,
+  "adoption": 35,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "Order-taking and payment are increasingly handled by QR-code menus and tablets, but table-side hospitality, upselling, and adapting to guest needs stay human.",
+  "toolMaturity": "QR ordering, tableside tablets, and AI-driven POS upsell prompts are mature and already standard in casual dining chains.",
+  "adoption": "Fast-casual and mid-tier chains have widely adopted self-order tech; full-service and fine dining still route ordering through servers.",
+  "agenticExposure": "The order-payment-fulfillment loop is a clean agent-ownable pipeline once a guest is seated; the hospitality moment itself is not."
+ },
+ "tasksAtRisk": [
+  "Order entry into POS systems",
+  "Menu question answering via QR-code interfaces",
+  "Bill splitting and payment processing",
+  "Reservation and waitlist management"
+ ],
+ "tasksGrowing": [
+  "Reading the table and personalizing service",
+  "Handling complaints and service recovery",
+  "Relationship-based upselling and menu storytelling"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 35-3031, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Guest-experience recovery and complaint de-escalation",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Working alongside AI ordering and payment kiosks",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Relationship-based upselling and menu storytelling",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "QR ordering and tableside tablets have already automated the mechanical half of the job: taking orders and running payment. What's left is exactly what pays the tips: reading a table, recovering from a bad moment, and making a stranger feel looked after.",
+ "industryModifiers": {
+  "Retail": 6,
+  "Tech": 5,
+  "Government": -6,
+  "Healthcare": -4
+ }
+}

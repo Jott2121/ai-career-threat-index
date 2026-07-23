@@ -1,0 +1,52 @@
+{
+ "slug": "customs-broker",
+ "title": "Customs Broker",
+ "category": "Transportation & Logistics",
+ "socCode": "13-1041",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 46,
+  "toolMaturity": 55,
+  "adoption": 35,
+  "agenticExposure": 55
+ },
+ "rationales": {
+  "taskAutomation": "Tariff classification, entry filing, and documentation are largely rules-based digital work AI can do well, but regulatory judgment calls, audits, and liability for misclassification still require a licensed person.",
+  "toolMaturity": "AI-assisted HTS classification and trade-compliance tools are credible products improving quickly, though full automated filing without human review isn't standard yet.",
+  "adoption": "Adoption is growing among mid-size and large brokerages and importers, but is not yet universal, especially among smaller import operations.",
+  "agenticExposure": "Entry filing, documentation, and compliance checks form a digital pipeline an agent can largely traverse, subject to human sign-off on liability."
+ },
+ "tasksAtRisk": [
+  "Tariff/HTS code classification",
+  "Entry filing and customs documentation",
+  "Duty and fee calculation",
+  "Compliance record recordkeeping"
+ ],
+ "tasksGrowing": [
+  "Regulatory judgment on ambiguous or novel classifications",
+  "Audit defense and penalty mitigation",
+  "Advising importers on evolving trade policy"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1041 (Compliance Officers, closest detailed occupation), p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI-assisted trade-compliance and HTS classification tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Regulatory audit defense and penalty mitigation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Trade-policy advisory for importers",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Classification and filing are exactly the kind of rules-based digital work AI already handles well, which is pushing routine entry work toward automation. The licensed judgment and liability side of the job, defending an audit, resolving an ambiguous classification, is what keeps this role from moving further, faster."
+}

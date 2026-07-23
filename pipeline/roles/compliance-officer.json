@@ -2,10 +2,20 @@
  "slug": "compliance-officer",
  "title": "Compliance Officer",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-1041",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 45,
+  "toolMaturity": 70,
+  "adoption": 58,
+  "agenticExposure": 42
+ },
+ "rationales": {
+  "taskAutomation": "Regulatory-change monitoring, checklist reviews, and template policy drafting are largely automatable, but interpreting novel regulation and building compliance culture stay human-gated.",
+  "toolMaturity": "RegTech platforms for reg-change tracking and policy drafting are credible and improving fast but not yet uniformly embedded across compliance functions.",
+  "adoption": "Common at large regulated firms (finance, healthcare); adoption lags in smaller and less-regulated organizations.",
+  "agenticExposure": "Monitoring regulatory feeds and tracking training completion are agent-ownable back-office slices; regulatory judgment calls are not."
+ },
  "tasksAtRisk": [
   "Regulatory change monitoring",
   "Standard compliance checklist reviews",
@@ -22,23 +32,23 @@
   "high": 135000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1041 (Compliance Officers), p25-p75 rounded",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
-   "skill": "AI Governance & Ethics Frameworks",
+   "skill": "AI governance and ethics frameworks",
    "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "RegTech & Compliance Automation",
+   "skill": "RegTech and compliance automation",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Risk Management Certification",
+   "skill": "Risk management certification",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI regulation is exploding — the EU AI Act, state-level laws, and industry standards all need human experts. Compliance officers who specialize in AI governance are entering a high-growth niche.",
+ "insight": "AI regulation is exploding worldwide, and monitoring/checklist work is automating fast, but every one of those new rules needs a human who can interpret it and build the internal case for compliance. AI-governance specialists are the fastest-growing niche in the field.",
  "industryModifiers": {
   "Finance": 5,
   "Healthcare": -3,

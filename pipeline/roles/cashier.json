@@ -1,0 +1,57 @@
+{
+ "slug": "cashier",
+ "title": "Cashier",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "41-2011",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 68,
+  "toolMaturity": 85,
+  "adoption": 65,
+  "agenticExposure": 55
+ },
+ "rationales": {
+  "taskAutomation": "Scanning, payment processing, and basic transaction handling are scripted, repetitive digital-physical work that self-checkout already performs end-to-end.",
+  "toolMaturity": "Self-checkout kiosks and frictionless-checkout computer-vision systems are commodity technology deployed at massive scale.",
+  "adoption": "Self-checkout is now the default option in most grocery, big-box, and drugstore chains, a mainstream expectation for the retail transaction function.",
+  "agenticExposure": "Item scanning, payment, and loss-prevention flagging form a full agent-traversable transaction pipeline; only exception handling and customer assistance stay human."
+ },
+ "tasksAtRisk": [
+  "Item scanning and price lookup",
+  "Payment processing and change handling",
+  "Basic returns and receipt lookups",
+  "Age-verification prompts for restricted items"
+ ],
+ "tasksGrowing": [
+  "Self-checkout exception handling and theft prevention",
+  "Customer assistance and complex return judgment calls"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 35000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-2011, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Self-checkout exception handling and loss-prevention judgment",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Customer-service recovery on the retail floor",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Cross-training into inventory or fulfillment tech roles",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Self-checkout has already automated the core transaction, and most large retailers now treat it as the default lane, not the exception. What remains for cashiers is what the machines can't handle: age-verification disputes, theft prevention, and the returns a kiosk kicks back to a human.",
+ "industryModifiers": {
+  "Retail": 10,
+  "Tech": 8,
+  "Government": -6,
+  "Healthcare": 4
+ }
+}

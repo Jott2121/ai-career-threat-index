@@ -1,0 +1,51 @@
+{
+ "slug": "mason",
+ "title": "Mason",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 7,
+  "toolMaturity": 28,
+  "adoption": 15,
+  "agenticExposure": 5
+ },
+ "rationales": {
+  "taskAutomation": "Bricklaying and block-setting are manual craft requiring physical precision that has no automated substitute at typical job-site scale.",
+  "toolMaturity": "Robotic bricklaying exists only in limited pilot deployments, not shipped production tools.",
+  "adoption": "Adoption of any AI or robotic tooling in masonry is rare, concentrated in a handful of large commercial contractors piloting robotic layers.",
+  "agenticExposure": "An agent can generate a material takeoff from a wall plan; it cannot lay a course of brick to line and level."
+ },
+ "tasksAtRisk": [
+  "Material takeoff and mortar-quantity estimating",
+  "Job scheduling and crew coordination",
+  "Basic invoicing and billing"
+ ],
+ "tasksGrowing": [
+  "Custom and historic masonry restoration requiring craft judgment",
+  "Structural masonry requiring code-compliance expertise",
+  "Cross-training toward larger commercial masonry projects"
+ ],
+ "salary": {
+  "low": 42000,
+  "high": 72000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2021, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Historic and restoration masonry specialization",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Structural masonry code-compliance certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Digital takeoff and estimating software literacy",
+   "link": "/guides/ai-coding-tools/"
+  }
+ ],
+ "insight": "Masonry is among the lowest-risk trades: robotic bricklaying remains a pilot-stage novelty, and the craft's precision work stays entirely manual."
+}

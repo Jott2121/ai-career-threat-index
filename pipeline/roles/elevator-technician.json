@@ -1,0 +1,51 @@
+{
+ "slug": "elevator-technician",
+ "title": "Elevator Technician",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-4021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 11,
+  "toolMaturity": 35,
+  "adoption": 22,
+  "agenticExposure": 7
+ },
+ "rationales": {
+  "taskAutomation": "Installation, code-compliant repair and safety-testing of elevator systems are manual, licensed acts; predictive-maintenance alerts are the automatable slice.",
+  "toolMaturity": "IoT-based predictive-maintenance platforms from major elevator manufacturers are credible and shipping, monitoring equipment remotely.",
+  "adoption": "Major elevator service companies have adopted remote-monitoring and predictive-maintenance platforms at real scale.",
+  "agenticExposure": "An agent can flag a predicted component failure from sensor data and schedule the technician visit, not perform the repair."
+ },
+ "tasksAtRisk": [
+  "Predictive-maintenance alert triage from equipment sensors",
+  "Service scheduling and technician dispatch",
+  "Inspection and compliance-log documentation"
+ ],
+ "tasksGrowing": [
+  "Modernization and code-upgrade installation on aging building stock",
+  "Diagnosing faults predictive systems misclassify",
+  "Safety-critical repair requiring certified judgment"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 115000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-4021, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Elevator modernization and code-upgrade certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "IoT predictive-maintenance platform fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Safety-critical diagnostic and repair expertise",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Elevator technicians see rising demand as aging buildings require modernization, and remote predictive-maintenance sensors now handle real monitoring work, but code-compliant repair itself remains licensed, hands-on work."
+}

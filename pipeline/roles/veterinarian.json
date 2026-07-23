@@ -1,0 +1,58 @@
+{
+ "slug": "veterinarian",
+ "title": "Veterinarian",
+ "category": "Healthcare",
+ "socCode": "29-1131",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 16,
+  "toolMaturity": 48,
+  "adoption": 32,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Exam documentation, standard lab-result review and routine treatment-plan notes carry a meaningful digital share, but physical exams, surgery and animal handling are not automatable.",
+  "toolMaturity": "AI diagnostic-imaging and telehealth triage tools for veterinary medicine are credible and improving, short of the maturity seen in human radiology.",
+  "adoption": "Larger corporate veterinary chains are adopting AI triage and imaging tools; independent practices lag.",
+  "agenticExposure": "Agents can pre-screen intake symptoms and draft visit notes, but exams, surgery and hands-on animal care stay with the veterinarian."
+ },
+ "tasksAtRisk": [
+  "Visit note and record documentation",
+  "Standard lab result review",
+  "Client intake triage and scheduling",
+  "Routine prescription refill processing"
+ ],
+ "tasksGrowing": [
+  "Surgical and emergency procedures",
+  "Complex diagnostic workups",
+  "Client communication around difficult decisions"
+ ],
+ "salary": {
+  "low": 90000,
+  "high": 160000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1131 (Veterinarians), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Veterinary Diagnostics",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Telehealth Triage Platforms",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Veterinary Specialty Certification (Surgery, Oncology)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI triage chatbots and imaging tools are starting to handle routine intake and screening in veterinary practices, but surgery and hands-on animal care remain squarely the veterinarian's. Corporate consolidation is a bigger near-term force on the job than AI is.",
+ "industryModifiers": {
+  "Healthcare": 2,
+  "Agriculture": 3,
+  "Retail": 3,
+  "Government": -5
+ }
+}

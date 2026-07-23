@@ -1,0 +1,58 @@
+{
+ "slug": "rideshare-driver",
+ "title": "Rideshare Driver",
+ "category": "Transportation & Logistics",
+ "socCode": "53-3054",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 22,
+  "toolMaturity": 58,
+  "adoption": 14,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Waymo and peers run driverless rides commercially in several geofenced cities, but reliable operation across arbitrary routes, weather, and unmapped areas is still not there.",
+  "toolMaturity": "Robotaxi service is a mature, paying-customer product in its operating zones (Waymo in SF, Phoenix, LA, Austin), well past the demo stage where it runs.",
+  "adoption": "Robotaxis are a small fraction of total rideshare trips nationally; almost all rideshare miles are still driven by humans, including in robotaxi cities.",
+  "agenticExposure": "Trip matching, pricing, and routing are already agent-run by the platforms; the human driving task itself is the part agents can't yet reach at scale."
+ },
+ "tasksAtRisk": [
+  "Turn-by-turn navigation and route selection",
+  "Fare estimation and rider matching",
+  "In-app trip-status communication",
+  "Geofenced airport and downtown pickups"
+ ],
+ "tasksGrowing": [
+  "Rides outside geofenced/mapped robotaxi zones",
+  "Rider assistance requiring judgment (accessibility, safety, disputes)",
+  "Multi-passenger, luggage, or event-surge trips robotaxis don't yet serve"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-3054, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Accessibility and high-touch rider service",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Operating in non-geofenced, unmapped service areas",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Platform and gig-app fluency across multiple services",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Robotaxis are commercially live today, not a future prospect, but confined to specific mapped cities and conditions. Drivers in those metro robotaxi zones face real and growing displacement over the next few years; drivers everywhere else face materially less pressure until geofences expand, which has historically happened city by city, slowly.",
+ "industryModifiers": {
+  "Tech": 10,
+  "Government": -10,
+  "Finance": 2,
+  "Healthcare": -6
+ }
+}

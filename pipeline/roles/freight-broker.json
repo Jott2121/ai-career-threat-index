@@ -1,0 +1,52 @@
+{
+ "slug": "freight-broker",
+ "title": "Freight Broker",
+ "category": "Transportation & Logistics",
+ "socCode": "43-5011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 50,
+  "toolMaturity": 65,
+  "adoption": 48,
+  "agenticExposure": 65
+ },
+ "rationales": {
+  "taskAutomation": "Quoting, load posting, carrier matching, and booking are largely digital and already automatable; carrier relationship management and rate negotiation on hard freight still need a person.",
+  "toolMaturity": "Digital freight marketplaces and AI pricing/matching tools (Uber Freight, DAT, Convoy-style platforms) are mature, shipped products.",
+  "adoption": "AI-assisted brokerage is common at large 3PLs and spreading into smaller brokerages as digital marketplaces become standard.",
+  "agenticExposure": "Freight brokering is substantially a pipeline of digital decisions, quoting, matching, booking, tracking, that an autonomous agent can traverse end-to-end for standard loads."
+ },
+ "tasksAtRisk": [
+  "Load posting and carrier matching",
+  "Standard rate quoting",
+  "Booking confirmation and tracking updates",
+  "Basic documentation and invoicing"
+ ],
+ "tasksGrowing": [
+  "Relationship-based carrier negotiation for hard-to-cover freight",
+  "Exception handling for disrupted or specialized shipments",
+  "Overseeing and correcting AI-matched loads"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-5011, p25-p75 rounded, high end reflects commission-heavy brokerage pay",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Digital freight marketplace and AI pricing-tool fluency",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Carrier relationship management and negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Specialized/hard-to-cover freight sourcing",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Freight brokerage is one of the most exposed roles in this category because it's already a digital-marketplace business: standard load matching, quoting, and booking are agent-ownable today. Brokers who survive are shifting toward the relationship-heavy, hard-to-cover freight that automated marketplaces still struggle to fill."
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "postal-worker",
+ "title": "Postal Worker",
+ "category": "Transportation & Logistics",
+ "socCode": "43-5052",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 16,
+  "toolMaturity": 45,
+  "adoption": 20,
+  "agenticExposure": 14
+ },
+ "rationales": {
+  "taskAutomation": "Mail sorting is heavily automated at the facility level, but the delivery route itself, navigating streets, mailboxes, and packages door to door, is still physical, human work.",
+  "toolMaturity": "Automated sorting machines are mature and near-universal at processing facilities; route delivery automation remains experimental.",
+  "adoption": "USPS and major carriers use automated sortation widely; carrier-route automation has no meaningful deployment.",
+  "agenticExposure": "Route sequencing is agent-assistable; the physical delivery route is not."
+ },
+ "tasksAtRisk": [
+  "Mail and package sorting at processing facilities",
+  "Route sequencing and scheduling",
+  "Standard delivery-status recordkeeping"
+ ],
+ "tasksGrowing": [
+  "Physical door-to-door delivery in varied conditions",
+  "Customer-facing service at retail counters",
+  "Handling special/certified mail and exceptions"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 65000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-5052, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Customer-facing service and dispute resolution",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Route-technology and handheld-scanner fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Certified/special mail handling procedures",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Facility-level sorting has been automated for years without eliminating the carrier role, because the door-to-door delivery route itself remains physical work automation hasn't reached; near-term risk stays low."
+}

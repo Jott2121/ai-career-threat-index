@@ -1,0 +1,51 @@
+{
+ "slug": "tour-guide",
+ "title": "Tour Guide",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-7011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 25,
+  "toolMaturity": 55,
+  "adoption": 25,
+  "agenticExposure": 25
+ },
+ "rationales": {
+  "taskAutomation": "Self-guided AI audio-tour apps now deliver competent historical narration, but live storytelling, group management, and adapting to questions stay human.",
+  "toolMaturity": "GPS-triggered AI audio-guide apps are mature and widely available as a direct substitute for a basic guided walk.",
+  "adoption": "Adoption of self-guided AI tour apps among independent travelers is growing steadily but remains an early-adopter behavior overall.",
+  "agenticExposure": "Route scripting and narration generation are agent-ownable; live group management and real-time Q&A are not."
+ },
+ "tasksAtRisk": [
+  "Standard historical narration for common routes",
+  "Route and script drafting",
+  "Basic FAQ handling about a site or itinerary"
+ ],
+ "tasksGrowing": [
+  "Live storytelling and audience-reading",
+  "Group management and pacing for varied traveler needs",
+  "Handling unscripted questions and local color"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-7011, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Live storytelling and audience engagement",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Specialized or niche-expertise tour development",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Group-management and safety judgment on the move",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "An AI audio guide can narrate a landmark competently for a fraction of the cost. What it can't do is read a group's energy, take a real question off-script, or turn a rained-out afternoon into a good story anyway."
+}

@@ -1,0 +1,52 @@
+{
+ "slug": "network-support-specialist",
+ "title": "Network Support Specialist",
+ "category": "Technology",
+ "socCode": "15-1231",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 56,
+  "toolMaturity": 68,
+  "adoption": 52,
+  "agenticExposure": 54
+ },
+ "rationales": {
+  "taskAutomation": "Routine connectivity troubleshooting, config resets, and standard ticket triage are scripted digital work AI now handles end-to-end for known issue types.",
+  "toolMaturity": "AI-assisted network diagnostics and chatbot-driven triage tools are mature and standard in enterprise NOC tooling.",
+  "adoption": "Common in enterprise network operations centers running AI-assisted triage.",
+  "agenticExposure": "Tier-1 network ticket triage and known-fix remediation are agent-ownable pipelines today."
+ },
+ "tasksAtRisk": [
+  "Diagnosing standard connectivity issues",
+  "Config resets and known-fix remediation",
+  "Tier-1 network ticket triage",
+  "Routine documentation of resolved incidents"
+ ],
+ "tasksGrowing": [
+  "Complex, multi-site outage diagnosis",
+  "Network security incident first response",
+  "Administering AI-driven NOC triage tooling"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1231 (Computer Network Support Specialists), p25-p75",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Administering AI-Driven NOC Triage Tools",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Network Security Fundamentals",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Multi-Site Outage Diagnosis",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI triage tools now resolve most known-fix network tickets before a specialist sees them. The path forward is running that triage layer and handling the multi-site, security-flavored incidents it can't close on its own."
+}

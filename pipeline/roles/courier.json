@@ -1,0 +1,51 @@
+{
+ "slug": "courier",
+ "title": "Courier",
+ "category": "Transportation & Logistics",
+ "socCode": "43-5021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 20,
+  "toolMaturity": 45,
+  "adoption": 15,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "Same-day and specialty courier runs require physical pickup, handling, and delivery across arbitrary addresses; sidewalk-robot and drone pilots cover only a narrow slice of this today.",
+  "toolMaturity": "Sidewalk delivery robots and drones are shipped products in specific metro pilots, not a general courier replacement.",
+  "adoption": "A handful of markets run robot/drone courier pilots; nearly all courier volume nationally still moves by human driver, biker, or walker.",
+  "agenticExposure": "Route sequencing and delivery-status tracking are agent-ownable; the physical pickup-and-handoff core is not."
+ },
+ "tasksAtRisk": [
+  "Route sequencing for multi-stop runs",
+  "Delivery-status tracking and notifications",
+  "Standard document/parcel drop-off in accessible locations"
+ ],
+ "tasksGrowing": [
+  "Time-sensitive medical/legal document handling",
+  "Complex or access-restricted delivery locations",
+  "Customer service recovery for failed handoffs"
+ ],
+ "salary": {
+  "low": 27000,
+  "high": 42000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-5021, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Time-sensitive/regulated document handling (medical, legal)",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Delivery-app and route-optimization platform fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Access-restricted and complex-location delivery",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Robot and drone courier pilots exist in a handful of metro markets but cover a narrow slice of courier volume; the specialized, time-sensitive document runs (medical, legal) that make up much of this role's value are not close to automatable."
+}

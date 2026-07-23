@@ -2,10 +2,20 @@
  "slug": "insurance-underwriter",
  "title": "Insurance Underwriter",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-2053",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 62,
+  "toolMaturity": 88,
+  "adoption": 72,
+  "agenticExposure": 62
+ },
+ "rationales": {
+  "taskAutomation": "Standard personal-lines risk scoring, premium calculation, and renewal processing are now largely automated end to end; only complex commercial and emerging risks require human underwriting judgment.",
+  "toolMaturity": "Insurtech underwriting engines (Lemonade, Root, and commercial-carrier AI risk platforms) are mature, production-deployed products, not pilots.",
+  "adoption": "Mainstream across personal-lines carriers and rapidly spreading into standard commercial underwriting.",
+  "agenticExposure": "Application intake, risk scoring, and renewal decisioning form a full agent-ownable pipeline for standard policies; only specialty and catastrophic risk stays with a human."
+ },
  "tasksAtRisk": [
   "Standard risk assessment on common policies",
   "Premium calculation using rating tables",
@@ -23,23 +33,23 @@
   "high": 110000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-2053 (Insurance Underwriters), p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Risk Modeling & Insurtech",
+   "skill": "AI risk modeling and insurtech platforms",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Specialty Lines Underwriting",
+   "skill": "Specialty lines underwriting",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Data Analytics for Risk Assessment",
+   "skill": "Data analytics for risk assessment",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI now handles most standard personal lines underwriting. The career path forward is in complex commercial risks, emerging categories like cyber insurance, and relationship-driven deal structuring.",
+ "insight": "AI now underwrites the overwhelming majority of standard personal lines with no human touch. The career path forward is complex commercial risk, emerging categories like cyber and AI liability, and broker relationships that carriers still need a person to run.",
  "industryModifiers": {
   "Finance": 5,
   "Tech": 3,

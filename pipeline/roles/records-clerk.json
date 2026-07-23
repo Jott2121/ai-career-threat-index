@@ -1,0 +1,51 @@
+{
+ "slug": "records-clerk",
+ "title": "Records Clerk",
+ "category": "Administrative & Operations",
+ "socCode": "43-4071",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 70,
+  "toolMaturity": 68,
+  "adoption": 50,
+  "agenticExposure": 42
+ },
+ "rationales": {
+  "taskAutomation": "Filing, classification, and retrieval of digital records is now largely automatable with AI document-management systems; compliance judgment and legal holds still need a person.",
+  "toolMaturity": "AI document classification and retrieval tools are credible and maturing quickly inside enterprise content-management platforms.",
+  "adoption": "Adoption is common in large organizations with formal records-management functions, spreading to mid-market as document AI gets cheaper.",
+  "agenticExposure": "Filing, tagging, and routine retrieval are agent-ownable; retention-schedule judgment and legal-hold compliance stay with a specialist."
+ },
+ "tasksAtRisk": [
+  "Document filing and classification",
+  "Records retrieval requests",
+  "Retention schedule tracking and disposal",
+  "Digitizing and indexing paper records"
+ ],
+ "tasksGrowing": [
+  "Records compliance audits and legal holds",
+  "Cross-department records governance"
+ ],
+ "salary": {
+  "low": 32000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-4071 (File Clerks), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Records & Information Governance",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Document Classification & Retrieval Systems",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Compliance Audits & Legal Hold Management",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI document-management systems now file, tag, and retrieve most records automatically, pushing this role to High risk. Clerks who move into records compliance and legal-hold work hold a more defensible position than pure filing and retrieval."
+}

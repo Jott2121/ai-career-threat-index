@@ -1,0 +1,51 @@
+{
+ "slug": "purchasing-manager",
+ "title": "Purchasing Manager",
+ "category": "Business & Finance",
+ "socCode": "11-3061",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 50,
+  "adoption": 42,
+  "agenticExposure": 25
+ },
+ "rationales": {
+  "taskAutomation": "Spend analysis and routine reordering are automatable, but supplier negotiation, contract strategy, and team leadership are managerial judgment work that resists automation.",
+  "toolMaturity": "AI spend-analytics and procurement-automation tools are credible and improving but sit alongside, not replace, manager-led sourcing strategy.",
+  "adoption": "Common in large-firm procurement functions for spend analytics; supplier negotiation itself stays manager-led almost everywhere.",
+  "agenticExposure": "Routine reordering and spend-pattern analysis are agent-ownable; supplier relationship strategy and team management are not."
+ },
+ "tasksAtRisk": [
+  "Spend analysis and reporting",
+  "Routine reorder point calculation",
+  "Standard RFP data compilation"
+ ],
+ "tasksGrowing": [
+  "Supplier relationship negotiation and strategy",
+  "Supply chain risk management",
+  "Team leadership and cross-functional sourcing strategy"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-3061 (Purchasing Managers), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Supplier negotiation and sourcing strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI spend-analytics platforms",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Supply chain risk management",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now surfaces spend patterns and reorder points automatically, but negotiating supplier terms and managing a sourcing team under real supply-chain risk stays a human judgment call."
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "customer-service-representative",
+ "title": "Customer Service Representative",
+ "category": "Administrative & Operations",
+ "socCode": "43-4051",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 68,
+  "toolMaturity": 85,
+  "adoption": 78,
+  "agenticExposure": 62
+ },
+ "rationales": {
+  "taskAutomation": "Routine account questions, order status, and FAQ-style troubleshooting are now handled end-to-end by AI chat and voice agents at professional quality; complex, emotional, or multi-product cases still need a person.",
+  "toolMaturity": "LLM-based support chatbots and voice agents are mature, widely shipped products integrated directly into the standard customer-support stack.",
+  "adoption": "Customer support deflection is a mainstream mid-2026 expectation — most consumer-facing companies now route a majority of tier-1 volume through AI before a human ever sees it.",
+  "agenticExposure": "Tier-1 support is a textbook agent-ownable pipeline: read the ticket, look up the account, resolve or refund, close the loop, with escalation to a human only on failure."
+ },
+ "tasksAtRisk": [
+  "Answering routine account and billing questions",
+  "Live chat and email ticket responses",
+  "Order status and returns processing",
+  "FAQ-style troubleshooting and how-to guidance"
+ ],
+ "tasksGrowing": [
+  "De-escalating angry or high-stakes customer situations",
+  "Complex multi-product troubleshooting",
+  "Reviewing and correcting AI chatbot handoffs"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-4051 (Customer Service Representatives), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "De-escalation & Complex Complaint Resolution",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Chatbot Handoff & Escalation Management",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Multi-Product Technical Troubleshooting",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI chat and voice agents now close a majority of tier-1 tickets without a human touch, which is why routine customer service sits at High risk. The remaining seats go to reps who handle the escalations an agent bounces back — angry customers, ambiguous multi-product problems, and judgment calls the bot won't make.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Healthcare": -5,
+  "Government": -10
+ }
+}

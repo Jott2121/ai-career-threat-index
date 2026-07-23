@@ -1,0 +1,50 @@
+{
+ "slug": "massage-therapist",
+ "title": "Massage Therapist",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "31-9011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 8,
+  "toolMaturity": 20,
+  "adoption": 10,
+  "agenticExposure": 8
+ },
+ "rationales": {
+  "taskAutomation": "Therapeutic touch, technique adaptation, and injury-aware judgment define the work; there is no credible end-to-end automation path.",
+  "toolMaturity": "Massage chairs and devices exist as consumer products but are not a substitute for licensed therapeutic technique.",
+  "adoption": "AI adoption in the profession is essentially confined to scheduling and intake software.",
+  "agenticExposure": "Booking, intake forms, and session-note documentation are agent-ownable slices; the treatment itself is not."
+ },
+ "tasksAtRisk": [
+  "Appointment scheduling and intake-form processing",
+  "Session-note documentation",
+  "Basic client-history recordkeeping across visits"
+ ],
+ "tasksGrowing": [
+  "Therapeutic technique tailored to injury or condition",
+  "Client rapport and ongoing care planning"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 75000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 31-9011, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Specialized therapeutic technique (sports, prenatal, medical massage)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Licensing and continuing-education credentials",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI scheduling and intake-software fluency",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Therapeutic touch calibrated to an individual body and injury has no automated substitute today. The role's small digital footprint, booking and intake, is where nearly all of its modest exposure lives."
+}

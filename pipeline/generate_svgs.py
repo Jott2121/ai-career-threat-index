@@ -37,10 +37,14 @@ def svg(w, h, body):
             f'viewBox="0 0 {w} {h}" {FONT}>\n{body}\n</svg>\n')
 
 
+def esc(s):
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+
+
 def text(x, y, s, size=12, anchor="start", color=INK, bold=False):
     weight = ' font-weight="600"' if bold else ""
     return (f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" '
-            f'text-anchor="{anchor}"{weight}>{s}</text>')
+            f'text-anchor="{anchor}"{weight}>{esc(s)}</text>')
 
 
 def distribution(roles):
@@ -90,10 +94,12 @@ def movers(roles):
         color = "#d03b3b" if d > 0 else "#0ca30c"
         x = mid if d > 0 else mid - w
         parts.append(f'<rect x="{x}" y="{y}" width="{max(w, 2)}" height="16" rx="4" fill="{color}"/>')
-        parts.append(text(mid - (8 if d > 0 else w + 8), y + 12, r["title"], 12,
-                          "end"))
-        parts.append(text(mid + (w + 8 if d > 0 else 8), y + 12,
-                          f"{d:+d}", 12, "start", color, bold=True))
+        if d > 0:   # bar grows right: title left of axis, delta at bar end
+            parts.append(text(mid - 8, y + 12, r["title"], 12, "end"))
+            parts.append(text(mid + w + 8, y + 12, f"+{d}", 12, "start", color, bold=True))
+        else:       # bar grows left: title right of axis, delta at bar end
+            parts.append(text(mid + 8, y + 12, r["title"], 12, "start"))
+            parts.append(text(mid - w - 8, y + 12, str(d), 12, "end", color, bold=True))
     parts.append(f'<line x1="{mid}" y1="34" x2="{mid}" y2="{H - 8}" '
                  f'stroke="{INK}" stroke-opacity="0.4"/>')
     return svg(W, H, "\n".join(parts))

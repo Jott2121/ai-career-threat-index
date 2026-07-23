@@ -1,0 +1,52 @@
+{
+ "slug": "game-developer",
+ "title": "Game Developer",
+ "category": "Technology",
+ "socCode": "15-1252",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 58,
+  "adoption": 40,
+  "agenticExposure": 38
+ },
+ "rationales": {
+  "taskAutomation": "Standard gameplay mechanics code, asset-pipeline scripting, and level-layout boilerplate are automatable; creative direction and novel gameplay design are not.",
+  "toolMaturity": "AI codegen and procedural-content tools for game engines are credible and improving fast, adoption uneven across studio sizes.",
+  "adoption": "Spreading among tech-forward and indie studios; large AAA studios adopt more cautiously due to pipeline complexity.",
+  "agenticExposure": "Build pipelines, QA regression, and routine asset generation are agent-ownable; core creative and gameplay-feel decisions are not."
+ },
+ "tasksAtRisk": [
+  "Writing standard gameplay mechanics and systems code",
+  "Asset-pipeline scripting and import automation",
+  "Level-layout scaffolding from design docs",
+  "Build and regression QA pipeline maintenance"
+ ],
+ "tasksGrowing": [
+  "Creative direction and novel gameplay design",
+  "Game feel, balance, and player-experience tuning",
+  "Technical direction for engine and performance architecture"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers, closest game-development mapping), p25-p75",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Engine Scripting (Unity, Unreal Copilots)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Procedural Content & Asset Generation Pipelines",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Game Feel & Player-Experience Design",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI now writes standard gameplay systems code and can generate a fair share of routine assets, but the creative judgment behind what makes a game actually feel good to play is still squarely a human skill."
+}

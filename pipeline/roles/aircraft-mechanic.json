@@ -1,0 +1,51 @@
+{
+ "slug": "aircraft-mechanic",
+ "title": "Aircraft Mechanic",
+ "category": "Transportation & Logistics",
+ "socCode": "49-3011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 14,
+  "toolMaturity": 42,
+  "adoption": 22,
+  "agenticExposure": 12
+ },
+ "rationales": {
+  "taskAutomation": "This is hands-on, licensed physical repair work in unstructured conditions; AI diagnostic tools assist but cannot perform the physical inspection and repair itself.",
+  "toolMaturity": "AI-assisted predictive-maintenance and diagnostic tools are credible and improving fast, but they inform mechanics rather than replace physical work.",
+  "adoption": "Predictive-maintenance software is spreading among larger carriers and MROs, still uneven across the smaller operator base.",
+  "agenticExposure": "Parts ordering and maintenance-log documentation are agent-assistable; the licensed physical repair is not."
+ },
+ "tasksAtRisk": [
+  "Predictive-maintenance scheduling",
+  "Parts ordering and inventory matching",
+  "Maintenance log documentation"
+ ],
+ "tasksGrowing": [
+  "Complex diagnostic and structural repair work",
+  "Emergency/AOG (aircraft-on-ground) troubleshooting",
+  "Certifying airworthiness sign-off"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 49-3011, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI-assisted predictive-maintenance system fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Complex diagnostic and structural repair certification",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Airworthiness sign-off and regulatory certification",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI predictive-maintenance tools are shipping and genuinely useful for flagging what needs attention, but the licensed, hands-on repair and airworthiness certification at the center of this role remain firmly human work."
+}

@@ -1,0 +1,57 @@
+{
+ "slug": "financial-advisor",
+ "title": "Financial Advisor",
+ "category": "Business & Finance",
+ "socCode": "13-2052",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 75,
+  "adoption": 50,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Robo-advisors handle basic portfolio allocation and rebalancing well, but comprehensive planning, tax-aware decisions, and behavioral coaching through market stress require trust a client extends to a person.",
+  "toolMaturity": "Robo-advisory and portfolio-rebalancing engines (Betterment, Schwab Intelligent Portfolios) are mature, widely deployed products.",
+  "adoption": "Roughly half of advisory practices now use AI tools for portfolio construction and client reporting, short of universal adoption.",
+  "agenticExposure": "Rebalancing and routine portfolio monitoring are agent-ownable; the client relationship and life-event planning around them are not."
+ },
+ "tasksAtRisk": [
+  "Portfolio rebalancing and allocation execution",
+  "Standard retirement and savings projections",
+  "Routine client reporting and performance summaries"
+ ],
+ "tasksGrowing": [
+  "Comprehensive financial planning across life events",
+  "Behavioral coaching during market volatility",
+  "Complex tax, estate, and business-succession planning"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-2052 (Personal Financial Advisors), p25-p75 rounded; high end reflects commission/AUM-based earnings at senior levels exceeding OES base",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Comprehensive financial and estate planning",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI portfolio and robo-advisory tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Behavioral coaching and client trust-building",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Robo-advisors have commoditized basic portfolio management, but the advisors who keep and grow books of business are the ones clients call during a market crash or a life event, not the ones who just rebalance a portfolio.",
+ "industryModifiers": {
+  "Finance": 5,
+  "Tech": 2,
+  "Government": -8,
+  "Retail": 1
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "credit-analyst",
+ "title": "Credit Analyst",
+ "category": "Business & Finance",
+ "socCode": "13-2041",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 44,
+  "toolMaturity": 75,
+  "adoption": 58,
+  "agenticExposure": 45
+ },
+ "rationales": {
+  "taskAutomation": "Algorithmic credit scoring and standard financial-statement analysis are now largely automated; complex commercial credit judgment and covenant negotiation are not.",
+  "toolMaturity": "AI-driven credit scoring and financial-statement-analysis tools are mature and standard in retail and small-business lending pipelines.",
+  "adoption": "Mainstream in consumer and small-business lending; commercial credit decisioning adopts more slowly given deal complexity.",
+  "agenticExposure": "Standard credit-file review and scoring is an agent-ownable pipeline; complex commercial covenant analysis needs a human underwriter."
+ },
+ "tasksAtRisk": [
+  "Standard credit scoring and risk-rating calculation",
+  "Financial statement ratio analysis for routine borrowers",
+  "Credit report data verification and compilation"
+ ],
+ "tasksGrowing": [
+  "Complex commercial credit and covenant analysis",
+  "Industry and portfolio risk trend assessment",
+  "Client-facing credit structuring advisory"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-2041 (Credit Analysts), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Complex commercial credit and covenant analysis",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-driven credit scoring platform oversight",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Portfolio risk trend analysis",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Algorithmic scoring already handles most consumer and small-business credit decisions. Analysts who move into complex commercial deals and portfolio-level risk strategy keep the work software can't yet do."
+}

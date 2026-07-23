@@ -1,0 +1,52 @@
+{
+ "slug": "fast-food-worker",
+ "title": "Fast Food Worker",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "35-3023",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 58,
+  "toolMaturity": 65,
+  "adoption": 45,
+  "agenticExposure": 50
+ },
+ "rationales": {
+  "taskAutomation": "Order-taking, order routing, and following standardized assembly steps are scripted work; AI drive-thru voice ordering already performs the ordering half end-to-end.",
+  "toolMaturity": "AI voice-ordering systems are live in production at major chains, alongside mature kiosk and app-ordering technology.",
+  "adoption": "Major fast-food chains have adopted AI drive-thru ordering and kiosks at meaningful scale, spreading from pilots to standard rollout.",
+  "agenticExposure": "Order intake, routing to the kitchen display, and payment form a full agent-traversable pipeline; food assembly and packaging remain manual."
+ },
+ "tasksAtRisk": [
+  "Drive-thru and counter order-taking",
+  "Order entry into kitchen display systems",
+  "Payment processing and receipt handling",
+  "Basic upsell prompts"
+ ],
+ "tasksGrowing": [
+  "Food assembly and packaging speed",
+  "Handling order errors and customer complaints",
+  "Equipment troubleshooting during rush periods"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 30000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 35-3023, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Working alongside AI drive-thru and kiosk ordering systems",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Order-exception handling and customer recovery",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Cross-training into shift-lead or scheduling roles",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI voice ordering is already live at drive-thru windows for several national chains, taking over the exact scripted exchange this job used to require. What's left is assembly speed and handling the orders the AI gets wrong."
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "housekeeper",
+ "title": "Housekeeper",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "37-2012",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 8,
+  "toolMaturity": 20,
+  "adoption": 8,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Cleaning hotel rooms is physically variable, unstructured work (different layouts, mess types, guest belongings) with almost no reliable end-to-end automation.",
+  "toolMaturity": "Commercial cleaning robots exist for open floor areas but nothing automates full guest-room turnover.",
+  "adoption": "Adoption of any cleaning automation in guest rooms is negligible; task-assignment software adoption is more common than physical automation.",
+  "agenticExposure": "Room-assignment scheduling and supply-restocking flags are agent-ownable; the physical cleaning is not."
+ },
+ "tasksAtRisk": [
+  "Room-assignment scheduling",
+  "Supply inventory and restocking flags",
+  "Lost-and-found logging"
+ ],
+ "tasksGrowing": [
+  "Full room turnover and quality inspection",
+  "Handling guest requests and special situations",
+  "Deep-cleaning judgment for varied room conditions"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 35000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 37-2012, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Efficient room-turnover and quality-inspection technique",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Task-management app fluency for room assignments",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Cross-training toward housekeeping supervisor roles",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "No deployed robot handles the variability of a real guest room, scattered belongings, different layouts, spills. Automation touches only the scheduling around the job, not the cleaning itself."
+}

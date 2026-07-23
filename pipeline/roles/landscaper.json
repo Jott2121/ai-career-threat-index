@@ -1,0 +1,52 @@
+{
+ "slug": "landscaper",
+ "title": "Landscaper",
+ "category": "Skilled Trades & Construction",
+ "socCode": "37-3011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 14,
+  "toolMaturity": 32,
+  "adoption": 22,
+  "agenticExposure": 8
+ },
+ "rationales": {
+  "taskAutomation": "Planting, mowing and hardscape installation are physical work; route scheduling and basic design proposals are the automatable share.",
+  "toolMaturity": "AI-assisted landscape design and route-optimization apps are credible and gaining traction among larger commercial landscaping companies.",
+  "adoption": "Adoption is growing among mid-size and larger commercial landscaping firms for scheduling and design proposals; small residential crews mostly are not.",
+  "agenticExposure": "An agent can optimize a mowing route and generate a planting-plan proposal, not plant, prune or grade a yard."
+ },
+ "tasksAtRisk": [
+  "Route optimization and crew scheduling",
+  "Design-proposal generation from property photos",
+  "Material and plant ordering",
+  "Invoice and billing generation"
+ ],
+ "tasksGrowing": [
+  "Hardscape and drainage installation requiring site judgment",
+  "Plant health diagnosis and pest management",
+  "Robotic-mower fleet oversight"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 48000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 37-3011, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI landscape-design and route-optimization software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Certified plant-health and pest-management expertise",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Robotic-equipment fleet oversight skills",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Landscaping's risk is modest and concentrated in scheduling and design proposals, where AI route-optimization and rendering tools are gaining real traction, while planting and hardscape installation stay physical work."
+}

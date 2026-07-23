@@ -1,0 +1,58 @@
+{
+ "slug": "delivery-driver",
+ "title": "Delivery Driver",
+ "category": "Transportation & Logistics",
+ "socCode": "53-3033",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 20,
+  "toolMaturity": 50,
+  "adoption": 15,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "Sidewalk robots and delivery drones handle a growing slice of last-mile drops in pilot markets, but most stops still require a human to navigate traffic, buildings, and handoffs.",
+  "toolMaturity": "Nuro, Amazon Scout-successors, and drone delivery (Zipline, Wing) are shipped products, not demos, though coverage is limited to specific metro pilot zones.",
+  "adoption": "Only a small number of large retailers and carriers run robotic/drone last-mile pilots; the vast majority of delivery volume still moves by human driver.",
+  "agenticExposure": "Route sequencing, proof-of-delivery, and dispatch handoffs are agent-ownable digital workflows layered on top of a still-human physical drop."
+ },
+ "tasksAtRisk": [
+  "Route sequencing and stop optimization",
+  "Proof-of-delivery photo and signature capture",
+  "Package sorting for multi-stop routes",
+  "Customer delivery-status notifications"
+ ],
+ "tasksGrowing": [
+  "Complex multi-unit and access-restricted deliveries",
+  "Customer service recovery for failed or disputed drops",
+  "Supervising robot/drone delivery fleets in pilot zones"
+ ],
+ "salary": {
+  "low": 32000,
+  "high": 50000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-3033, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Last-mile robot/drone fleet supervision",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Route-optimization and delivery-app platform fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Customer-facing problem resolution for failed deliveries",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Drone and sidewalk-robot delivery are commercially operating today, but only in select metro pilot zones covering a small fraction of last-mile volume nationally. The realistic medium-term shift is fewer stops per driver as robots absorb easy, short-hop drops, with humans increasingly routed to the access-restricted and exception-heavy deliveries robots can't yet handle.",
+ "industryModifiers": {
+  "Retail": 8,
+  "Tech": 6,
+  "Government": -8,
+  "Healthcare": -5
+ }
+}

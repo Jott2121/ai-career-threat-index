@@ -1,0 +1,57 @@
+{
+ "slug": "childcare-worker",
+ "title": "Childcare Worker",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-9011",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 8,
+  "toolMaturity": 25,
+  "adoption": 10,
+  "agenticExposure": 12
+ },
+ "rationales": {
+  "taskAutomation": "Supervising, comforting, and physically caring for young children is presence-dependent, safety-critical work with essentially no end-to-end automatable share.",
+  "toolMaturity": "Baby-monitor cameras and basic learning-app content exist, but no tool substitutes for hands-on child supervision.",
+  "adoption": "Adoption of AI in childcare is limited to monitoring cameras and administrative apps; direct care itself remains untouched.",
+  "agenticExposure": "Attendance logging, parent-communication updates, and activity planning are agent-ownable slices; supervision and care are not."
+ },
+ "tasksAtRisk": [
+  "Attendance tracking and parent-update messaging",
+  "Activity and lesson-plan drafting",
+  "Incident and meal-log documentation"
+ ],
+ "tasksGrowing": [
+  "Direct supervision and safety monitoring",
+  "Emotional support and social-skill coaching",
+  "Individualized developmental attention"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 35000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-9011, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Early-childhood development and safety credentials",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Parent-communication and reporting tool fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Individualized behavioral and developmental coaching",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Nothing about supervising and comforting a room of toddlers is automatable at scale, so the core job is essentially untouched. Adoption shows up only in the paperwork around it: attendance logs, meal records, and parent updates.",
+ "industryModifiers": {
+  "Government": -8,
+  "Tech": 5,
+  "Finance": 3,
+  "Healthcare": -4
+ }
+}

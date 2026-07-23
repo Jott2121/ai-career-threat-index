@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="308" viewBox="0 0 720 308" font-family="system-ui,-apple-system,Segoe UI,sans-serif">
+<text x="24" y="20" font-size="14" fill="#898781" text-anchor="start" font-weight="600">Biggest movers, Q2 → Q3 2026</text>
+<rect x="400" y="40" width="144" height="16" rx="4" fill="#d03b3b"/>
+<text x="392" y="52" font-size="12" fill="#898781" text-anchor="end">Data Scientist</text>
+<text x="552" y="52" font-size="12" fill="#d03b3b" text-anchor="start" font-weight="600">+8</text>
+<rect x="400" y="66" width="108" height="16" rx="4" fill="#d03b3b"/>
+<text x="392" y="78" font-size="12" fill="#898781" text-anchor="end">Cybersecurity Analyst</text>
+<text x="516" y="78" font-size="12" fill="#d03b3b" text-anchor="start" font-weight="600">+6</text>
+<rect x="400" y="92" width="108" height="16" rx="4" fill="#d03b3b"/>
+<text x="392" y="104" font-size="12" fill="#898781" text-anchor="end">Product Manager</text>
+<text x="516" y="104" font-size="12" fill="#d03b3b" text-anchor="start" font-weight="600">+6</text>
+<rect x="400" y="118" width="90" height="16" rx="4" fill="#d03b3b"/>
+<text x="392" y="130" font-size="12" fill="#898781" text-anchor="end">DevOps Engineer</text>
+<text x="498" y="130" font-size="12" fill="#d03b3b" text-anchor="start" font-weight="600">+5</text>
+<rect x="400" y="144" width="90" height="16" rx="4" fill="#d03b3b"/>
+<text x="392" y="156" font-size="12" fill="#898781" text-anchor="end">Physician</text>
+<text x="498" y="156" font-size="12" fill="#d03b3b" text-anchor="start" font-weight="600">+5</text>
+<rect x="400" y="170" width="72" height="16" rx="4" fill="#d03b3b"/>
+<text x="392" y="182" font-size="12" fill="#898781" text-anchor="end">Data Entry Clerk</text>
+<text x="480" y="182" font-size="12" fill="#d03b3b" text-anchor="start" font-weight="600">+4</text>
+<rect x="76" y="196" width="324" height="16" rx="4" fill="#0ca30c"/>
+<text x="408" y="208" font-size="12" fill="#898781" text-anchor="start">Lab Technician</text>
+<text x="68" y="208" font-size="12" fill="#0ca30c" text-anchor="end" font-weight="600">-18</text>
+<rect x="184" y="222" width="216" height="16" rx="4" fill="#0ca30c"/>
+<text x="408" y="234" font-size="12" fill="#898781" text-anchor="start">Healthcare Administrator</text>
+<text x="176" y="234" font-size="12" fill="#0ca30c" text-anchor="end" font-weight="600">-12</text>
+<rect x="202" y="248" width="198" height="16" rx="4" fill="#0ca30c"/>
+<text x="408" y="260" font-size="12" fill="#898781" text-anchor="start">Radiologist</text>
+<text x="194" y="260" font-size="12" fill="#0ca30c" text-anchor="end" font-weight="600">-11</text>
+<rect x="220" y="274" width="180" height="16" rx="4" fill="#0ca30c"/>
+<text x="408" y="286" font-size="12" fill="#898781" text-anchor="start">Paralegal</text>
+<text x="212" y="286" font-size="12" fill="#0ca30c" text-anchor="end" font-weight="600">-10</text>
+<line x1="400" y1="34" x2="400" y2="300" stroke="#898781" stroke-opacity="0.4"/>
+</svg>

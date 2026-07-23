@@ -1,0 +1,58 @@
+{
+ "slug": "data-analyst",
+ "title": "Data Analyst",
+ "category": "Technology",
+ "socCode": "15-2051",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 50,
+  "toolMaturity": 74,
+  "adoption": 62,
+  "agenticExposure": 54
+ },
+ "rationales": {
+  "taskAutomation": "Standard SQL queries, routine dashboard builds, and recurring reports make up half or more of core output, and AI now produces most of that directly.",
+  "toolMaturity": "BI copilots (Power BI Copilot, Tableau AI, Looker AI) are mature and widely shipped inside the standard analytics toolchain.",
+  "adoption": "AI-assisted BI is now a mainstream expectation at large and mid-market firms alike.",
+  "agenticExposure": "Dashboard refresh, standard report generation, and recurring query maintenance are agent-ownable pipelines today."
+ },
+ "tasksAtRisk": [
+  "Writing standard SQL queries and reports",
+  "Building and maintaining routine dashboards",
+  "Recurring business reporting and metric tracking",
+  "Basic data cleaning for known source systems"
+ ],
+ "tasksGrowing": [
+  "Framing ambiguous business questions into analysis plans",
+  "Stakeholder-facing insight synthesis and storytelling",
+  "Root-cause investigation on data anomalies"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 105000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-2051 (Data Scientists, closest analyst mapping), p25-p75",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Directing AI BI Copilots (Power BI, Tableau, Looker)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Business Problem Framing & Insight Storytelling",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "SQL + AI-Assisted Data Modeling",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI BI copilots now write the queries and refresh the dashboards that used to be most of this job. Analysts who frame the business question and tell the story behind the numbers are pulling away from analysts who just build reports.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Finance": 5,
+  "Retail": 3,
+  "Government": -8
+ }
+}

@@ -2,35 +2,45 @@
  "slug": "devops-engineer",
  "title": "DevOps Engineer",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-1252",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 38,
+  "toolMaturity": 68,
+  "adoption": 54,
+  "agenticExposure": 50
+ },
+ "rationales": {
+  "taskAutomation": "Standard CI/CD configs, IaC templates, and routine monitoring/alerting rules are now generated end-to-end by AI tooling; incident command and security architecture are not.",
+  "toolMaturity": "AIOps platforms and IaC copilots (GitHub Actions Copilot, Pulumi AI, AIOps alerting) are mature and embedded in mainstream pipelines.",
+  "adoption": "Common practice at tech-forward firms and large engineering orgs; spreading fast given the direct cost savings.",
+  "agenticExposure": "Agents can own pipeline configuration, routine provisioning, and first-pass incident triage end-to-end within a product cycle."
+ },
  "tasksAtRisk": [
-  "Writing CI/CD pipeline configurations",
-  "Infrastructure provisioning with templates",
-  "Log monitoring and basic alerting",
-  "Routine deployment processes"
+  "Writing and maintaining CI/CD pipeline configurations",
+  "Infrastructure provisioning from IaC templates",
+  "Routine log monitoring and alert-rule tuning",
+  "Standard deployment and rollback processes"
  ],
  "tasksGrowing": [
-  "Incident response and complex troubleshooting",
-  "Security-focused infrastructure design",
-  "Multi-cloud architecture optimization"
+  "Incident command and complex distributed-systems troubleshooting",
+  "Security-first infrastructure and zero-trust design",
+  "Multi-cloud architecture strategy and cost optimization"
  ],
  "salary": {
   "low": 115000,
   "high": 185000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers, closest DevOps mapping), p25-p75",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
-   "skill": "AIOps and Intelligent Automation",
-   "link": "/guides/ai-coding-tools/"
+   "skill": "AIOps & Agentic Pipeline Supervision",
+   "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "Cloud Security & Zero Trust",
+   "skill": "Cloud Security & Zero Trust Architecture",
    "link": "/guides/best-ai-certifications/"
   },
   {
@@ -38,7 +48,7 @@
    "link": "/guides/ai-career-paths/"
   }
  ],
- "insight": "AI is automating routine DevOps tasks like pipeline configs and basic monitoring. Engineers who focus on platform strategy, security, and incident response will see their value grow.",
+ "insight": "AI now writes and maintains most CI/CD configuration and IaC boilerplate directly. Engineers who move into platform strategy, incident command, and security architecture are the ones whose value keeps climbing as the routine plumbing disappears.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 2,

@@ -1,0 +1,59 @@
+{
+ "slug": "dispatcher",
+ "title": "Dispatcher",
+ "category": "Transportation & Logistics",
+ "socCode": "43-5032",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 48,
+  "toolMaturity": 62,
+  "adoption": 45,
+  "agenticExposure": 62
+ },
+ "rationales": {
+  "taskAutomation": "Load-driver matching, scheduling, and routing are largely digital decisions AI can already make; live exception handling and driver relationships still need a person for the harder calls.",
+  "toolMaturity": "AI-based load-matching and dispatch platforms (transportation management systems, digital freight marketplaces) are mature and commercially embedded.",
+  "adoption": "AI-assisted dispatch is common at large fleets and freight brokerages and spreading into mid-market operations.",
+  "agenticExposure": "Dispatch is fundamentally a pipeline of digital decisions and handoffs, matching, scheduling, tracking, rerouting, that autonomous agents can traverse end-to-end."
+ },
+ "tasksAtRisk": [
+  "Load-to-driver matching and scheduling",
+  "Route assignment and ETA tracking",
+  "Standard status updates to customers and drivers",
+  "Basic rebooking when a route falls through"
+ ],
+ "tasksGrowing": [
+  "Complex multi-party exception resolution (breakdowns, weather, disputes)",
+  "Driver relationship management and retention",
+  "Overseeing and correcting AI dispatch-system decisions"
+ ],
+ "salary": {
+  "low": 36000,
+  "high": 60000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-5032, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI dispatch and TMS platform oversight",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Exception handling and multi-party negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Driver and carrier relationship management",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Dispatch is one of the more exposed roles in this category precisely because it's a digital coordination job, not a physical one: routine matching, scheduling, and status updates are already agent-handled at many large fleets. The dispatchers who remain valuable are the ones running exception queues AI escalates to them, not the ones doing standard matching by hand.",
+ "industryModifiers": {
+  "Tech": 6,
+  "Retail": 5,
+  "Manufacturing": 3,
+  "Government": -10,
+  "Healthcare": -6
+ }
+}

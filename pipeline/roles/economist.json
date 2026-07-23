@@ -1,0 +1,51 @@
+{
+ "slug": "economist",
+ "title": "Economist",
+ "category": "Business & Finance",
+ "socCode": "19-3011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 45,
+  "adoption": 32,
+  "agenticExposure": 22
+ },
+ "rationales": {
+  "taskAutomation": "AI accelerates literature review, data pulls, and preliminary regressions, but original research design, causal interpretation, and policy judgment resist end-to-end automation.",
+  "toolMaturity": "LLM research assistants and statistical-modeling copilots are useful but not purpose-built or fully reliable for original economic research.",
+  "adoption": "Early adopters only: research economists experiment with AI for literature review and coding, but core analysis stays human-led.",
+  "agenticExposure": "Data gathering and preliminary statistical runs are agent-ownable prep work; the research question and policy interpretation are not."
+ },
+ "tasksAtRisk": [
+  "Literature review and data compilation",
+  "Preliminary statistical modeling and regressions",
+  "Standard report and chart generation"
+ ],
+ "tasksGrowing": [
+  "Original research design and causal analysis",
+  "Policy interpretation and recommendation",
+  "Communicating complex findings to non-technical stakeholders"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 150000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-3011 (Economists), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Original research design and causal inference",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-assisted data analysis and modeling",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Policy communication and stakeholder briefing",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI speeds up the literature review and the first regression, but the value of an economist is still in the research question and the judgment call about what the numbers actually mean for policy."
+}

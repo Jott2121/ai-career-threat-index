@@ -1,0 +1,51 @@
+{
+ "slug": "occupational-therapist",
+ "title": "Occupational Therapist",
+ "category": "Healthcare",
+ "socCode": "29-1122",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 12,
+  "toolMaturity": 45,
+  "adoption": 30,
+  "agenticExposure": 12
+ },
+ "rationales": {
+  "taskAutomation": "Progress documentation and standard outcome-measure tracking are automatable; hands-on functional assessment and treatment are not.",
+  "toolMaturity": "AI documentation and motion-tracking tools targeting rehab therapy are credible and improving, not yet standard equipment.",
+  "adoption": "Larger outpatient and telehealth-enabled practices are adopting AI documentation tools; broader adoption remains early.",
+  "agenticExposure": "Agents can generate home-program plans and track outcome measures, but hands-on functional treatment stays human."
+ },
+ "tasksAtRisk": [
+  "Progress note documentation",
+  "Outcome-measure tracking and reporting",
+  "Home exercise/activity program generation"
+ ],
+ "tasksGrowing": [
+  "Hands-on functional and adaptive-equipment assessment",
+  "Complex rehabilitation treatment planning",
+  "Patient and caregiver training"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 115000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1122 (Occupational Therapists), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Telehealth & Digital Rehab Platforms",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Assistive Technology & Adaptive Equipment Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Wearable Motion-Tracking Tools",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI now handles documentation and tracks recovery metrics, but functional rehabilitation is inherently hands-on work built around a specific patient's body and environment. Demand keeps climbing alongside an aging population and rising chronic-condition rates."
+}

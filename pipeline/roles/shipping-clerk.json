@@ -1,0 +1,52 @@
+{
+ "slug": "shipping-clerk",
+ "title": "Shipping Clerk",
+ "category": "Transportation & Logistics",
+ "socCode": "43-5071",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 55,
+  "toolMaturity": 62,
+  "adoption": 45,
+  "agenticExposure": 60
+ },
+ "rationales": {
+  "taskAutomation": "Manifest generation, label printing, and inventory reconciliation are digital-record work that makes up half or more of this role's core output.",
+  "toolMaturity": "Warehouse and inventory management AI tools are mature and standard across mid-size and large operations.",
+  "adoption": "Common among large and mid-market shippers and spreading further as WMS platforms become standard.",
+  "agenticExposure": "Order processing, manifest generation, and inventory reconciliation form a digital pipeline an agent can largely traverse end-to-end."
+ },
+ "tasksAtRisk": [
+  "Shipping label and manifest generation",
+  "Inventory reconciliation and stock-level updates",
+  "Order-status data entry and tracking",
+  "Standard invoice and packing-slip creation"
+ ],
+ "tasksGrowing": [
+  "Exception handling for damaged, missing, or misrouted shipments",
+  "Vendor and carrier coordination on discrepancies",
+  "Overseeing and correcting automated inventory systems"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 47000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-5071, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "WMS and inventory-AI system oversight",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Shipment exception and discrepancy resolution",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Vendor/carrier coordination for damaged or lost freight",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "This is one of the more exposed roles in the category: manifest generation, labeling, and inventory reconciliation are exactly the kind of digital record-processing work agentic tools already own end to end. Clerks who move toward exception handling and vendor coordination are furthest from the automated core."
+}

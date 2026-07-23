@@ -1,0 +1,56 @@
+{
+ "slug": "dental-hygienist",
+ "title": "Dental Hygienist",
+ "category": "Healthcare",
+ "socCode": "29-1292",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 8,
+  "toolMaturity": 30,
+  "adoption": 15,
+  "agenticExposure": 8
+ },
+ "rationales": {
+  "taskAutomation": "Cleanings, scaling and patient education are licensed physical acts performed chairside; almost none of the core task is digital.",
+  "toolMaturity": "Little purpose-built AI targets hygienist tasks directly; generic charting software is the extent of current tooling.",
+  "adoption": "AI has essentially no adoption footprint in the hygienist's actual task list beyond scheduling software.",
+  "agenticExposure": "Agents can handle recall scheduling and note templating, but the in-mouth procedure itself is untouched by agentic tools."
+ },
+ "tasksAtRisk": [
+  "Recall scheduling and reminder outreach",
+  "Charting and note templating",
+  "Insurance coding for routine cleanings"
+ ],
+ "tasksGrowing": [
+  "Periodontal scaling and root planing",
+  "Patient oral-health education and motivation",
+  "Early disease screening during cleanings"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 105000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1292 (Dental Hygienists), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Advanced Periodontal Therapy Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Practice Scheduling & AI Recall Systems",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Patient Education & Motivational Interviewing",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Hygiene work is a licensed physical act performed in a patient's mouth, one of the least AI-exposed jobs in health care. The only automatable slice is scheduling and note templating around the appointment.",
+ "industryModifiers": {
+  "Healthcare": 2,
+  "Government": -5,
+  "Retail": 2
+ }
+}

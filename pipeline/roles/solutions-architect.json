@@ -1,0 +1,52 @@
+{
+ "slug": "solutions-architect",
+ "title": "Solutions Architect",
+ "category": "Technology",
+ "socCode": "15-1211",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 50,
+  "adoption": 42,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "AI can draft standard integration diagrams and proposal boilerplate; enterprise stakeholder negotiation and architectural tradeoff decisions are not automatable.",
+  "toolMaturity": "AI diagramming and proposal-drafting tools are credible but still generic rather than purpose-built for enterprise solution design.",
+  "adoption": "Early-to-mainstream adoption in enterprise consulting and pre-sales engineering functions.",
+  "agenticExposure": "Agents can draft technical documentation and diagrams from a stated design; the design decision and client negotiation stay with the architect."
+ },
+ "tasksAtRisk": [
+  "Drafting standard integration architecture diagrams",
+  "Writing first-pass proposal and SOW boilerplate",
+  "Documenting reference implementations",
+  "Producing cost/effort estimate spreadsheets"
+ ],
+ "tasksGrowing": [
+  "Enterprise stakeholder negotiation and requirements discovery",
+  "Architectural tradeoff decisions under real constraints",
+  "Pre-sales technical strategy for complex, multi-vendor deals"
+ ],
+ "salary": {
+  "low": 125000,
+  "high": 195000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1211 (Computer Systems Analysts, closest solutions-architecture mapping), p25-p75",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Solution Diagramming & Documentation",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Enterprise Requirements Discovery & Negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Multi-Vendor Architecture Tradeoff Analysis",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI now handles the first draft of the diagram and the proposal document. What still requires a person is sitting across from a client, understanding what they actually need, and owning the tradeoff decision when the textbook answer doesn't fit their constraints."
+}

@@ -1,0 +1,52 @@
+{
+ "slug": "diesel-mechanic",
+ "title": "Diesel Mechanic",
+ "category": "Skilled Trades & Construction",
+ "socCode": "49-3031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 16,
+  "toolMaturity": 46,
+  "adoption": 28,
+  "agenticExposure": 9
+ },
+ "rationales": {
+  "taskAutomation": "Telematics-based fault codes and fleet-diagnostic software automate a real share of triage, but teardown, part replacement and DOT-compliance inspection stay manual.",
+  "toolMaturity": "Fleet telematics and AI-assisted diagnostic platforms are mature and widely deployed across trucking and bus fleets.",
+  "adoption": "Large fleet operators have adopted predictive-maintenance and diagnostic AI broadly; owner-operator shops lag.",
+  "agenticExposure": "An agent can flag a fault from telematics data and schedule a bay, not replace a turbo or pass a DOT inspection."
+ },
+ "tasksAtRisk": [
+  "Fault-code triage from fleet telematics data",
+  "Preventive-maintenance scheduling across a fleet",
+  "Parts ordering and inventory matching",
+  "DOT inspection paperwork and compliance logging"
+ ],
+ "tasksGrowing": [
+  "Complex engine and drivetrain teardown and repair",
+  "Electric and hybrid truck drivetrain servicing",
+  "Diagnosing intermittent faults telematics data misses"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 78000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 49-3031, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Fleet telematics and predictive-maintenance platform fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Electric/hybrid heavy-truck drivetrain certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "DOT compliance and fleet-inspection expertise",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Diesel mechanics see moderate exposure because fleet telematics and AI-assisted diagnostics are mature and mainstream among large carriers, automating first-level fault triage, while the physical repair work and DOT-compliance judgment stay firmly manual."
+}

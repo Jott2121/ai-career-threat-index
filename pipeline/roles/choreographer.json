@@ -1,0 +1,45 @@
+{
+ "slug": "choreographer",
+ "title": "Choreographer",
+ "category": "Creative",
+ "socCode": "27-2032",
+ "tier": 2,
+ "subscores": {"taskAutomation": 12, "toolMaturity": 40, "adoption": 15, "agenticExposure": 8},
+ "rationales": {
+  "taskAutomation": "Creating and directing original dance and movement is an embodied, in-person craft with almost no automatable digital component.",
+  "toolMaturity": "AI motion-generation exists for game and film pre-visualization but has no real product targeting live choreography or dance direction.",
+  "adoption": "Adoption in professional dance and stage choreography is essentially nonexistent outside novelty digital-avatar projects.",
+  "agenticExposure": "Agents have no meaningful path into directing live performers' physical movement."
+ },
+ "tasksAtRisk": [
+  "Reference-clip research and archival movement documentation",
+  "Basic administrative scheduling for rehearsals",
+  "Music-cue timing sheets and rehearsal-note transcription"
+ ],
+ "tasksGrowing": [
+  "Original movement creation and performance direction",
+  "Live rehearsal coaching and performer feedback"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 75000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-2032 Choreographers, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Rehearsal Documentation & Scheduling Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Original Movement Creation & Performance Direction",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Live Performer Coaching & Feedback Craft",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Choreography is one of the most physically embodied creative professions, and current AI has essentially no path into directing a live performer's movement. Administrative and documentation tasks around the craft are the only exposed slice."
+}

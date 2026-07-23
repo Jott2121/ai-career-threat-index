@@ -1,0 +1,51 @@
+{
+ "slug": "ironworker",
+ "title": "Ironworker",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2221",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 7,
+  "toolMaturity": 26,
+  "adoption": 14,
+  "agenticExposure": 5
+ },
+ "rationales": {
+  "taskAutomation": "Erecting and connecting structural steel at height is manual, safety-critical physical work with no automated substitute in field conditions.",
+  "toolMaturity": "No purpose-built AI tooling targets structural ironwork; robotic steel erection remains research-stage, not deployed on active job sites.",
+  "adoption": "Adoption of any AI or robotic tooling in ironwork is essentially nonexistent on active commercial job sites.",
+  "agenticExposure": "An agent can track steel-delivery schedules against an erection plan; it cannot connect a beam at height."
+ },
+ "tasksAtRisk": [
+  "Steel-delivery and erection-sequence scheduling",
+  "Material tracking against fabrication drawings",
+  "Basic safety-checklist documentation"
+ ],
+ "tasksGrowing": [
+  "Structural connection and high-rise erection judgment",
+  "Rigging and crane-coordination expertise",
+  "Cross-training into rebar and reinforcing work"
+ ],
+ "salary": {
+  "low": 44000,
+  "high": 78000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2221, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Advanced rigging and high-rise erection certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Crane-coordination and structural-connection expertise",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Fabrication-drawing and scheduling software literacy",
+   "link": "/guides/ai-coding-tools/"
+  }
+ ],
+ "insight": "Ironwork sits at the floor of this index: structural steel erection at height is inherently manual and safety-critical, and demand is rising with the data-center and infrastructure construction boom."
+}

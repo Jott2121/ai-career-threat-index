@@ -1,0 +1,51 @@
+{
+ "slug": "concierge",
+ "title": "Concierge",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-6012",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 48,
+  "toolMaturity": 65,
+  "adoption": 35,
+  "agenticExposure": 50
+ },
+ "rationales": {
+  "taskAutomation": "Recommendations, reservation booking, and local-information Q&A are largely digital information-matching tasks that chatbots already handle well.",
+  "toolMaturity": "AI concierge chatbots are mature and deployed at scale across major hospitality brands and luxury residential buildings.",
+  "adoption": "Adoption is meaningful at large hotel chains and upscale properties but still spreading into independent and boutique properties.",
+  "agenticExposure": "Recommendation matching, reservation booking, and itinerary suggestions form a strongly agent-ownable pipeline."
+ },
+ "tasksAtRisk": [
+  "Restaurant and activity reservation booking",
+  "Standard local-recommendation Q&A",
+  "Transportation and ticket arrangement"
+ ],
+ "tasksGrowing": [
+  "High-touch VIP and complex request handling",
+  "Building relationships with local vendors for exclusive access",
+  "Real-time problem-solving for guest emergencies"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-6012, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "VIP and complex-request handling",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI concierge chatbot oversight and escalation management",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Local vendor relationship-building for exclusive access",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI concierge chatbots now handle the reservation-and-recommendation baseline well enough that guests rarely notice. The role has shifted toward the requests a chatbot escalates: the impossible booking, the emergency, the guest who wants a person, not a menu of options."
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "solar-installer",
+ "title": "Solar Installer",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2231",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 16,
+  "toolMaturity": 48,
+  "adoption": 33,
+  "agenticExposure": 11
+ },
+ "rationales": {
+  "taskAutomation": "System design, permitting paperwork and site-assessment modeling are increasingly AI-automated, but panel mounting, electrical tie-in and roof-safety work remain manual.",
+  "toolMaturity": "AI-assisted solar design and permitting platforms (automated shade analysis, permit-package generation) are credible, shipped products used across the industry.",
+  "adoption": "Most solar installation companies now use automated design software for proposals and permitting; it's close to standard practice in the residential segment.",
+  "agenticExposure": "An agent can generate a system design, permit package and proposal from a satellite image; it cannot climb the roof and land the conduit."
+ },
+ "tasksAtRisk": [
+  "System design and shade-analysis modeling from site imagery",
+  "Permit-package generation and utility interconnection paperwork",
+  "Proposal and financing-option generation for customers",
+  "Site-assessment scheduling"
+ ],
+ "tasksGrowing": [
+  "Rooftop mounting, wiring and electrical tie-in work",
+  "Battery-storage and microgrid system commissioning",
+  "Troubleshooting non-standard roof and structural conditions AI design tools flag incorrectly"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 68000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2231, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Battery-storage and microgrid commissioning certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI solar-design and permitting software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Electrification and energy-consulting skills for customers",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Solar installation shows one of the fastest tool-maturity curves in the trades: AI-driven design and permitting software is now close to standard practice, automating the proposal-to-permit pipeline. The physical install, especially battery and microgrid commissioning as storage attaches to more systems, is where the job's growth and its floor against automation both sit.",
+ "industryModifiers": {
+  "Energy": 12,
+  "Tech": 8,
+  "Government": -6,
+  "Real Estate": 4
+ }
+}

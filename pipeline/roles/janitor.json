@@ -1,0 +1,51 @@
+{
+ "slug": "janitor",
+ "title": "Janitor",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "37-2011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 35,
+  "adoption": 15,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Cleaning varied commercial spaces is unstructured physical work; only floor care in large open areas is meaningfully automatable today.",
+  "toolMaturity": "Autonomous floor-scrubbing robots are mature and deployed in large retail and warehouse spaces.",
+  "adoption": "Adoption is concentrated in big-box retail and large commercial floors; most janitorial work in smaller or mixed spaces stays manual.",
+  "agenticExposure": "Task scheduling and supply reordering are agent-ownable slices; general cleaning and maintenance response are not."
+ },
+ "tasksAtRisk": [
+  "Large open-floor cleaning in retail and warehouse spaces",
+  "Supply inventory and reorder flagging",
+  "Cleaning schedule and task-list generation"
+ ],
+ "tasksGrowing": [
+  "Cleaning irregular and detail-heavy spaces (restrooms, offices)",
+  "Building maintenance and minor-repair response",
+  "Handling spills, hazards, and emergency cleanup"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 40000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 37-2011, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Autonomous cleaning-robot operation and oversight",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Building maintenance and minor-repair skills",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Hazard response and safety-compliance training",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Autonomous scrubbers already handle open floor space in big-box stores and warehouses overnight. Everything irregular, restrooms, offices, spills, hazards, still needs a person, and increasingly that person also supervises the robot."
+}

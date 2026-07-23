@@ -1,0 +1,51 @@
+{
+ "slug": "bus-driver",
+ "title": "Bus Driver",
+ "category": "Transportation & Logistics",
+ "socCode": "53-3052",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 15,
+  "toolMaturity": 40,
+  "adoption": 8,
+  "agenticExposure": 10
+ },
+ "rationales": {
+  "taskAutomation": "Autonomous transit shuttles run on a handful of fixed, low-speed routes, but mixed-traffic city and highway bus routes with passenger safety obligations remain human-driven.",
+  "toolMaturity": "Autonomous shuttle products (May Mobility and similar) exist and are improving, but remain low-speed, fixed-route pilots rather than general bus replacements.",
+  "adoption": "A small number of transit agencies run autonomous shuttle pilots; the overwhelming majority of transit and intercity bus service is entirely human-driven.",
+  "agenticExposure": "Scheduling and route-timing optimization are agent-assistable; the driving and passenger-safety core is not."
+ },
+ "tasksAtRisk": [
+  "Route-timing optimization and scheduling",
+  "Fare-collection recordkeeping",
+  "Standard fixed-route driving on low-speed campus/shuttle lines"
+ ],
+ "tasksGrowing": [
+  "Passenger safety response and de-escalation",
+  "Mixed-traffic and adverse-weather driving",
+  "Accessibility assistance for riders"
+ ],
+ "salary": {
+  "low": 38000,
+  "high": 60000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-3052, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Passenger safety and de-escalation training",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Accessibility and specialized-transit certification",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Fleet telematics and scheduling-tool fluency",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Autonomous shuttle pilots are real but confined to fixed, low-speed routes; mixed-traffic transit and intercity bus driving, with the safety and liability obligations of carrying passengers, is not close to automatable at production reliability."
+}

@@ -1,0 +1,46 @@
+{
+ "slug": "set-designer",
+ "title": "Set Designer",
+ "category": "Creative",
+ "socCode": "27-1027",
+ "tier": 2,
+ "subscores": {"taskAutomation": 30, "toolMaturity": 55, "adoption": 35, "agenticExposure": 22},
+ "rationales": {
+  "taskAutomation": "AI can generate concept renders and mood boards for a set quickly, but physical build feasibility, materials sourcing, and on-site construction oversight remain hands-on work.",
+  "toolMaturity": "Visualization and rendering tools are moderately mature, but no product manages the physical build process a set designer runs.",
+  "adoption": "Adoption is limited to early concept and pitch-deck visualization; production and build phases remain manual.",
+  "agenticExposure": "Agents can generate and iterate concept visuals, but they cannot walk a soundstage floor or supervise a build crew."
+ },
+ "tasksAtRisk": [
+  "Concept rendering and mood-board generation for pitches",
+  "Reference-image gathering and research boards",
+  "Historical/period-style research for production design"
+ ],
+ "tasksGrowing": [
+  "Physical build feasibility and materials engineering",
+  "On-site construction supervision and crew coordination",
+  "Original set concepts for signature productions"
+ ],
+ "salary": {
+  "low": 42000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-1027 Set and Exhibit Designers, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Concept Rendering & Visualization Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Physical Build Feasibility & Materials Expertise",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "On-Site Production Supervision",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI speeds up concept pitches and mood boards, but a set designer's real value is running a physical build a director can actually shoot on. That work stays firmly in the physical world."
+}

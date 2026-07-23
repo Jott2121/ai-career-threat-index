@@ -1,0 +1,51 @@
+{
+ "slug": "warehouse-manager",
+ "title": "Warehouse Manager",
+ "category": "Administrative & Operations",
+ "socCode": "11-3071",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 58,
+  "adoption": 42,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "Shift scheduling and throughput reporting are increasingly AI-generated, but running a physical warehouse floor — safety, labor management, equipment issues — requires on-site human judgment.",
+  "toolMaturity": "Warehouse management system (WMS) analytics and AI forecasting tools are credible and improving, but do not replace floor-level operational management.",
+  "adoption": "Common in large logistics and retail distribution operations for planning support; the management function itself is not being automated away.",
+  "agenticExposure": "Scheduling and reporting are agent-ownable slices; core physical-floor leadership and safety accountability are not."
+ },
+ "tasksAtRisk": [
+  "Routine shift scheduling and labor allocation",
+  "Standard inventory and throughput reporting",
+  "Basic safety-checklist compliance tracking"
+ ],
+ "tasksGrowing": [
+  "Frontline team leadership and safety culture",
+  "Vendor, carrier, and 3PL relationship management",
+  "Crisis response to equipment failure or labor shortages"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-3071 (Transportation, Storage, and Distribution Managers), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Warehouse Safety Leadership & Compliance",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-Augmented WMS Analytics & Forecasting",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Frontline Team Management",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now handles the scheduling math and throughput reporting, but running a physical floor safely still takes a person who can read the room and react to a forklift breakdown. That keeps this role solidly Low risk."
+}

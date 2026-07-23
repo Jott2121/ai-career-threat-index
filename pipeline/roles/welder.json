@@ -1,0 +1,58 @@
+{
+ "slug": "welder",
+ "title": "Welder",
+ "category": "Skilled Trades & Construction",
+ "socCode": "51-4121",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 9,
+  "toolMaturity": 38,
+  "adoption": 22,
+  "agenticExposure": 7
+ },
+ "rationales": {
+  "taskAutomation": "Field and structural welding demands manual dexterity and real-time visual judgment that current robotic and AI systems can't replicate outside fixed factory cells.",
+  "toolMaturity": "Robotic welding is mature in high-volume manufacturing, but that tooling doesn't reach field and structural welders working one-off joints on site.",
+  "adoption": "Adoption is concentrated in automotive and heavy-manufacturing plants; construction and field welding remain almost entirely manual.",
+  "agenticExposure": "Agents can track weld logs, certifications and inspection paperwork, but cannot run a bead or pass a destructive weld test."
+ },
+ "tasksAtRisk": [
+  "Weld procedure documentation and certification tracking",
+  "Materials and consumables ordering",
+  "Inspection-report logging and photo documentation",
+  "Job scheduling across multiple sites"
+ ],
+ "tasksGrowing": [
+  "Structural and pressure-vessel welding requiring certified judgment",
+  "Reading and adapting to non-standard field joints and repairs",
+  "Cross-training on new alloys and welding processes as materials evolve"
+ ],
+ "salary": {
+  "low": 38000,
+  "high": 68000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 51-4121, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Advanced certifications (AWS D1.1, pipe, pressure-vessel)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Weld-log and documentation software fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Cross-training into robotic-weld-cell tending",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Field welding stays low-risk because robotic welding, though mature, is confined to fixed factory cells and hasn't reached one-off structural and site work. The exposure that exists is administrative: certification tracking and inspection logs, not the weld itself.",
+ "industryModifiers": {
+  "Manufacturing": 10,
+  "Energy": 8,
+  "Government": -8,
+  "Real Estate": -4
+ }
+}

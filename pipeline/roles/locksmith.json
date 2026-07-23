@@ -1,0 +1,51 @@
+{
+ "slug": "locksmith",
+ "title": "Locksmith",
+ "category": "Skilled Trades & Construction",
+ "socCode": "49-9094",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 13,
+  "toolMaturity": 35,
+  "adoption": 22,
+  "agenticExposure": 7
+ },
+ "rationales": {
+  "taskAutomation": "Mechanical lockout and key-cutting work is manual and physical; access-control system programming is the growing automatable/digital slice.",
+  "toolMaturity": "Smart-lock and access-control management software is credible and improving, shipped by major security vendors.",
+  "adoption": "Adoption is growing among commercial locksmiths managing electronic access-control systems; residential lockout work remains manual.",
+  "agenticExposure": "An agent can provision and audit access-control credentials remotely; it cannot pick a lock or rekey a physical cylinder on site."
+ },
+ "tasksAtRisk": [
+  "Access-control credential provisioning and audit logs",
+  "Scheduling and dispatch of service calls",
+  "Invoice and estimate generation"
+ ],
+ "tasksGrowing": [
+  "Smart-lock and electronic access-control system installation",
+  "Commercial security-system integration consulting",
+  "Complex mechanical lockout and safe work"
+ ],
+ "salary": {
+  "low": 36000,
+  "high": 62000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 49-9094, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Electronic access-control and smart-lock certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Security-system integration consulting skills",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Access-control management software fluency",
+   "link": "/guides/ai-coding-tools/"
+  }
+ ],
+ "insight": "Locksmithing's risk is modest and shifting: mechanical lockout work stays entirely manual, while growth in smart-lock and access-control system installation is reshaping the job's digital half."
+}

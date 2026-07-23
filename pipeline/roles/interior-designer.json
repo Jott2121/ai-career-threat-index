@@ -1,0 +1,46 @@
+{
+ "slug": "interior-designer",
+ "title": "Interior Designer",
+ "category": "Creative",
+ "socCode": "27-1025",
+ "tier": 2,
+ "subscores": {"taskAutomation": 35, "toolMaturity": 60, "adoption": 42, "agenticExposure": 28},
+ "rationales": {
+  "taskAutomation": "AI can generate mood boards, rendering concepts, and layout options quickly, but site measurement, code compliance, vendor coordination, and client relationship management remain human-gated.",
+  "toolMaturity": "AI rendering and visualization tools are credible and improving fast, but no product yet handles the full designer workflow from concept to procurement.",
+  "adoption": "A growing share of designers use AI for early-concept renders and mood boards, but most of the specification and procurement workflow stays manual.",
+  "agenticExposure": "Agents can produce and iterate visualization concepts quickly, but on-site work, code compliance, and vendor negotiation stay outside agent reach."
+ },
+ "tasksAtRisk": [
+  "Mood board and concept rendering generation",
+  "Furniture and material option curation from a brief",
+  "Basic floor-plan layout variations"
+ ],
+ "tasksGrowing": [
+  "On-site space planning and code-compliance review",
+  "Client relationship management and vendor negotiation",
+  "Custom millwork and bespoke design detailing"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-1025 Interior Designers, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Rendering & Visualization Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Code Compliance & Site-Condition Expertise",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Client Relationship & Vendor Management",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now speeds up mood boards and concept renders, but the physical realities of a space — code compliance, site conditions, procurement — still require a human designer on-site. Concept visualization is commoditizing faster than the execution work around it."
+}

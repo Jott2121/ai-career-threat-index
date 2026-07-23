@@ -1,0 +1,57 @@
+{
+ "slug": "medical-assistant",
+ "title": "Medical Assistant",
+ "category": "Healthcare",
+ "socCode": "31-9092",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 55,
+  "adoption": 42,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "Rooming documentation, vitals entry, scheduling and basic charting are substantially automatable; hands-on patient prep and clinical support tasks are not.",
+  "toolMaturity": "AI scribing and intake-automation tools aimed at ambulatory care are credible and spreading through EHR vendors.",
+  "adoption": "Adoption is common in larger clinics and health-system-owned practices, spreading into independent offices.",
+  "agenticExposure": "Agents can own intake documentation, scheduling and routine follow-up messaging, but vitals-taking and direct patient prep stay physical."
+ },
+ "tasksAtRisk": [
+  "Rooming and vitals documentation",
+  "Appointment scheduling and reminders",
+  "Basic chart updates and intake forms",
+  "Prior-authorization and referral paperwork"
+ ],
+ "tasksGrowing": [
+  "Hands-on clinical support (injections, specimen collection)",
+  "Patient triage and communication",
+  "Cross-training into higher-scope clinical roles"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 50000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 31-9092 (Medical Assistants), p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Intake & Scheduling Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Clinical Certification Advancement (CMA, RMA)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Care Coordination & Patient Communication",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI intake and scheduling tools are absorbing a real share of front-desk and documentation work in clinics. Medical assistants who move toward hands-on clinical support and cross-train into higher-scope roles have the clearest path forward.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Government": -5,
+  "Retail": 2
+ }
+}

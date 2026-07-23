@@ -1,0 +1,51 @@
+{
+ "slug": "appliance-repair-technician",
+ "title": "Appliance Repair Technician",
+ "category": "Skilled Trades & Construction",
+ "socCode": "49-9031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 17,
+  "toolMaturity": 48,
+  "adoption": 30,
+  "agenticExposure": 9
+ },
+ "rationales": {
+  "taskAutomation": "Fault-code lookup and diagnostic-app guidance automate a real share of triage on smart appliances, but disassembly and part replacement stay manual.",
+  "toolMaturity": "Manufacturer diagnostic apps and AI-assisted troubleshooting guides for smart appliances are mature and widely deployed.",
+  "adoption": "Adoption is common among larger appliance-service companies using manufacturer diagnostic platforms; independent techs vary.",
+  "agenticExposure": "An agent can interpret a smart appliance's fault code and order the part, not open the unit and make the repair."
+ },
+ "tasksAtRisk": [
+  "Fault-code lookup and diagnostic-app triage",
+  "Parts ordering and inventory matching",
+  "Service scheduling and dispatch"
+ ],
+ "tasksGrowing": [
+  "Smart-appliance and IoT-connected system troubleshooting",
+  "Diagnosing failures diagnostic apps misclassify",
+  "Customer consultation on repair-vs-replace decisions"
+ ],
+ "salary": {
+  "low": 36000,
+  "high": 60000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 49-9031, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Smart-appliance and IoT diagnostic platform fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Manufacturer-specific certification programs",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Repair-vs-replace consulting skills",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Appliance repair shows moderate exposure as manufacturer diagnostic apps mature, but the trend is mixed: smart appliances create more diagnostic complexity even as consumers increasingly replace rather than repair low-cost units."
+}

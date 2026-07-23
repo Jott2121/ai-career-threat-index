@@ -1,0 +1,51 @@
+{
+ "slug": "barber",
+ "title": "Barber",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-5011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 25,
+  "adoption": 10,
+  "agenticExposure": 12
+ },
+ "rationales": {
+  "taskAutomation": "Cutting hair and shaping facial hair are precise, physical, client-specific tasks that current tools can't perform end-to-end.",
+  "toolMaturity": "AI styling-preview apps exist for consultation, but no product performs the physical cut or shave.",
+  "adoption": "AI adoption in barbershops is limited to booking and occasional style-preview apps; the core service is untouched.",
+  "agenticExposure": "Scheduling and reminder messaging are agent-ownable; the haircut and shave are not."
+ },
+ "tasksAtRisk": [
+  "Appointment scheduling and reminders",
+  "Basic retail product recommendations",
+  "Inventory tracking for retail hair products"
+ ],
+ "tasksGrowing": [
+  "Precision cutting and shaving technique",
+  "Client relationship and neighborhood-shop culture",
+  "Building a personal client book"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 50000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-5011, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Precision cutting and traditional shave technique",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI booking and client-management app fluency",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Client-book building and community reputation",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "No AI tool has come close to performing a haircut or straight-razor shave. Exposure here is confined entirely to scheduling and admin, not the chair."
+}

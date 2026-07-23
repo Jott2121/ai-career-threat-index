@@ -1,0 +1,59 @@
+{
+ "slug": "chef",
+ "title": "Chef",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "35-1011",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 18,
+  "toolMaturity": 40,
+  "adoption": 22,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "Cooking, plating, and real-time kitchen judgment in an unstructured environment remain physical craft; only menu costing and reordering are cleanly automatable.",
+  "toolMaturity": "AI meal-kit and recipe-generation tools are widespread, but purpose-built kitchen robotics remain pilot-stage outside a handful of high-volume chains.",
+  "adoption": "Independent restaurants and most chains still run kitchens on human judgment; AI shows up in back-office ordering and menu engineering, not on the line.",
+  "agenticExposure": "Inventory reordering, prep-list generation, and food-cost tracking are agent-ownable back-office slices; live cooking is not."
+ },
+ "tasksAtRisk": [
+  "Recipe costing and menu-margin calculations",
+  "Purchase ordering and inventory reordering",
+  "Nutrition labeling and allergen documentation",
+  "Basic recipe scaling for catering orders"
+ ],
+ "tasksGrowing": [
+  "Menu creativity and seasonal dish development",
+  "Live service judgment during a rush",
+  "Staff training and kitchen culture leadership",
+  "Guest-facing tasting and event appearances"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 35-1011, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-assisted food-cost and inventory forecasting",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Menu R&D and flavor-pairing innovation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Kitchen team leadership under live service pressure",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Line cooking and plating still require dexterity and split-second judgment no kitchen robot handles at scale, so chefs stay largely insulated. The exposure sits in the office: AI now drafts prep lists, forecasts food cost, and reorders inventory, shrinking the admin half of the job faster than the culinary half.",
+ "industryModifiers": {
+  "Healthcare": 6,
+  "Government": 5,
+  "Tech": 3,
+  "Finance": -6
+ }
+}

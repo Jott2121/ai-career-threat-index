@@ -1,0 +1,51 @@
+{
+ "slug": "veterinary-technician",
+ "title": "Veterinary Technician",
+ "category": "Healthcare",
+ "socCode": "29-2056",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 18,
+  "toolMaturity": 42,
+  "adoption": 28,
+  "agenticExposure": 16
+ },
+ "rationales": {
+  "taskAutomation": "Charting, standard lab processing and client-reminder communication carry a meaningful digital share; animal handling and hands-on clinical support are not automatable.",
+  "toolMaturity": "AI tools targeting veterinary tech workflows are early and mostly generic, borrowed from human lab-automation products.",
+  "adoption": "Adoption is concentrated in larger corporate veterinary chains; most independent clinics use little beyond practice-management software.",
+  "agenticExposure": "Agents can handle appointment reminders and routine chart entries, but restraint, sample collection and hands-on animal care stay physical."
+ },
+ "tasksAtRisk": [
+  "Client reminder and follow-up communication",
+  "Routine chart and record documentation",
+  "Standard in-house lab processing"
+ ],
+ "tasksGrowing": [
+  "Animal restraint and hands-on clinical support",
+  "Anesthesia monitoring during procedures",
+  "Client education on treatment plans"
+ ],
+ "salary": {
+  "low": 37000,
+  "high": 52000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-2056 (Veterinary Technologists and Technicians), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Veterinary Anesthesia & Monitoring Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Practice Management AI Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Client Communication & Education",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Veterinary tech work is hands-on animal care with a modest paperwork layer around it, and AI tooling for this specific role is still immature. Corporate consolidation and staffing shortages are bigger near-term forces than automation."
+}

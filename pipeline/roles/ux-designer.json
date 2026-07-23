@@ -2,27 +2,37 @@
  "slug": "ux-designer",
  "title": "UX Designer",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-1255",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 62,
+  "adoption": 46,
+  "agenticExposure": 34
+ },
+ "rationales": {
+  "taskAutomation": "AI now generates wireframes, mockup variations, and design-system components directly, but user research and strategic design judgment still gate real product outcomes.",
+  "toolMaturity": "AI design tools (Figma AI, Galileo) are credible and improving fast, not yet as embedded as coding copilots.",
+  "adoption": "Adoption is spreading across tech-forward product teams but not yet a universal baseline.",
+  "agenticExposure": "Agents can generate and iterate on component variations; user research and interaction strategy stay with designers."
+ },
  "tasksAtRisk": [
-  "Creating wireframes and basic mockups",
+  "Creating wireframes and first-pass mockups",
   "Generating design variations and iterations",
-  "Building design system components",
+  "Building and maintaining design-system components",
   "Producing placeholder content and copy"
  ],
  "tasksGrowing": [
-  "User research and behavioral insights",
+  "User research and behavioral insight synthesis",
   "AI interaction design and conversational UX",
-  "Strategic design thinking for complex products"
+  "Strategic design thinking for ambiguous, high-stakes products"
  ],
  "salary": {
   "low": 85000,
   "high": 150000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-1255 (Web and Digital Interface Designers), p25-p75",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
@@ -34,11 +44,11 @@
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "AI Design Tools (Figma AI, Galileo)",
+   "skill": "Directing AI Design Tools (Figma AI, Galileo)",
    "link": "/guides/ai-coding-tools/"
   }
  ],
- "insight": "AI can generate mockups and variations fast, but understanding user needs, designing for AI-human interaction, and strategic design thinking remain deeply human skills.",
+ "insight": "AI can generate mockups and component variations fast, but understanding real user needs and designing for AI-human interaction remain judgment calls a model can't make on its own.",
  "industryModifiers": {
   "Tech": 5,
   "Healthcare": -3,

@@ -1,0 +1,51 @@
+{
+ "slug": "flooring-installer",
+ "title": "Flooring Installer",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2042",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 30,
+  "adoption": 18,
+  "agenticExposure": 6
+ },
+ "rationales": {
+  "taskAutomation": "Installing hardwood, tile and resilient flooring is manual craft; material takeoff and scheduling are the automatable slice.",
+  "toolMaturity": "Digital takeoff and room-measurement apps are credible and improving, similar to other trade-estimating tools.",
+  "adoption": "Adoption is growing among larger flooring retailers and installation companies for measurement and quoting.",
+  "agenticExposure": "An agent can calculate square footage and material waste factors from a floor plan, not lay a plank or set a tile to level."
+ },
+ "tasksAtRisk": [
+  "Room measurement and material-quantity takeoff",
+  "Quote and estimate generation",
+  "Scheduling and material ordering"
+ ],
+ "tasksGrowing": [
+  "Subfloor repair and moisture-remediation judgment",
+  "Custom pattern and specialty flooring installation",
+  "Adapting to out-of-level or damaged subfloor conditions"
+ ],
+ "salary": {
+  "low": 38000,
+  "high": 65000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2042, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Subfloor repair and moisture-remediation expertise",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Digital measurement and takeoff software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Specialty and custom-pattern installation certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Flooring installation carries low risk: the craft itself resists automation, with AI tools reaching only the room-measurement and quoting step ahead of the job."
+}

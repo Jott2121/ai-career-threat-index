@@ -1,0 +1,58 @@
+{
+ "slug": "carpenter",
+ "title": "Carpenter",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2031",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 32,
+  "adoption": 20,
+  "agenticExposure": 7
+ },
+ "rationales": {
+  "taskAutomation": "Framing, finish work and on-site problem-solving are manual craft; only cut-list generation and material ordering are reliably automatable.",
+  "toolMaturity": "CAD-driven cut-list and takeoff software is credible and improving, but nothing automates the physical build.",
+  "adoption": "Larger framing crews and production builders increasingly use digital takeoff tools; custom and finish carpenters mostly do not.",
+  "agenticExposure": "An agent can generate cut lists and order lumber from a plan set, not frame a wall or fit trim to an out-of-square corner."
+ },
+ "tasksAtRisk": [
+  "Cut-list generation from digital plans",
+  "Material takeoff and lumber ordering",
+  "Job-cost estimating for bids",
+  "Project schedule updates for supervisors"
+ ],
+ "tasksGrowing": [
+  "Custom finish work and on-site design problem-solving",
+  "Coordinating trade sequencing on multi-crew jobs",
+  "Reading and adapting to as-built site conditions AI plans miss"
+ ],
+ "salary": {
+  "low": 42000,
+  "high": 78000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2031, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Digital takeoff and cut-list software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Finish carpentry and custom fabrication specialization",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Crew lead and trade-sequencing coordination",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Carpentry's risk is capped by the physical craft: framing, trim and site-adapted problem-solving resist automation, while digital cut-list and takeoff tools quietly speed up the estimating side of the job. Carpenters who can run that software and lead multi-trade sequencing are the best-positioned in the trade.",
+ "industryModifiers": {
+  "Real Estate": 6,
+  "Government": -7,
+  "Manufacturing": -3,
+  "Tech": 5
+ }
+}

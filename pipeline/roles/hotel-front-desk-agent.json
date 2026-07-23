@@ -1,0 +1,51 @@
+{
+ "slug": "hotel-front-desk-agent",
+ "title": "Hotel Front Desk Agent",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "43-4081",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 55,
+  "toolMaturity": 70,
+  "adoption": 55,
+  "agenticExposure": 60
+ },
+ "rationales": {
+  "taskAutomation": "Check-in, check-out, and basic reservation and FAQ handling are highly standardized information tasks that mobile check-in and kiosks already perform end-to-end.",
+  "toolMaturity": "Mobile check-in, keyless entry, and AI chatbot concierge tools are mature and deployed across major hotel brands.",
+  "adoption": "Mobile check-in and self-service kiosks are now mainstream at mid-size and large chains, with adoption still spreading to independents.",
+  "agenticExposure": "Reservation lookup, room assignment, and check-in/out confirmation form a complete agent-traversable booking pipeline."
+ },
+ "tasksAtRisk": [
+  "Standard check-in and check-out processing",
+  "Room assignment and key issuance",
+  "Basic reservation changes and FAQ responses"
+ ],
+ "tasksGrowing": [
+  "Service recovery for guest complaints",
+  "Local recommendations tailored to individual guests",
+  "Handling groups, VIPs, and non-standard requests"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 35000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-4081, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Guest-service recovery for escalated complaints",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Hotel PMS and AI check-in system administration",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Cross-training toward guest-relations or revenue roles",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Mobile check-in and keyless entry already handle the routine arrival for most guests. The desk agent's value has shifted to the guests self-service can't handle: the VIP request, the overbooking problem, the complaint that needs a human decision."
+}

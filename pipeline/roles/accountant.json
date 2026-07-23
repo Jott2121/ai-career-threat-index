@@ -2,44 +2,54 @@
  "slug": "accountant",
  "title": "Accountant",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-2011",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 55,
+  "toolMaturity": 90,
+  "adoption": 72,
+  "agenticExposure": 62
+ },
+ "rationales": {
+  "taskAutomation": "Transaction categorization, invoice matching, reconciliation, and monthly close now run end-to-end through AI bookkeeping tools; tax strategy, audit judgment, and client advisory still require a licensed human sign-off.",
+  "toolMaturity": "Vic.ai, Botkeeper, and QuickBooks' embedded AI now auto-code and reconcile the large majority of routine transactions in production, not pilot, use.",
+  "adoption": "Mainstream expectation at firms of all sizes now runs AI-assisted bookkeeping and close, with mid-market and small-firm adoption catching up fast to large-firm norms.",
+  "agenticExposure": "Categorization-reconciliation-close is a closed-loop, verifiable pipeline that agentic tools can own with human review only on exceptions."
+ },
  "tasksAtRisk": [
-  "Transaction categorization and reconciliation",
-  "Standard tax return preparation",
-  "Invoice processing and matching",
-  "Monthly closing procedures",
+  "Transaction categorization and bank reconciliation",
+  "Standard 1040/1120 tax return preparation",
+  "Invoice processing and three-way matching",
+  "Monthly close checklist execution",
   "Basic audit workpaper preparation"
  ],
  "tasksGrowing": [
-  "Complex tax strategy and planning",
+  "Complex, multi-entity tax strategy and planning",
   "Forensic accounting and fraud detection",
-  "Business advisory and financial planning"
+  "Business advisory and CFO-style financial planning"
  ],
  "salary": {
   "low": 55000,
   "high": 105000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-2011 (Accountants and Auditors), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Accounting Tools (Botkeeper, Vic.ai)",
+   "skill": "AI accounting platforms (Vic.ai, Botkeeper, QBO AI)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Tax Strategy & Advisory",
+   "skill": "Tax strategy and advisory",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Forensic Accounting & Fraud Analytics",
+   "skill": "Forensic accounting and fraud analytics",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "Routine bookkeeping and tax prep are rapidly automating. Accountants who move into advisory, complex tax strategy, or forensic specialization will see growing demand.",
+ "insight": "Routine bookkeeping, reconciliation, and standard tax prep are now largely agent-run rather than merely assisted. Accountants who move up into advisory, complex multi-entity tax strategy, or forensic work keep pricing power; those who stay in pure transaction processing compete directly with software.",
  "industryModifiers": {
   "Finance": 3,
   "Tech": 5,

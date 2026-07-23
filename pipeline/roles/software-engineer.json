@@ -2,43 +2,53 @@
  "slug": "software-engineer",
  "title": "Software Engineer",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-1252",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 82,
+  "adoption": 62,
+  "agenticExposure": 42
+ },
+ "rationales": {
+  "taskAutomation": "Boilerplate, tests and docs are automatable end-to-end; architecture and cross-team judgment are not.",
+  "toolMaturity": "Coding copilots and agentic dev tools are mature and embedded in the standard toolchain.",
+  "adoption": "Most large employers now expect AI-assisted development in this function.",
+  "agenticExposure": "Agents can own test maintenance and small scoped changes, not system design."
+ },
  "tasksAtRisk": [
   "Writing boilerplate code and scaffolding",
-  "Debugging common error patterns",
-  "Writing unit tests for simple functions",
+  "Generating and maintaining unit tests",
+  "Debugging common, well-documented error patterns",
   "Code documentation and inline comments"
  ],
  "tasksGrowing": [
-  "System architecture and design decisions",
-  "Cross-team technical leadership",
-  "Debugging complex distributed systems"
+  "System architecture and cross-cutting design decisions",
+  "Directing and reviewing autonomous coding agents",
+  "Cross-team technical leadership"
  ],
  "salary": {
   "low": 110000,
   "high": 200000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers), p25-p75",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
-   "skill": "AI-Assisted Development (Copilot, Cursor)",
+   "skill": "Directing Agentic Coding Tools (Claude Code, Cursor, Copilot Workspace)",
    "link": "/guides/ai-coding-tools/"
   },
   {
-   "skill": "Prompt Engineering for Code Generation",
-   "link": "/guides/ai-skills-resume/"
+   "skill": "System Design & Architecture Ownership",
+   "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "AI System Design & Architecture",
-   "link": "/guides/ai-career-paths/"
+   "skill": "Reviewing & Verifying Agent-Generated Code",
+   "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "Software engineers who learn to direct AI coding tools are 2-3x more productive. The role is shifting from writing every line to orchestrating AI-generated code and owning architecture.",
+ "insight": "AI coding agents now handle scaffolding, tests, and routine bug fixes end-to-end, but architecture, security tradeoffs, and cross-team judgment still gate the work that matters. The role is shifting from writing every line to directing and verifying what agents produce.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

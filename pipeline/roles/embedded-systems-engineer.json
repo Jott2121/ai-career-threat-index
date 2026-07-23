@@ -1,0 +1,52 @@
+{
+ "slug": "embedded-systems-engineer",
+ "title": "Embedded Systems Engineer",
+ "category": "Technology",
+ "socCode": "17-2061",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 20,
+  "toolMaturity": 42,
+  "adoption": 30,
+  "agenticExposure": 22
+ },
+ "rationales": {
+  "taskAutomation": "Driver boilerplate and standard firmware templates can be AI-assisted; hardware-software integration, timing, and safety-critical judgment dominate the role and are not automatable.",
+  "toolMaturity": "AI coding tools are less mature for low-level embedded C/C++ and hardware-in-the-loop workflows than for mainstream software stacks.",
+  "adoption": "Early-adopter use only; embedded teams are conservative given safety-certification and hardware-cost constraints.",
+  "agenticExposure": "Hardware-in-the-loop testing and physical debugging sharply limit how much of this role an agent can own end-to-end."
+ },
+ "tasksAtRisk": [
+  "Writing standard peripheral driver boilerplate",
+  "Generating firmware templates for known microcontrollers",
+  "Routine unit testing of isolated firmware modules",
+  "Documentation of register maps and interfaces"
+ ],
+ "tasksGrowing": [
+  "Hardware-software integration and real-time timing debugging",
+  "Safety-critical and certification-driven design (automotive, medical, aerospace)",
+  "Power and performance optimization on constrained hardware"
+ ],
+ "salary": {
+  "low": 90000,
+  "high": 150000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2061 (Computer Hardware Engineers, closest embedded-systems mapping), p25-p75",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Real-Time & Safety-Critical Firmware Design",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI-Assisted Low-Level Coding (embedded C/C++ copilots)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Hardware-in-the-Loop Testing & Debugging",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "This is one of the least agent-exposed engineering roles today: AI tooling for low-level, hardware-coupled firmware still lags mainstream software copilots badly, and physical hardware-in-the-loop debugging keeps a person firmly in the loop."
+}

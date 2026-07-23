@@ -1,0 +1,52 @@
+{
+ "slug": "it-manager",
+ "title": "IT Manager",
+ "category": "Technology",
+ "socCode": "11-3021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 18,
+  "toolMaturity": 38,
+  "adoption": 44,
+  "agenticExposure": 16
+ },
+ "rationales": {
+  "taskAutomation": "Status reporting and budget/vendor documentation are AI-assistable, but team leadership, vendor negotiation, and strategic prioritization dominate the role and are not automatable.",
+  "toolMaturity": "Generic AI productivity tools apply to reporting and documentation; no purpose-built management-automation product has real traction.",
+  "adoption": "Common for AI-assisted reporting and documentation tasks; the management core of the role remains untouched.",
+  "agenticExposure": "Agentic exposure is low -- this is fundamentally a people-management and prioritization role, not a digital-pipeline role."
+ },
+ "tasksAtRisk": [
+  "Drafting routine status and budget reports",
+  "Vendor documentation and contract summary prep",
+  "Standard project-status dashboard updates",
+  "Onboarding-checklist administration"
+ ],
+ "tasksGrowing": [
+  "Team leadership, hiring, and performance management",
+  "Vendor negotiation and technology-investment strategy",
+  "Cross-functional prioritization under budget constraints"
+ ],
+ "salary": {
+  "low": 105000,
+  "high": 165000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-3021 (Computer and Information Systems Managers), p25-p75",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Augmented Reporting & Portfolio Dashboards",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "AI Tooling Strategy & Vendor Evaluation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Team Leadership Through an AI Transition",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI now drafts the status reports and vendor summaries that used to eat a manager's week, but leading a team and deciding where to invest a shrinking headcount budget is still an entirely human call."
+}

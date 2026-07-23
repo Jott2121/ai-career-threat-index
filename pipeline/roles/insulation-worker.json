@@ -1,0 +1,51 @@
+{
+ "slug": "insulation-worker",
+ "title": "Insulation Worker",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2131",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 9,
+  "toolMaturity": 28,
+  "adoption": 16,
+  "agenticExposure": 5
+ },
+ "rationales": {
+  "taskAutomation": "Installing batt, spray-foam and blown insulation is manual physical work; only material-quantity estimating is reliably automatable.",
+  "toolMaturity": "Generic energy-modeling software estimates insulation needs, but no AI tool automates the installation itself.",
+  "adoption": "Adoption is limited to energy-auditing software used by larger insulation and weatherization contractors.",
+  "agenticExposure": "An agent can calculate R-value requirements and material quantities from a building model; it cannot spray foam into a wall cavity."
+ },
+ "tasksAtRisk": [
+  "R-value and material-quantity estimating",
+  "Energy-audit report generation",
+  "Scheduling and material ordering"
+ ],
+ "tasksGrowing": [
+  "Spray-foam and blown-insulation installation judgment",
+  "Air-sealing and building-envelope diagnostics",
+  "Energy-retrofit consulting for building owners"
+ ],
+ "salary": {
+  "low": 37000,
+  "high": 62000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2131, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Building-envelope and energy-auditing certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Energy-modeling software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Energy-retrofit consulting skills",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Insulation work stays low-risk on the install side while energy-code tightening and retrofit incentives drive rising demand, with AI energy-modeling tools automating only the estimating step."
+}

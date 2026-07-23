@@ -1,0 +1,51 @@
+{
+ "slug": "barista",
+ "title": "Barista",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "35-3023",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 40,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Mobile order-ahead has automated the ordering and payment half of the job; drink assembly for standardized recipes is routine but still requires hands-on execution.",
+  "toolMaturity": "Mobile ordering apps are commodity technology at major chains, and robotic coffee kiosks are a live if niche product category.",
+  "adoption": "Large coffee chains have widely adopted mobile order-ahead as a default channel; robotic barista kiosks remain a minority deployment.",
+  "agenticExposure": "Order intake, customization tracking, and queue sequencing form an agent-ownable pipeline; espresso extraction and milk-texture judgment stay manual."
+ },
+ "tasksAtRisk": [
+  "Order-taking and customization entry",
+  "Payment and loyalty-program processing",
+  "Standard drink recipes for high-volume orders"
+ ],
+ "tasksGrowing": [
+  "Latte art and specialty drink craftsmanship",
+  "Customer relationship-building in cafe settings",
+  "Equipment maintenance and quality troubleshooting"
+ ],
+ "salary": {
+  "low": 27000,
+  "high": 38000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 35-3023, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Specialty beverage craft and latte-art skill",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Mobile-order and loyalty-app queue management",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Cafe customer-relationship building",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Mobile order-ahead already handles the ordering conversation, and a handful of robotic kiosks now pull shots too. The craft differentiation, latte art, dialing in espresso, building cafe regulars, is exactly what keeps human baristas ahead of a vending machine."
+}

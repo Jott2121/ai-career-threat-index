@@ -1,0 +1,52 @@
+{
+ "slug": "platform-engineer",
+ "title": "Platform Engineer",
+ "category": "Technology",
+ "socCode": "15-1252",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 66,
+  "adoption": 46,
+  "agenticExposure": 42
+ },
+ "rationales": {
+  "taskAutomation": "Golden-path templates, self-service tooling config, and standard internal-platform scaffolding are automatable; cross-team platform strategy is not.",
+  "toolMaturity": "IaC and platform-engineering copilots are mature and increasingly standard in internal developer platform work.",
+  "adoption": "Spreading among tech-forward firms investing in internal developer platforms to reduce cognitive load on product teams.",
+  "agenticExposure": "Agents can maintain golden-path templates and CI/CD scaffolding; cross-team platform architecture decisions stay human."
+ },
+ "tasksAtRisk": [
+  "Building and maintaining golden-path templates",
+  "Self-service tooling configuration",
+  "Standard CI/CD scaffolding for product teams",
+  "Internal developer-portal documentation"
+ ],
+ "tasksGrowing": [
+  "Cross-team platform strategy and adoption management",
+  "Balancing platform standardization against team autonomy",
+  "Cost and reliability architecture across the whole platform"
+ ],
+ "salary": {
+  "low": 120000,
+  "high": 195000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers, closest platform-engineering mapping), p25-p75",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Internal Developer Platform (IDP) Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Agentic Golden-Path Template Maintenance",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Platform Cost & Reliability Architecture",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI now maintains a lot of the golden-path templates and CI/CD scaffolding platform teams used to hand-tend. The differentiator is driving adoption across teams and making the standardization-versus-autonomy tradeoff correctly, which no template can decide."
+}

@@ -1,0 +1,59 @@
+{
+ "slug": "electrician",
+ "title": "Electrician",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2111",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 12,
+  "toolMaturity": 40,
+  "adoption": 25,
+  "agenticExposure": 9
+ },
+ "rationales": {
+  "taskAutomation": "Wiring, panel work, troubleshooting and code-driven installation remain physical, licensed acts; only estimating, permit paperwork and scheduling are AI-automatable today.",
+  "toolMaturity": "Estimating and takeoff software and AI-assisted code-lookup tools are shipping, but nothing automates the trade itself.",
+  "adoption": "Early-adopter electrical contractors use AI for quoting and dispatch; most small shops still run on paper tickets and phone calls.",
+  "agenticExposure": "An agent can draft quotes, schedule callbacks and file permit paperwork, but cannot pull wire, torque a lug or pass an inspection."
+ },
+ "tasksAtRisk": [
+  "Job estimating and material take-offs",
+  "Permit application paperwork and code-reference lookup",
+  "Scheduling and dispatch of service calls",
+  "Invoice generation and customer follow-up emails"
+ ],
+ "tasksGrowing": [
+  "Smart-panel and EV-charger integration diagnostics",
+  "Reviewing AI-flagged code-compliance issues before sign-off",
+  "Customer consultation on electrification and solar-ready wiring"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2111, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "EV charger and smart-panel installation certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI-assisted estimating and takeoff software fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Electrification and solar-integration consulting",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Electricians sit near the floor of AI displacement risk because the licensed physical work of pulling wire and passing inspection has no automatable substitute, but the back office is changing fast: AI-assisted estimating and permit-paperwork tools are already trimming hours from bidding. The growth lane runs through electrification work AI can't yet spec: EV chargers, smart panels and solar-ready service upgrades.",
+ "industryModifiers": {
+  "Tech": 8,
+  "Energy": -6,
+  "Government": -8,
+  "Manufacturing": 4,
+  "Real Estate": -3
+ }
+}

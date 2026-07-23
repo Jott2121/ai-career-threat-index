@@ -1,0 +1,51 @@
+{
+ "slug": "hotel-manager",
+ "title": "Hotel Manager",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "11-9081",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 55,
+  "adoption": 35,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "Revenue management, reporting, and pricing are increasingly software-driven, but staff leadership, guest-relations judgment, and property operations stay human-gated.",
+  "toolMaturity": "AI-driven revenue-management and dynamic-pricing platforms are mature and standard in mid-size and large hotel operations.",
+  "adoption": "Revenue-management software adoption is common across hotel chains; broader operational AI adoption is still spreading.",
+  "agenticExposure": "Pricing optimization, occupancy forecasting, and reporting are agent-ownable; staff management and on-property crisis handling are not."
+ },
+ "tasksAtRisk": [
+  "Dynamic pricing and rate-setting",
+  "Occupancy forecasting and reporting",
+  "Vendor and maintenance scheduling"
+ ],
+ "tasksGrowing": [
+  "Staff leadership and department coordination",
+  "Guest-relations judgment for VIP and crisis situations",
+  "Property strategy and brand-standard execution"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-9081, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI revenue-management and dynamic-pricing platform fluency",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Cross-department staff leadership",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Crisis and VIP guest-relations management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Dynamic pricing algorithms now set most room rates automatically. What a hotel manager still owns is running the property when something goes wrong, staffing gaps, VIP escalations, brand-standard enforcement, none of which the pricing engine touches."
+}

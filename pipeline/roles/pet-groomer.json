@@ -1,0 +1,51 @@
+{
+ "slug": "pet-groomer",
+ "title": "Pet Groomer",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-2021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 9,
+  "toolMaturity": 20,
+  "adoption": 8,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Handling live animals safely while cutting, bathing, and styling coats is unpredictable physical work with essentially no reliable automation today.",
+  "toolMaturity": "Automated pet-washing stations exist as a niche product but nothing performs a full groom on an uncooperative animal.",
+  "adoption": "Adoption of any grooming automation is negligible; booking-software adoption is far more common than physical automation.",
+  "agenticExposure": "Appointment scheduling and reminder messaging are agent-ownable; handling and grooming the animal are not."
+ },
+ "tasksAtRisk": [
+  "Appointment scheduling and reminder messaging",
+  "Basic retail product recommendations for pet owners",
+  "Basic client-history and vaccination recordkeeping"
+ ],
+ "tasksGrowing": [
+  "Handling anxious or difficult animals safely",
+  "Breed-specific cut and styling technique",
+  "Building trust with regular clients and their pets"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 40000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-2021, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Breed-specific grooming and styling technique",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Safe handling of anxious or aggressive animals",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI booking and client-reminder app fluency",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "No automated station can safely handle an anxious, wriggling animal through a full groom. The job's small digital footprint, booking and reminders, is where its modest exposure is concentrated."
+}

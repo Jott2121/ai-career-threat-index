@@ -1,0 +1,51 @@
+{
+ "slug": "personal-trainer",
+ "title": "Personal Trainer",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-9031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 22,
+  "toolMaturity": 55,
+  "adoption": 30,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "Generic workout-plan generation and progress tracking are now handled well by AI fitness apps, but live coaching, form correction, and motivation stay human.",
+  "toolMaturity": "AI workout-generation and computer-vision form-tracking apps are mature and widely used by consumers.",
+  "adoption": "Consumer adoption of AI fitness apps is substantial and growing, though gym-employed trainers still deliver most in-person sessions.",
+  "agenticExposure": "Program design, progress tracking, and check-in messaging are agent-ownable; live spotting, form correction, and motivation are not."
+ },
+ "tasksAtRisk": [
+  "Generic workout-plan generation",
+  "Progress tracking and check-in messaging",
+  "Basic nutrition and macro guidance"
+ ],
+ "tasksGrowing": [
+  "Live form correction and injury-prevention coaching",
+  "Motivational coaching and accountability",
+  "Programming for complex or rehab-specific goals"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 70000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-9031, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Live form-correction and injury-prevention coaching",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI fitness-app integration into client programming",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Specialized certifications (rehab, sport-specific, pre/postnatal)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI apps now generate a competent generic workout plan for free. What clients still pay a trainer for is what an app can't do in the room: catching bad form before it causes an injury and providing the accountability that keeps people showing up."
+}

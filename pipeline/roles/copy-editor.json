@@ -1,0 +1,47 @@
+{
+ "slug": "copy-editor",
+ "title": "Copy Editor",
+ "category": "Creative",
+ "socCode": "27-3041",
+ "tier": 2,
+ "subscores": {"taskAutomation": 60, "toolMaturity": 85, "adoption": 68, "agenticExposure": 55},
+ "rationales": {
+  "taskAutomation": "Grammar, punctuation, consistency, and house-style enforcement are now reliably automated end-to-end; developmental judgment about structure, tone, and argument still needs a human editor.",
+  "toolMaturity": "Grammarly and LLM-based editing tools are mature, commodity-grade, and embedded directly in most writing and publishing platforms.",
+  "adoption": "AI-assisted copyediting is now standard across publishing, content, and marketing teams, not an early-adopter behavior.",
+  "agenticExposure": "Agents can run a full manuscript through style-guide compliance, consistency, and proofreading passes with minimal human review for routine text."
+ },
+ "tasksAtRisk": [
+  "Grammar, punctuation, and mechanical error correction",
+  "House-style and style-guide compliance checks",
+  "Consistency checks (names, terms, formatting) across long documents",
+  "First-pass proofreading before human review"
+ ],
+ "tasksGrowing": [
+  "Developmental editing for structure and argument",
+  "Tone and voice calibration for brand or author identity",
+  "High-stakes legal, medical, and academic copyediting requiring liability sign-off"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 75000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-3041 Editors, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Editing Tools (Grammarly, LLM Copyedit Passes)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Developmental Editing & Structural Feedback",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "High-Stakes Editing (Legal, Medical, Academic)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Mechanical copyediting is now handled reliably by AI at commodity cost, making this one of the more exposed roles in the Creative category. Editors doing developmental and high-liability work are the ones still needed."
+}

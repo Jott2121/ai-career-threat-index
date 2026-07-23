@@ -1,0 +1,52 @@
+{
+ "slug": "pharmacy-technician",
+ "title": "Pharmacy Technician",
+ "category": "Healthcare",
+ "socCode": "29-2052",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 50,
+  "toolMaturity": 68,
+  "adoption": 48,
+  "agenticExposure": 38
+ },
+ "rationales": {
+  "taskAutomation": "Prescription data entry, insurance processing and routine pill counting/filling are largely automatable at production quality; complex compounding and patient-facing exceptions are not.",
+  "toolMaturity": "Robotic dispensing and pharmacy-workflow automation are mature and widely deployed across large chain and hospital pharmacies.",
+  "adoption": "Automated filling and insurance-adjudication systems are standard in most large retail and hospital pharmacy operations.",
+  "agenticExposure": "Agentic pipelines can run data entry through dispensing end to end, with a technician or pharmacist handling exceptions and compounding."
+ },
+ "tasksAtRisk": [
+  "Prescription data entry and insurance processing",
+  "Routine pill counting and filling",
+  "Inventory tracking and reordering",
+  "Basic customer transaction handling"
+ ],
+ "tasksGrowing": [
+  "Sterile and non-sterile compounding",
+  "Complex insurance and prior-authorization exceptions",
+  "Pharmacy automation system oversight"
+ ],
+ "salary": {
+  "low": 33000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-2052 (Pharmacy Technicians), p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Pharmacy Automation System Oversight",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Sterile Compounding Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Insurance & Prior-Authorization Specialization",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Robotic dispensing and automated insurance adjudication now run routine fills close to end to end, which is why this is the most exposed role in the healthcare category. Technicians who move into compounding or automation-system oversight have the clearer path forward."
+}

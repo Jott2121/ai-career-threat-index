@@ -1,0 +1,52 @@
+{
+ "slug": "claims-adjuster",
+ "title": "Claims Adjuster",
+ "category": "Business & Finance",
+ "socCode": "13-1031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 52,
+  "toolMaturity": 70,
+  "adoption": 58,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "Standard auto and property claims now get photo-based damage assessment and automated payout end to end; complex, contested, or catastrophic claims still need adjuster judgment.",
+  "toolMaturity": "AI damage-assessment and touchless-claims platforms (Tractable, Lemonade AI) are production-deployed at major carriers, not pilots.",
+  "adoption": "Mainstream among large auto and property insurers for standard claims; complex commercial and catastrophe claims remain human-led.",
+  "agenticExposure": "Intake-photo assessment-payout is a textbook agent-ownable claims pipeline, explicitly the kind of workflow autonomous agents now traverse end to end."
+ },
+ "tasksAtRisk": [
+  "Photo-based damage assessment for standard auto/property claims",
+  "Routine claims intake and documentation",
+  "Standard payout calculation and processing",
+  "Claims status communication with policyholders"
+ ],
+ "tasksGrowing": [
+  "Complex, contested, or catastrophic claims investigation",
+  "Fraud detection escalation and case-building",
+  "Policyholder advocacy in disputed claims"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1031 (Claims Adjusters, Examiners, and Investigators), p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Complex and catastrophe claims investigation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI touchless-claims platform oversight",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Fraud detection and escalation analysis",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Touchless claims already settle most straightforward auto and property losses without a human adjuster. The remaining career path is in complex, contested, and catastrophic claims where judgment and negotiation still decide the outcome."
+}

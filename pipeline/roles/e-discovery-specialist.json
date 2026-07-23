@@ -1,0 +1,47 @@
+{
+ "slug": "e-discovery-specialist",
+ "title": "E-Discovery Specialist",
+ "category": "Legal",
+ "socCode": "23-2099",
+ "tier": 2,
+ "subscores": {"taskAutomation": 70, "toolMaturity": 82, "adoption": 68, "agenticExposure": 62},
+ "rationales": {
+  "taskAutomation": "Predictive-coding review, deduplication and culling, privilege-log drafting, and production formatting are routine digital production; complex privilege calls and defensibility strategy still need a human specialist.",
+  "toolMaturity": "Technology-assisted review and generative-AI review platforms (Relativity aiR, Everlaw, DISCO) are mature and embedded directly in the standard e-discovery toolchain.",
+  "adoption": "Predictive coding and AI-assisted review are now a mainstream expectation in large-scale litigation and corporate legal departments.",
+  "agenticExposure": "Ingest-cull-tag-privilege-log-produce is already an agent-traversable pipeline in most modern e-discovery platforms, with exceptions routed to a human reviewer."
+ },
+ "tasksAtRisk": [
+  "Predictive-coding/technology-assisted document review and relevance ranking",
+  "Privilege-log drafting and redaction flagging",
+  "Data ingestion, deduplication, and culling across custodians",
+  "Production formatting and Bates-numbering workflows"
+ ],
+ "tasksGrowing": [
+  "Complex privilege and work-product disputes requiring attorney judgment",
+  "E-discovery strategy design and defensibility arguments for courts",
+  "Cross-border data-transfer and privacy-regulation navigation"
+ ],
+ "salary": {
+  "low": 52000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 23-2099 (Legal Support Workers, All Other; closest published SOC for e-discovery specialists), p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "TAR & Generative-AI Review Platform Mastery (Relativity aiR, Everlaw, DISCO)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "E-Discovery Project Management & Defensibility Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Certified E-Discovery Specialist (CEDS)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Technology-assisted review already does most first-pass document culling at a fraction of linear-review cost. Specialists who remain are defending review methodology in court and making the privilege calls AI still gets wrong."
+}

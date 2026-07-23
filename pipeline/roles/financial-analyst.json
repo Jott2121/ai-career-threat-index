@@ -2,10 +2,20 @@
  "slug": "financial-analyst",
  "title": "Financial Analyst",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-2051",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 50,
+  "toolMaturity": 88,
+  "adoption": 68,
+  "agenticExposure": 55
+ },
+ "rationales": {
+  "taskAutomation": "Model-building from templates, data pulls, standard dashboards, and recurring variance analysis are now largely automatable; strategic interpretation and deal judgment are not.",
+  "toolMaturity": "AI-powered modeling and data-aggregation tools (Copilot in Excel, AlphaSense, Datarails) are mature and standard in most finance toolchains.",
+  "adoption": "Mainstream at finance-forward sectors and increasingly default across corporate FP&A and investment research teams.",
+  "agenticExposure": "Data-pull-to-dashboard-to-variance-commentary is a closed loop agents can run end to end, escalating only genuine anomalies."
+ },
  "tasksAtRisk": [
   "Building financial models from templates",
   "Pulling and formatting financial data",
@@ -23,23 +33,23 @@
   "high": 120000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-2051 (Financial and Investment Analysts), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI-Powered Financial Modeling",
+   "skill": "AI-powered financial modeling (Copilot, AlphaSense)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Strategic Finance & Advisory",
+   "skill": "Strategic finance and executive advisory",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Data Science for Finance",
+   "skill": "Data science for finance",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI can build models and run analyses in minutes that used to take days. Analysts who focus on strategic interpretation, relationship management, and judgment calls under uncertainty will thrive.",
+ "insight": "AI now builds the model and pulls the data in minutes; the analysts who keep their seat are the ones translating the output into a judgment call an executive can act on under real uncertainty.",
  "industryModifiers": {
   "Finance": 5,
   "Tech": 3,

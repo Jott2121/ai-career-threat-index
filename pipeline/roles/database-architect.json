@@ -1,0 +1,52 @@
+{
+ "slug": "database-architect",
+ "title": "Database Architect",
+ "category": "Technology",
+ "socCode": "15-1243",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 52,
+  "adoption": 40,
+  "agenticExposure": 34
+ },
+ "rationales": {
+  "taskAutomation": "AI can propose standard schema patterns and normalization, but enterprise data-strategy and cross-system architecture decisions are not automatable.",
+  "toolMaturity": "AI-assisted schema-design tools are credible and improving but not yet a mature, widely-shipped category.",
+  "adoption": "Adoption is spreading among large firms doing platform-scale data architecture work.",
+  "agenticExposure": "Schema generation and migration scripting from a stated design are agent-ownable; the architectural decision itself is not."
+ },
+ "tasksAtRisk": [
+  "Drafting standard schema and normalization patterns",
+  "Generating migration and versioning scripts",
+  "Documenting data models and dictionaries",
+  "Capacity and storage-cost estimation"
+ ],
+ "tasksGrowing": [
+  "Enterprise data strategy and cross-system architecture",
+  "Data governance and access-model design",
+  "Architecture for hybrid transactional/analytical/AI workloads"
+ ],
+ "salary": {
+  "low": 115000,
+  "high": 175000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1243 (Database Architects), p25-p75",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Enterprise Data Architecture Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-Assisted Schema Design & Migration Tooling",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Data Governance for AI/Analytics Workloads",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI can draft a reasonable schema for a well-understood problem, but the decisions that actually matter -- how data flows across systems, who governs it, and how it serves both transactional and AI workloads -- still need an accountable architect."
+}

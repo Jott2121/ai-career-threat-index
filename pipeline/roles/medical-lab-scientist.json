@@ -1,0 +1,51 @@
+{
+ "slug": "medical-lab-scientist",
+ "title": "Medical Lab Scientist",
+ "category": "Healthcare",
+ "socCode": "29-2011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 58,
+  "adoption": 42,
+  "agenticExposure": 22
+ },
+ "rationales": {
+  "taskAutomation": "Standard assay result flagging and QC documentation are automatable; complex specimen troubleshooting, method validation and abnormal-result interpretation are not.",
+  "toolMaturity": "Lab automation and AI-based result-flagging systems are credible and improving, increasingly standard in larger reference and hospital labs.",
+  "adoption": "Automated analyzers and AI flagging are common in large reference labs and hospital systems, spreading into smaller labs.",
+  "agenticExposure": "Agents can own routine result flagging and QC documentation, but complex troubleshooting and method development stay with the scientist."
+ },
+ "tasksAtRisk": [
+  "Standard assay result flagging",
+  "QC documentation and reporting",
+  "Routine specimen processing coordination"
+ ],
+ "tasksGrowing": [
+  "Complex specimen troubleshooting and abnormal-result interpretation",
+  "New assay and method validation",
+  "Lab automation system oversight and quality management"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 75000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-2011 (Medical and Clinical Laboratory Technologists), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Lab Automation System Oversight",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Molecular Diagnostics & Method Validation",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Quality Management Systems",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI-based result flagging now catches most routine abnormalities automatically, but validating new assays and troubleshooting complex specimens still requires a trained scientist's judgment. Labs are shifting scientists toward automation oversight rather than routine testing."
+}

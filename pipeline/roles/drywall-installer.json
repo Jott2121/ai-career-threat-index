@@ -1,0 +1,51 @@
+{
+ "slug": "drywall-installer",
+ "title": "Drywall Installer",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2081",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 30,
+  "adoption": 18,
+  "agenticExposure": 6
+ },
+ "rationales": {
+  "taskAutomation": "Hanging, taping and finishing are manual craft; only material takeoff and scheduling are reliably automatable.",
+  "toolMaturity": "Digital takeoff software for drywall quantities is credible but not role-specific beyond generic construction estimating tools.",
+  "adoption": "Adoption is limited to larger commercial drywall contractors using digital takeoff for bidding.",
+  "agenticExposure": "An agent can calculate sheet counts and mud quantities from a floor plan, not hang or finish a wall."
+ },
+ "tasksAtRisk": [
+  "Material takeoff (sheet count, mud, tape quantities)",
+  "Bid and estimate generation",
+  "Crew scheduling across multiple units"
+ ],
+ "tasksGrowing": [
+  "Level-5 finish and specialty texture work requiring craft judgment",
+  "Fire-rated and sound-rated assembly compliance",
+  "Adapting to non-standard framing conditions"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 68000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2081, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Level-5 finish and specialty texture specialization",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Fire-rated and sound-rated assembly certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Digital takeoff software fluency",
+   "link": "/guides/ai-coding-tools/"
+  }
+ ],
+ "insight": "Drywall installation carries low risk: hanging, taping and finishing remain manual craft, with automation limited to the material takeoff and bidding side of larger commercial jobs."
+}

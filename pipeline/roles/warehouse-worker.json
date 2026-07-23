@@ -1,0 +1,59 @@
+{
+ "slug": "warehouse-worker",
+ "title": "Warehouse Worker",
+ "category": "Transportation & Logistics",
+ "socCode": "53-7062",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 58,
+  "adoption": 35,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "Robotic picking, sorting, and shelf-moving are real in modern fulfillment centers, but most physical pick-pack-load work across the broader warehouse base is still done by hand.",
+  "toolMaturity": "Autonomous mobile robots and pick-assist systems (Amazon robotics, Locus, 6 River) are mature, widely-shipped products in large modern facilities.",
+  "adoption": "Robotics adoption is common among large e-commerce and 3PL operators and spreading, though most of the smaller warehouse base still runs largely manual operations.",
+  "agenticExposure": "Inventory tracking, slotting, and order-routing decisions are agent-ownable; the physical handling of goods is not."
+ },
+ "tasksAtRisk": [
+  "Inventory counting and cycle-count reconciliation",
+  "Pick-path optimization and order routing",
+  "Basic sorting and conveyor-fed packing",
+  "Shelf and bin-location tracking"
+ ],
+ "tasksGrowing": [
+  "Operating and troubleshooting robotic pick/pack systems",
+  "Exception handling for damaged, mislabeled, or irregular items",
+  "Quality control and safety oversight on automated floors"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-7062, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Warehouse robotics operation and troubleshooting",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Inventory management systems fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Quality control and safety inspection on automated lines",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Large e-commerce and 3PL fulfillment centers already run substantial robotics, but that has mostly shifted the job toward robot-adjacent work (loading, exception handling, machine oversight) rather than eliminating headcount outright. The smaller, non-automated warehouse base, still the majority of facilities, faces materially less near-term pressure.",
+ "industryModifiers": {
+  "Retail": 10,
+  "Tech": 8,
+  "Manufacturing": 5,
+  "Government": -8,
+  "Healthcare": -5
+ }
+}

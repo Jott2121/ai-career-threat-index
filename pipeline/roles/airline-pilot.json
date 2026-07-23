@@ -1,0 +1,58 @@
+{
+ "slug": "airline-pilot",
+ "title": "Airline Pilot",
+ "category": "Transportation & Logistics",
+ "socCode": "53-2011",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 45,
+  "adoption": 20,
+  "agenticExposure": 8
+ },
+ "rationales": {
+  "taskAutomation": "Autopilot and autoland already fly most of cruise and a share of approach, but takeoff, taxi, weather diversions, and emergencies remain a licensed human responsibility by regulation.",
+  "toolMaturity": "Autopilot/autoland systems are decades-mature and near-universal on commercial aircraft; single-pilot or pilotless commercial passenger flight is not a certified or shipped product.",
+  "adoption": "Every major carrier uses mature autopilot systems, but that has not reduced flight-deck crew counts; reduced-crew concepts remain in study, not deployment.",
+  "agenticExposure": "The role is licensed, safety-critical, and physically present by regulatory mandate; agentic systems don't reach cockpit command authority today."
+ },
+ "tasksAtRisk": [
+  "Cruise-phase flight management and monitoring",
+  "Flight-plan filing and fuel calculations",
+  "Routine radio communication logging",
+  "Post-flight reporting and maintenance write-ups"
+ ],
+ "tasksGrowing": [
+  "Takeoff, landing, and taxi in degraded or non-standard conditions",
+  "In-flight emergency and weather-diversion decision-making",
+  "Crew leadership and passenger-safety command authority"
+ ],
+ "salary": {
+  "low": 130000,
+  "high": 250000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-2011, p25-p75 rounded, high end reflects major-carrier captain pay",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Advanced flight-deck automation management",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Emergency and degraded-conditions decision command",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Crew resource management and safety leadership",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Autopilot already handles most of the flying hours in a commercial flight, and that has been true for years without displacing pilots, because certification, insurance, and passenger trust require a licensed human in command. Reduced-crew and single-pilot concepts are in FAA-monitored study, not deployment; a real regulatory shift is possible over a decade-plus horizon but is not the near-term picture.",
+ "industryModifiers": {
+  "Retail": 5,
+  "Government": -12,
+  "Finance": 3,
+  "Tech": -3
+ }
+}

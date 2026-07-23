@@ -2,10 +2,20 @@
  "slug": "tax-preparer",
  "title": "Tax Preparer",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-2082",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 70,
+  "toolMaturity": 88,
+  "adoption": 72,
+  "agenticExposure": 62
+ },
+ "rationales": {
+  "taskAutomation": "Standard individual returns, document data entry, and e-filing are now overwhelmingly automatable end to end; only multi-entity, international, or controversy work needs a licensed preparer.",
+  "toolMaturity": "AI-driven tax software (TurboTax AI, professional e-file platforms with embedded LLM review) is mature and near-commodity for standard returns.",
+  "adoption": "Mainstream across both DIY consumer platforms and professional prep chains for standard individual returns.",
+  "agenticExposure": "Document intake, data entry, and e-file submission is a fully agent-traversable pipeline for the large majority of individual returns."
+ },
  "tasksAtRisk": [
   "Individual tax return preparation (1040, W-2)",
   "Data entry from tax documents",
@@ -23,23 +33,23 @@
   "high": 75000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-2082 (Tax Preparers), p25-p75 rounded",
  "salaryTrend": "declining",
  "defenseSkills": [
   {
-   "skill": "Advanced Tax Planning & Strategy",
+   "skill": "Advanced tax planning and strategy",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "AI Tax Software Proficiency",
+   "skill": "AI tax software proficiency",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Business Advisory Services",
+   "skill": "Business advisory services",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI tax software can now handle most individual returns with minimal human input. Tax professionals should specialize in complex situations — multi-state, international, or business tax planning.",
+ "insight": "AI tax software now files the majority of standard individual returns with minimal human input, and the segment keeps shrinking. Preparers who specialize in multi-state, international, or business tax planning are the ones with a growing practice left.",
  "industryModifiers": {
   "Finance": 3,
   "Tech": 5,

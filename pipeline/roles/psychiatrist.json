@@ -1,0 +1,51 @@
+{
+ "slug": "psychiatrist",
+ "title": "Psychiatrist",
+ "category": "Healthcare",
+ "socCode": "29-1223",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 16,
+  "toolMaturity": 50,
+  "adoption": 32,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Session documentation and standard medication-management notes are automatable; diagnostic interviewing and the therapeutic relationship are not.",
+  "toolMaturity": "AI-assisted symptom tracking and ambient documentation tools exist and are improving, short of the embedding seen in general primary care.",
+  "adoption": "Adoption concentrates in larger academic and telepsychiatry practices; broader adoption is still early.",
+  "agenticExposure": "Agents can draft visit notes and track symptom-scale scores, but diagnosis, medication decisions and the patient relationship stay physician-led."
+ },
+ "tasksAtRisk": [
+  "Session note and documentation drafting",
+  "Symptom-scale scoring and tracking",
+  "Routine medication-refill processing"
+ ],
+ "tasksGrowing": [
+  "Diagnostic interviewing and complex case formulation",
+  "Medication management for treatment-resistant cases",
+  "Crisis intervention and risk assessment"
+ ],
+ "salary": {
+  "low": 220000,
+  "high": 300000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1223 (Psychiatrists), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Ambient Clinical Documentation Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Telepsychiatry Platform Proficiency",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Subspecialty Certification (Addiction, Child Psychiatry)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI drafts notes and tracks symptom scales, but diagnosing and treating mental illness still requires a licensed physician building trust with a patient over time. Demand for psychiatric care continues to outstrip the supply of psychiatrists."
+}

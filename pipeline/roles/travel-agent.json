@@ -1,0 +1,51 @@
+{
+ "slug": "travel-agent",
+ "title": "Travel Agent",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "41-3041",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 55,
+  "toolMaturity": 75,
+  "adoption": 55,
+  "agenticExposure": 60
+ },
+ "rationales": {
+  "taskAutomation": "Flight and hotel research, price comparison, and basic itinerary building are exactly the tasks AI trip-planning tools now perform end-to-end for standard trips.",
+  "toolMaturity": "AI trip-planning assistants and booking-platform AI features are mature and widely available to consumers directly.",
+  "adoption": "Consumer self-service booking via AI tools is now the default path for most travelers; agents retain a smaller, more complex client base.",
+  "agenticExposure": "Research, comparison, and itinerary assembly form a classic agent-ownable research-and-book workflow for standard trips."
+ },
+ "tasksAtRisk": [
+  "Flight and hotel price comparison",
+  "Standard itinerary building for common destinations",
+  "Basic visa and travel-requirement lookups"
+ ],
+ "tasksGrowing": [
+  "Complex multi-destination and group itinerary design",
+  "Handling disruptions, cancellations, and rebooking under pressure",
+  "High-touch advisory for luxury and corporate travel"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 60000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-3041, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Complex and luxury itinerary design",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI trip-planning tool integration into client service",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Crisis rebooking and disruption management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI trip planners already out-research most human agents on a standard beach vacation, comparing hundreds of fares and itineraries in seconds. The agents still working are the ones handling what breaks: a canceled flight mid-trip, a ten-stop corporate itinerary, or a client who wants judgment, not just options."
+}

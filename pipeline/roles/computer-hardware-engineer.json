@@ -1,0 +1,52 @@
+{
+ "slug": "computer-hardware-engineer",
+ "title": "Computer Hardware Engineer",
+ "category": "Technology",
+ "socCode": "17-2061",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 18,
+  "toolMaturity": 40,
+  "adoption": 26,
+  "agenticExposure": 16
+ },
+ "rationales": {
+  "taskAutomation": "Standard board schematics and routine test-script writing can be AI-assisted; novel chip and system design is not automatable.",
+  "toolMaturity": "AI-assisted EDA and simulation tools are credible but hardware-design AI remains far less mature than software coding tools.",
+  "adoption": "Early-adopter use only; hardware design cycles and fabrication costs make teams cautious about unproven tooling.",
+  "agenticExposure": "Physical prototyping and lab validation sharply limit how much of this role can be agent-owned end-to-end."
+ },
+ "tasksAtRisk": [
+  "Drafting standard board schematics from known references",
+  "Writing routine hardware test scripts",
+  "Documenting component specifications",
+  "Running standard simulation sweeps"
+ ],
+ "tasksGrowing": [
+  "Novel chip and system architecture design",
+  "Physical prototyping and lab validation",
+  "Power, thermal, and manufacturing tradeoff decisions"
+ ],
+ "salary": {
+  "low": 105000,
+  "high": 175000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2061 (Computer Hardware Engineers), p25-p75",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted EDA & Simulation Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Hardware Prototyping & Lab Validation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Power/Thermal/Manufacturing Tradeoff Analysis",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI-assisted simulation and EDA tools can speed up routine schematic work, but hardware design still lives or dies in physical prototyping and lab validation that no model can substitute for."
+}

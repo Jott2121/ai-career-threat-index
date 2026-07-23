@@ -1,0 +1,46 @@
+{
+ "slug": "fashion-designer",
+ "title": "Fashion Designer",
+ "category": "Creative",
+ "socCode": "27-1022",
+ "tier": 2,
+ "subscores": {"taskAutomation": 38, "toolMaturity": 58, "adoption": 48, "agenticExposure": 34},
+ "rationales": {
+  "taskAutomation": "AI can generate print, pattern, and trend-forecast concepts quickly, but garment construction, fit engineering, and brand-defining silhouette decisions remain designer-led.",
+  "toolMaturity": "Generative print, textile, and trend-forecasting tools are credible and improving, though no product yet handles pattern-to-garment execution end-to-end.",
+  "adoption": "Fast-fashion and print-heavy segments are adopting AI concept generation faster than luxury and made-to-measure segments.",
+  "agenticExposure": "Agents can generate and iterate print and trend concepts against a brief, but pattern-making, fit sessions, and production oversight stay human."
+ },
+ "tasksAtRisk": [
+  "Print, pattern, and textile concept generation",
+  "Trend forecasting and mood board assembly",
+  "Basic tech-pack drafting from a design brief"
+ ],
+ "tasksGrowing": [
+  "Garment construction and fit engineering",
+  "Brand-defining silhouette and collection direction",
+  "Sustainable materials sourcing and production oversight"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-1022 Fashion Designers, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Generative Print, Textile & Trend-Forecasting Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Garment Construction & Fit Engineering",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Collection Direction & Brand Vision",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI speeds up print and trend concept work, but a collection still lives or dies on fit, construction, and a designer's point of view. Concept-stage work is commoditizing faster than the craft of making clothes that fit."
+}

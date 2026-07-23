@@ -1,0 +1,59 @@
+{
+ "slug": "bookkeeper",
+ "title": "Bookkeeper",
+ "category": "Business & Finance",
+ "socCode": "43-3031",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 58,
+  "toolMaturity": 85,
+  "adoption": 65,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "Ledger entry, bank reconciliation, invoice matching, and payroll data entry are routine digital processing that AI now performs end to end at professional quality.",
+  "toolMaturity": "AI bookkeeping platforms (Botkeeper, QuickBooks AI, Xero AI) are mature, widely shipped products already embedded in most small-business accounting stacks.",
+  "adoption": "Near-mainstream among small and mid-size businesses that outsource bookkeeping, driven by accounting-firm cost pressure to automate low-margin work.",
+  "agenticExposure": "Categorize-reconcile-report is a fully closed loop; an agent can run the entire monthly cycle with a human reviewing only flagged exceptions."
+ },
+ "tasksAtRisk": [
+  "Ledger entry and transaction categorization",
+  "Bank and credit card reconciliation",
+  "Invoice and receipt matching",
+  "Payroll data entry",
+  "Basic financial statement preparation"
+ ],
+ "tasksGrowing": [
+  "Client advisory on cash flow and budgeting",
+  "Cleanup and audit-readiness projects",
+  "Managing AI tool exceptions and edge cases"
+ ],
+ "salary": {
+  "low": 38000,
+  "high": 55000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-3031 (Bookkeeping, Accounting, and Auditing Clerks), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI bookkeeping platform administration (Botkeeper, QBO AI)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Client advisory and cash-flow coaching",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Books cleanup and audit-readiness",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Bookkeeping is one of the most fully agent-automatable roles in finance today: categorization, reconciliation, and reporting now run with minimal human input. The path forward is overseeing the AI, handling exceptions, and moving into client-facing advisory work the software can't do.",
+ "industryModifiers": {
+  "Finance": 3,
+  "Tech": 5,
+  "Retail": 2,
+  "Government": -5
+ }
+}

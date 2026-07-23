@@ -1,0 +1,57 @@
+{
+ "slug": "actuary",
+ "title": "Actuary",
+ "category": "Business & Finance",
+ "socCode": "15-2011",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 22
+ },
+ "rationales": {
+  "taskAutomation": "AI accelerates data prep and preliminary modeling, but certified actuarial judgment, regulatory sign-off, and pricing/reserving decisions under professional liability remain human-owned.",
+  "toolMaturity": "Predictive modeling and machine-learning tools for pricing and reserving are improving fast but still require actuarial validation before production use.",
+  "adoption": "Early-to-mid adoption: larger insurers and reinsurers use AI-assisted modeling; broad industry adoption of AI in certified actuarial sign-off is still limited.",
+  "agenticExposure": "Data assembly and preliminary scenario runs are agent-ownable; the certified opinion and regulatory filing are not."
+ },
+ "tasksAtRisk": [
+  "Data assembly and cleaning for pricing models",
+  "Preliminary scenario and sensitivity runs",
+  "Standard reserve calculation updates"
+ ],
+ "tasksGrowing": [
+  "Novel risk modeling (climate, longevity, cyber)",
+  "Regulatory strategy and certified opinion work",
+  "AI model validation and governance within actuarial functions"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 150000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-2011 (Actuaries), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI/ML model validation and governance",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Predictive modeling for novel risk (climate, cyber)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Actuarial credentialing (FSA/ASA/CAS)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Actuarial work is professionally licensed and carries personal liability for the certified opinion, which keeps AI in an assistive role even as modeling tools improve quickly. Actuaries who also validate AI/ML risk models are becoming the bridge between data science and regulatory-grade certification.",
+ "industryModifiers": {
+  "Finance": 5,
+  "Tech": 3,
+  "Government": -5,
+  "Healthcare": 2
+ }
+}

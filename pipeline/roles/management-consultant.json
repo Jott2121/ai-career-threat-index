@@ -2,10 +2,20 @@
  "slug": "management-consultant",
  "title": "Management Consultant",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-1111",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 70,
+  "adoption": 52,
+  "agenticExposure": 40
+ },
+ "rationales": {
+  "taskAutomation": "AI drafts research summaries, benchmarks, and slide decks fast, but the custom strategic judgment, client trust, and change-management work clients actually pay for is not automatable end to end.",
+  "toolMaturity": "AI research and deck-generation tools (Gamma, AlphaSense, internal firm copilots) are credible and improving quickly at top consultancies.",
+  "adoption": "Common at major consulting firms; spreading to boutique and mid-market firms as AI-native delivery becomes a client expectation.",
+  "agenticExposure": "Research-gather-benchmark-draft is an agent-ownable loop; the strategic recommendation and stakeholder buy-in around it are not."
+ },
  "tasksAtRisk": [
   "Market research and data gathering",
   "Slide deck creation and formatting",
@@ -22,23 +32,23 @@
   "high": 200000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1111 (Management Analysts), p25-p75 rounded; high end reflects MBB/Big 4 market postings above the OES median",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
-   "skill": "AI Strategy Consulting",
+   "skill": "AI strategy consulting",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "AI-Powered Research & Analysis",
+   "skill": "AI-powered research and analysis",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Change Management for AI Adoption",
+   "skill": "Change management for AI adoption",
    "link": "/guides/ai-agents-guide/"
   }
  ],
- "insight": "AI handles research and deck-building faster, but clients pay for judgment, relationships, and implementation support. Consultants who specialize in AI transformation are in peak demand.",
+ "insight": "AI now handles research and deck-building faster than any analyst team, but clients still pay for judgment, relationships, and someone accountable for the outcome. Consultants who specialize in AI transformation itself are in peak demand.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

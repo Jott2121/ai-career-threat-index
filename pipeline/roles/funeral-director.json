@@ -1,0 +1,51 @@
+{
+ "slug": "funeral-director",
+ "title": "Funeral Director",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-4031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 18,
+  "toolMaturity": 30,
+  "adoption": 12,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "Coordinating services, handling remains, and supporting grieving families is licensed, high-trust, in-person work; only permit paperwork and scheduling are cleanly automatable.",
+  "toolMaturity": "Generic scheduling and document-generation tools apply, but purpose-built funeral-industry AI tooling has little traction.",
+  "adoption": "The funeral industry is conservative and highly regulated; AI adoption is rare and confined to back-office administration.",
+  "agenticExposure": "Death-certificate paperwork, permit filing, and scheduling are agent-ownable; family support and ceremonial judgment are not."
+ },
+ "tasksAtRisk": [
+  "Death-certificate and permit paperwork filing",
+  "Service scheduling and vendor coordination",
+  "Basic memorial-website or program generation"
+ ],
+ "tasksGrowing": [
+  "Grief support and family counseling during arrangements",
+  "Ceremonial judgment and personalization of services",
+  "Handling sensitive or complex family situations"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-4031, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Grief support and family counseling skills",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Licensing and continuing education in mortuary science",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Digital paperwork and permit-filing tool fluency",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "The paperwork around death, permits, certificates, scheduling, is genuinely automatable and slowly is being automated. Nothing about supporting a grieving family through a funeral is, and that's the part of the job that was never really about paperwork anyway."
+}

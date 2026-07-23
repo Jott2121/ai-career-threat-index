@@ -1,0 +1,52 @@
+{
+ "slug": "network-engineer",
+ "title": "Network Engineer",
+ "category": "Technology",
+ "socCode": "15-1241",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 54,
+  "adoption": 42,
+  "agenticExposure": 36
+ },
+ "rationales": {
+  "taskAutomation": "Standard routing/switching configuration and templated deployments are automatable; complex network design and security-incident response are not.",
+  "toolMaturity": "Network automation tooling (Ansible/Terraform for networking, AI-assisted config generation) is credible and improving but less mature than server-side IaC.",
+  "adoption": "Spreading in large enterprises and telecom-adjacent firms; slower in mid-market with legacy hardware estates.",
+  "agenticExposure": "Config deployment and standard network monitoring are agent-ownable; outage diagnosis on unfamiliar topologies is not."
+ },
+ "tasksAtRisk": [
+  "Writing standard router/switch configuration templates",
+  "Routine network monitoring and capacity reporting",
+  "Documenting network topology changes",
+  "Firmware update scheduling"
+ ],
+ "tasksGrowing": [
+  "Complex, multi-vendor network design",
+  "Network security incident response",
+  "SD-WAN and hybrid-cloud connectivity strategy"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 135000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1241 (Computer Network Architects, closest engineering-level mapping), p25-p75",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Network Automation (Ansible, Terraform for Networking)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "SD-WAN & Hybrid-Cloud Connectivity",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Network Security & Zero Trust",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI can now generate standard router and switch configurations from a template, but multi-vendor network design and diagnosing an unfamiliar topology under outage pressure still need an engineer who has seen the failure mode before."
+}

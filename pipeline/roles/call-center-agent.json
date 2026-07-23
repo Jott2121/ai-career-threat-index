@@ -1,0 +1,58 @@
+{
+ "slug": "call-center-agent",
+ "title": "Call Center Agent",
+ "category": "Administrative & Operations",
+ "socCode": "43-4051",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 74,
+  "toolMaturity": 85,
+  "adoption": 76,
+  "agenticExposure": 66
+ },
+ "rationales": {
+  "taskAutomation": "Most high-volume inbound call flows — account verification, basic troubleshooting, appointment reminders — are scripted enough for AI voice agents to run end-to-end at production quality.",
+  "toolMaturity": "Conversational AI voice platforms with real-time speech and telephony integration are mature and already deployed across large call center operations.",
+  "adoption": "Call centers were early, aggressive adopters of AI voice deflection given the direct link to headcount cost; adoption is near-mainstream among large operators.",
+  "agenticExposure": "A call queue is close to an agent spec: answer, verify, resolve or route, log — an autonomous voice agent can traverse it end-to-end for most routine calls."
+ },
+ "tasksAtRisk": [
+  "High-volume inbound call answering and routing",
+  "Scripted account verification and basic troubleshooting",
+  "Outbound reminder and follow-up calls",
+  "Call notes and CRM logging"
+ ],
+ "tasksGrowing": [
+  "Complex or emotionally charged call handling",
+  "Cross-selling and relationship-based retention calls",
+  "Supervising and correcting AI voice-agent transfers"
+ ],
+ "salary": {
+  "low": 28000,
+  "high": 40000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-4051 (Customer Service Representatives); range reflects call-center-specific roles at the lower end of the occupation band",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Complex Call De-escalation & Retention",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Voice-Agent Supervision & Escalation Handling",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "CRM & Contact-Center Platform Fluency",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI voice agents now run the bulk of routine call center volume end-to-end, which is why this role carries the steepest agentic exposure in the category. Agents who move into escalation handling, retention calls, and AI-voice-agent supervision are the ones still needed on the floor.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Finance": 3,
+  "Healthcare": -6,
+  "Government": -12
+ }
+}

@@ -2,43 +2,53 @@
  "slug": "cybersecurity-analyst",
  "title": "Cybersecurity Analyst",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-1212",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 58,
+  "adoption": 48,
+  "agenticExposure": 38
+ },
+ "rationales": {
+  "taskAutomation": "AI SOC copilots now triage alerts, correlate logs, and draft compliance reports end-to-end; novel-threat judgment and incident-response ownership still require an analyst.",
+  "toolMaturity": "Vendor SOC copilots (Microsoft Security Copilot, CrowdStrike Charlotte AI) are credible and improving fast, but not yet as embedded as coding copilots.",
+  "adoption": "Large enterprises and tech-forward security teams run AI triage in production; mid-market and regulated sectors lag.",
+  "agenticExposure": "Agents can autonomously run tier-1 alert triage and vulnerability scan sweeps; threat hunting and incident command stay human-led."
+ },
  "tasksAtRisk": [
-  "Log analysis for known threat patterns",
-  "Vulnerability scanning with standard tools",
-  "Generating routine compliance reports",
+  "Tier-1 SOC alert triage and correlation",
+  "Routine vulnerability scanning and patch-priority reports",
+  "Compliance report drafting from scan output",
   "Phishing email classification"
  ],
  "tasksGrowing": [
-  "Threat hunting for novel attack vectors",
-  "AI system security and adversarial defense",
-  "Incident response leadership and forensics"
+  "Threat hunting for novel, non-signature attack vectors",
+  "AI system security -- prompt injection, model poisoning, data exfiltration defense",
+  "Incident response leadership and digital forensics"
  ],
  "salary": {
   "low": 90000,
   "high": 165000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-1212 (Information Security Analysts), p25-p75",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
-   "skill": "AI Security & Adversarial ML",
+   "skill": "AI Security & Adversarial ML Defense",
    "link": "/guides/best-ai-certifications/"
   },
   {
-   "skill": "Threat Intelligence & Hunting",
-   "link": "/guides/ai-career-paths/"
+   "skill": "Agentic SOC Tool Supervision & Tuning",
+   "link": "/guides/ai-agents-guide/"
   },
   {
    "skill": "Cloud Security Architecture",
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AI creates new attack surfaces faster than it automates defense. Security analysts who understand AI-specific threats — prompt injection, model poisoning, data exfiltration — are in high demand.",
+ "insight": "AI SOC copilots now clear most tier-1 alert volume, but they also expand the attack surface faster than they close it. Analysts who supervise agentic triage and specialize in AI-native threats -- prompt injection, model poisoning -- are pulling ahead of generalists.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 5,

@@ -1,0 +1,47 @@
+{
+ "slug": "judicial-law-clerk",
+ "title": "Judicial Law Clerk",
+ "category": "Legal",
+ "socCode": "23-1012",
+ "tier": 2,
+ "subscores": {"taskAutomation": 48, "toolMaturity": 58, "adoption": 40, "agenticExposure": 38},
+ "rationales": {
+  "taskAutomation": "Case-law research, first-draft bench memoranda, and cite-checking are more than half the clerkship's core output, but framing the actual judgment call for the judge still requires human synthesis.",
+  "toolMaturity": "Legal research and memo-drafting copilots (CoCounsel, Harvey, Westlaw AI) are credible and improving fast, and are increasingly present in chambers workflows.",
+  "adoption": "Federal appellate chambers and large state courts are adopting AI research tools at a growing but still uneven rate across the judiciary.",
+  "agenticExposure": "The research-summarize-draft loop that defines a clerkship is meaningfully agent-ownable today, short of the in-chambers deliberation and judgment framing a clerk provides."
+ },
+ "tasksAtRisk": [
+  "Case-law and statutory research for pending motions and appeals",
+  "First-draft bench memoranda summarizing party arguments and precedent",
+  "Cite-checking and record citation verification",
+  "Docket and case-file organization"
+ ],
+ "tasksGrowing": [
+  "Judge-facing legal analysis on novel or high-stakes questions",
+  "In-chambers deliberation support and judgment-call framing",
+  "Complex multi-issue opinion drafting requiring judicial voice"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 23-1012, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Legal Research Co-Piloting (CoCounsel, Harvey, Westlaw AI)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Judicial Clerkship-to-Practice Career Pathing",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Advanced Legal Writing & Bench-Memo Craft",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI research tools now produce a credible first-pass bench memo in minutes; clerks who remain valuable are the ones a judge trusts to catch what the memo got wrong and frame the actual judgment call."
+}

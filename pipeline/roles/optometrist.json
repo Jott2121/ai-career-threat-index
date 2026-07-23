@@ -1,0 +1,51 @@
+{
+ "slug": "optometrist",
+ "title": "Optometrist",
+ "category": "Healthcare",
+ "socCode": "29-1041",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 22,
+  "toolMaturity": 58,
+  "adoption": 35,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "Routine refraction and standard screening are increasingly automatable via autorefractors and AI retinal-screening tools; complex diagnosis and eye disease management are not.",
+  "toolMaturity": "Autonomous AI retinal-screening systems (e.g., FDA-cleared diabetic retinopathy screening) are a mature, credible product category.",
+  "adoption": "Adoption of AI screening tools is spreading through larger optometry chains and primary-care partnerships; independent practices lag.",
+  "agenticExposure": "Agents can run routine refraction workflows and flag screening abnormalities, but diagnosis and treatment of eye disease stay with the optometrist."
+ },
+ "tasksAtRisk": [
+  "Routine refraction and prescription generation",
+  "Standard retinal and glaucoma screening",
+  "Patient scheduling and recall reminders"
+ ],
+ "tasksGrowing": [
+  "Complex eye disease diagnosis and management",
+  "Specialty contact lens fitting",
+  "Referral coordination for surgical care"
+ ],
+ "salary": {
+  "low": 110000,
+  "high": 170000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1041 (Optometrists), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Retinal Screening Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Ocular Disease Management Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Specialty Contact Lens Fitting",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Autonomous AI systems already screen for diabetic retinopathy at close to specialist accuracy, and autorefractors handle routine prescriptions. Optometrists managing eye disease and complex fittings hold the ground AI hasn't reached."
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "credit-counselor",
+ "title": "Credit Counselor",
+ "category": "Business & Finance",
+ "socCode": "13-2071",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 52,
+  "adoption": 38,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "Budget calculations and template debt-management plans are automatable, but empathetic counseling and negotiating directly with creditors on a client's behalf are not.",
+  "toolMaturity": "Basic budgeting and debt-calculator tools are widely available but generic; nothing purpose-built has displaced counselor-led negotiation.",
+  "adoption": "Early-to-mid adoption: nonprofit and for-profit credit counseling agencies use basic AI tools for intake, not for the counseling itself.",
+  "agenticExposure": "Budget-plan generation is an agent-ownable back-office slice; the counseling conversation and creditor negotiation are not."
+ },
+ "tasksAtRisk": [
+  "Budget calculation and debt-management plan generation",
+  "Client financial data intake and documentation",
+  "Standard debt-to-income and affordability calculations"
+ ],
+ "tasksGrowing": [
+  "Empathetic financial counseling and behavior change coaching",
+  "Direct negotiation with creditors",
+  "Complex bankruptcy and debt-relief case guidance"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 65000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-2071 (Credit Counselors), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Empathetic financial counseling and coaching",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Creditor negotiation",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Debt-relief and bankruptcy case guidance",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Debt-plan math is easy to automate, but people in financial distress come to a credit counselor for a person who will negotiate on their behalf and help them change behavior, not a calculator."
+}

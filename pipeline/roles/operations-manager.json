@@ -1,0 +1,57 @@
+{
+ "slug": "operations-manager",
+ "title": "Operations Manager",
+ "category": "Administrative & Operations",
+ "socCode": "11-1021",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 62,
+  "adoption": 48,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "Dashboard compilation, standard scheduling, and SOP documentation are increasingly AI-generated, but the core of the job — leading people, setting priorities, and making judgment calls under ambiguity — resists automation.",
+  "toolMaturity": "AI operations dashboards and BI copilots are credible and improving fast, giving managers faster reporting, though not yet a full operating layer.",
+  "adoption": "Common at large, tech-forward firms for reporting and scheduling support; the management function itself is not something employers are automating away.",
+  "agenticExposure": "Isolated back-office slices — reporting, scheduling, documentation — are agent-ownable, but the core management role of leading a team and owning outcomes is not."
+ },
+ "tasksAtRisk": [
+  "Routine KPI dashboard compilation and status reporting",
+  "Standard resource and shift scheduling",
+  "Process documentation and SOP updates"
+ ],
+ "tasksGrowing": [
+  "Cross-functional strategy and priority-setting",
+  "People leadership, coaching, and performance management",
+  "Crisis response and operational judgment calls"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 145000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-1021 (General and Operations Managers), p25-p75 rounded; upper end extended toward market postings for senior operations leaders",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Augmented Operations Dashboards & Analytics",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "People Leadership & Performance Management",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Cross-Functional Strategy & Process Design",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now compiles the reports and drafts the schedules an operations manager used to build by hand, but leading a team through an ambiguous, high-stakes day still needs a person in the room. That is why this role stays firmly Low risk even as the reporting work underneath it automates.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Manufacturing": 3,
+  "Government": -8,
+  "Healthcare": -3
+ }
+}

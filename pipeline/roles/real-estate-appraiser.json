@@ -1,0 +1,51 @@
+{
+ "slug": "real-estate-appraiser",
+ "title": "Real Estate Appraiser",
+ "category": "Business & Finance",
+ "socCode": "13-2023",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 34,
+  "toolMaturity": 65,
+  "adoption": 45,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "Automated valuation models (AVMs) handle standard comps and pricing well, but licensed on-site inspection and defensible valuation judgment remain regulatory requirements for most mortgage lending.",
+  "toolMaturity": "AVMs (Zillow Zestimate-class tools, lender-integrated valuation engines) are mature and widely deployed for preliminary valuation.",
+  "adoption": "Common as a first-pass tool at lenders; regulatory appraisal-waiver programs are expanding but a licensed appraiser is still required for a large share of mortgages.",
+  "agenticExposure": "Comp-pulling and preliminary valuation are agent-ownable; certified on-site inspection and sign-off are not."
+ },
+ "tasksAtRisk": [
+  "Comparable sales research and adjustment calculations",
+  "Preliminary automated valuation model (AVM) runs",
+  "Standard appraisal report drafting"
+ ],
+ "tasksGrowing": [
+  "Complex or unique property valuation requiring on-site judgment",
+  "Litigation and dispute-related appraisal work",
+  "AVM accuracy review and exception handling"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-2023 (Appraisers and Assessors of Real Estate), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Complex and unique-property valuation judgment",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AVM oversight and exception review",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Litigation and dispute appraisal expertise",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Appraisal-waiver programs and automated valuation models are eroding standard-appraisal volume steadily, but licensed sign-off on complex or disputed properties still requires a certified human on site."
+}

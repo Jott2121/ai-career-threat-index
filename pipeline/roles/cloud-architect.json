@@ -1,0 +1,58 @@
+{
+ "slug": "cloud-architect",
+ "title": "Cloud Architect",
+ "category": "Technology",
+ "socCode": "15-1241",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 56,
+  "adoption": 48,
+  "agenticExposure": 36
+ },
+ "rationales": {
+  "taskAutomation": "AI can draft standard reference architectures and IaC scaffolding, but vendor tradeoffs, cost governance, and enterprise-scale design decisions remain judgment calls.",
+  "toolMaturity": "IaC generation and cloud-design copilots are credible and improving quickly but not yet a mature, near-solved capability.",
+  "adoption": "Adoption is spreading across large enterprises undertaking cloud migration and modernization programs.",
+  "agenticExposure": "Agents can generate and validate infrastructure templates against a given design; the design decision itself stays with the architect."
+ },
+ "tasksAtRisk": [
+  "Drafting standard reference architecture diagrams",
+  "Generating baseline IaC templates for common patterns",
+  "Documenting cloud migration runbooks",
+  "Producing cost-estimate spreadsheets for known workloads"
+ ],
+ "tasksGrowing": [
+  "Enterprise cloud strategy and vendor negotiation",
+  "Multi-cloud cost and resilience tradeoff decisions",
+  "Security and compliance architecture for regulated workloads"
+ ],
+ "salary": {
+  "low": 140000,
+  "high": 215000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1241 (Computer Network Architects, closest cloud-architecture mapping), p25-p75",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Multi-Cloud Architecture (AWS/Azure/GCP)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI-Assisted IaC & Landing Zone Design",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Cloud Cost & Resilience Governance",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI can draft a reference architecture and the IaC to match it, but choosing between vendors, owning the cost/resilience tradeoff, and getting a regulated workload through security review still take an accountable architect.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Government": -10,
+  "Healthcare": -5
+ }
+}

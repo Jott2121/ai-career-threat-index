@@ -2,10 +2,20 @@
  "slug": "budget-analyst",
  "title": "Budget Analyst",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-2031",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 50,
+  "toolMaturity": 85,
+  "adoption": 65,
+  "agenticExposure": 52
+ },
+ "rationales": {
+  "taskAutomation": "Variance reporting, trend analysis, and cost-allocation math are largely templated digital output; only cross-department negotiation and strategic allocation calls resist automation.",
+  "toolMaturity": "FP&A platforms with embedded forecasting AI (Planful, Vena, Datarails) are mature and widely deployed for standard variance and budget reporting.",
+  "adoption": "Common practice at large firms and increasingly standard in mid-market finance teams and government budget offices.",
+  "agenticExposure": "Recurring variance-report-and-forecast cycles are a scoped, verifiable workflow an agent can own between human budget reviews."
+ },
  "tasksAtRisk": [
   "Budget variance reporting",
   "Spending trend analysis and forecasting",
@@ -22,23 +32,23 @@
   "high": 100000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-2031 (Budget Analysts), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Financial Planning Tools",
+   "skill": "AI-assisted FP&A platforms (Planful, Vena, Datarails)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Strategic Finance & FP&A",
+   "skill": "Strategic finance and resource-allocation advisory",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Data Visualization & Storytelling",
+   "skill": "Data visualization and executive storytelling",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI automates variance reporting and forecasting, but budget analysts who can advise leadership on resource strategy and facilitate cross-department negotiations add irreplaceable value.",
+ "insight": "AI now closes the variance-report-to-forecast loop with minimal input, but budget analysts who can advise leadership on trade-offs and broker cross-department negotiation still set the agenda.",
  "industryModifiers": {
   "Finance": 3,
   "Government": -8,

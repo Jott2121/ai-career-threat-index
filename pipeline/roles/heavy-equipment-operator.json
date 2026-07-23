@@ -1,0 +1,51 @@
+{
+ "slug": "heavy-equipment-operator",
+ "title": "Heavy Equipment Operator",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2073",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 12,
+  "toolMaturity": 38,
+  "adoption": 22,
+  "agenticExposure": 9
+ },
+ "rationales": {
+  "taskAutomation": "Operating excavators, graders and loaders requires real-time site judgment; only fleet-tracking and basic telemetry logging are automatable today.",
+  "toolMaturity": "Semi-autonomous grading and GPS machine-control systems are credible and improving, but full autonomy is not yet production-standard on most sites.",
+  "adoption": "GPS machine-control adoption is real among larger earthwork and grading contractors; most smaller operations remain manually operated.",
+  "agenticExposure": "An agent can log machine hours and flag maintenance from telemetry; it cannot grade a pad to spec on an active site."
+ },
+ "tasksAtRisk": [
+  "Machine-hour and telemetry logging",
+  "Preventive-maintenance scheduling from equipment sensors",
+  "Fuel and utilization tracking across a fleet"
+ ],
+ "tasksGrowing": [
+  "Operating GPS machine-control and semi-autonomous grading systems",
+  "Site judgment on unstable or unmapped ground conditions",
+  "Cross-training across multiple equipment classes"
+ ],
+ "salary": {
+  "low": 43000,
+  "high": 78000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2073, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "GPS machine-control and semi-autonomous grading certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Multi-equipment cross-training",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Fleet telemetry and maintenance-tracking software literacy",
+   "link": "/guides/ai-coding-tools/"
+  }
+ ],
+ "insight": "Heavy-equipment operation trends toward rising demand as infrastructure spending grows, and semi-autonomous GPS grading systems are shifting the job toward oversight of assisted equipment rather than replacing operators outright."
+}

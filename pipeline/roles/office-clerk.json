@@ -1,0 +1,35 @@
+{
+ "slug": "office-clerk",
+ "title": "Office Clerk (General)",
+ "category": "Administrative & Operations",
+ "socCode": "43-9061",
+ "tier": 2,
+ "subscores": {"taskAutomation": 62, "toolMaturity": 74, "adoption": 52, "agenticExposure": 60},
+ "rationales": {
+  "taskAutomation": "Filing, form processing, record updates, basic correspondence, and data lookup are digital, routinized, and automatable end-to-end; the residual is ad-hoc physical office support.",
+  "toolMaturity": "Document AI, workflow automation, and office-suite copilots targeting exactly this task mix are mature and widely shipped.",
+  "adoption": "Back-office automation is common in large firms and spreading through mid-market shared-services teams.",
+  "agenticExposure": "The role is largely a queue of digital handoffs — routing documents, updating records, chasing status — that autonomous agents can traverse today."
+ },
+ "tasksAtRisk": [
+  "Filing, retrieving, and updating records across office systems",
+  "Processing routine forms, invoices, and correspondence",
+  "Data entry and cross-system record reconciliation",
+  "Answering routine internal status and lookup requests",
+  "Scheduling and calendar upkeep for shared resources"
+ ],
+ "tasksGrowing": [
+  "Exception handling when automated workflows fail or conflict",
+  "Overseeing and auditing automated document pipelines",
+  "In-person office coordination and vendor reception"
+ ],
+ "salary": {"low": 35000, "high": 50000, "currency": "USD"},
+ "salarySource": "BLS OES May 2024, SOC 43-9061, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {"skill": "Workflow Automation Oversight (approvals, exceptions)", "link": "/guides/ai-agents-guide/"},
+  {"skill": "AI Office-Suite Power Use (Copilot, Gemini for Workspace)", "link": "/guides/ai-skills-resume/"},
+  {"skill": "Records Compliance & Data Quality", "link": "/guides/best-ai-certifications/"}
+ ],
+ "insight": "One of America's largest occupations sits squarely in the path of document AI and office agents; clerks who become the person who runs and audits the automation keep the job."
+}

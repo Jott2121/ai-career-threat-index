@@ -1,0 +1,51 @@
+{
+ "slug": "logistics-manager",
+ "title": "Logistics Manager",
+ "category": "Transportation & Logistics",
+ "socCode": "11-3071",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 38,
+  "toolMaturity": 60,
+  "adoption": 42,
+  "agenticExposure": 42
+ },
+ "rationales": {
+  "taskAutomation": "Reporting, scheduling, and route/network optimization are largely digital, but vendor relationships, people management, and exception judgment still gate most of the role's value.",
+  "toolMaturity": "AI-enabled transportation and warehouse management systems are mature and widely embedded in the standard logistics toolchain.",
+  "adoption": "Common at large logistics and retail employers, spreading into mid-market operations.",
+  "agenticExposure": "Routing optimization, reporting, and exception triage are meaningfully agent-ownable slices, but the managerial and vendor-facing core is not."
+ },
+ "tasksAtRisk": [
+  "Network and route optimization reporting",
+  "Standard KPI dashboards and performance tracking",
+  "Inventory and capacity forecasting"
+ ],
+ "tasksGrowing": [
+  "Vendor and carrier contract negotiation",
+  "Team management and cross-functional coordination",
+  "Strategic network redesign and crisis response"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-3071, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-enabled TMS/WMS platform oversight",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Vendor and carrier contract negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Cross-functional team leadership in logistics",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI has taken over much of the reporting and route-optimization work that used to fill a logistics manager's week, but the vendor negotiation, team leadership, and judgment calls during disruptions remain squarely human, keeping overall risk moderate rather than high."
+}

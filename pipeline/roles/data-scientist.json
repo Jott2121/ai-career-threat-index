@@ -2,29 +2,43 @@
  "slug": "data-scientist",
  "title": "Data Scientist",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-2051",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 58,
+  "adoption": 48,
+  "agenticExposure": 40
+ },
+ "rationales": {
+  "taskAutomation": "AutoML and agentic notebooks now run EDA, standard model builds, and visualization end-to-end; problem framing and stakeholder translation are not automatable.",
+  "toolMaturity": "AutoML platforms and LLM-assisted analysis tools are credible and improving fast, short of the maturity of mainstream coding copilots.",
+  "adoption": "Common at large firms and tech-forward teams; spreading to mid-market analytics functions.",
+  "agenticExposure": "Multi-step agents can now run full research-clean-model-report loops on structured data with human review at the end."
+ },
  "tasksAtRisk": [
   "Exploratory data analysis on structured datasets",
-  "Building standard ML models (regression, classification)",
-  "Creating routine data visualizations",
-  "Data cleaning and preprocessing"
+  "Building standard ML models (regression, classification) via AutoML",
+  "Routine data visualization and dashboard generation",
+  "Data cleaning and preprocessing pipelines"
  ],
  "tasksGrowing": [
-  "Framing business problems as data problems",
-  "Interpreting results for non-technical stakeholders",
-  "Designing novel ML approaches for unique challenges"
+  "Framing ambiguous business problems as data problems",
+  "Designing novel ML approaches for unique challenges",
+  "Interpreting and defending results to non-technical stakeholders"
  ],
  "salary": {
   "low": 120000,
   "high": 190000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-2051 (Data Scientists), p25-p75",
  "salaryTrend": "rising",
  "defenseSkills": [
+  {
+   "skill": "Directing Agentic Data Pipelines & AutoML",
+   "link": "/guides/ai-agents-guide/"
+  },
   {
    "skill": "LLM Fine-Tuning & Evaluation",
    "link": "/guides/best-ai-certifications/"
@@ -32,13 +46,9 @@
   {
    "skill": "AI Strategy & Business Translation",
    "link": "/guides/ai-career-paths/"
-  },
-  {
-   "skill": "Advanced MLOps & Model Governance",
-   "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AutoML handles routine modeling, but data scientists who can frame problems, design experiments, and translate findings into business action are more in demand than ever.",
+ "insight": "Agentic notebooks can now run an entire clean-model-report loop on structured data unattended, which pushes routine modeling toward a commodity task. Data scientists who frame the right problem, design the experiment, and translate results into a business decision remain the ones firms pay for.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

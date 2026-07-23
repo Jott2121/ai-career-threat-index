@@ -1,0 +1,52 @@
+{
+ "slug": "general-contractor",
+ "title": "General Contractor",
+ "category": "Skilled Trades & Construction",
+ "socCode": "11-9021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "Bidding, scheduling and subcontractor-payment paperwork are substantially digital and automatable; on-site coordination and client relationships are not.",
+  "toolMaturity": "AI-assisted bidding, scheduling and project-management tools are credible and improving, similar to those used by larger construction managers but at smaller-project scale.",
+  "adoption": "Adoption is growing among small-to-mid-size general contractors using AI-assisted estimating and scheduling software; adoption still trails large commercial firms.",
+  "agenticExposure": "An agent can draft a bid package and track subcontractor payments; it cannot walk the site or resolve a client dispute."
+ },
+ "tasksAtRisk": [
+  "Bid package and estimate generation",
+  "Subcontractor scheduling and payment-application tracking",
+  "Permit-application paperwork",
+  "Progress-report drafting for clients"
+ ],
+ "tasksGrowing": [
+  "On-site quality control and subcontractor coordination",
+  "Client relationship management and change-order negotiation",
+  "Adapting scope to unforeseen site conditions"
+ ],
+ "salary": {
+  "low": 58000,
+  "high": 118000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 11-9021, p25-p75 rounded (residential/small-commercial general-contractor scale)",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-assisted bidding and scheduling software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Client and change-order negotiation skills",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Multi-trade project coordination certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "General contractors carry meaningful exposure on the paperwork side, bidding, scheduling and permitting are increasingly software-driven, while site coordination and client relationships remain a human function."
+}

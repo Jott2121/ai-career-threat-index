@@ -1,0 +1,51 @@
+{
+ "slug": "forklift-operator",
+ "title": "Forklift Operator",
+ "category": "Transportation & Logistics",
+ "socCode": "53-7051",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 55,
+  "adoption": 25,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "Autonomous forklifts and AGVs handle repetitive pallet moves in modern facilities, but irregular loads, tight spaces, and mixed human-equipment traffic still need a licensed operator in most warehouses.",
+  "toolMaturity": "Autonomous forklift/AMR products (Seegrid, Fetch and similar) are mature and commercially deployed in large distribution centers.",
+  "adoption": "Adoption is real but concentrated in large, newer, automation-forward facilities; most of the broader warehouse base still runs manually operated forklifts.",
+  "agenticExposure": "Load-routing and task-queue assignment are agent-ownable; direct physical vehicle operation in unstructured floor conditions is not."
+ },
+ "tasksAtRisk": [
+  "Repetitive pallet moves on fixed routes",
+  "Standard put-away and retrieval in mapped racking",
+  "Load-queue assignment and task sequencing"
+ ],
+ "tasksGrowing": [
+  "Irregular, oversized, or damaged-load handling",
+  "Operating in mixed human/AGV traffic zones safely",
+  "Equipment maintenance and troubleshooting"
+ ],
+ "salary": {
+  "low": 33000,
+  "high": 50000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-7051, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AGV/AMR fleet coexistence and safety operation",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Irregular and specialized load handling",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Basic equipment maintenance and troubleshooting",
+   "link": "/guides/ai-coding-tools/"
+  }
+ ],
+ "insight": "Autonomous forklifts are a mature product, but they are best at repetitive, mapped-route moves; the irregular loads and mixed human/robot floors of most warehouses still need a licensed human operator, so adoption is real but concentrated in a minority of large, newer facilities."
+}

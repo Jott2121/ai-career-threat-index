@@ -1,0 +1,56 @@
+{
+ "slug": "home-health-aide",
+ "title": "Home Health Aide",
+ "category": "Healthcare",
+ "socCode": "31-1121",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 6,
+  "toolMaturity": 25,
+  "adoption": 12,
+  "agenticExposure": 6
+ },
+ "rationales": {
+  "taskAutomation": "The job is in-person personal care, bathing, mobility assistance, companionship, that has essentially no digital surface for AI to automate.",
+  "toolMaturity": "Almost no purpose-built AI tooling targets this role's actual task list; scheduling apps are the extent of it.",
+  "adoption": "Adoption is rare; home-care agencies use scheduling and dispatch software, not AI for the care itself.",
+  "agenticExposure": "Only scheduling and visit-logging slices are agent-ownable; the in-person caregiving core is untouched."
+ },
+ "tasksAtRisk": [
+  "Visit scheduling and dispatch coordination",
+  "Care-log documentation and reporting",
+  "Medication reminder tracking"
+ ],
+ "tasksGrowing": [
+  "Hands-on personal care and mobility assistance",
+  "Companionship and emotional support",
+  "Family communication and care coordination"
+ ],
+ "salary": {
+  "low": 28000,
+  "high": 38000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 31-1121 (Home Health Aides), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Dementia & Chronic Care Specialization",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Care Coordination Technology",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Home Health Aide Certification Advancement",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "This is about as AI-resistant as work gets: in-person personal care with no digital surface to automate. Demand is rising fast with an aging population, and the constraint is workforce supply, not AI displacement.",
+ "industryModifiers": {
+  "Healthcare": 2,
+  "Government": -8,
+  "Retail": 2
+ }
+}

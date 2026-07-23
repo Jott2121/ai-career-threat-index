@@ -1,0 +1,51 @@
+{
+ "slug": "wind-turbine-technician",
+ "title": "Wind Turbine Technician",
+ "category": "Skilled Trades & Construction",
+ "socCode": "49-9081",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 13,
+  "toolMaturity": 42,
+  "adoption": 28,
+  "agenticExposure": 9
+ },
+ "rationales": {
+  "taskAutomation": "Climbing, mechanical repair and blade inspection at height are manual, safety-critical work; remote condition-monitoring is the automatable slice.",
+  "toolMaturity": "SCADA-based remote condition-monitoring and predictive-maintenance software is mature and standard across utility-scale wind operators.",
+  "adoption": "Nearly universal among utility-scale wind operators, who rely on remote monitoring to schedule maintenance visits.",
+  "agenticExposure": "An agent can flag a predicted gearbox or blade fault from sensor telemetry, not climb the tower and make the repair."
+ },
+ "tasksAtRisk": [
+  "Remote condition-monitoring and fault-alert triage",
+  "Maintenance scheduling based on predictive-analytics output",
+  "Inspection and compliance-log documentation"
+ ],
+ "tasksGrowing": [
+  "Height-safety mechanical repair and component replacement",
+  "Blade inspection and drone-assisted damage assessment",
+  "Cross-training on newer, larger turbine platforms"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 82000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 49-9081, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Advanced turbine platform and gearbox certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "SCADA/predictive-maintenance data interpretation",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Height-safety and drone-assisted inspection skills",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Wind turbine technician remains one of the fastest-growing trades: remote condition-monitoring is mature and near-universal among operators, but the physical climb-and-repair work keeps risk low even as demand rises with fleet growth."
+}

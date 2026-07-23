@@ -1,0 +1,52 @@
+{
+ "slug": "blockchain-developer",
+ "title": "Blockchain Developer",
+ "category": "Technology",
+ "socCode": "15-1252",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 48,
+  "adoption": 28,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "Standard smart-contract templates and DApp scaffolding are AI-assistable; security auditing and novel protocol design are not.",
+  "toolMaturity": "Generic coding copilots apply, but blockchain-specific tooling (contract auditing agents, formal verification) is still early.",
+  "adoption": "Niche and early-adopter, concentrated in crypto-native and fintech-adjacent firms rather than mainstream enterprise.",
+  "agenticExposure": "Contract test-suite generation and deployment scripting are agent-ownable; exploit-surface auditing is not."
+ },
+ "tasksAtRisk": [
+  "Writing standard smart-contract templates",
+  "DApp front-end scaffolding",
+  "Contract test-suite generation",
+  "Deployment and verification scripting"
+ ],
+ "tasksGrowing": [
+  "Smart-contract security auditing and exploit analysis",
+  "Novel protocol and tokenomics design",
+  "Cross-chain interoperability architecture"
+ ],
+ "salary": {
+  "low": 100000,
+  "high": 170000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers, closest blockchain-development mapping), p25-p75",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Smart Contract Security Auditing",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI-Assisted Contract Testing & Formal Verification",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Cross-Chain Protocol Architecture",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI can now scaffold a standard smart contract quickly, which makes security auditing -- where a missed edge case costs real money on-chain -- the part of this role that is actually growing in value."
+}

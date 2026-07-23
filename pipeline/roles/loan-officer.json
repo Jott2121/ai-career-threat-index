@@ -2,10 +2,20 @@
  "slug": "loan-officer",
  "title": "Loan Officer",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-2072",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 58,
+  "toolMaturity": 85,
+  "adoption": 68,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "Pre-qualification, document collection, standard-profile credit analysis, and compliance checklists now run through automated lending pipelines end to end; complex and relationship-driven lending doesn't.",
+  "toolMaturity": "Fintech lending platforms (Rocket Mortgage AI, online-lender underwriting engines) are mature and embedded in most retail and mortgage lending operations.",
+  "adoption": "Mainstream at online lenders and large banks, spreading fast into community and credit-union lending.",
+  "agenticExposure": "Intake-to-prequalification-to-approval for standard consumer loans is a fully agent-traversable pipeline today."
+ },
  "tasksAtRisk": [
   "Pre-qualification calculations",
   "Application processing and document collection",
@@ -23,23 +33,23 @@
   "high": 120000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-2072 (Loan Officers), p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "Commercial Lending Expertise",
+   "skill": "Commercial lending expertise",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Financial Advisory & Planning",
+   "skill": "Financial advisory and planning",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Fintech & AI Lending Platforms",
+   "skill": "Fintech and AI lending platforms",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "Online lenders and AI underwriting handle most standard loans now. Loan officers who build deep client relationships and master complex commercial lending remain valuable.",
+ "insight": "Online lenders now originate most standard consumer loans with essentially no loan officer involvement. Officers who build deep client relationships and master complex commercial or construction lending remain the ones borrowers and banks still need.",
  "industryModifiers": {
   "Finance": 5,
   "Tech": 3,

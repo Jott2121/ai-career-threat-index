@@ -1,0 +1,52 @@
+{
+ "slug": "site-reliability-engineer",
+ "title": "Site Reliability Engineer",
+ "category": "Technology",
+ "socCode": "15-1252",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 34,
+  "toolMaturity": 68,
+  "adoption": 52,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Runbook execution, routine alert triage, and standard monitoring config are automatable end-to-end; novel outage diagnosis and reliability strategy are not.",
+  "toolMaturity": "AIOps and incident-automation platforms are mature and embedded in standard on-call tooling.",
+  "adoption": "Common at tech-forward engineering orgs running production services at scale.",
+  "agenticExposure": "Agents can run first-pass incident triage and execute known runbooks; root-cause analysis on novel outages stays human."
+ },
+ "tasksAtRisk": [
+  "Executing standard incident runbooks",
+  "Routine alert triage and noise reduction",
+  "Monitoring and dashboard configuration",
+  "SLO/error-budget reporting"
+ ],
+ "tasksGrowing": [
+  "Novel outage root-cause analysis",
+  "Reliability architecture and capacity strategy",
+  "Cross-team incident command for major outages"
+ ],
+ "salary": {
+  "low": 130000,
+  "high": 200000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers, closest SRE mapping), p25-p75",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Agentic Incident Triage & Runbook Automation",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "AIOps & Observability Platforms",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Reliability Architecture & Capacity Planning",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Agents now run first-pass triage and execute known runbooks before a human is paged. The SREs still in demand are the ones who own reliability architecture and can run incident command when the runbook doesn't cover it."
+}

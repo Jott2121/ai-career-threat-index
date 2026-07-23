@@ -1,0 +1,57 @@
+{
+ "slug": "dentist",
+ "title": "Dentist",
+ "category": "Healthcare",
+ "socCode": "29-1021",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 12,
+  "toolMaturity": 45,
+  "adoption": 30,
+  "agenticExposure": 12
+ },
+ "rationales": {
+  "taskAutomation": "Routine restorative and preventive procedures require licensed hands-on dexterity; only imaging review and treatment-plan documentation carry a meaningful digital share.",
+  "toolMaturity": "AI caries-detection and imaging-analysis tools (Overjet, Pearl) are credible and improving, not yet standard equipment in most practices.",
+  "adoption": "Adoption is concentrated in larger dental service organizations; independent practices are mostly early or non-adopters.",
+  "agenticExposure": "Agents can pre-screen bitewing X-rays and draft treatment-plan documentation, but the procedures themselves stay physically hands-on."
+ },
+ "tasksAtRisk": [
+  "AI-assisted caries and pathology detection on X-rays",
+  "Treatment plan documentation and coding",
+  "Insurance claims processing",
+  "Patient scheduling and recall reminders"
+ ],
+ "tasksGrowing": [
+  "Restorative and surgical procedures",
+  "Complex case diagnosis and treatment sequencing",
+  "Patient trust-building and chairside communication"
+ ],
+ "salary": {
+  "low": 140000,
+  "high": 250000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1021 (Dentists, General), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Diagnostic Imaging (Overjet, Pearl)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Practice AI Implementation & DSO Operations",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Advanced Restorative & Implant Certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now flags caries and bone loss on X-rays before the dentist even looks, tightening diagnosis but not touching the drill. The procedures that define the job stay licensed, physical, and human for the foreseeable future.",
+ "industryModifiers": {
+  "Healthcare": 2,
+  "Government": -5,
+  "Retail": 3
+ }
+}

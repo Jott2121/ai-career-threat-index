@@ -1,0 +1,56 @@
+{
+ "slug": "hair-stylist",
+ "title": "Hair Stylist",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-5012",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 30,
+  "adoption": 12,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Cutting, coloring, and styling require fine motor skill and real-time adaptation to a client's head and hair; almost none of it is end-to-end automatable.",
+  "toolMaturity": "AI styling-preview and virtual try-on apps exist and are improving, but no tool performs the physical service itself.",
+  "adoption": "A minority of chain salons use AI consultation or booking tools; most independent stylists use none.",
+  "agenticExposure": "Booking, reminders, and color-formula recordkeeping are agent-ownable; the haircut itself is not."
+ },
+ "tasksAtRisk": [
+  "Appointment scheduling and reminder messaging",
+  "Color-formula recordkeeping across visits",
+  "Retail product recommendation based on hair profile"
+ ],
+ "tasksGrowing": [
+  "Precision cutting and color technique",
+  "Real-time client consultation and style adaptation",
+  "Building a personal client book and referral base"
+ ],
+ "salary": {
+  "low": 27000,
+  "high": 50000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-5012, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Advanced cutting and color technique specialization",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI virtual try-on and style-consultation tools",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Client-book building and retention",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Virtual try-on apps can preview a haircut; no product can perform one. The stylist's exposure is entirely in scheduling and formula recordkeeping, not the chair.",
+ "industryModifiers": {
+  "Retail": 4,
+  "Tech": 3,
+  "Government": -8
+ }
+}

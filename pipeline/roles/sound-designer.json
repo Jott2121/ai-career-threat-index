@@ -1,0 +1,46 @@
+{
+ "slug": "sound-designer",
+ "title": "Sound Designer",
+ "category": "Creative",
+ "socCode": "27-4014",
+ "tier": 2,
+ "subscores": {"taskAutomation": 42, "toolMaturity": 62, "adoption": 42, "agenticExposure": 36},
+ "rationales": {
+  "taskAutomation": "AI can generate stock sound effects, basic foley, and ambient beds from a text prompt; complex spatial mixing, foley performance, and final dub-stage work for film and premium games still need a human sound designer.",
+  "toolMaturity": "Generative audio and sound-effect tools are credible and improving fast, but aren't yet a substitute for a trained ear on a dub stage.",
+  "adoption": "Indie game and podcast production have adopted generative sound effects meaningfully faster than film and AAA game post houses.",
+  "agenticExposure": "Agents can generate and layer stock sound-effect libraries against a scene description, but final spatial mix and creative sound decisions stay human."
+ },
+ "tasksAtRisk": [
+  "Stock sound-effect and ambience generation from text prompts",
+  "Basic foley layering for routine scenes",
+  "Rough audio-cleanup and noise-reduction passes"
+ ],
+ "tasksGrowing": [
+  "Final spatial mix and dub-stage work for film and premium games",
+  "Original sonic identity design for franchises",
+  "Live foley performance and creative sound direction"
+ ],
+ "salary": {
+  "low": 42000,
+  "high": 88000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-4014 Sound Engineering Technicians, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Generative Audio & Sound-Effect Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Spatial Mixing & Dub-Stage Craft",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Original Sonic Identity Design",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Generative audio tools now cover stock sound effects and basic foley, but the final mix that makes a scene actually land still needs a trained ear. This is a role where AI eats the library work, not the craft."
+}

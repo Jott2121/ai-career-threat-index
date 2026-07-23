@@ -2,44 +2,54 @@
  "slug": "it-support-specialist",
  "title": "IT Support Specialist",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-1232",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 70,
+  "toolMaturity": 80,
+  "adoption": 68,
+  "agenticExposure": 62
+ },
+ "rationales": {
+  "taskAutomation": "The bulk of tier-1 work -- resets, provisioning, install/update requests, connectivity diagnosis, ticket routing -- is scripted digital interaction AI already resolves end-to-end.",
+  "toolMaturity": "AI helpdesk chatbots and automated ticketing/remediation platforms are mature, commodity, and standard in enterprise IT stacks.",
+  "adoption": "AI-first tier-1 deflection is now a mainstream expectation for enterprise IT support functions.",
+  "agenticExposure": "Tier-1 support is a textbook agent-ownable pipeline: intake, diagnosis, remediation, and closure with minimal human handoff."
+ },
  "tasksAtRisk": [
   "Answering common troubleshooting questions",
   "Password resets and account provisioning",
-  "Software installation and updates",
+  "Software installation and update requests",
   "Basic network connectivity diagnosis",
   "Ticket routing and categorization"
  ],
  "tasksGrowing": [
-  "Complex system integration troubleshooting",
+  "Complex, multi-system integration troubleshooting",
   "Cybersecurity incident first response",
-  "AI tool administration and user training"
+  "Administering and tuning AI support agents for the org"
  ],
  "salary": {
   "low": 45000,
   "high": 75000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-1232 (Computer User Support Specialists), p25-p75",
  "salaryTrend": "declining",
  "defenseSkills": [
+  {
+   "skill": "Administering AI Helpdesk Agents",
+   "link": "/guides/ai-agents-guide/"
+  },
   {
    "skill": "Cybersecurity Fundamentals",
    "link": "/guides/best-ai-certifications/"
   },
   {
-   "skill": "AI Tool Administration",
-   "link": "/guides/ai-agents-guide/"
-  },
-  {
-   "skill": "Cloud Platform Management",
+   "skill": "Cloud Platform & Identity Management",
    "link": "/guides/ai-career-paths/"
   }
  ],
- "insight": "AI chatbots and automated ticketing systems now resolve 40-60% of tier-1 support requests. IT specialists who move into security, cloud management, or AI tool administration will stay relevant.",
+ "insight": "AI helpdesk agents now resolve most tier-1 tickets -- resets, installs, routing -- without a human touch, and that volume was this role's core. The specialists still hired are the ones running and tuning those agents, or moving into security first-response and cloud identity work.",
  "industryModifiers": {
   "Tech": 3,
   "Government": -8,

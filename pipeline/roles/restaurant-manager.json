@@ -1,0 +1,51 @@
+{
+ "slug": "restaurant-manager",
+ "title": "Restaurant Manager",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "11-9051",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 35,
+  "toolMaturity": 60,
+  "adoption": 40,
+  "agenticExposure": 40
+ },
+ "rationales": {
+  "taskAutomation": "Scheduling, ordering, and reporting are increasingly software-driven, but staff management, guest recovery, and floor judgment remain human-gated.",
+  "toolMaturity": "AI-assisted scheduling and inventory platforms are mature and widely embedded in restaurant operations software.",
+  "adoption": "Adoption of AI scheduling and inventory tools is common among multi-unit chains and spreading into independent restaurants.",
+  "agenticExposure": "Scheduling, reorder generation, and sales reporting are agent-ownable back-office workflows; live staff and guest management are not."
+ },
+ "tasksAtRisk": [
+  "Staff scheduling and shift-swap approvals",
+  "Inventory ordering and food-cost reporting",
+  "Sales and labor-cost reporting"
+ ],
+ "tasksGrowing": [
+  "Staff coaching and conflict resolution",
+  "Guest complaint recovery and reputation management",
+  "On-the-floor service-quality judgment during peak hours"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-9051, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI scheduling and inventory platform fluency",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Staff coaching and conflict resolution",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Guest-experience recovery and reputation management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Scheduling and inventory software now generate the labor and ordering numbers a manager used to build by hand. The job is shifting toward what the software can't do: coaching staff and fixing a bad guest experience in real time."
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "order-clerk",
+ "title": "Order Clerk",
+ "category": "Administrative & Operations",
+ "socCode": "43-4151",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 72,
+  "toolMaturity": 78,
+  "adoption": 68,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "Order intake, stock checks, and ERP entry are now scripted enough for AI order-management systems to handle end-to-end for standard orders.",
+  "toolMaturity": "E-commerce and ERP order-automation tools are mature and near-universal in retail and manufacturing order pipelines.",
+  "adoption": "Automated order processing is a mainstream expectation across retail, manufacturing, and distribution.",
+  "agenticExposure": "Order management is explicitly the kind of digital pipeline an autonomous agent can traverse end-to-end for the majority of standard, non-custom orders."
+ },
+ "tasksAtRisk": [
+  "Processing incoming purchase and sales orders",
+  "Checking stock availability and confirming quantities",
+  "Entering orders into ERP or order-management systems",
+  "Sending order confirmations and basic status updates"
+ ],
+ "tasksGrowing": [
+  "Resolving order discrepancies and customer disputes",
+  "Managing complex or custom order configurations"
+ ],
+ "salary": {
+  "low": 33000,
+  "high": 46000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-4151 (Order Clerks), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "ERP & Order-Management System Administration",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Order Discrepancy & Customer Dispute Resolution",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Custom Order Configuration Support",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI order-management systems now take standard orders from intake to confirmation without a human, which is why this role sits at High risk. Clerks handling discrepancies and custom configurations hold the more defensible ground."
+}

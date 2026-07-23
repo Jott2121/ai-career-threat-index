@@ -1,0 +1,46 @@
+{
+ "slug": "mediator",
+ "title": "Mediator",
+ "category": "Legal",
+ "socCode": "23-1022",
+ "tier": 2,
+ "subscores": {"taskAutomation": 18, "toolMaturity": 38, "adoption": 22, "agenticExposure": 18},
+ "rationales": {
+  "taskAutomation": "Case intake, scheduling, and standard settlement paperwork are a modest digital-paperwork share; the core work of building trust, reading emotional dynamics, and crafting creative settlements is interpersonal and not reliably automatable today.",
+  "toolMaturity": "Online dispute resolution (ODR) platforms are credible for narrow, standardized disputes like e-commerce and small claims, but nothing broadly covers general commercial or family mediation.",
+  "adoption": "ODR is used by early-adopter courts and e-commerce platforms for simple claims; broader family, labor, and commercial mediation practice has barely touched AI tools.",
+  "agenticExposure": "Agents can handle intake, scheduling, and document exchange, but the core facilitation act of building trust between adversarial parties is outside current agentic reach."
+ },
+ "tasksAtRisk": [
+  "Case intake, scheduling, and standard settlement-agreement drafting",
+  "Simple online dispute resolution for e-commerce and small-claims matters",
+  "Document exchange and session-logistics coordination"
+ ],
+ "tasksGrowing": [
+  "Complex multi-party negotiation requiring trust-building and creative deal design",
+  "Family, labor, and high-conflict mediation requiring emotional intelligence",
+  "Cross-cultural and high-stakes commercial dispute facilitation"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 23-1022, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Online Dispute Resolution (ODR) Platform Fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Advanced Mediation & Conflict-Resolution Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Complex Multi-Party Negotiation Specialization",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "ODR platforms now clear routine e-commerce and small-claims disputes without a human in the loop, but complex mediation still runs on trust and reading a room, territory current agents don't credibly occupy."
+}

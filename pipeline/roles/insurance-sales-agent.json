@@ -1,0 +1,34 @@
+{
+ "slug": "insurance-sales-agent",
+ "title": "Insurance Sales Agent",
+ "category": "Marketing & Sales",
+ "socCode": "41-3021",
+ "tier": 2,
+ "subscores": {"taskAutomation": 38, "toolMaturity": 68, "adoption": 48, "agenticExposure": 45},
+ "rationales": {
+  "taskAutomation": "Quote generation, policy comparison, application paperwork, and renewal reminders are automatable end-to-end; needs analysis, trust-building, and complex-risk placement are relationship-gated.",
+  "toolMaturity": "Direct-to-consumer quote engines and AI policy-recommendation tools are mature for personal lines (auto, term life, renters).",
+  "adoption": "Carriers and aggregators push automated personal-lines sales hard; independent agents and commercial lines lag well behind.",
+  "agenticExposure": "An agent can already run the quote-compare-bind loop for simple personal lines and own renewal outreach queues; complex commercial placement stays human."
+ },
+ "tasksAtRisk": [
+  "Generating and comparing quotes across carriers",
+  "Processing applications and policy paperwork",
+  "Routine renewal reminders and follow-up outreach",
+  "Answering standard coverage and pricing questions"
+ ],
+ "tasksGrowing": [
+  "Complex commercial and specialty-risk placement",
+  "Advisory needs-analysis for life and business clients",
+  "Claims advocacy and long-term relationship management"
+ ],
+ "salary": {"low": 40000, "high": 85000, "currency": "USD"},
+ "salarySource": "BLS OES May 2024, SOC 41-3021, p25-p75 rounded (commission-heavy; spread widens above p75)",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {"skill": "AI Quote-Engine Oversight & Exception Handling", "link": "/guides/ai-agents-guide/"},
+  {"skill": "Complex-Risk Advisory Selling", "link": "/guides/ai-career-paths/"},
+  {"skill": "AI-Assisted Client Outreach & Retention", "link": "/guides/ai-skills-resume/"}
+ ],
+ "insight": "Personal-lines insurance is already sold by software; agents surviving the shift are advisors on complex risk, not quote processors."
+}

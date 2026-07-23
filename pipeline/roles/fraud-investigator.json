@@ -1,0 +1,51 @@
+{
+ "slug": "fraud-investigator",
+ "title": "Fraud Investigator",
+ "category": "Business & Finance",
+ "socCode": "13-2099",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 68,
+  "adoption": 50,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "AI transaction-monitoring flags the large majority of anomalies automatically, but confirming intent, interviewing subjects, and building a legally sound case require human investigation.",
+  "toolMaturity": "AI/ML transaction-monitoring and AML platforms are mature and production-deployed at most banks and payment processors.",
+  "adoption": "Common at large financial institutions and payment processors; adoption lags at smaller institutions with legacy systems.",
+  "agenticExposure": "Anomaly detection, alert triage, and case-file assembly are agent-ownable; interviewing and legal case-building are not."
+ },
+ "tasksAtRisk": [
+  "Transaction anomaly flagging and alert triage",
+  "Case file assembly and documentation",
+  "Pattern analysis across large transaction datasets"
+ ],
+ "tasksGrowing": [
+  "Subject interviews and interrogation",
+  "Building legally sound cases for prosecution/civil action",
+  "Investigating novel fraud typologies (deepfake, synthetic identity)"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-2099 (Financial Specialists, All Other), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI/AML transaction-monitoring platform expertise",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Investigative interviewing and case-building",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Emerging fraud typology analysis (deepfake, synthetic ID)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now catches the overwhelming majority of anomalies automatically, which is actually growing the investigator role: someone still has to confirm intent, interview the subject, and build a case that holds up, and fraud volume keeps climbing."
+}

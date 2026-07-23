@@ -2,44 +2,54 @@
  "slug": "qa-test-engineer",
  "title": "QA/Test Engineer",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-1253",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 56,
+  "toolMaturity": 66,
+  "adoption": 52,
+  "agenticExposure": 52
+ },
+ "rationales": {
+  "taskAutomation": "Regression suite authoring, manual UI checks against a spec, and standard bug write-ups are now largely AI-generated and self-maintained; test strategy and edge-case judgment are not.",
+  "toolMaturity": "Agentic test-generation and self-healing tools (Testim, Mabl, AI-assisted Playwright) are credible and improving fast.",
+  "adoption": "Common in tech-forward engineering orgs, spreading into mid-market as agentic test tools mature.",
+  "agenticExposure": "Test maintenance and regression-suite upkeep are exactly the kind of scoped, verifiable loop agents already own in production."
+ },
  "tasksAtRisk": [
-  "Writing and running regression test suites",
-  "Manual UI testing against specifications",
+  "Writing and maintaining regression test suites",
+  "Manual UI testing against written specifications",
   "Test case documentation",
-  "Bug report creation for common issues",
+  "Bug report creation for well-understood issues",
   "Cross-browser compatibility checks"
  ],
  "tasksGrowing": [
-  "Testing AI/ML system outputs for accuracy",
-  "Performance and security testing strategy",
-  "User experience validation and edge cases"
+  "Testing AI/ML system outputs for correctness and drift",
+  "Performance, security, and resilience testing strategy",
+  "Exploratory testing and edge-case discovery"
  ],
  "salary": {
   "low": 75000,
   "high": 130000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-1253 (Software Quality Assurance Analysts and Testers), p25-p75",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI-Powered Test Automation (Testim, Mabl)",
+   "skill": "Agentic Test Generation & Self-Healing Suites",
    "link": "/guides/ai-coding-tools/"
   },
   {
-   "skill": "ML Model Testing & Validation",
+   "skill": "AI/ML Model & Output Validation",
    "link": "/guides/best-ai-certifications/"
   },
   {
-   "skill": "Security Testing & Penetration Testing",
+   "skill": "Security & Resilience Testing",
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AI test generation tools can now write and maintain test suites faster than manual efforts. QA engineers should pivot toward AI output validation, security testing, and quality strategy.",
+ "insight": "Agentic test tools now write, run, and self-heal most regression suites, which is why routine QA is now a substantially agent-owned workflow. Engineers who validate AI system outputs and own security/performance test strategy are the ones still growing in value.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

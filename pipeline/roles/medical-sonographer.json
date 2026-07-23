@@ -1,0 +1,51 @@
+{
+ "slug": "medical-sonographer",
+ "title": "Medical Sonographer",
+ "category": "Healthcare",
+ "socCode": "29-2032",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 20,
+  "toolMaturity": 52,
+  "adoption": 32,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "AI-assisted measurement and biometry tools automate a real slice of image analysis, but probe placement and image acquisition remain a manual, operator-dependent skill.",
+  "toolMaturity": "Automated biometry and AI image-quality tools are credible and improving, increasingly embedded in newer ultrasound systems.",
+  "adoption": "Larger imaging centers and hospital systems are adopting AI-assisted measurement tools; broader adoption is still building.",
+  "agenticExposure": "Agents can pre-populate standard measurements and flag image-quality issues, but acquiring a diagnostic-quality scan stays with the sonographer."
+ },
+ "tasksAtRisk": [
+  "Standard biometry measurement and calculation",
+  "Image-quality flagging and QC",
+  "Worklist and scheduling coordination"
+ ],
+ "tasksGrowing": [
+  "Complex and non-standard scan acquisition",
+  "Real-time image interpretation during exams",
+  "Patient positioning and comfort management"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-2032 (Diagnostic Medical Sonographers), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Biometry & Measurement Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Advanced Sonography Specialty Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Point-of-Care Ultrasound Proficiency",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI now auto-populates standard measurements on many scans, but getting a diagnostic-quality image out of a moving probe against a moving patient is still a hands-on skill no model performs. Demand for sonographers keeps growing with imaging volume."
+}

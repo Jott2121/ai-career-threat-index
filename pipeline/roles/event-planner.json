@@ -1,0 +1,51 @@
+{
+ "slug": "event-planner",
+ "title": "Event Planner",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "13-1121",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 35,
+  "toolMaturity": 50,
+  "adoption": 30,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Vendor research, budgeting, and logistics scheduling have a real digital component, but on-site execution and relationship management with vendors and clients stay human.",
+  "toolMaturity": "AI budgeting and vendor-matching tools are credible and improving but not yet a mature, standard part of the event-planning toolchain.",
+  "adoption": "Adoption is concentrated among early-adopter planning firms; most independent planners still run logistics manually.",
+  "agenticExposure": "Vendor sourcing, budget tracking, and scheduling are agent-ownable workflows; live on-site problem-solving is not."
+ },
+ "tasksAtRisk": [
+  "Vendor research and price comparison",
+  "Budget tracking and expense reconciliation",
+  "Timeline and scheduling coordination"
+ ],
+ "tasksGrowing": [
+  "On-site crisis management during live events",
+  "Client relationship management and vision translation",
+  "Vendor negotiation and relationship-building"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 75000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1121, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "On-site crisis management for live events",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI budgeting and vendor-matching tool fluency",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Client vision translation and stakeholder management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI can already shortlist vendors and track a budget against invoices. It cannot fix a collapsed tent an hour before guests arrive, which is still the job most clients are actually paying for."
+}

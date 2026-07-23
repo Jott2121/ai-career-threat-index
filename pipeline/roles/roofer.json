@@ -1,0 +1,52 @@
+{
+ "slug": "roofer",
+ "title": "Roofer",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2181",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 9,
+  "toolMaturity": 30,
+  "adoption": 17,
+  "agenticExposure": 6
+ },
+ "rationales": {
+  "taskAutomation": "Tear-off, deck repair and shingle/membrane installation are physical work at height with no automatable substitute; drone-based inspection reports are the main automatable slice.",
+  "toolMaturity": "Drone and AI-assisted roof-inspection imaging tools are credible and gaining traction for estimating, but not for the install itself.",
+  "adoption": "A minority of larger roofing companies use drone/AI inspection tools for estimating; most crews still measure and inspect manually.",
+  "agenticExposure": "An agent can process a drone image into a measurement report; it cannot tear off a roof or seal a membrane."
+ },
+ "tasksAtRisk": [
+  "Drone-based roof measurement and damage assessment",
+  "Estimate and proposal generation from inspection imagery",
+  "Material ordering based on measured square footage",
+  "Insurance-claim documentation"
+ ],
+ "tasksGrowing": [
+  "Tear-off, decking repair and installation at height",
+  "Reading and adapting to structural surprises found mid-tear-off",
+  "Storm-damage assessment requiring in-person judgment"
+ ],
+ "salary": {
+  "low": 37000,
+  "high": 65000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2181, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Drone/AI roof-inspection and measurement software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Storm-damage and insurance-claim documentation expertise",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Safety and fall-protection certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Roofing stays low-risk because the physical work at height has no substitute, though drone-based inspection and AI measurement tools are starting to automate the estimating step for larger companies."
+}

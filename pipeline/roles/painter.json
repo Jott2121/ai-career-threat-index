@@ -1,0 +1,52 @@
+{
+ "slug": "painter",
+ "title": "Painter",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2141",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 11,
+  "toolMaturity": 33,
+  "adoption": 20,
+  "agenticExposure": 7
+ },
+ "rationales": {
+  "taskAutomation": "Surface prep and application are manual craft; only estimating from photos/measurements and scheduling are automatable.",
+  "toolMaturity": "AI-assisted paint-estimating apps (photo-to-square-footage, color visualization) are credible and improving.",
+  "adoption": "Adoption is growing among larger residential and commercial painting companies for bidding; small crews remain manual.",
+  "agenticExposure": "An agent can generate a quote from a photo and floor plan, not prep a wall or cut a clean line."
+ },
+ "tasksAtRisk": [
+  "Estimate generation from photos and floor plans",
+  "Color-visualization proposals for customers",
+  "Scheduling and crew dispatch",
+  "Material ordering by square footage"
+ ],
+ "tasksGrowing": [
+  "Surface prep and repair judgment on damaged substrates",
+  "Specialty finishes and faux/decorative work",
+  "Customer color consultation"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 60000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2141, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI photo-to-estimate software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Specialty and decorative finish techniques",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Lead-safe and surface-prep certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Painting's exposure is modest and concentrated in bidding: AI photo-to-estimate tools are gaining real traction with larger companies, while surface prep and application stay a hands-on craft."
+}

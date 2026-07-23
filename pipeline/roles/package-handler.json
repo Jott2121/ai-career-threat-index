@@ -1,0 +1,51 @@
+{
+ "slug": "package-handler",
+ "title": "Package Handler",
+ "category": "Transportation & Logistics",
+ "socCode": "53-7064",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 58,
+  "adoption": 40,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "Automated sortation and scanning handle a large share of hub throughput, but loading, unloading, and irregular-package handling still need people at most facilities.",
+  "toolMaturity": "Automated sortation systems are mature and widely deployed at major parcel hubs (UPS, FedEx, Amazon).",
+  "adoption": "Common at large national parcel hubs; adoption is lower at smaller regional facilities that still handle much manually.",
+  "agenticExposure": "Sorting-decision and routing logic is agent-owned already; physical loading/unloading is not."
+ },
+ "tasksAtRisk": [
+  "Automated scanning and sortation",
+  "Standard conveyor-fed package routing",
+  "Basic inventory and throughput tracking"
+ ],
+ "tasksGrowing": [
+  "Loading/unloading trailers and containers",
+  "Handling oversized, fragile, or misrouted packages",
+  "Operating and maintaining sortation equipment"
+ ],
+ "salary": {
+  "low": 27000,
+  "high": 38000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-7064, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Sortation and conveyor-equipment operation/maintenance",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Irregular and damaged-package handling",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Trailer loading and load-balancing technique",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Major parcel hubs already run mature automated sortation, which has shifted headcount toward loading, unloading, and exception handling rather than eliminating it outright; smaller regional facilities lag well behind."
+}

@@ -1,0 +1,52 @@
+{
+ "slug": "ai-research-scientist",
+ "title": "AI Research Scientist",
+ "category": "Technology",
+ "socCode": "15-1221",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 20,
+  "toolMaturity": 54,
+  "adoption": 34,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "Literature synthesis and standard experiment scripting are AI-assistable; novel research direction and theoretical contribution are not.",
+  "toolMaturity": "AI research-assistance tools (literature synthesis, experiment coding) are credible and improving quickly.",
+  "adoption": "Adoption is concentrated in frontier AI labs and research-forward tech firms, not yet broad.",
+  "agenticExposure": "Early self-driving-lab and agentic-experiment loops are emerging, giving agents a growing but still narrow slice of the work."
+ },
+ "tasksAtRisk": [
+  "Synthesizing literature reviews on established topics",
+  "Writing standard experiment and benchmarking code",
+  "Running routine ablation studies",
+  "Drafting first-pass technical write-ups"
+ ],
+ "tasksGrowing": [
+  "Novel research direction and hypothesis generation",
+  "Theoretical contribution and model-architecture innovation",
+  "Designing and interpreting genuinely new experiments"
+ ],
+ "salary": {
+  "low": 150000,
+  "high": 260000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1221 (Computer and Information Research Scientists), p25-p75, extended for frontier-lab market postings",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Agentic Experiment Pipelines & Self-Driving Research Loops",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Frontier Model Evaluation & Interpretability",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Technical Writing for Research Publication",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Agentic experiment loops are starting to run their own ablation studies and literature synthesis, but the research direction and theoretical insight that make a result matter still come from a scientist, not the loop."
+}

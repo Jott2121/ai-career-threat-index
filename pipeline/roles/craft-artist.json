@@ -1,0 +1,45 @@
+{
+ "slug": "craft-artist",
+ "title": "Craft Artist",
+ "category": "Creative",
+ "socCode": "27-1012",
+ "tier": 2,
+ "subscores": {"taskAutomation": 8, "toolMaturity": 35, "adoption": 12, "agenticExposure": 6},
+ "rationales": {
+  "taskAutomation": "Making handmade objects — pottery, weaving, glasswork, jewelry — by hand is physical craft work with almost no automatable digital component.",
+  "toolMaturity": "Generic AI design tools can suggest patterns or inspiration images, but no tool performs the physical making itself.",
+  "adoption": "AI adoption among working craft artists is essentially limited to inspiration-gathering and online shop listing copy.",
+  "agenticExposure": "Agents have no path into physically forming, firing, or assembling handmade objects."
+ },
+ "tasksAtRisk": [
+  "Online shop listing copy and product photography prep",
+  "Pattern and inspiration mood-board research",
+  "Social media caption and marketing copy for a maker's shop"
+ ],
+ "tasksGrowing": [
+  "Original handmade object creation and technique mastery",
+  "Teaching workshops and building a maker community"
+ ],
+ "salary": {
+  "low": 28000,
+  "high": 58000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-1012 Craft Artists, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Shop Listings & Marketing Copy",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Original Technique Mastery & Material Innovation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Workshop Teaching & Maker-Community Building",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Craft art is about as physically embodied as creative work gets, and current AI has no path into the actual making. The only exposed slice is the online-shop marketing layer around the craft."
+}

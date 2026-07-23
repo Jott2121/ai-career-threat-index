@@ -1,0 +1,51 @@
+{
+ "slug": "esthetician",
+ "title": "Esthetician",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "39-5094",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 12,
+  "toolMaturity": 35,
+  "adoption": 15,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Skincare treatments require hands-on technique and licensed judgment about skin conditions; only intake and basic product recommendations are automatable.",
+  "toolMaturity": "AI skin-analysis apps (imaging-based diagnostics) are a real and improving product category used in consultations.",
+  "adoption": "A growing share of spas and dermatology-adjacent practices use AI skin analysis for intake, but treatment delivery itself is untouched.",
+  "agenticExposure": "Client intake, skin analysis, and product recommendation are agent-ownable; the physical treatment is not."
+ },
+ "tasksAtRisk": [
+  "Client intake and skin-condition questionnaires",
+  "AI-assisted skin analysis and product matching",
+  "Appointment scheduling and aftercare reminders"
+ ],
+ "tasksGrowing": [
+  "Hands-on treatment technique for facials and peels",
+  "Judgment on contraindications and skin sensitivities",
+  "Building client trust for ongoing skincare plans"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 55000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 39-5094, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Advanced treatment technique (peels, microneedling, etc.)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "AI skin-analysis and diagnostic tool fluency",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Licensed skincare and safety certifications",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI imaging can now flag skin concerns and suggest a regimen during intake, but delivering the actual treatment, and judging contraindications on a real client, still requires a licensed, hands-on professional."
+}

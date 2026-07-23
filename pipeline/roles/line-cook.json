@@ -1,0 +1,51 @@
+{
+ "slug": "line-cook",
+ "title": "Line Cook",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "35-2014",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 22,
+  "toolMaturity": 38,
+  "adoption": 20,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Line cooks execute standardized recipes under time pressure, a physically demanding task that's automatable only at the margins (prep, portioning).",
+  "toolMaturity": "Some high-volume kitchens use robotic fry stations and portioning tools, but general-purpose line-cooking robotics remain immature.",
+  "adoption": "Adoption is confined to a handful of high-volume chains piloting single-station robotics; most kitchens run entirely on human line cooks.",
+  "agenticExposure": "Prep-list generation and ingredient reordering are agent-ownable; executing the line during service is not."
+ },
+ "tasksAtRisk": [
+  "Ingredient prep and portioning to spec",
+  "Basic recipe-following for standardized dishes",
+  "Inventory counts and reorder flagging"
+ ],
+ "tasksGrowing": [
+  "Multitasking across stations during a rush",
+  "Quality control and plate consistency under pressure",
+  "Adapting to last-minute menu or ticket changes"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 40000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 35-2014, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Multi-station speed and consistency under service pressure",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Kitchen inventory and prep-planning tool fluency",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Cross-training toward sous chef or kitchen management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Single-station robotics (fry baskets, portioning arms) have entered a handful of high-volume kitchens, but running a full line during a dinner rush is still beyond what any deployed system handles end to end."
+}

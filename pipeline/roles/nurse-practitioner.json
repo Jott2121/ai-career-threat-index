@@ -1,0 +1,57 @@
+{
+ "slug": "nurse-practitioner",
+ "title": "Nurse Practitioner",
+ "category": "Healthcare",
+ "socCode": "29-1171",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 22,
+  "toolMaturity": 60,
+  "adoption": 45,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "Documentation, standard order sets and routine prescription refills are automatable; independent diagnosis and treatment planning are not.",
+  "toolMaturity": "Ambient documentation and decision-support tools are credible and improving quickly, similar to what's shipping for physicians.",
+  "adoption": "Adoption tracks large health-system deployment of ambient scribing and decision support, now common in bigger practices.",
+  "agenticExposure": "Agents can pre-draft visit notes and flag abnormal results, but diagnosis and prescribing authority remain with the NP."
+ },
+ "tasksAtRisk": [
+  "Visit documentation and note drafting",
+  "Routine prescription refill processing",
+  "Standard lab and imaging result review",
+  "Patient intake and history gathering"
+ ],
+ "tasksGrowing": [
+  "Independent diagnosis and treatment planning",
+  "Complex case management",
+  "Patient counseling and shared decision-making"
+ ],
+ "salary": {
+  "low": 105000,
+  "high": 150000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1171 (Nurse Practitioners), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Ambient Clinical Documentation Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Advanced Practice Specialty Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI-Assisted Diagnostics",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Ambient scribing is cutting real documentation time for NPs the same way it is for physicians, and NPs are increasingly filling the primary-care access gap AI can't close. Scope-of-practice expansion is a bigger factor than AI displacement here.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Government": -5,
+  "Tech": 3
+ }
+}

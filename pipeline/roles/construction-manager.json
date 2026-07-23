@@ -1,0 +1,60 @@
+{
+ "slug": "construction-manager",
+ "title": "Construction Manager",
+ "category": "Skilled Trades & Construction",
+ "socCode": "11-9021",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 58,
+  "adoption": 42,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "Scheduling, budgeting, RFI tracking and progress reporting are substantially digital and automatable, but on-site coordination, safety judgment and subcontractor negotiation are not.",
+  "toolMaturity": "AI-enabled project-management and BIM-coordination platforms (scheduling optimization, cost forecasting, clash detection) are credible and improving fast, short of full maturity.",
+  "adoption": "Mid-size and large general contractors have adopted AI-assisted scheduling and cost-forecasting tools; small residential builders mostly have not.",
+  "agenticExposure": "An agent can draft schedules, flag budget overruns and route RFIs, a real workflow slice, while site safety calls and subcontractor disputes stay human."
+ },
+ "tasksAtRisk": [
+  "Schedule generation and critical-path updates",
+  "Budget tracking and cost-overrun flagging",
+  "RFI and submittal routing",
+  "Progress-report drafting for owners"
+ ],
+ "tasksGrowing": [
+  "On-site safety judgment and incident response",
+  "Subcontractor negotiation and dispute resolution",
+  "Owner and stakeholder relationship management",
+  "Adapting schedules to real-world site surprises (weather, supply delays)"
+ ],
+ "salary": {
+  "low": 72000,
+  "high": 145000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 11-9021, p25-p75 rounded, upper end extended toward large commercial project postings",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-assisted scheduling and cost-forecasting platform fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "BIM coordination and clash-detection oversight",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Agentic project-management tool deployment (RFI/submittal routing)",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Construction management is the highest-exposure role in this category because the job is half digital pipeline: schedules, budgets, RFIs and progress reports are exactly what AI project-management tools now handle, and mid-size and large contractors are already running them. What still requires a human is the part no software owns: reading a job site, negotiating with subcontractors, and making the safety call when the plan and reality diverge.",
+ "industryModifiers": {
+  "Tech": 10,
+  "Government": -8,
+  "Real Estate": 7,
+  "Manufacturing": 5,
+  "Energy": 6
+ }
+}

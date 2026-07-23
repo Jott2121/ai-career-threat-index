@@ -2,19 +2,29 @@
  "slug": "database-administrator",
  "title": "Database Administrator",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-1242",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 48,
+  "toolMaturity": 72,
+  "adoption": 55,
+  "agenticExposure": 46
+ },
+ "rationales": {
+  "taskAutomation": "Cloud-managed databases now self-tune, self-patch, and self-backup for standard workloads; only architecture, security posture, and complex migrations require a DBA's judgment.",
+  "toolMaturity": "Autonomous cloud database services (AWS RDS/Aurora, Azure SQL, GCP AlloyDB) are mature and widely deployed in production.",
+  "adoption": "Cloud-managed database adoption is common across large firms and spreading into mid-market as on-prem estates shrink.",
+  "agenticExposure": "Agents can already run provisioning, backup verification, and routine tuning end-to-end; data architecture strategy stays with people."
+ },
  "tasksAtRisk": [
-  "Query optimization for common patterns",
-  "Routine backup and recovery procedures",
-  "Performance monitoring and basic tuning",
-  "Schema documentation and migration scripts"
+  "Query optimization for common access patterns",
+  "Routine backup, replication, and recovery procedures",
+  "Performance monitoring and standard tuning",
+  "Schema documentation and migration scripting"
  ],
  "tasksGrowing": [
-  "Complex data architecture for AI workloads",
-  "Database security and compliance management",
+  "Data architecture design for AI and analytics workloads",
+  "Database security, access control, and compliance ownership",
   "Multi-cloud data strategy and governance"
  ],
  "salary": {
@@ -22,23 +32,23 @@
   "high": 140000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-1242 (Database Administrators), p25-p75",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "Cloud Database Architecture (AWS/GCP)",
+   "skill": "Cloud Database Architecture (AWS/Azure/GCP)",
    "link": "/guides/best-ai-certifications/"
   },
   {
-   "skill": "Data Security & Compliance",
-   "link": "/guides/ai-skills-resume/"
+   "skill": "Vector Database & RAG Data Layer Management",
+   "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Vector Database Management",
-   "link": "/guides/ai-career-paths/"
+   "skill": "Data Security & Compliance Automation",
+   "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "Automated tuning and cloud-managed databases handle routine DBA tasks. Specialists in data architecture for AI workloads, vector databases, and security are increasingly sought after.",
+ "insight": "Autonomous cloud databases now handle tuning, patching, and backup verification without a human in the loop, which is why routine DBA work is the most automated slice of the Technology category. The growth path is data architecture for AI workloads, vector data layers, and security -- not day-to-day administration.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

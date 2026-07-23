@@ -47,8 +47,13 @@ The big one: methodology v2, 300 roles, full transparency.
 - Quarterly Winners & Losers report: `reports/2026-q3-winners-losers.md`
 
 ### Notable Q2 → Q3 movements
-See `reports/2026-q3-winners-losers.md` for the full movers tables and any
-restatements.
+The v2 realization model repriced the index: roles whose v1 scores leaned on tool
+hype without end-to-end automatability came down (25 of 76 existing roles fell 5+
+points; four fell far enough to require formal restatements — radiologist 45→34,
+healthcare administrator 42→30, lab technician 48→30, paralegal 58→48), while
+AI-tooling-saturated tech roles drifted up (data scientist +8, cybersecurity
+analyst +6). Mean drift across the 76 carried-over roles: −1.7 points. Full tables:
+`reports/2026-q3-winners-losers.md`.
 
 ## [2026.2] — 2026-05-06
 

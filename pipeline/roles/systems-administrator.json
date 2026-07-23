@@ -2,10 +2,20 @@
  "slug": "systems-administrator",
  "title": "Systems Administrator",
  "category": "Technology",
- "socCode": "",
+ "socCode": "15-1244",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 56,
+  "toolMaturity": 72,
+  "adoption": 56,
+  "agenticExposure": 54
+ },
+ "rationales": {
+  "taskAutomation": "Server provisioning, patching, account management, and backup scheduling are routine digital work AI-driven automation now runs unattended.",
+  "toolMaturity": "Cloud automation and AI-ops tooling are mature and standard in enterprise infrastructure operations.",
+  "adoption": "Common across large firms and spreading to mid-market as cloud migration continues.",
+  "agenticExposure": "Provisioning, patch management, and backup verification are agent-ownable back-office pipelines today."
+ },
  "tasksAtRisk": [
   "Server provisioning and configuration",
   "Patch management and OS updates",
@@ -14,32 +24,32 @@
   "Backup scheduling and verification"
  ],
  "tasksGrowing": [
-  "Hybrid cloud strategy and migration",
+  "Hybrid and multi-cloud migration strategy",
   "Security hardening and zero-trust implementation",
-  "Automation architecture and orchestration"
+  "Automation architecture and orchestration design"
  ],
  "salary": {
   "low": 65000,
   "high": 115000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 15-1244 (Network and Computer Systems Administrators), p25-p75",
  "salaryTrend": "declining",
  "defenseSkills": [
   {
-   "skill": "Cloud Architecture (AWS/Azure/GCP)",
-   "link": "/guides/best-ai-certifications/"
+   "skill": "Infrastructure as Code (Terraform, Pulumi)",
+   "link": "/guides/ai-coding-tools/"
   },
   {
-   "skill": "Infrastructure as Code (Terraform)",
-   "link": "/guides/ai-coding-tools/"
+   "skill": "Cloud Architecture (AWS/Azure/GCP)",
+   "link": "/guides/best-ai-certifications/"
   },
   {
    "skill": "Security & Compliance Automation",
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "Cloud platforms and AI-driven automation are replacing traditional sysadmin tasks. Moving toward cloud architecture, security, or platform engineering is the strongest career path forward.",
+ "insight": "Cloud automation and AI-ops tooling now run provisioning, patching, and backup verification without a human in the loop. The clearest path forward is cloud architecture, security hardening, and automation design rather than day-to-day server administration.",
  "industryModifiers": {
   "Tech": 3,
   "Government": -8,

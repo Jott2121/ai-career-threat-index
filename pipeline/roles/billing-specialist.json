@@ -1,0 +1,51 @@
+{
+ "slug": "billing-specialist",
+ "title": "Billing Specialist",
+ "category": "Administrative & Operations",
+ "socCode": "43-3021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 62,
+  "toolMaturity": 78,
+  "adoption": 65,
+  "agenticExposure": 52
+ },
+ "rationales": {
+  "taskAutomation": "Invoice generation, payment posting, and routine accounts-receivable follow-up are largely automatable, but disputed charges and negotiated payment arrangements still need judgment.",
+  "toolMaturity": "AI-driven billing and AR automation platforms, including automated invoicing and dunning tools, are mature and widely deployed in finance operations.",
+  "adoption": "Automated billing and invoice-matching is a mainstream expectation at mid-size and large employers across most industries.",
+  "agenticExposure": "Reconciliation and dunning-sequence workflows are meaningfully agent-ownable today; complex disputes and customer-specific negotiation remain human."
+ },
+ "tasksAtRisk": [
+  "Invoice generation and payment posting",
+  "Standard accounts-receivable follow-up",
+  "Billing error correction and reconciliation",
+  "Recurring billing cycle management"
+ ],
+ "tasksGrowing": [
+  "Complex dispute resolution and negotiated payment plans",
+  "Cross-department billing system integration"
+ ],
+ "salary": {
+  "low": 38000,
+  "high": 55000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-3021 (Billing and Posting Clerks), p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Billing & AR Automation Platforms",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Complex Dispute Resolution & Collections",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Billing System Integration & Migration",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI billing platforms now generate invoices and chase routine payments automatically, which pushes this role to High risk. The durable work is disputed charges and negotiated arrangements where a system alone can't close the case."
+}

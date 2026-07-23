@@ -1,0 +1,51 @@
+{
+ "slug": "speech-language-pathologist",
+ "title": "Speech-Language Pathologist",
+ "category": "Healthcare",
+ "socCode": "29-1127",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 18,
+  "toolMaturity": 50,
+  "adoption": 35,
+  "agenticExposure": 16
+ },
+ "rationales": {
+  "taskAutomation": "Standard screening-assessment scoring and session documentation carry a meaningful digital share; therapy delivery and clinical judgment do not.",
+  "toolMaturity": "AI voice-analysis and speech-therapy apps are credible and improving, increasingly used alongside in-person and teletherapy sessions.",
+  "adoption": "School systems and telehealth-enabled practices are early-to-mid adopters of AI speech-therapy tools; broader adoption is still building.",
+  "agenticExposure": "Agents can score standardized assessments and generate home-practice materials, but therapy delivery stays with the clinician."
+ },
+ "tasksAtRisk": [
+  "Standardized assessment scoring",
+  "Session note documentation",
+  "Home-practice worksheet generation"
+ ],
+ "tasksGrowing": [
+  "Direct therapy delivery and technique adjustment",
+  "Complex swallowing and cognitive-communication assessment",
+  "Caregiver training and coordination with other providers"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1127 (Speech-Language Pathologists), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI Speech & Voice Analysis Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Teletherapy Platform Proficiency",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Specialty Certification (Swallowing, Cognitive-Communication)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI apps now support standardized scoring and generate practice materials between sessions, but delivering therapy still requires a clinician adjusting technique in real time. School and healthcare demand for SLPs continues to outpace the training pipeline."
+}

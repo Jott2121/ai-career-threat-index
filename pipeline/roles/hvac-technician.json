@@ -1,0 +1,58 @@
+{
+ "slug": "hvac-technician",
+ "title": "HVAC Technician",
+ "category": "Skilled Trades & Construction",
+ "socCode": "49-9021",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 15,
+  "toolMaturity": 45,
+  "adoption": 30,
+  "agenticExposure": 10
+ },
+ "rationales": {
+  "taskAutomation": "Diagnostic app guidance and smart-thermostat data pull real automatable share into the job, but refrigerant handling, physical repair and code-driven installation remain manual.",
+  "toolMaturity": "AI-assisted diagnostic tools tied to smart thermostats and connected HVAC systems are shipping and improving fast across major manufacturers.",
+  "adoption": "Larger HVAC service franchises now route dispatch and first-level diagnosis through AI tools; independent shops lag.",
+  "agenticExposure": "An agent can triage a smart-thermostat fault code and schedule the visit; it cannot recover refrigerant, braze a line or commission a system."
+ },
+ "tasksAtRisk": [
+  "First-level fault-code triage from connected thermostats",
+  "Service scheduling and technician dispatch routing",
+  "Quote and invoice generation",
+  "Maintenance-reminder and warranty paperwork"
+ ],
+ "tasksGrowing": [
+  "Heat-pump and electrification system commissioning",
+  "Refrigerant handling and EPA-compliant repair",
+  "Diagnosing multi-system faults AI triage tools misclassify"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 49-9021, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Heat-pump and electrification system certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI diagnostic-platform fluency (connected thermostat/IoT data)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "EPA refrigerant handling and compliance expertise",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "HVAC sits slightly above other trades because connected thermostats and AI-assisted diagnostics genuinely automate first-level fault triage today, and adoption is real at scale among larger service franchises. The heat-pump and electrification wave is the growth lane: commissioning new all-electric systems isn't something diagnostic software can do end-to-end.",
+ "industryModifiers": {
+  "Real Estate": 5,
+  "Energy": 8,
+  "Government": -6,
+  "Manufacturing": 4
+ }
+}

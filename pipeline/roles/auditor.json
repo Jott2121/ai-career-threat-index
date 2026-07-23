@@ -2,12 +2,22 @@
  "slug": "auditor",
  "title": "Auditor",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-2011",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 54,
+  "toolMaturity": 85,
+  "adoption": 65,
+  "agenticExposure": 62
+ },
+ "rationales": {
+  "taskAutomation": "AI can now test full transaction populations instead of samples and draft standard workpapers, but assessing novel risk, fraud intent, and going-concern judgment remains a human call.",
+  "toolMaturity": "Continuous-audit and anomaly-detection tools (data analytics platforms like ACL/IDEA plus LLM-based workpaper drafting) are production-deployed at most mid-size and large firms.",
+  "adoption": "100%-population testing and AI-assisted workpaper drafting are now standard practice at large firms and spreading through mid-market audit practices.",
+  "agenticExposure": "Sampling, testing, and reconciliation form an agent-traversable pipeline; full-population continuous auditing is already agent-run at scale in production."
+ },
  "tasksAtRisk": [
-  "Sampling and testing routine transactions",
+  "Sampling and testing of routine transactions",
   "Checklist-based compliance verification",
   "Workpaper preparation and documentation",
   "Reconciliation testing",
@@ -15,7 +25,7 @@
  ],
  "tasksGrowing": [
   "Risk assessment for complex, novel scenarios",
-  "AI system auditing and algorithmic accountability",
+  "AI system and algorithmic accountability auditing",
   "Fraud investigation and forensic analysis"
  ],
  "salary": {
@@ -23,23 +33,23 @@
   "high": 115000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-2011 (Accountants and Auditors), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI & Algorithm Auditing",
+   "skill": "AI and algorithm auditing",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Data Analytics for Audit (ACL, IDEA)",
+   "skill": "Data analytics for audit (ACL, IDEA, continuous audit tools)",
    "link": "/guides/best-ai-certifications/"
   },
   {
-   "skill": "IT Audit & Cybersecurity Risk",
+   "skill": "IT audit and cybersecurity risk",
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AI can test 100% of transactions instead of samples, reshaping audit work. Auditors who specialize in AI systems auditing, IT risk, and fraud analytics will find strong career growth.",
+ "insight": "Full-population continuous auditing has moved from pilot to default at large firms, replacing sample-based testing outright. Auditors who specialize in judgment-heavy risk assessment, AI-system auditing, or fraud analytics are the ones clients still pay a premium for.",
  "industryModifiers": {
   "Finance": 5,
   "Tech": 3,

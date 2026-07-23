@@ -1,0 +1,56 @@
+{
+ "slug": "emt-paramedic",
+ "title": "EMT/Paramedic",
+ "category": "Healthcare",
+ "socCode": "29-2042",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 35,
+  "adoption": 20,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Patient assessment, treatment and transport in the field are physical, licensed acts; only dispatch routing and post-call documentation carry a digital share.",
+  "toolMaturity": "AI-assisted dispatch triage and route optimization tools exist but are not yet standard across most EMS agencies.",
+  "adoption": "Larger urban EMS systems are piloting AI dispatch triage; most agencies still rely on traditional protocols.",
+  "agenticExposure": "Agents can optimize dispatch routing and pre-fill run reports, but on-scene assessment and treatment stay entirely human."
+ },
+ "tasksAtRisk": [
+  "Dispatch routing and unit allocation",
+  "Post-call run-report documentation",
+  "Non-emergency scheduling and logistics"
+ ],
+ "tasksGrowing": [
+  "On-scene patient assessment and treatment",
+  "Emergency procedures and transport decisions",
+  "Crisis communication with patients and families"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 58000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-2042 (Emergency Medical Technicians), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Advanced Paramedic Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI-Assisted Dispatch & Triage Systems",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Critical Care Transport Specialization",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Emergency response is in-person, time-critical physical work that AI can support at the margins, dispatch routing, report drafting, but not perform. Paramedic-level certification keeps opening more career ceiling than AI closes.",
+ "industryModifiers": {
+  "Healthcare": 2,
+  "Government": -3,
+  "Tech": 2
+ }
+}

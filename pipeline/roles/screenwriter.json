@@ -1,0 +1,46 @@
+{
+ "slug": "screenwriter",
+ "title": "Screenwriter",
+ "category": "Creative",
+ "socCode": "27-3043",
+ "tier": 2,
+ "subscores": {"taskAutomation": 38, "toolMaturity": 78, "adoption": 30, "agenticExposure": 35},
+ "rationales": {
+  "taskAutomation": "AI can draft scene outlines, coverage, and rough dialogue passes quickly, but structuring an original produced screenplay with a distinct authorial voice remains largely human work.",
+  "toolMaturity": "General-purpose LLMs draft usable prose and dialogue, but no screenwriting-specific product has displaced the writer's own process.",
+  "adoption": "Adoption is constrained by WGA contract guardrails limiting AI use in credited screenwriting; usage is higher in unscripted, content-mill, and indie-web writing.",
+  "agenticExposure": "Agents can generate script coverage and first-pass outlines quickly, but a produced screenplay still requires a credited human author under current guild rules."
+ },
+ "tasksAtRisk": [
+  "Script coverage and logline/synopsis generation",
+  "Rough scene-outline and treatment drafting",
+  "Dialogue pass suggestions for minor characters"
+ ],
+ "tasksGrowing": [
+  "Original produced screenplay structure and voice",
+  "Showrunner-level story and character arc development",
+  "Collaborative rewrites requiring credited authorship"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-3043 Writers and Authors, p25-p75 rounded (screenwriting skews above the general-writer median per WGA minimums)",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Coverage & Outline Drafting",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Original Story Structure & Character Voice",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Guild/AI-Use Contract Literacy (WGA MBA Terms)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI drafts serviceable coverage and rough outlines fast, but guild rules and the need for a distinct authorial voice keep credited screenwriting largely human for now. That guardrail is a contract fact, not a permanent technical one."
+}

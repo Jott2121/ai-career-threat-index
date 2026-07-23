@@ -2,10 +2,20 @@
  "slug": "business-analyst",
  "title": "Business Analyst",
  "category": "Business & Finance",
- "socCode": "",
+ "socCode": "13-1111",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 46,
+  "toolMaturity": 78,
+  "adoption": 58,
+  "agenticExposure": 45
+ },
+ "rationales": {
+  "taskAutomation": "Requirements docs, process maps, and user stories now draft themselves from meeting transcripts and templates, but stakeholder alignment and organizational judgment still gate delivery.",
+  "toolMaturity": "LLM-based meeting-to-requirements tools and BI copilots are mature and embedded in standard analyst toolchains (Jira/Confluence AI, BI copilots).",
+  "adoption": "Widely adopted in tech and finance, spreading to other sectors as AI-native product and delivery tooling becomes default.",
+  "agenticExposure": "Turning meeting notes into requirements and data queries into reports is a scoped, repeatable loop an agent can run with human review of the output."
+ },
  "tasksAtRisk": [
   "Requirements documentation from meetings",
   "Process mapping for standard workflows",
@@ -22,23 +32,23 @@
   "high": 120000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1111 (Management Analysts), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Process Automation",
+   "skill": "AI process automation and agent orchestration",
    "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "Product Management Fundamentals",
+   "skill": "Product management fundamentals",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "AI-Enhanced Business Intelligence",
+   "skill": "AI-enhanced business intelligence",
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AI can draft requirements and map simple processes, but understanding organizational politics, facilitating alignment across teams, and redesigning workflows around AI remain human strengths.",
+ "insight": "AI now drafts requirements and pulls reports directly from meetings and data, but reading organizational politics and redesigning workflows around AI remain distinctly human work.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

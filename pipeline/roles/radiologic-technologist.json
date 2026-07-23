@@ -1,0 +1,51 @@
+{
+ "slug": "radiologic-technologist",
+ "title": "Radiologic Technologist",
+ "category": "Healthcare",
+ "socCode": "29-2034",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 16,
+  "toolMaturity": 48,
+  "adoption": 32,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Image-quality QC and standard positioning-protocol documentation carry a modest digital share; operating imaging equipment and positioning patients remain hands-on.",
+  "toolMaturity": "AI image-quality and dose-optimization tools are credible and improving, increasingly embedded in newer imaging systems.",
+  "adoption": "Larger hospital imaging departments are adopting AI dose-optimization and QC tools; broader adoption is still building.",
+  "agenticExposure": "Agents can flag image-quality issues and manage worklist prioritization, but positioning and operating imaging equipment stay with the technologist."
+ },
+ "tasksAtRisk": [
+  "Image-quality QC and flagging",
+  "Standard positioning-protocol documentation",
+  "Worklist and exam scheduling coordination"
+ ],
+ "tasksGrowing": [
+  "Complex imaging protocols and modality specialization",
+  "Patient positioning for non-standard cases",
+  "Radiation-safety and dose management"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-2034 (Radiologic Technologists and Technicians), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Dose-Optimization & QC Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Advanced Modality Certification (CT, MRI)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Radiation Safety Specialization",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI dose-optimization and image-QC tools are improving fast, but positioning a patient correctly for a diagnostic-quality scan is still a manual skill performed one patient at a time. Cross-training into CT and MRI modalities offers the clearest advancement path."
+}

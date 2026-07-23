@@ -1,0 +1,51 @@
+{
+ "slug": "transportation-planner",
+ "title": "Transportation Planner",
+ "category": "Transportation & Logistics",
+ "socCode": "19-3051",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 34,
+  "toolMaturity": 50,
+  "adoption": 30,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Traffic modeling, data analysis, and draft reporting are substantially digital, but stakeholder engagement, political judgment, and policy trade-offs gate most of the role's value.",
+  "toolMaturity": "AI-assisted traffic simulation and modeling tools are credible and improving quickly, though not yet a full planning-workflow replacement.",
+  "adoption": "Early-to-common among larger metro planning agencies and consultancies; smaller municipal planning offices lag.",
+  "agenticExposure": "Data analysis and scenario modeling are agent-ownable slices; public engagement and policy judgment are not."
+ },
+ "tasksAtRisk": [
+  "Traffic-flow data analysis and modeling",
+  "Draft reporting and scenario documentation",
+  "GIS mapping and spatial data processing"
+ ],
+ "tasksGrowing": [
+  "Public stakeholder engagement and community input synthesis",
+  "Policy trade-off analysis and political navigation",
+  "Cross-agency coordination on major infrastructure decisions"
+ ],
+ "salary": {
+  "low": 58000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-3051, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-assisted traffic simulation and modeling tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Public stakeholder engagement and facilitation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Policy analysis for infrastructure decisions",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI modeling tools speed up the data-analysis side of transportation planning, but the public engagement and political trade-off work, deciding whose neighborhood gets the new transit line, remains a human judgment call agents don't reach."
+}

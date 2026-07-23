@@ -1,0 +1,59 @@
+{
+ "slug": "truck-driver",
+ "title": "Truck Driver",
+ "category": "Transportation & Logistics",
+ "socCode": "53-3032",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 18,
+  "toolMaturity": 48,
+  "adoption": 12,
+  "agenticExposure": 14
+ },
+ "rationales": {
+  "taskAutomation": "Highway driving in structured lanes is the closest thing to automatable, but docking, weather, detours, and city streets still require a human at the wheel almost everywhere in the country.",
+  "toolMaturity": "Driverless freight companies (Aurora, Kodiak, Waabi) run real revenue lanes on mapped interstate corridors, but the tech is geofenced and route-specific, not general-purpose.",
+  "adoption": "Driverless freight lanes number in the dozens nationally out of millions of truck routes; almost every fleet still runs human drivers exclusively.",
+  "agenticExposure": "ELD logging, routing, and load-matching paperwork are agent-ownable side tasks, but the physical driving core of the job is not."
+ },
+ "tasksAtRisk": [
+  "Route planning and turn-by-turn navigation",
+  "Hours-of-service and ELD compliance logging",
+  "Fuel and rest-stop optimization",
+  "Load documentation and delivery paperwork"
+ ],
+ "tasksGrowing": [
+  "Supervising and handing off to autonomous convoy systems on mapped lanes",
+  "Exception handling for weather, detours, and last-mile delivery",
+  "Specialized and oversize/hazmat hauling requiring certified judgment"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 65000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-3032, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Specialized/hazmat and oversize-load certification",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Fleet telematics and AI dispatch-system fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Last-mile and exception-handling logistics skills",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Autonomous trucking is real but narrow: driverless freight runs on a handful of mapped interstate lanes today, not on the docks, city streets, and weather a driver actually navigates. The near-term threat is on the paperwork side (logs, routing, load matching), already largely automated, while the medium-term pressure on long-haul lanes will build as mapped corridors expand over the next several years.",
+ "industryModifiers": {
+  "Retail": 6,
+  "Manufacturing": 4,
+  "Tech": 3,
+  "Government": -10,
+  "Healthcare": -6
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "slug": "bank-teller",
+ "title": "Bank Teller",
+ "category": "Business & Finance",
+ "socCode": "43-3071",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 64,
+  "toolMaturity": 75,
+  "adoption": 60,
+  "agenticExposure": 52
+ },
+ "rationales": {
+  "taskAutomation": "Deposits, withdrawals, transfers, and basic account inquiries are routine transaction processing that ATMs, mobile apps, and AI chat/voice banking already handle at scale.",
+  "toolMaturity": "Mobile banking, ITMs (interactive teller machines), and AI chat banking are mature, widely deployed products across nearly all major banks.",
+  "adoption": "Mainstream: most routine transactions have already shifted to self-service and mobile channels at large and mid-size banks.",
+  "agenticExposure": "Routine transaction handling and basic account servicing form a scripted interaction pipeline agents and self-service kiosks already own."
+ },
+ "tasksAtRisk": [
+  "Cash deposits, withdrawals, and transfers",
+  "Basic account balance and transaction inquiries",
+  "Check cashing and processing",
+  "Routine account maintenance requests"
+ ],
+ "tasksGrowing": [
+  "Cross-selling complex financial products in person",
+  "Resolving complex or disputed transaction issues",
+  "Community banking relationship-building"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 40000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-3071 (Tellers), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Complex product cross-selling and financial guidance",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Dispute resolution and exception handling",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Community banking and relationship building",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Branch teller headcount has been shrinking for over a decade as mobile and ATM/ITM channels absorb routine transactions, and AI-driven self-service accelerates that shift further.",
+ "industryModifiers": {
+  "Finance": 3,
+  "Tech": 2,
+  "Government": -5,
+  "Retail": 1
+ }
+}

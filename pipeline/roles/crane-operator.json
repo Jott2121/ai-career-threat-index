@@ -1,0 +1,51 @@
+{
+ "slug": "crane-operator",
+ "title": "Crane Operator",
+ "category": "Skilled Trades & Construction",
+ "socCode": "53-7021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 9,
+  "toolMaturity": 35,
+  "adoption": 20,
+  "agenticExposure": 7
+ },
+ "rationales": {
+  "taskAutomation": "Precision rigging and load control on active sites are safety-critical manual skills; scheduling and load-plan documentation are the automatable slice.",
+  "toolMaturity": "Load-monitoring and anti-collision sensor systems are mature and increasingly standard on modern cranes, but full autonomous operation is not deployed.",
+  "adoption": "Large commercial and high-rise contractors have adopted sensor-based load-monitoring systems broadly; smaller operations lag.",
+  "agenticExposure": "An agent can generate a lift plan and log load data; it cannot operate the crane or make a live judgment call on wind and load sway."
+ },
+ "tasksAtRisk": [
+  "Lift-plan documentation and load-chart lookup",
+  "Equipment scheduling across a job site",
+  "Inspection and maintenance-log data entry"
+ ],
+ "tasksGrowing": [
+  "Live load and rigging judgment under changing site conditions",
+  "Certified operation of larger and more complex crane classes",
+  "Coordinating multi-crane lifts on active sites"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 53-7021, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Advanced crane certification (NCCCO, larger load classes)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Load-monitoring and anti-collision sensor system fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Multi-crane lift coordination expertise",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Crane operation stays low-risk: sensor-based load monitoring is mature and mainstream on large sites, but the safety-critical judgment of an actual lift has no autonomous substitute in production use."
+}

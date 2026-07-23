@@ -1,0 +1,51 @@
+{
+ "slug": "investment-banker",
+ "title": "Investment Banker",
+ "category": "Business & Finance",
+ "socCode": "41-3031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 20,
+  "toolMaturity": 48,
+  "adoption": 32,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "AI drafts pitch materials and runs comps quickly, but originating and closing deals depends on client trust, negotiation, and judgment under real financial stakes that resist automation.",
+  "toolMaturity": "AI-assisted pitch-deck and comparable-company analysis tools exist and are improving, but nothing purpose-built has displaced core deal work.",
+  "adoption": "Early adopters only: leading banks pilot AI for research and deck support, but deal execution stays fully human-run.",
+  "agenticExposure": "Comp-pulling and first-draft materials are agent-ownable prep work; client-facing deal origination and negotiation are not."
+ },
+ "tasksAtRisk": [
+  "Comparable company and precedent transaction analysis",
+  "First-draft pitch book and deck creation",
+  "Financial model scaffolding and data pulls"
+ ],
+ "tasksGrowing": [
+  "Client relationship and deal origination",
+  "Complex deal structuring and negotiation",
+  "Regulatory and cross-border transaction strategy"
+ ],
+ "salary": {
+  "low": 85000,
+  "high": 275000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-3031 (Securities, Commodities, and Financial Services Sales Agents), p25-p75 rounded; high end reflects analyst/associate base+bonus market postings well above the broader OES median",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Deal origination and client relationship management",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-assisted financial modeling and comps",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Cross-border and regulatory deal structuring",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now drafts the pitch book in a fraction of the time, but the job has always really been about winning and closing the mandate, which is still a trust-and-negotiation business."
+}

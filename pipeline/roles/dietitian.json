@@ -1,0 +1,51 @@
+{
+ "slug": "dietitian",
+ "title": "Dietitian",
+ "category": "Healthcare",
+ "socCode": "29-1031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "Meal-plan generation, nutrient analysis and standard dietary-tracking are substantially automatable; personalized counseling and behavior-change work are not.",
+  "toolMaturity": "Consumer and clinical nutrition-AI apps that generate meal plans and analyze intake are common and improving quickly.",
+  "adoption": "AI nutrition apps are widely used by consumers and increasingly integrated into clinical dietetics workflows.",
+  "agenticExposure": "Agents can generate meal plans and track macros end to end, leaving the dietitian to handle counseling, adherence and medical nutrition therapy."
+ },
+ "tasksAtRisk": [
+  "Meal-plan generation and nutrient analysis",
+  "Standard dietary intake tracking and reporting",
+  "Routine patient education handouts"
+ ],
+ "tasksGrowing": [
+  "Medical nutrition therapy for complex conditions",
+  "Behavior-change counseling and adherence support",
+  "Clinical collaboration on complex care plans"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1031 (Dietitians and Nutritionists), p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Clinical Nutrition AI Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Medical Nutrition Therapy Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Behavior-Change Counseling",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Consumer apps now generate meal plans and track macros about as well as a routine consult would, pushing dietitians toward medical nutrition therapy and behavior-change counseling for complex conditions. The generic meal-planning end of the field is the most exposed."
+}

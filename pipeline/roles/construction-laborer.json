@@ -1,0 +1,51 @@
+{
+ "slug": "construction-laborer",
+ "title": "Construction Laborer",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2061",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 10,
+  "toolMaturity": 28,
+  "adoption": 18,
+  "agenticExposure": 7
+ },
+ "rationales": {
+  "taskAutomation": "Site cleanup, material staging and basic tool support are physical tasks that resist automation; only material-tracking logs are reliably AI-automatable.",
+  "toolMaturity": "No purpose-built tooling targets the laborer role directly; generic scheduling and logistics apps apply at the margins.",
+  "adoption": "Adoption is limited to project-level logistics software used by general contractors, not the laborer's own tasks.",
+  "agenticExposure": "An agent can track material deliveries against a schedule; it cannot move, stage or install materials on site."
+ },
+ "tasksAtRisk": [
+  "Material delivery tracking and inventory logging",
+  "Site safety-checklist documentation",
+  "Basic scheduling coordination with crew leads"
+ ],
+ "tasksGrowing": [
+  "Cross-training into skilled-trade apprenticeships",
+  "Operating semi-automated site equipment safely",
+  "Site safety compliance monitoring"
+ ],
+ "salary": {
+  "low": 32000,
+  "high": 55000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2061, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Apprenticeship pathway into a licensed trade",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "OSHA safety and equipment-operation certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Site logistics and material-tracking software literacy",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Construction laborer is near the floor of this index: the job is site presence and physical handling, and the only digital slice, delivery and inventory tracking, is a small share of the role."
+}

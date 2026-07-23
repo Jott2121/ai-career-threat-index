@@ -1,0 +1,52 @@
+{
+ "slug": "cnc-operator",
+ "title": "CNC Operator",
+ "category": "Skilled Trades & Construction",
+ "socCode": "51-9161",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 13
+ },
+ "rationales": {
+  "taskAutomation": "Program loading, cycle monitoring and basic quality checks are largely automatable now that CAM-generated programs run with minimal operator input.",
+  "toolMaturity": "CNC automation and AI-assisted monitoring tools are mature and standard in modern manufacturing.",
+  "adoption": "Widely adopted in manufacturing and machine shops running current-generation CNC equipment.",
+  "agenticExposure": "An agent-adjacent automated cell can run a program and flag deviations end-to-end; a human is still needed for setup, tool changes and exceptions."
+ },
+ "tasksAtRisk": [
+  "Program loading and cycle-start monitoring",
+  "In-process dimensional checks against spec",
+  "Basic tool-wear alerts and replacement scheduling",
+  "Production-log data entry"
+ ],
+ "tasksGrowing": [
+  "Multi-machine cell setup and changeover",
+  "Exception handling when automated checks flag anomalies",
+  "Cross-training toward CNC programming and CAM software"
+ ],
+ "salary": {
+  "low": 36000,
+  "high": 58000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 51-9161, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "CNC programming and CAM software cross-training",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Multi-machine cell setup and changeover skills",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Manufacturing automation certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "CNC operating is one of the higher-exposure trades in this category: modern machines already run programs and quality checks with minimal input, and adoption is mainstream in manufacturing. The mixed outlook reflects reshoring-driven demand for machine time colliding with fewer operators needed per machine."
+}

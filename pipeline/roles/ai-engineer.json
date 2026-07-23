@@ -1,0 +1,58 @@
+{
+ "slug": "ai-engineer",
+ "title": "AI Engineer",
+ "category": "Technology",
+ "socCode": "15-1252",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 58,
+  "adoption": 50,
+  "agenticExposure": 46
+ },
+ "rationales": {
+  "taskAutomation": "Prompt scaffolding, RAG pipeline wiring, and eval harness construction are largely AI-assisted today; agent safety design and failure-mode judgment are not.",
+  "toolMaturity": "Agent frameworks and LLM tooling are improving fast but still immature relative to mainstream coding tools -- patterns shift every few months.",
+  "adoption": "Adoption is spreading quickly given competitive pressure to ship AI features, though best practices are still stabilizing.",
+  "agenticExposure": "This role builds agentic systems, so meaningful chunks of its own scaffolding and eval work are themselves agent-ownable."
+ },
+ "tasksAtRisk": [
+  "Wiring standard RAG and retrieval pipelines",
+  "Writing prompt templates and few-shot scaffolding",
+  "Building eval harnesses for known task types",
+  "Integrating third-party model APIs into applications"
+ ],
+ "tasksGrowing": [
+  "Agent safety, guardrail, and failure-mode design",
+  "Orchestrating multi-agent systems for novel workflows",
+  "Cost, latency, and reliability tradeoffs across model providers"
+ ],
+ "salary": {
+  "low": 140000,
+  "high": 220000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers), p25-p75, extended for AI-specialist market postings",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Multi-Agent Orchestration & Tool Use",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "RAG & Retrieval System Design",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "AI Safety, Guardrails & Eval Design",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "The tooling this role builds with is itself good enough to automate a meaningful share of its own scaffolding -- prompt templates, RAG wiring, eval harnesses. Engineers who own guardrail design and multi-agent orchestration for genuinely novel workflows are the ones the market is still short of.",
+ "industryModifiers": {
+  "Tech": 8,
+  "Finance": 3,
+  "Healthcare": -3,
+  "Government": -8
+ }
+}

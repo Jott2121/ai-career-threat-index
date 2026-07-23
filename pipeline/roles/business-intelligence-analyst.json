@@ -1,0 +1,52 @@
+{
+ "slug": "business-intelligence-analyst",
+ "title": "Business Intelligence Analyst",
+ "category": "Technology",
+ "socCode": "15-1211",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 52,
+  "toolMaturity": 76,
+  "adoption": 64,
+  "agenticExposure": 56
+ },
+ "rationales": {
+  "taskAutomation": "Standard dashboard builds, recurring KPI reports, and routine SQL extraction make up most of the role's core output, and AI now produces that directly.",
+  "toolMaturity": "BI copilots (Power BI Copilot, Looker AI) are mature and widely shipped inside standard enterprise BI stacks.",
+  "adoption": "AI-assisted BI reporting is now a mainstream expectation across large and mid-market firms.",
+  "agenticExposure": "Dashboard refresh and recurring report maintenance are agent-ownable pipelines with minimal human review needed."
+ },
+ "tasksAtRisk": [
+  "Building and maintaining recurring KPI dashboards",
+  "Standard SQL data extraction and reporting",
+  "Routine metric-definition documentation",
+  "Scheduled report distribution and formatting"
+ ],
+ "tasksGrowing": [
+  "Defining new metrics for ambiguous business questions",
+  "Cross-functional stakeholder alignment on what to measure",
+  "Root-cause investigation behind metric anomalies"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 115000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1211 (Computer Systems Analysts, closest BI-analyst mapping), p25-p75",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Directing AI BI Copilots (Power BI, Looker)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Metric Definition & Stakeholder Alignment",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Anomaly Root-Cause Investigation",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI BI copilots now build and refresh most recurring dashboards without an analyst touching the query. The role's future is in deciding what should be measured in the first place and chasing down why a metric moved, not in maintaining the pipeline that reports it."
+}

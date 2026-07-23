@@ -1,0 +1,58 @@
+{
+ "slug": "auto-mechanic",
+ "title": "Auto Mechanic",
+ "category": "Skilled Trades & Construction",
+ "socCode": "49-3023",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 18,
+  "toolMaturity": 50,
+  "adoption": 35,
+  "agenticExposure": 10
+ },
+ "rationales": {
+  "taskAutomation": "OBD-II diagnostics and AI-assisted repair-guide lookup automate a real share of diagnosis, but hands-on teardown, part replacement and road-testing stay manual.",
+  "toolMaturity": "Dealer and franchise diagnostic platforms with AI fault-pattern matching are mature and standard equipment in most shops.",
+  "adoption": "Diagnostic AI is mainstream in dealership and chain service centers; independent shops have adopted more unevenly.",
+  "agenticExposure": "An agent can read codes, order parts and schedule the bay, but cannot pull an engine or verify a repair with a road test."
+ },
+ "tasksAtRisk": [
+  "OBD-II fault-code interpretation and repair-guide lookup",
+  "Parts ordering and inventory matching",
+  "Service scheduling and bay assignment",
+  "Estimate and repair-order generation"
+ ],
+ "tasksGrowing": [
+  "EV and hybrid drivetrain diagnosis and high-voltage safety work",
+  "Complex intermittent-fault troubleshooting AI code readers miss",
+  "Customer trust-building around AI-flagged repair recommendations"
+ ],
+ "salary": {
+  "low": 37000,
+  "high": 68000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 49-3023, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "EV/hybrid high-voltage certification (e.g., ASE xEV)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI diagnostic-platform interpretation skills",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Advanced driver-assistance system (ADAS) calibration",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Auto mechanics carry more exposure than most trades because AI-assisted diagnostic platforms are mature, mainstream in dealership service bays, and genuinely automate fault-code interpretation. The mixed trend reflects two forces pulling apart: EV and ADAS complexity is creating higher-skill demand even as routine ICE maintenance keeps shrinking with vehicle reliability and diagnostic automation.",
+ "industryModifiers": {
+  "Automotive": 6,
+  "Tech": 4,
+  "Government": -8,
+  "Retail": 3
+ }
+}

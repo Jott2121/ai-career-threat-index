@@ -1,0 +1,51 @@
+{
+ "slug": "phlebotomist",
+ "title": "Phlebotomist",
+ "category": "Healthcare",
+ "socCode": "31-9097",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 8,
+  "toolMaturity": 30,
+  "adoption": 15,
+  "agenticExposure": 8
+ },
+ "rationales": {
+  "taskAutomation": "Venipuncture is a licensed manual procedure; only labeling, logging and scheduling carry any digital share.",
+  "toolMaturity": "Robotic phlebotomy devices exist only in early trials; no mature AI tooling targets this role's core task.",
+  "adoption": "Adoption of any automation beyond basic lab information systems is rare.",
+  "agenticExposure": "Agents can manage draw scheduling and specimen logging, but the needle stick itself stays entirely manual."
+ },
+ "tasksAtRisk": [
+  "Draw scheduling and queue management",
+  "Specimen labeling and logging",
+  "Basic patient intake paperwork"
+ ],
+ "tasksGrowing": [
+  "Venipuncture and specimen collection technique",
+  "Difficult-draw and pediatric patient handling",
+  "Patient comfort and anxiety management"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 48000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 31-9097 (Phlebotomists), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Difficult-Draw & Pediatric Phlebotomy Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Lab Information System Proficiency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Patient Care & Anxiety Management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Robotic venipuncture devices remain experimental, so the needle stick stays a manual, licensed act for the foreseeable future. The digital slice of this job, scheduling and logging, is small and already partly automated."
+}

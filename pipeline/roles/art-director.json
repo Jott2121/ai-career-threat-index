@@ -1,0 +1,46 @@
+{
+ "slug": "art-director",
+ "title": "Art Director",
+ "category": "Creative",
+ "socCode": "27-1011",
+ "tier": 2,
+ "subscores": {"taskAutomation": 32, "toolMaturity": 75, "adoption": 60, "agenticExposure": 35},
+ "rationales": {
+  "taskAutomation": "Art directors' core work — evaluating concepts, aligning stakeholders, and making final creative calls — is judgment- and relationship-driven and resists full automation, even though the assets they review are increasingly AI-generated.",
+  "toolMaturity": "The generative tools art directors direct (Firefly, Midjourney) are mature and standard, even though no tool automates the director's own judgment.",
+  "adoption": "Nearly every creative team now uses AI generation somewhere in its pipeline, which art directors are expected to evaluate and direct.",
+  "agenticExposure": "Agents can produce and pre-filter concept variations for review, but final creative sign-off and stakeholder alignment stay with the director."
+ },
+ "tasksAtRisk": [
+  "First-pass concept generation for creative review",
+  "Producing multiple visual directions for client pitches",
+  "Routine asset quality-checking against brand guidelines"
+ ],
+ "tasksGrowing": [
+  "Final creative sign-off and stakeholder alignment",
+  "Cross-discipline team direction and mentorship",
+  "Original campaign concept development"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 150000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-1011 Art Directors, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Directing Generative-AI Creative Pipelines",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Cross-Discipline Creative Team Leadership",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Client & Stakeholder Presentation Craft",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now generates most of the raw creative options an art director reviews, but the judgment call of what actually ships still sits with a human. The job is shifting from making things to curating and directing what AI makes."
+}

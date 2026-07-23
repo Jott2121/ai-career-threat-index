@@ -1,52 +1,58 @@
 {
+ "slug": "real-estate-agent",
  "title": "Real Estate Agent",
- "category": "Marketing & Sales",
+ "category": "Business & Finance",
  "socCode": "41-9022",
- "tier": 2,
+ "tier": 1,
  "subscores": {
-  "taskAutomation": 26,
-  "toolMaturity": 62,
+  "taskAutomation": 28,
+  "toolMaturity": 68,
   "adoption": 48,
-  "agenticExposure": 28
+  "agenticExposure": 30
  },
  "rationales": {
-  "taskAutomation": "Listing descriptions, comparative market analyses, and basic paperwork are automatable, but showings, negotiation, and local trust-building gate most of the role's core work.",
-  "toolMaturity": "AI listing-description tools, automated valuation models, and virtual staging are credible, fast-improving products, though not yet fully mature across the industry.",
-  "adoption": "Adoption is growing among brokerages but remains uneven given the independent-contractor structure of the profession.",
-  "agenticExposure": "Back-office slices like CMA generation, listing copy, and showing scheduling are agent-ownable, but negotiation and client relationships are outside current agent reach."
+  "taskAutomation": "Listing descriptions, comparable-sales pulls, and showing scheduling are automatable, but in-person showings, negotiation, and local market judgment dominate the actual work.",
+  "toolMaturity": "AI-driven listing platforms and automated valuation tools (Zillow, Redfin AI, AI-generated listing copy) are mature and widely used.",
+  "adoption": "Common among tech-forward brokerages and national portals; independent agents adopt more slowly.",
+  "agenticExposure": "Lead qualification, showing scheduling, and comp generation are agent-ownable slices; closing a deal in person is not."
  },
  "tasksAtRisk": [
   "Listing description and marketing copy generation",
-  "Comparative market analysis assembly",
-  "Showing scheduling and follow-up reminders",
-  "Standard contract paperwork preparation"
+  "Comparable sales (comp) research",
+  "Showing scheduling and lead follow-up",
+  "Basic transaction paperwork"
  ],
  "tasksGrowing": [
-  "Buyer and seller negotiation",
-  "Local market expertise and pricing judgment",
-  "Complex or contingent transaction coordination"
+  "In-person negotiation and deal closing",
+  "Hyper-local market expertise and pricing strategy",
+  "Client relationship management through the transaction"
  ],
  "salary": {
   "low": 35000,
-  "high": 85000,
+  "high": 95000,
   "currency": "USD"
  },
- "salarySource": "BLS OES May 2024, SOC 41-9022 Real Estate Sales Agents, p25-p75 rounded (highly commission-variable)",
- "salaryTrend": "stable",
+ "salarySource": "BLS OES May 2024, SOC 41-9022 (Real Estate Sales Agents), p25-p75 rounded; commission-based income makes ranges highly variable by market",
+ "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Listing & Valuation Tools (AVMs, virtual staging)",
+   "skill": "AI-powered listing and comp-generation tools",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Buyer/Seller Negotiation",
+   "skill": "Negotiation and local market expertise",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Local Market Pricing Expertise",
+   "skill": "Client relationship management (CRM/AI follow-up)",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI now writes the listing and pulls the comps in minutes. It still doesn't walk a nervous buyer through a bidding war or negotiate a contingency at 9pm.",
- "slug": "real-estate-agent"
+ "insight": "AI now writes the listing and pulls the comps, but buying and selling a home is still an emotional, high-stakes, in-person negotiation. Agents who lean into local expertise and relationship management outcompete discount and AI-only listing models.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Finance": 2,
+  "Government": -5,
+  "Retail": 1
+ }
 }

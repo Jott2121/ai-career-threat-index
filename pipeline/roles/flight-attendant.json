@@ -1,0 +1,51 @@
+{
+ "slug": "flight-attendant",
+ "title": "Flight Attendant",
+ "category": "Transportation & Logistics",
+ "socCode": "53-2031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 8,
+  "toolMaturity": 25,
+  "adoption": 12,
+  "agenticExposure": 6
+ },
+ "rationales": {
+  "taskAutomation": "The role is dominated by in-person passenger service, physical safety demonstrations, and emergency response, none of which current AI can perform end-to-end.",
+  "toolMaturity": "No shipped product automates cabin safety or service duties; AI is limited to back-office scheduling and booking tools that don't touch the in-cabin role.",
+  "adoption": "Airlines use AI for crew scheduling and booking systems, not for any part of the physical in-flight role.",
+  "agenticExposure": "In-person safety command and physical presence keep this role outside current agentic reach."
+ },
+ "tasksAtRisk": [
+  "Crew scheduling and shift assignment",
+  "Standard pre-flight briefing paperwork",
+  "Routine in-app passenger notifications and rebooking prompts"
+ ],
+ "tasksGrowing": [
+  "Emergency response and evacuation command",
+  "Passenger conflict de-escalation",
+  "Accessibility and special-needs passenger assistance"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-2031, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Emergency response and evacuation command certification",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "De-escalation and conflict resolution training",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Accessibility and special-needs passenger service",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "This is an in-person safety role first and a service role second; current AI has no path to performing either at the required reliability, so displacement risk stays low regardless of how much AI improves in adjacent booking and scheduling systems."
+}

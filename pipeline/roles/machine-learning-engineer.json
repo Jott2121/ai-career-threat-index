@@ -1,0 +1,58 @@
+{
+ "slug": "machine-learning-engineer",
+ "title": "Machine Learning Engineer",
+ "category": "Technology",
+ "socCode": "15-1252",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 31,
+  "toolMaturity": 64,
+  "adoption": 52,
+  "agenticExposure": 44
+ },
+ "rationales": {
+  "taskAutomation": "Data pipeline glue code, training-loop boilerplate, and hyperparameter sweeps are automatable end-to-end; production architecture and model-risk judgment are not.",
+  "toolMaturity": "MLOps platforms and AI coding copilots are credible and improving fast, though model-specific agent tooling still lags general-purpose coding tools.",
+  "adoption": "Common at tech-forward firms building production ML systems; spreading to mid-market as MLOps platforms commoditize.",
+  "agenticExposure": "Agents can already run training-pipeline automation and hyperparameter tuning; novel model design and production risk sign-off stay human."
+ },
+ "tasksAtRisk": [
+  "Writing data pipeline and feature-engineering boilerplate",
+  "Running standard training loops and hyperparameter sweeps",
+  "Building evaluation harnesses for known model types",
+  "Model deployment scaffolding and CI/CD for ML"
+ ],
+ "tasksGrowing": [
+  "Production model architecture and risk sign-off",
+  "Debugging novel model failure modes and data drift",
+  "MLOps platform strategy and cost/latency tradeoffs"
+ ],
+ "salary": {
+  "low": 130000,
+  "high": 210000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers), p25-p75, extended for ML-specialist market postings",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Agentic MLOps Pipeline Supervision",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Model Evaluation & Production Risk Assessment",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "LLM & Foundation Model Fine-Tuning",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Training pipelines and hyperparameter sweeps are now largely agent-run, but production risk sign-off and novel failure-mode debugging still require an engineer who understands the model, not just the framework. The premium is shifting toward engineers who can evaluate and govern what agents ship.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Healthcare": -5,
+  "Government": -8
+ }
+}

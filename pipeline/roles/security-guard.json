@@ -1,0 +1,58 @@
+{
+ "slug": "security-guard",
+ "title": "Security Guard",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "33-9032",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 58,
+  "adoption": 38,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Foot patrol, access control, and in-person response can't be automated, but AI video analytics now handles a real share of the monitoring workload.",
+  "toolMaturity": "AI-powered camera analytics for anomaly and intrusion detection are mature and deployed at scale in corporate and retail security.",
+  "adoption": "Large corporate campuses, retail chains, and financial institutions have adopted AI video monitoring; government and healthcare sites lag on procurement and trust grounds.",
+  "agenticExposure": "Camera-feed triage, alert generation, and incident logging form an agent-ownable monitoring pipeline; physical response and de-escalation stay human."
+ },
+ "tasksAtRisk": [
+  "Continuous camera-feed monitoring for anomalies",
+  "Access-log review and visitor-badge auditing",
+  "Routine incident report drafting",
+  "Perimeter alarm triage"
+ ],
+ "tasksGrowing": [
+  "Physical response to active incidents",
+  "De-escalation and public-facing judgment calls",
+  "Coordinating with law enforcement during real events"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 50000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 33-9032, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI video-analytics platform operation and alert triage",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "De-escalation and physical incident response",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Physical security and AI-monitoring certifications",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI camera analytics already does the watching, flagging anomalies across hundreds of feeds no human could track continuously. It still can't walk the floor, de-escalate a confrontation, or make the judgment call on when to intervene, which is why the job is shifting from watching monitors to responding to what the monitors flag.",
+ "industryModifiers": {
+  "Tech": 8,
+  "Finance": 6,
+  "Government": -5,
+  "Healthcare": -3
+ }
+}

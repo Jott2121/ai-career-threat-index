@@ -1,0 +1,52 @@
+{
+ "slug": "machinist",
+ "title": "Machinist",
+ "category": "Skilled Trades & Construction",
+ "socCode": "51-4041",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 20,
+  "toolMaturity": 50,
+  "adoption": 32,
+  "agenticExposure": 12
+ },
+ "rationales": {
+  "taskAutomation": "CAM software and AI-assisted toolpath generation automate a meaningful share of programming, but precision setup, tolerance troubleshooting and quality judgment remain human.",
+  "toolMaturity": "CAM and AI toolpath-optimization software is credible and improving fast, short of fully mature autonomous machining.",
+  "adoption": "Adoption is concentrated in larger manufacturing shops running modern CAM software; small job shops still program manually.",
+  "agenticExposure": "An agent can generate and optimize a toolpath from a CAD file, not diagnose a tolerance drift on the shop floor."
+ },
+ "tasksAtRisk": [
+  "Toolpath programming from CAD models",
+  "Cut-time and tooling optimization",
+  "Job-cost estimating for quotes",
+  "Quality-inspection report logging"
+ ],
+ "tasksGrowing": [
+  "Precision setup and first-article inspection judgment",
+  "Troubleshooting tolerance drift and tool wear on the floor",
+  "Cross-training into multi-axis and additive manufacturing"
+ ],
+ "salary": {
+  "low": 39000,
+  "high": 65000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 51-4041, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "CAM/AI toolpath-optimization software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Multi-axis and additive manufacturing cross-training",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Precision quality-inspection certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Machinists face moderate, rising exposure as CAM and AI toolpath tools take over programming, but precision setup and tolerance troubleshooting on the actual floor still require a trained eye AI inspection cameras don't fully replace yet."
+}

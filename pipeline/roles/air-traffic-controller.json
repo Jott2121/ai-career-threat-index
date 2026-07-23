@@ -1,0 +1,51 @@
+{
+ "slug": "air-traffic-controller",
+ "title": "Air Traffic Controller",
+ "category": "Transportation & Logistics",
+ "socCode": "53-2021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 12,
+  "toolMaturity": 35,
+  "adoption": 20,
+  "agenticExposure": 10
+ },
+ "rationales": {
+  "taskAutomation": "AI conflict-detection and decision-support tools assist controllers, but final separation and clearance authority is a licensed human responsibility with zero tolerance for error.",
+  "toolMaturity": "Automation aids (NextGen tools, conflict alerts) are shipped and used, but full autonomous air-traffic management is not a deployed or certified product.",
+  "adoption": "FAA facilities use automation aids widely, but as decision support only; staffing has not been reduced by AI to date.",
+  "agenticExposure": "The role's safety-critical, split-second liability keeps it outside where autonomous agents currently operate."
+ },
+ "tasksAtRisk": [
+  "Routine traffic-flow monitoring in low-density airspace",
+  "Standard handoff communication between sectors",
+  "Weather and flight-plan data aggregation"
+ ],
+ "tasksGrowing": [
+  "High-density and emergency separation management",
+  "Cross-sector coordination during disruptions",
+  "Overseeing AI decision-support tool outputs"
+ ],
+ "salary": {
+  "low": 90000,
+  "high": 175000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-2021, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "High-density and emergency traffic management",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI decision-support tool oversight and override judgment",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Cross-facility coordination during disruptions",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Controllers already work alongside mature automation aids, but the FAA has not reduced staffing because final separation authority stays with a certified human; near-term risk is low, concentrated instead in tool-assisted efficiency gains rather than headcount reduction."
+}

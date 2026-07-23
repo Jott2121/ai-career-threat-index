@@ -1,0 +1,47 @@
+{
+ "slug": "administrative-law-judge",
+ "title": "Administrative Law Judge",
+ "category": "Legal",
+ "socCode": "23-1021",
+ "tier": 2,
+ "subscores": {"taskAutomation": 20, "toolMaturity": 42, "adoption": 25, "agenticExposure": 22},
+ "rationales": {
+  "taskAutomation": "Case-file and medical/vocational record summarization and standardized eligibility checklisting are a modest digital-paperwork share; the credibility findings and binding eligibility decisions that define the role remain judgment-gated.",
+  "toolMaturity": "Generic AI tools plus some agency-specific record-summarization aids apply to hearing prep, but nothing role-specific has broad traction across the administrative bench.",
+  "adoption": "Some high-volume dockets (disability, unemployment) are piloting AI-assisted case-file summarization, but use in the decision itself is still an early-adopter phenomenon.",
+  "agenticExposure": "Agents can digest medical and vocational records and pre-populate standardized checklists, but the statutorily required credibility and eligibility determination is not currently agent-ownable."
+ },
+ "tasksAtRisk": [
+  "Case-file and medical/vocational record summarization for hearing prep",
+  "Standardized eligibility-criteria checklisting (e.g., disability grid rules)",
+  "Hearing scheduling and docket management",
+  "Draft decision boilerplate and procedural-order generation"
+ ],
+ "tasksGrowing": [
+  "Credibility determinations and live-testimony evaluation",
+  "Novel or borderline eligibility determinations requiring discretion",
+  "Appeals-resistant, legally defensible written decisions"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 155000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 23-1021, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Case-File & Medical Record Synthesis",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Administrative Law Specialization & Agency Practice",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Judicial/Administrative AI Governance & Due-Process Standards",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Case-prep and record summarization are increasingly AI-assisted, especially in high-volume dockets like disability and unemployment hearings, but statute still requires a human officer to weigh credibility and issue the binding decision."
+}

@@ -1,0 +1,52 @@
+{
+ "slug": "mobile-developer",
+ "title": "Mobile Developer",
+ "category": "Technology",
+ "socCode": "15-1252",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 76,
+  "adoption": 54,
+  "agenticExposure": 40
+ },
+ "rationales": {
+  "taskAutomation": "Standard screens, boilerplate components, and common feature tickets are now AI-generated for both iOS and Android; complex native performance work is not.",
+  "toolMaturity": "AI coding copilots for Swift and Kotlin are mature and standard in mobile engineering workflows.",
+  "adoption": "Common practice across app-development teams and agencies.",
+  "agenticExposure": "Agents can scaffold standard screens and simple feature tickets end-to-end; platform-specific performance debugging stays with developers."
+ },
+ "tasksAtRisk": [
+  "Building standard UI screens from design specs",
+  "Implementing common app features from templates",
+  "Writing unit and UI tests for standard components",
+  "App store release and metadata packaging"
+ ],
+ "tasksGrowing": [
+  "Complex native performance and battery optimization",
+  "Cross-platform architecture decisions",
+  "Platform-specific edge-case debugging (iOS/Android fragmentation)"
+ ],
+ "salary": {
+  "low": 95000,
+  "high": 165000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers), p25-p75",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Native Development (Swift, Kotlin Copilots)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Cross-Platform Architecture (Flutter, React Native, KMP)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Mobile Performance & Battery Optimization",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI now scaffolds standard screens and common features for both major mobile platforms directly from a spec. Developers who own cross-platform architecture and can debug real device fragmentation issues are the ones clients still need."
+}

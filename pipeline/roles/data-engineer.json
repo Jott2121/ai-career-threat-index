@@ -1,0 +1,58 @@
+{
+ "slug": "data-engineer",
+ "title": "Data Engineer",
+ "category": "Technology",
+ "socCode": "15-1252",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 38,
+  "toolMaturity": 64,
+  "adoption": 50,
+  "agenticExposure": 46
+ },
+ "rationales": {
+  "taskAutomation": "Standard ETL construction, schema migrations, and data-quality checks are now largely AI-generated; enterprise data architecture at scale still requires engineering judgment.",
+  "toolMaturity": "Pipeline-as-code frameworks paired with AI codegen (dbt Copilot-style tools, AI-assisted Airflow/Spark authoring) are mature and improving.",
+  "adoption": "Common practice at data-forward firms; spreading to mid-market as managed pipeline platforms lower the bar.",
+  "agenticExposure": "Pipeline monitoring, self-healing data-quality checks, and routine migration scripts are agent-ownable today."
+ },
+ "tasksAtRisk": [
+  "Writing standard ETL/ELT pipeline code",
+  "Schema migration scripting",
+  "Building routine data-quality checks",
+  "Pipeline monitoring and alert configuration"
+ ],
+ "tasksGrowing": [
+  "Enterprise data architecture and platform strategy at scale",
+  "Debugging complex, cross-system data-quality failures",
+  "Governance and lineage design for AI training data"
+ ],
+ "salary": {
+  "low": 115000,
+  "high": 190000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1252 (Software Developers, closest data-pipeline mapping), p25-p75",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Agentic Pipeline Monitoring & Self-Healing ETL",
+   "link": "/guides/ai-agents-guide/"
+  },
+  {
+   "skill": "Data Architecture for AI/RAG Workloads",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Data Governance & Lineage Tooling",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "AI now writes and self-heals most routine pipeline code, from ETL scripts to data-quality checks. The lasting work is architecting data platforms for AI training and RAG workloads, where governance and lineage decisions still need a person accountable for them.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 3,
+  "Retail": 2,
+  "Government": -8
+ }
+}

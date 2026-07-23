@@ -1,0 +1,51 @@
+{
+ "slug": "financial-examiner",
+ "title": "Financial Examiner",
+ "category": "Business & Finance",
+ "socCode": "13-2061",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 48,
+  "adoption": 35,
+  "agenticExposure": 25
+ },
+ "rationales": {
+  "taskAutomation": "AI accelerates data review during bank and institution exams, but enforcement judgment, regulatory interpretation, and examiner sign-off are statutorily human responsibilities.",
+  "toolMaturity": "Data-analytics tools for exam prep exist but are not yet purpose-built or mature for regulatory examination work specifically.",
+  "adoption": "Limited: government and regulatory examination functions adopt new tooling slowly given statutory and procedural constraints.",
+  "agenticExposure": "Compiling exam data and flagging exceptions is agent-ownable prep work; the certified finding and enforcement action are not."
+ },
+ "tasksAtRisk": [
+  "Financial data compilation and exception flagging",
+  "Standard compliance checklist review during exams",
+  "Routine call-report and filing data verification"
+ ],
+ "tasksGrowing": [
+  "Enforcement judgment and regulatory interpretation",
+  "Examining novel risks (crypto, AI-driven lending) at institutions",
+  "Cross-agency coordination on systemic risk"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 115000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-2061 (Financial Examiners), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Regulatory enforcement judgment and interpretation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-driven exam data analytics",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Emerging risk examination (crypto, AI lending)",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Examination data review is getting faster with AI, but the statutory finding and enforcement decision stay with a certified examiner, and new risk categories like crypto and AI-driven lending are expanding the job, not shrinking it."
+}

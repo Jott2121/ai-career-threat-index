@@ -1,0 +1,51 @@
+{
+ "slug": "glazier",
+ "title": "Glazier",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-2121",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 8,
+  "toolMaturity": 28,
+  "adoption": 16,
+  "agenticExposure": 5
+ },
+ "rationales": {
+  "taskAutomation": "Cutting, fitting and installing glass and curtain-wall systems is manual, precision physical work with no automatable substitute at job-site scale.",
+  "toolMaturity": "No purpose-built AI tooling targets glazing installation; generic estimating software applies only at the margins.",
+  "adoption": "Adoption of any AI tooling in glazing is rare, limited to generic takeoff software used by larger commercial glazing contractors.",
+  "agenticExposure": "An agent can generate a glass-quantity takeoff from architectural drawings; it cannot set a curtain-wall panel plumb and square."
+ },
+ "tasksAtRisk": [
+  "Glass-quantity takeoff from architectural drawings",
+  "Material ordering and scheduling",
+  "Basic invoicing"
+ ],
+ "tasksGrowing": [
+  "Curtain-wall and structural-glazing installation judgment",
+  "Safety-glass and code-compliance expertise",
+  "Cross-training into commercial high-rise glazing"
+ ],
+ "salary": {
+  "low": 39000,
+  "high": 68000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-2121, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Curtain-wall and structural-glazing certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Digital takeoff software literacy",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Commercial high-rise glazing cross-training",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Glazing is a low-risk trade: precision glass installation has no automated substitute, and AI tooling in the field is essentially absent beyond generic estimating software."
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "home-inspector",
+ "title": "Home Inspector",
+ "category": "Skilled Trades & Construction",
+ "socCode": "47-4011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 52,
+  "adoption": 35,
+  "agenticExposure": 16
+ },
+ "rationales": {
+  "taskAutomation": "Photo-based defect detection and report generation are increasingly automatable, but crawlspace, roof and mechanical-system judgment calls in the field are not.",
+  "toolMaturity": "AI-assisted image analysis for defect flagging and automated report-writing tools are credible and shipping in the inspection software market.",
+  "adoption": "A growing share of home-inspection companies use AI-assisted reporting software; adoption is not yet universal.",
+  "agenticExposure": "An agent can flag likely defects from inspection photos and draft the report, not physically test a system or access a tight crawlspace."
+ },
+ "tasksAtRisk": [
+  "Photo-based defect flagging and report drafting",
+  "Scheduling and appointment coordination",
+  "Standard-checklist documentation"
+ ],
+ "tasksGrowing": [
+  "Structural and mechanical-system judgment calls in the field",
+  "Client walkthrough consultation and Q&A",
+  "Specialty inspections (radon, mold, pool) requiring certified testing"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 88000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 47-4011, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-assisted inspection-report software fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Specialty inspection certifications (radon, mold, structural)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Client consultation and walkthrough communication skills",
+   "link": "/guides/ai-skills-resume/"
+  }
+ ],
+ "insight": "Home inspection carries above-average trade exposure because AI image analysis and automated report generation are real, shipped capabilities gaining adoption, while the physical field judgment behind a defect call still needs a person on site."
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "mail-clerk",
+ "title": "Mail Clerk",
+ "category": "Administrative & Operations",
+ "socCode": "43-9051",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 66,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Digital mail intake and routing is increasingly automated through scan-and-distribute systems, but physical sorting, package handling, and delivery remain manual tasks.",
+  "toolMaturity": "Mailroom digitization tools exist and are improving but are less universally deployed than document AI in other back-office functions.",
+  "adoption": "Adoption is uneven — larger corporate campuses have digitized mail intake, but many mid-size and smaller offices still run manual mailrooms.",
+  "agenticExposure": "Digital mail intake and routing is agent-ownable; physical sorting and last-mile internal delivery are not."
+ },
+ "tasksAtRisk": [
+  "Sorting and routing incoming physical mail",
+  "Digital mail scanning and inbox distribution",
+  "Outgoing mail and package preparation",
+  "Delivery tracking and confirmation logging"
+ ],
+ "tasksGrowing": [
+  "Secure and sensitive document handling",
+  "Mailroom technology administration"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 40000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-9051 (Mail Clerks and Mail Machine Operators, Except Postal Service), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Mailroom Digitization & Scan-to-Distribute Systems",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Secure & Sensitive Document Handling",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Facilities & Logistics Support Skills",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Scan-and-distribute systems now handle a growing share of digital mail routing, but someone still has to physically sort packages and hand-deliver sensitive documents. That keeps this role at Moderate risk rather than pushing it higher."
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "surgeon",
+ "title": "Surgeon",
+ "category": "Healthcare",
+ "socCode": "29-1249",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 8,
+  "toolMaturity": 40,
+  "adoption": 25,
+  "agenticExposure": 10
+ },
+ "rationales": {
+  "taskAutomation": "The core of the job is manual operative skill under direct liability; only pre/post-op documentation and standard order sets carry a digital share.",
+  "toolMaturity": "Surgical robotics and AI-assisted planning tools are improving but remain assistive, not autonomous, in actual operating rooms.",
+  "adoption": "Robotic-assisted surgery and AI planning tools are adopted mainly at larger academic and tertiary care centers.",
+  "agenticExposure": "Agents can draft operative notes and pre-op checklists, but the operation itself stays entirely surgeon-led."
+ },
+ "tasksAtRisk": [
+  "Operative note and documentation drafting",
+  "Standard pre-op order sets and checklists",
+  "Post-op follow-up scheduling"
+ ],
+ "tasksGrowing": [
+  "Operative technique and complex procedures",
+  "Intra-operative judgment under uncertainty",
+  "Patient and family surgical counseling"
+ ],
+ "salary": {
+  "low": 280000,
+  "high": 450000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1249 (Surgeons, All Other), p25-p75 rounded, extended toward market postings for high-demand specialties",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Robotic-Assisted Surgery Proficiency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Subspecialty Surgical Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI Surgical Planning Tools",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI assists with pre-op planning and drafts the paperwork around a case, but the operation itself is manual, liability-bearing work no model performs. Surgical robotics extend a surgeon's hands; they don't replace the surgeon."
+}

@@ -1,0 +1,51 @@
+{
+ "slug": "inventory-clerk",
+ "title": "Inventory Clerk",
+ "category": "Administrative & Operations",
+ "socCode": "43-5071",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 68,
+  "toolMaturity": 70,
+  "adoption": 55,
+  "agenticExposure": 45
+ },
+ "rationales": {
+  "taskAutomation": "Stock counting, WMS data entry, and reorder flagging are largely automatable via barcode/RFID scanning and computer-vision counting, though physical handling and discrepancy investigation remain manual.",
+  "toolMaturity": "Computer-vision inventory counting and AI-driven WMS reorder logic are credible and improving fast, though not yet as universally deployed as mature warehouse robotics.",
+  "adoption": "Common in large retail and distribution operations; adoption is spreading to mid-size warehouses as vision-based counting hardware gets cheaper.",
+  "agenticExposure": "Routine reconciliation and reorder-trigger workflows are agent-ownable; physical counting and shrinkage investigation still need a person on the floor."
+ },
+ "tasksAtRisk": [
+  "Manual stock counting and cycle counts",
+  "Inventory data entry into WMS systems",
+  "Reorder point flagging and restocking requests",
+  "Barcode/RFID scanning and reconciliation"
+ ],
+ "tasksGrowing": [
+  "Investigating inventory discrepancies and shrinkage",
+  "Coordinating physical audits across locations"
+ ],
+ "salary": {
+  "low": 30000,
+  "high": 42000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 43-5071 (Shipping, Receiving, and Inventory Clerks), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Warehouse Management System (WMS) Administration",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Inventory Discrepancy & Shrinkage Investigation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Inventory Vision System Oversight",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Barcode, RFID, and computer-vision counting have automated most routine stock tracking, pushing this role toward High risk."
+}

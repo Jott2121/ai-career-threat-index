@@ -1,0 +1,57 @@
+{
+ "slug": "bartender",
+ "title": "Bartender",
+ "category": "Hospitality, Food & Personal Service",
+ "socCode": "35-3011",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 15,
+  "toolMaturity": 25,
+  "adoption": 10,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Drink-making, pacing a bar, and reading a room are dexterity- and judgment-heavy; only tab management and simple pour tracking are automatable.",
+  "toolMaturity": "Robotic bartending kiosks exist in a handful of novelty venues and casinos but have not moved into mainstream bar tooling.",
+  "adoption": "Adoption is confined to isolated novelty installations; the vast majority of bars run entirely on human bartenders.",
+  "agenticExposure": "Tab tracking and drink-order queuing are agent-ownable slices; mixing, pacing, and the social role of the bar are not."
+ },
+ "tasksAtRisk": [
+  "Tab tracking and payment reconciliation",
+  "Standard pour measurement for high-volume wells",
+  "Basic drink-order queuing at high-traffic events"
+ ],
+ "tasksGrowing": [
+  "Craft cocktail development and flavor pairing",
+  "Reading the room and pacing service responsibly",
+  "Building repeat-customer relationships"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 42000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 35-3011, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Craft cocktail development and flavor innovation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Responsible-service judgment and de-escalation",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "POS and tab-automation fluency for high-volume service",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Robotic bar kiosks are a novelty act, not a threat: mixing well drinks at volume while reading a room's mood and pace is still squarely human work. The real automation is in the back end, tab tracking and pour reconciliation, not behind the bar.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Finance": 4,
+  "Government": -8,
+  "Retail": 3
+ }
+}

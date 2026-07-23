@@ -1,0 +1,52 @@
+{
+ "slug": "security-engineer",
+ "title": "Security Engineer",
+ "category": "Technology",
+ "socCode": "15-1212",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 60,
+  "adoption": 50,
+  "agenticExposure": 42
+ },
+ "rationales": {
+  "taskAutomation": "Security tooling configuration, automated scan remediation, and standard hardening scripts are automatable; security architecture and zero-day response are not.",
+  "toolMaturity": "AI-assisted security engineering tools (automated remediation, policy-as-code generation) are mature and improving.",
+  "adoption": "Common at tech-forward firms building security into CI/CD pipelines.",
+  "agenticExposure": "Automated remediation and alert triage are agent-ownable; architecture decisions and novel exploit response stay human."
+ },
+ "tasksAtRisk": [
+  "Configuring standard security tooling and scanners",
+  "Automated remediation of known vulnerability classes",
+  "Writing policy-as-code and hardening scripts",
+  "Routine access-review and audit prep"
+ ],
+ "tasksGrowing": [
+  "Security architecture for novel systems and AI applications",
+  "Zero-day and novel exploit response",
+  "Threat modeling for new product launches"
+ ],
+ "salary": {
+  "low": 115000,
+  "high": 185000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-1212 (Information Security Analysts, closest engineering mapping), p25-p75",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Security Automation & Policy-as-Code",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "AI/LLM Application Security & Threat Modeling",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Zero-Day Response & Exploit Analysis",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Automated remediation now closes most known vulnerability classes without an engineer touching a ticket. The differentiator is security architecture for genuinely new systems -- including the AI applications the rest of the org is shipping."
+}

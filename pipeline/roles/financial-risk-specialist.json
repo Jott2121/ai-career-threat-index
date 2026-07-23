@@ -1,0 +1,51 @@
+{
+ "slug": "financial-risk-specialist",
+ "title": "Financial Risk Specialist",
+ "category": "Business & Finance",
+ "socCode": "13-2054",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 58,
+  "adoption": 45,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "AI runs stress-test and VaR calculations quickly, but model validation, regulatory interpretation, and risk-appetite judgment calls require certified specialist sign-off.",
+  "toolMaturity": "Quantitative risk-modeling platforms are credible and improving fast, increasingly used for scenario generation ahead of specialist review.",
+  "adoption": "Common at large banks and asset managers; growing further as AI model risk itself becomes a regulatory priority.",
+  "agenticExposure": "Running scenario batches and stress-test calculations is agent-ownable; validating and signing off on model risk is not."
+ },
+ "tasksAtRisk": [
+  "Stress-test and VaR scenario calculations",
+  "Standard risk report generation",
+  "Data assembly for model inputs"
+ ],
+ "tasksGrowing": [
+  "AI/ML model risk validation and governance",
+  "Regulatory capital strategy",
+  "Novel risk-scenario design (climate, geopolitical, AI-driven)"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 135000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-2054 (Financial Risk Specialists), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI/ML model risk validation and governance",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Quantitative stress-testing platforms",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Regulatory capital strategy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Regulators now treat AI/ML model risk as a top priority, which is turning financial risk specialists into the certified check on every automated pricing and credit model a bank deploys."
+}

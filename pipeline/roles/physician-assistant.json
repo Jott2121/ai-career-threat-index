@@ -1,0 +1,57 @@
+{
+ "slug": "physician-assistant",
+ "title": "Physician Assistant",
+ "category": "Healthcare",
+ "socCode": "29-1071",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 20,
+  "toolMaturity": 58,
+  "adoption": 42,
+  "agenticExposure": 17
+ },
+ "rationales": {
+  "taskAutomation": "Documentation, standard order sets and routine follow-up visits carry a meaningful digital share; diagnosis and procedures under supervision are not automatable.",
+  "toolMaturity": "Ambient documentation and decision-support tools targeting this role are credible and maturing quickly across major EHR platforms.",
+  "adoption": "Large health systems are deploying ambient scribing and decision support broadly; smaller practices adopt more slowly.",
+  "agenticExposure": "Agents can pre-draft notes and flag abnormal results for physician/PA review, but exams and procedures stay hands-on."
+ },
+ "tasksAtRisk": [
+  "Visit documentation and note drafting",
+  "Routine follow-up visit management",
+  "Standard lab and imaging review",
+  "Prior-authorization paperwork"
+ ],
+ "tasksGrowing": [
+  "Physical exams and minor procedures",
+  "Complex case co-management with physicians",
+  "Patient education and care coordination"
+ ],
+ "salary": {
+  "low": 110000,
+  "high": 150000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 29-1071 (Physician Assistants), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Ambient Clinical Documentation Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Specialty Certification (Surgical, Emergency)",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI-Assisted Diagnostics",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "PAs are absorbing the same ambient documentation gains as physicians and NPs, freeing time for exams and procedures rather than replacing them. Demand keeps climbing as health systems lean on PAs to extend physician capacity.",
+ "industryModifiers": {
+  "Healthcare": 3,
+  "Government": -5,
+  "Tech": 2
+ }
+}

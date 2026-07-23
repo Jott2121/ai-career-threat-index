@@ -1,0 +1,51 @@
+{
+ "slug": "surveyor",
+ "title": "Surveyor",
+ "category": "Skilled Trades & Construction",
+ "socCode": "17-1022",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 25,
+  "toolMaturity": 58,
+  "adoption": 40,
+  "agenticExposure": 17
+ },
+ "rationales": {
+  "taskAutomation": "Drone photogrammetry and AI point-cloud processing automate a real share of data collection and mapping, but legal boundary determination and site judgment remain professional, liability-bearing work.",
+  "toolMaturity": "LiDAR, drone photogrammetry and AI-assisted point-cloud processing software are mature and widely deployed in the surveying industry.",
+  "adoption": "Mainstream among surveying firms serving construction and infrastructure clients; nearly universal for larger firms.",
+  "agenticExposure": "An agent can process drone and LiDAR data into a preliminary map; it cannot certify a legal boundary or resolve a title dispute."
+ },
+ "tasksAtRisk": [
+  "Drone and LiDAR data capture and point-cloud processing",
+  "Preliminary mapping and topographic-model generation",
+  "Field-note digitization and report drafting"
+ ],
+ "tasksGrowing": [
+  "Legal boundary determination and title-dispute resolution",
+  "Certified professional judgment on ambiguous or historic boundary evidence",
+  "Client and legal-counsel consultation on survey findings"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 92000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2023, SOC 17-1022, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "LiDAR/drone photogrammetry and AI point-cloud processing fluency",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Professional land surveyor (PLS) licensure and certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Legal boundary and title-dispute consulting skills",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Surveying carries the highest exposure among the new trades here: drone and LiDAR data capture with AI point-cloud processing is mature and mainstream, compressing field-crew time, while licensed boundary determination remains a professional, liability-bearing function AI tools only support."
+}

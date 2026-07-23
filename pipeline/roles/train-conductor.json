@@ -1,0 +1,51 @@
+{
+ "slug": "train-conductor",
+ "title": "Train Conductor",
+ "category": "Transportation & Logistics",
+ "socCode": "53-4031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 16,
+  "toolMaturity": 38,
+  "adoption": 15,
+  "agenticExposure": 12
+ },
+ "rationales": {
+  "taskAutomation": "Positive Train Control and some driverless freight/transit trials exist, but most conductor duties, safety checks, coupling, passenger/crew coordination, remain hands-on and human-gated.",
+  "toolMaturity": "PTC and automated rail-signaling systems are mature; fully autonomous freight or passenger rail is still in limited trial, not a shipped general product.",
+  "adoption": "Automation is common in signaling and braking systems but rare for replacing conductor duties themselves.",
+  "agenticExposure": "Scheduling and manifest paperwork are agent-assistable; physical safety checks and crew coordination are not."
+ },
+ "tasksAtRisk": [
+  "Manifest and cargo documentation",
+  "Schedule adherence tracking",
+  "Standard signal and speed compliance logging"
+ ],
+ "tasksGrowing": [
+  "Physical safety inspections and coupling operations",
+  "Emergency response and derailment/incident management",
+  "Crew and yard coordination during disruptions"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 53-4031, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Rail safety inspection and incident response",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Automated signaling and PTC system fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Yard and crew coordination during disruptions",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Rail automation has focused on signaling and braking systems, not on replacing the conductor's physical safety and coordination duties; driverless freight rail trials exist but remain narrow pilots years from broad deployment."
+}
