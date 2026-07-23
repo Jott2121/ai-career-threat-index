@@ -1,0 +1,51 @@
+{
+ "slug": "meteorologist",
+ "title": "Meteorologist",
+ "category": "Science & Engineering",
+ "socCode": "19-2021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 34,
+  "toolMaturity": 68,
+  "adoption": 45,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "AI weather models now generate routine short-range forecasts at high skill, but severe-weather warning judgment and public communication stay meteorologist-led.",
+  "toolMaturity": "AI-driven numerical weather prediction (e.g., large-scale ML forecast models) is mature and increasingly used alongside traditional physics-based models.",
+  "adoption": "National weather agencies and broadcast media widely use AI-assisted forecast models as one input among several.",
+  "agenticExposure": "Agents can run ensemble forecast pipelines and flag anomalies, but issuing severe-weather warnings and communicating risk to the public require a meteorologist."
+ },
+ "tasksAtRisk": [
+  "Routine short-range forecast model generation",
+  "Automated weather-data quality checking",
+  "Standard forecast-discussion drafting"
+ ],
+ "tasksGrowing": [
+  "Severe-weather warning judgment and timing decisions",
+  "Public and emergency-management risk communication",
+  "Novel forecast-model validation and bias correction"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-2021, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Driven Numerical Weather Prediction Models",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Severe-Weather Warning Judgment",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Emergency-Management Risk Communication",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI forecast models now rival traditional physics-based models on routine forecasts, but the decision to issue a tornado warning, and the words used to communicate it, still rest with a meteorologist."
+}

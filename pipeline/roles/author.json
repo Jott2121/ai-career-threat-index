@@ -1,0 +1,53 @@
+{
+ "slug": "author",
+ "title": "Author",
+ "category": "Creative",
+ "socCode": "27-3043",
+ "tier": 1,
+ "subscores": {"taskAutomation": 42, "toolMaturity": 80, "adoption": 45, "agenticExposure": 45},
+ "rationales": {
+  "taskAutomation": "LLMs draft competent formulaic prose, outlines, and genre fiction at speed, but original literary voice, narrative innovation, and brand-name authorship remain outside reliable automation.",
+  "toolMaturity": "Frontier LLMs are mature, general-purpose drafting tools; no author-specific product has displaced general writing assistants.",
+  "adoption": "Adoption is concentrated among self-published and genre-fiction authors using AI for drafting and editing; traditional publishing adoption is far more cautious and often contractually restricted.",
+  "agenticExposure": "Outline-draft-revise agent loops can produce full manuscript drafts in genre categories, though publishable literary quality still needs heavy human authorship."
+ },
+ "tasksAtRisk": [
+  "Formulaic genre fiction drafting (romance, thriller tropes)",
+  "Outlining and chapter-structure development",
+  "Line editing and prose-tightening passes",
+  "Book description, blurb, and marketing copy"
+ ],
+ "tasksGrowing": [
+  "Original literary voice and narrative innovation",
+  "Brand-name authorship and reader trust",
+  "Ghostwriting requiring deep subject-matter collaboration"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-3043 Writers and Authors, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Drafting & Revision Workflows",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Original Literary Voice & Narrative Craft",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Author Platform & Reader Trust-Building",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI can now produce a passable formulaic draft in any popular genre in minutes, flooding self-publishing categories with volume. Authors whose voice, originality, and platform readers actively seek out are the ones still commanding advances and backlist sales.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Government": -8,
+  "Healthcare": -5
+ }
+}

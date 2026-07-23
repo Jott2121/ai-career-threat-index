@@ -1,0 +1,53 @@
+{
+ "slug": "translator",
+ "title": "Translator",
+ "category": "Creative",
+ "socCode": "27-3091",
+ "tier": 1,
+ "subscores": {"taskAutomation": 58, "toolMaturity": 88, "adoption": 78, "agenticExposure": 62},
+ "rationales": {
+  "taskAutomation": "Machine translation now handles routine document, website, and business translation at near-professional quality across major language pairs end-to-end; live interpretation, legal/literary nuance, and low-resource languages remain harder to fully automate.",
+  "toolMaturity": "DeepL and frontier LLM translation are mature, commodity-grade tools embedded directly into localization and CAT-tool workflows.",
+  "adoption": "Machine-translation-plus-post-editing is now the default production model across the localization industry, not a pilot.",
+  "agenticExposure": "Detect-translate-QA-format pipelines can run end-to-end for high-volume content; only certified legal, medical, and literary translation reliably route to a human."
+ },
+ "tasksAtRisk": [
+  "First-pass translation of business documents and websites",
+  "Localization of software strings and UI text",
+  "Subtitle and caption translation for video content",
+  "High-volume e-commerce and product-listing translation"
+ ],
+ "tasksGrowing": [
+  "Certified legal and medical translation with liability",
+  "Literary translation preserving voice and style",
+  "Live simultaneous interpretation in high-stakes settings"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-3091 Interpreters and Translators, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "MT Post-Editing & Localization QA",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Certified Legal/Medical Translation Credentials",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Live Simultaneous Interpretation",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Machine translation has closed the quality gap for routine document and localization work to the point that most high-volume translation is now MT-plus-light-editing rather than translate-from-scratch. Translators without certified legal, medical, or literary specialization, or live interpretation skills, are competing directly with a free browser tab.",
+ "industryModifiers": {
+  "Tech": 8,
+  "Legal": -8,
+  "Healthcare": -5,
+  "Government": -10
+ }
+}

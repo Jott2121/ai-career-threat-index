@@ -1,0 +1,52 @@
+{
+ "slug": "engagement-manager",
+ "title": "Engagement Manager",
+ "category": "Project & Product Management",
+ "socCode": "13-1111",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 64,
+  "adoption": 48,
+  "agenticExposure": 36
+ },
+ "rationales": {
+  "taskAutomation": "Status reporting, SOW and deliverable tracking, and standard client update decks are now largely AI-drafted, but de-escalating an at-risk client relationship or renegotiating scope mid-engagement stays firmly human.",
+  "toolMaturity": "Contract and SOW drafting assistants (Ironclad AI and similar) plus generalist LLMs cover the paperwork well, but there is no mature, purpose-built 'engagement management' product category yet.",
+  "adoption": "AI-assisted reporting and contract drafting is common in consulting and tech engagement teams, but adoption is uneven outside those sectors.",
+  "agenticExposure": "Agents can already draft status updates and flag deliverable slippage from project data, but they can't read a client's frustration in a room and adjust the relationship in real time."
+ },
+ "tasksAtRisk": [
+  "Client status reporting and update decks",
+  "SOW and deliverable tracking documentation",
+  "Standard contract renewal drafting",
+  "Engagement health-metric compilation"
+ ],
+ "tasksGrowing": [
+  "At-risk client relationship management",
+  "Scope renegotiation and expansion selling",
+  "Cross-functional delivery escalation ownership"
+ ],
+ "salary": {
+  "low": 95000,
+  "high": 170000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1111 Management Analysts (closest detailed occupation for client-facing engagement/delivery leadership), p25-p75 rounded, upper end extended for tech/consulting market postings",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Contract & SOW Drafting Tools (Ironclad AI)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Client Relationship & Scope Negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Agentic AI Literacy for Delivery Operations",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "AI now drafts the status decks and flags slipping deliverables before an engagement manager even opens the project tracker. What still requires a human is reading a client's mood in a steering committee meeting and knowing when to eat a scope change instead of billing for it."
+}

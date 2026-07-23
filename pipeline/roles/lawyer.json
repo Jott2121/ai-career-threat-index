@@ -2,10 +2,15 @@
  "slug": "lawyer",
  "title": "Lawyer",
  "category": "Legal",
- "socCode": "",
+ "socCode": "23-1011",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 35, "toolMaturity": 65, "adoption": 50, "agenticExposure": 42},
+ "rationales": {
+  "taskAutomation": "Legal research, template contract drafting, and due-diligence document review are automatable, but courtroom advocacy, client counseling, and liability-bearing judgment gate most of a lawyer's core work.",
+  "toolMaturity": "Legal-research and drafting copilots (CoCounsel, Harvey, Westlaw AI) are credible and improving fast, though not yet the fully mature, unquestioned default across the profession.",
+  "adoption": "Large firms and corporate legal departments have moved AI research and drafting into daily use; solo and small-firm practice adoption is still catching up.",
+  "agenticExposure": "Multi-step research-draft-cite loops are agent-ownable today for routine matters, but representation and strategic judgment remain outside current agentic reach."
+ },
  "tasksAtRisk": [
   "Legal research and case law review",
   "Contract drafting from templates",
@@ -22,7 +27,7 @@
   "high": 250000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 23-1011, p25-p75 rounded (extended toward market postings for senior/big-law roles)",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
@@ -38,7 +43,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI accelerates research and drafting, making lawyers more productive — not obsolete. Lawyers who master AI tools and specialize in AI-related law (IP, liability, regulation) are positioned for growth.",
+ "insight": "AI accelerates research and drafting, making lawyers more productive rather than obsolete. Lawyers who master AI tools and specialize in AI-related law (IP, liability, regulation) are positioned for growth.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

@@ -1,0 +1,51 @@
+{
+ "slug": "geologist",
+ "title": "Geologist",
+ "category": "Science & Engineering",
+ "socCode": "19-2042",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 50,
+  "adoption": 32,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "AI can process seismic and remote-sensing datasets and draft standard reports, but field mapping, core-sample judgment, and site-specific interpretation stay hands-on.",
+  "toolMaturity": "AI-assisted seismic-interpretation and remote-sensing tools are credible in energy and mining exploration but not universally deployed.",
+  "adoption": "Adoption concentrates at large oil, gas, and mining companies; environmental and academic geology still rely on manual field methods.",
+  "agenticExposure": "Agents can flag anomalies in seismic or satellite data, but physical fieldwork, sample collection, and hazard assessment need a geologist on site."
+ },
+ "tasksAtRisk": [
+  "Seismic and remote-sensing data processing",
+  "Standard geological survey report drafting",
+  "Routine subsurface data visualization and mapping prep"
+ ],
+ "tasksGrowing": [
+  "Field mapping and physical site assessment",
+  "Core-sample interpretation and hazard judgment",
+  "On-site exploration and drilling-program decisions"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 135000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-2042, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Seismic & Remote-Sensing Interpretation",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Field Mapping & Physical Site Assessment",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Core-Sample Interpretation & Hazard Judgment",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI now chews through seismic and satellite datasets fast, but reading an actual outcrop or core sample in the field is still a geologist's call. Fieldwork keeps this role grounded, literally."
+}

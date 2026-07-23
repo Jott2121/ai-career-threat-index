@@ -1,0 +1,52 @@
+{
+ "title": "Growth Marketer",
+ "category": "Marketing & Sales",
+ "socCode": "13-1161",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 56,
+  "toolMaturity": 85,
+  "adoption": 70,
+  "agenticExposure": 56
+ },
+ "rationales": {
+  "taskAutomation": "Campaign setup, ad-copy variant generation, and funnel analytics are digital, data-driven tasks AI now runs at professional quality across most channels.",
+  "toolMaturity": "AI ad platforms, auto-experimentation tools, and analytics dashboards are mature and embedded in the standard growth stack.",
+  "adoption": "Growth teams are among the earliest and most consistent adopters of AI-assisted acquisition and experimentation tools.",
+  "agenticExposure": "The design-run-analyze experiment loop is substantially agent-traversable, with a human needed mainly to set strategic bets and interpret ambiguous results."
+ },
+ "tasksAtRisk": [
+  "Ad copy and creative variant generation",
+  "Campaign setup and audience targeting",
+  "A/B test execution and statistical analysis",
+  "Funnel and cohort analytics reporting"
+ ],
+ "tasksGrowing": [
+  "Experiment roadmap and strategic bet selection",
+  "Cross-channel growth-loop design",
+  "Interpreting ambiguous or conflicting test results"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1161 Market Research Analysts and Marketing Specialists, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Agentic Growth Experimentation Platforms",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Growth-Loop & Funnel Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Statistical Interpretation of Test Results",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "The build-launch-measure experiment loop is now something an agent runs continuously. Growth marketers who pick the right bets and read ambiguous results correctly are the ones still worth the seat.",
+ "slug": "growth-marketer"
+}

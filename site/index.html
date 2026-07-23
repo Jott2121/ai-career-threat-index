@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Career Threat Index — 300 roles, scored quarterly</title>
+<meta name="description" content="Open dataset scoring 300 professions on AI displacement risk. Four published sub-scores per role, open formula, quarterly updates, MIT licensed.">
+<meta property="og:title" content="AI Career Threat Index">
+<meta property="og:description" content="How exposed is your job to AI? 300 roles scored on an open, published rubric — including exposure to autonomous agents.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="masthead-inner">
+    <h1><a href="#/">AI Career Threat Index</a></h1>
+    <p class="tagline">300 professions scored on AI displacement risk — four published sub-scores,
+      an open formula, updated quarterly. <a href="https://github.com/Jott2121/ai-career-threat-index" class="gh-link">Data &amp; methodology on GitHub ↗</a></p>
+    <div id="summary-chips" class="chips" role="note"></div>
+  </div>
+  <button id="theme-toggle" aria-label="Toggle color theme">◐</button>
+</header>
+
+<main id="app">
+  <noscript><p class="pad">This explorer needs JavaScript. The raw data lives in
+    <a href="https://github.com/Jott2121/ai-career-threat-index">the GitHub repo</a> (JSON + CSV).</p></noscript>
+</main>
+
+<footer class="site-footer">
+  <p>Scores are structured editorial estimates against a
+    <a href="https://github.com/Jott2121/ai-career-threat-index/blob/main/pipeline/RUBRIC.md">published rubric</a> —
+    not measurements. MIT licensed; cite freely with attribution.</p>
+  <p><a href="https://github.com/Jott2121/ai-career-threat-index">⭐ Star the dataset on GitHub</a> ·
+     <a href="https://github.com/Jott2121/ai-career-threat-index/blob/main/data/ai-career-threat-index.csv">CSV</a> ·
+     <a href="https://github.com/Jott2121/ai-career-threat-index/blob/main/data/ai-career-threat-index.json">JSON</a> ·
+     <a href="https://www.meritforgeai.com/">MeritForge AI</a></p>
+</footer>
+
+<div id="tooltip" class="tooltip" role="status" aria-hidden="true"></div>
+<script src="app.js"></script>
+</body>
+</html>

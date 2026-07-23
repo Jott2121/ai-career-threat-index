@@ -1,11 +1,20 @@
 {
- "slug": "seo-specialist",
  "title": "SEO Specialist",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "13-1161",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 62,
+  "toolMaturity": 86,
+  "adoption": 70,
+  "agenticExposure": 54
+ },
+ "rationales": {
+  "taskAutomation": "Keyword research, meta-tag optimization, technical audits, and content briefs are digital, tool-driven tasks AI now runs end-to-end.",
+  "toolMaturity": "AI SEO platforms like Surfer and Clearscope are mature, widely-shipped products embedded in the standard SEO workflow.",
+  "adoption": "AI-assisted audits and keyword research are now the mainstream default across SEO teams.",
+  "agenticExposure": "Agents can run technical audits and content-brief generation loops unsupervised, and AI search itself is reshaping what the role even optimizes for."
+ },
  "tasksAtRisk": [
   "Keyword research and clustering",
   "Meta tag and title optimization",
@@ -14,7 +23,7 @@
   "Backlink opportunity identification"
  ],
  "tasksGrowing": [
-  "AI search optimization (SGE, Perplexity)",
+  "AI search optimization (AI Overviews, Perplexity)",
   "Content strategy for zero-click search",
   "Technical implementation and site architecture"
  ],
@@ -23,11 +32,11 @@
   "high": 100000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1161 Market Research Analysts and Marketing Specialists, p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Search Optimization (SGE/AIO)",
+   "skill": "AI Search Optimization (AI Overviews/AIO)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -35,11 +44,11 @@
    "link": "/guides/ai-coding-tools/"
   },
   {
-   "skill": "Content Strategy & Analytics",
+   "skill": "Content Strategy for Zero-Click Search",
    "link": "/guides/ai-career-paths/"
   }
  ],
- "insight": "AI tools automate keyword research and audits, and AI search is changing how people find content. SEO specialists who master AI search optimization and technical implementation will stay in demand.",
+ "insight": "Audits and keyword clustering now run on agents, and the audience is shifting from search results to AI answers. Specialists who master AI-search visibility and can still touch the technical stack remain in demand.",
  "industryModifiers": {
   "Tech": 5,
   "Retail": 3,
@@ -51,5 +60,6 @@
   "Q1 2026": 53,
   "Q2 2026": 58
  },
- "prevRiskLevel": "High"
+ "prevRiskLevel": "High",
+ "slug": "seo-specialist"
 }

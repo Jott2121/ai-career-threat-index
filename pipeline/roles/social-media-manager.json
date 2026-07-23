@@ -1,11 +1,20 @@
 {
- "slug": "social-media-manager",
  "title": "Social Media Manager",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "13-1161",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 54,
+  "toolMaturity": 87,
+  "adoption": 70,
+  "agenticExposure": 52
+ },
+ "rationales": {
+  "taskAutomation": "Caption writing, scheduling, basic graphics, and competitor monitoring are routine digital production AI now handles across most channels.",
+  "toolMaturity": "AI content-creation and scheduling tools are mature, widely-shipped products embedded in the standard social workflow.",
+  "adoption": "AI-generated posts and scheduling are now the mainstream default for social teams across brands of every size.",
+  "agenticExposure": "Agents can run the schedule-post-monitor loop across platforms unsupervised, but real-time community engagement and crisis response stay human."
+ },
  "tasksAtRisk": [
   "Generating post captions and hashtags",
   "Scheduling content across platforms",
@@ -23,23 +32,23 @@
   "high": 90000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1161 Market Research Analysts and Marketing Specialists, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Content Creation Tools",
+   "skill": "Agentic Content Scheduling & Creation Tools",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Community Management & Strategy",
+   "skill": "Community Management & Crisis Response",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Social Analytics & Attribution",
+   "skill": "Influencer Strategy & Social Analytics",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI can generate posts and schedule content, but authentic community engagement, crisis management, and brand voice consistency still depend on human judgment and emotional intelligence.",
+ "insight": "Posting, captioning, and basic reporting now run on agents around the clock. Managers who own real-time community trust and crisis response are the ones a brand still can't automate away.",
  "industryModifiers": {
   "Tech": 3,
   "Retail": 5,
@@ -51,5 +60,6 @@
   "Q1 2026": 48,
   "Q2 2026": 52
  },
- "prevRiskLevel": "High"
+ "prevRiskLevel": "High",
+ "slug": "social-media-manager"
 }

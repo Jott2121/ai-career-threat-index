@@ -1,0 +1,51 @@
+{
+ "slug": "preschool-teacher",
+ "title": "Preschool Teacher",
+ "category": "Education",
+ "socCode": "25-2011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 14,
+  "toolMaturity": 25,
+  "adoption": 15,
+  "agenticExposure": 8
+ },
+ "rationales": {
+  "taskAutomation": "The job is dominated by hands-on care, safety supervision, and play-based social-emotional development that current AI cannot perform.",
+  "toolMaturity": "Little purpose-built AI tooling exists for early-childhood classrooms beyond generic content-generation apps for take-home materials.",
+  "adoption": "AI adoption in early-childhood settings is rare, mostly limited to occasional lesson-idea generation.",
+  "agenticExposure": "Physical supervision and safety of very young children put this work almost entirely out of reach of any autonomous agent."
+ },
+ "tasksAtRisk": [
+  "Generating take-home activity sheets and craft ideas",
+  "Drafting daily parent-communication notes",
+  "Basic attendance and administrative logging"
+ ],
+ "tasksGrowing": [
+  "Play-based social-emotional development",
+  "Hands-on safety supervision and care",
+  "Early literacy and motor-skill development"
+ ],
+ "salary": {
+  "low": 28000,
+  "high": 42000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 25-2011 (Preschool Teachers, Except Special Education), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Early Childhood Development Certification",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "AI-Assisted Parent Communication Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Play-Based & Social-Emotional Curriculum Design",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "This is among the most AI-resistant jobs in the index -- hands-on care and safety supervision of very young children sit almost entirely outside current AI capability."
+}

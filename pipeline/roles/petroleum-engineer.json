@@ -1,0 +1,51 @@
+{
+ "slug": "petroleum-engineer",
+ "title": "Petroleum Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2171",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 48,
+  "adoption": 32,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "AI can run reservoir-simulation sweeps and drilling-data analysis, but well-site safety decisions and field operations judgment remain firmly human.",
+  "toolMaturity": "Reservoir-simulation and drilling-optimization software has AI-assisted modules, but adoption across the industry is uneven and specialist.",
+  "adoption": "Adoption concentrates at major operators with large digital-oilfield programs; independents and smaller operators lag.",
+  "agenticExposure": "Agents can run reservoir-model sweeps and flag production anomalies, but rig-site safety calls and well-control decisions need an engineer on location or on call."
+ },
+ "tasksAtRisk": [
+  "Reservoir-simulation parameter sweeps",
+  "Drilling and production data analysis",
+  "Routine well-performance reporting"
+ ],
+ "tasksGrowing": [
+  "Well-site safety and well-control decision-making",
+  "Novel enhanced-recovery technique design",
+  "Field operations judgment under changing conditions"
+ ],
+ "salary": {
+  "low": 100000,
+  "high": 190000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2171, p25-p75 rounded, upper end reflects operator market postings",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Reservoir Simulation Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Well-Control & Rig-Site Safety Decision-Making",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Enhanced Oil Recovery Technique Design",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Reservoir simulation and drilling-data analysis increasingly run on AI-assisted models, but a well-control decision at the rig site still needs a petroleum engineer who owns the physical risk."
+}

@@ -2,27 +2,33 @@
  "slug": "compliance-analyst",
  "title": "Compliance Analyst",
  "category": "Legal",
- "socCode": "",
+ "socCode": "13-1041",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 48, "toolMaturity": 60, "adoption": 48, "agenticExposure": 45},
+ "rationales": {
+  "taskAutomation": "Regulatory-change tracking, policy-gap analysis, and standard compliance reporting are now largely digital-document tasks AI can run end-to-end, but interpreting ambiguous violations and building an investigation record still needs a human analyst.",
+  "toolMaturity": "RegTech platforms (Compliance.ai, Ncontracts, Diligent) plus generic LLM research assistants now cover regulatory-change monitoring and gap analysis with production reliability, though niche and cross-border jurisdictions still lag.",
+  "adoption": "Large banks, tech firms, and healthcare systems run AI regulatory monitoring in production; mid-market and public-sector compliance teams are still mostly piloting.",
+  "agenticExposure": "Agentic tools already run continuous regulatory-change monitoring and draft gap analyses and reports end-to-end, leaving analysts an exception queue instead of a blank page."
+ },
  "tasksAtRisk": [
   "Regulatory change tracking and alerts",
   "Policy gap analysis against frameworks",
-  "Compliance reporting and documentation",
+  "Compliance reporting and documentation drafting",
   "Employee training tracking and records"
  ],
  "tasksGrowing": [
-  "AI regulatory compliance (EU AI Act, state laws)",
+  "AI regulatory compliance (EU AI Act, state AI laws)",
   "Investigation and incident management",
-  "Cross-border compliance strategy"
+  "Cross-border compliance strategy",
+  "AI governance program design and model-risk oversight"
  ],
  "salary": {
   "low": 60000,
   "high": 100000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1041, p25-p75 rounded",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
@@ -30,15 +36,15 @@
    "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "RegTech Tools & Automation",
+   "skill": "RegTech Tools & Automation (Compliance.ai, Ncontracts)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Certified Compliance Professional",
+   "skill": "Certified Compliance & Ethics Professional (CCEP)",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI tracks regulatory changes and generates reports, but compliance analysts who specialize in AI-specific regulations and complex cross-border requirements are entering a high-growth niche.",
+ "insight": "AI now tracks regulatory changes and drafts compliance reports on its own, compressing the routine half of the job. Analysts who specialize in AI-specific regulation (EU AI Act, state AI laws) and cross-border complexity are moving into a high-growth niche instead.",
  "industryModifiers": {
   "Finance": 5,
   "Tech": 3,

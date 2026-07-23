@@ -2,43 +2,53 @@
  "slug": "receptionist",
  "title": "Receptionist",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "43-4171",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 76,
+  "toolMaturity": 82,
+  "adoption": 70,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "Call routing, visitor check-in, and basic scheduling are now scripted well enough for AI voice and kiosk systems to handle end-to-end in most settings.",
+  "toolMaturity": "AI phone attendants and digital check-in kiosks are mature, commodity products deployed widely across offices and healthcare settings.",
+  "adoption": "Mainstream in corporate offices and increasingly common in healthcare and hospitality front desks.",
+  "agenticExposure": "Reception is substantially a routing-and-scheduling pipeline an agent can traverse; in-person judgment for security and VIP handling is the remaining human core."
+ },
  "tasksAtRisk": [
-  "Answering routine phone calls and routing",
-  "Visitor check-in and badging",
-  "Basic scheduling and appointment booking",
+  "Answering and routing routine phone calls",
+  "Visitor check-in and badge issuance",
+  "Basic appointment scheduling",
   "Mail sorting and distribution"
  ],
  "tasksGrowing": [
   "VIP guest experience and hospitality",
   "Security coordination and emergency response",
-  "Facility and workspace management"
+  "On-site facility and workspace support"
  ],
  "salary": {
   "low": 28000,
   "high": 42000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 43-4171 (Receptionists and Information Clerks), p25-p75 rounded",
  "salaryTrend": "declining",
  "defenseSkills": [
   {
-   "skill": "Customer Experience & Hospitality",
+   "skill": "In-Person Customer Experience & Hospitality",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Facility Security & Safety",
+   "skill": "Facility Security & Emergency Response",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Administrative Technology Tools",
+   "skill": "AI Front-Desk Tool Administration",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI phone systems, digital check-in kiosks, and chatbot receptionists are widespread. Transitioning into facility management, security coordination, or customer experience roles offers more stability.",
+ "insight": "AI voice attendants and check-in kiosks now handle most routine front-desk traffic, which is why this role sits at High risk. The remaining value is in-person: reading a nervous visitor, handling a security issue, making a VIP feel looked after — things a kiosk can't do.",
  "industryModifiers": {
   "Tech": 3,
   "Healthcare": -5,

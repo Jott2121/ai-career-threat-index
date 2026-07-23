@@ -1,0 +1,51 @@
+{
+ "title": "Wholesale Sales Representative",
+ "category": "Marketing & Sales",
+ "socCode": "41-4012",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 68,
+  "adoption": 46,
+  "agenticExposure": 34
+ },
+ "rationales": {
+  "taskAutomation": "Order processing, reorder automation, and catalog/pricing lookups are digital tasks AI tools now handle well, but buyer relationship management and negotiation gate the core role.",
+  "toolMaturity": "B2B e-commerce and AI order-management tools are credible, fast-improving products, though not yet universally embedded across distributors.",
+  "adoption": "Larger distributors have adopted AI-assisted ordering and reorder tools, with mid-market and independent reps still catching up.",
+  "agenticExposure": "Reorder workflows and catalog lookups are agent-ownable, but the relationship-based selling that wins shelf space stays with the rep."
+ },
+ "tasksAtRisk": [
+  "Standard order processing and reorders",
+  "Catalog and pricing lookups",
+  "Basic inventory availability checks"
+ ],
+ "tasksGrowing": [
+  "Buyer relationship management and account retention",
+  "Negotiating shelf space and volume pricing",
+  "New-account prospecting and territory development"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-4012 Sales Representatives, Wholesale and Manufacturing (Except Technical/Scientific), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "B2B AI Ordering & Reorder Platforms",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Buyer Relationship & Account Retention",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Volume Pricing & Shelf-Space Negotiation",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Reordering and catalog lookups are moving to self-service B2B portals. Reps who keep the relationship that wins shelf space and negotiates volume pricing are harder to route around.",
+ "slug": "wholesale-sales-representative"
+}

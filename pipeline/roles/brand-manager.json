@@ -1,0 +1,51 @@
+{
+ "title": "Brand Manager",
+ "category": "Marketing & Sales",
+ "socCode": "11-2021",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 75,
+  "adoption": 58,
+  "agenticExposure": 36
+ },
+ "rationales": {
+  "taskAutomation": "Competitive tracking, brand-guideline documentation, and research synthesis are automatable, but positioning decisions and creative judgment gate most of the role's core work.",
+  "toolMaturity": "AI marketing analytics and content tools are mature, widely-shipped products, though brand strategy itself has no dedicated automation category.",
+  "adoption": "AI-assisted research and tracking are common at large CPG and tech brands, spreading to mid-market.",
+  "agenticExposure": "Agents can run competitive-tracking and guideline-documentation workflows, but brand positioning and creative direction stay with the manager."
+ },
+ "tasksAtRisk": [
+  "Competitive tracking and market monitoring",
+  "Brand guideline documentation and asset audits",
+  "Research synthesis for brand health studies"
+ ],
+ "tasksGrowing": [
+  "Brand positioning and portfolio strategy",
+  "Packaging and creative direction",
+  "Cross-functional brand P&L ownership"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-2021 Marketing Managers (closest match), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Brand Analytics & Tracking Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Brand Positioning & Portfolio Strategy",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Creative Direction & Packaging Strategy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now handles the competitive tracking and documentation that used to eat a brand manager's week. The job increasingly is positioning strategy and creative judgment, which is exactly what AI can't originate.",
+ "slug": "brand-manager"
+}

@@ -2,44 +2,54 @@
  "slug": "recruiter",
  "title": "Recruiter",
  "category": "HR & Recruiting",
- "socCode": "",
+ "socCode": "13-1071",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 60,
+  "toolMaturity": 78,
+  "adoption": 68,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "AI now screens resumes, drafts outreach sequences, schedules interviews, and writes job descriptions end-to-end, leaving relationship-building and closing as the core human task.",
+  "toolMaturity": "AI sourcing and screening platforms (SeekOut, hireEZ, LinkedIn Recruiter AI) are mature, widely-deployed tools embedded in the standard ATS stack.",
+  "adoption": "AI-assisted sourcing and screening is now a mainstream expectation across tech, finance, and retail hiring functions.",
+  "agenticExposure": "Autonomous agents can run full sourcing-to-scheduling pipelines for high-volume roles; recruiters increasingly own only candidate persuasion and executive-level searches."
+ },
  "tasksAtRisk": [
-  "Resume screening and shortlisting",
-  "Initial candidate outreach messages",
-  "Interview scheduling and coordination",
-  "Job description writing",
-  "Candidate status tracking and updates"
+  "Resume screening and shortlisting against role criteria",
+  "Initial candidate outreach and sequenced follow-up messages",
+  "Interview scheduling and calendar coordination",
+  "Job description drafting from role templates",
+  "Candidate pipeline status updates and reporting"
  ],
  "tasksGrowing": [
-  "Candidate relationship building and selling",
-  "Complex hiring strategy for leadership roles",
-  "Employer branding and talent market intelligence"
+  "Candidate relationship-building and offer negotiation for competitive talent",
+  "Executive and specialized-skill search strategy",
+  "Employer branding and talent-market intelligence"
  ],
  "salary": {
   "low": 50000,
   "high": 110000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1071, p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Sourcing Tools (SeekOut, hireEZ)",
+   "skill": "AI Sourcing & Screening Platforms (SeekOut, hireEZ)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Executive & Strategic Recruiting",
+   "skill": "Executive & Passive-Candidate Recruiting",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Employer Branding & Talent Marketing",
+   "skill": "Employer Branding & Talent Market Intelligence",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI screens resumes and writes outreach at scale, but recruiters who build genuine candidate relationships, sell opportunities to passive talent, and advise on hiring strategy add irreplaceable value.",
+ "insight": "AI now runs the sourcing-to-scheduling pipeline end-to-end for most volume hiring, and agentic tools are starting to run full outreach sequences unattended. Recruiters who survive the cut are the ones selling hard-to-close candidates and running searches AI can't source its way into.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

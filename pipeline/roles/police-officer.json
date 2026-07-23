@@ -1,0 +1,58 @@
+{
+  "slug": "police-officer",
+  "title": "Police Officer",
+  "category": "Public Service & Safety",
+  "socCode": "33-3051",
+  "tier": 1,
+  "subscores": {
+    "taskAutomation": 18,
+    "toolMaturity": 52,
+    "adoption": 18,
+    "agenticExposure": 10
+  },
+  "rationales": {
+    "taskAutomation": "Patrol, use-of-force decisions, and in-person community contact dominate the job; only incident report drafting and records lookups are reliably automatable today.",
+    "toolMaturity": "AI report-writing assistants (e.g. body-cam-to-narrative tools) and license-plate/analytics platforms are real and improving fast, but remain add-ons rather than the core toolchain.",
+    "adoption": "Most departments are still piloting or budget-constrained; only well-funded metro forces have moved report-writing and analytics tools into daily use.",
+    "agenticExposure": "The core of the job is physical presence and split-second judgment in the field, which autonomous software cannot reach."
+  },
+  "tasksAtRisk": [
+    "Drafting routine incident and arrest reports",
+    "Records and warrant database lookups",
+    "Transcribing body-camera footage into narrative form",
+    "Basic dispatch log documentation"
+  ],
+  "tasksGrowing": [
+    "De-escalation and crisis-intervention response",
+    "Community relations and neighborhood policing",
+    "Interpreting AI-flagged leads and evidence with legal judgment"
+  ],
+  "salary": {
+    "low": 55000,
+    "high": 95000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 33-3051, p25-p75 rounded",
+  "salaryTrend": "rising",
+  "defenseSkills": [
+    {
+      "skill": "Report-writing AI tool fluency (body-cam-to-narrative platforms)",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "De-escalation and crisis-intervention certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Evidence-analytics and case-management software literacy",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "Patrol work itself sits outside AI's reach, but the paperwork half of the job is being rewritten: departments that adopted AI report-drafting tools report officers spending far less time behind a keyboard. Officers who master those tools free up the in-person hours that actually define the job.",
+  "industryModifiers": {
+    "Tech": 7,
+    "Government": -5,
+    "Healthcare": -4,
+    "Retail": 3
+  }
+}

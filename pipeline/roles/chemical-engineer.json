@@ -1,0 +1,51 @@
+{
+ "slug": "chemical-engineer",
+ "title": "Chemical Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2041",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 25
+ },
+ "rationales": {
+  "taskAutomation": "AI can run process-simulation sweeps and draft mass/energy balance reports, but plant safety analysis, scale-up judgment, and regulatory sign-off remain engineer-led.",
+  "toolMaturity": "Process simulation software (Aspen, gPROMS) has credible AI-assisted optimization add-ons, but they are not yet the industry default.",
+  "adoption": "Adoption is concentrated in large petrochemical and pharma manufacturers; most mid-size process plants still run traditional simulation workflows.",
+  "agenticExposure": "Agents can run parameter sweeps across a process model and flag deviations, but physical plant commissioning and hazard review need an on-site engineer."
+ },
+ "tasksAtRisk": [
+  "Process simulation parameter sweeps and optimization runs",
+  "Mass and energy balance report drafting",
+  "Routine equipment sizing calculations"
+ ],
+ "tasksGrowing": [
+  "Plant safety and hazard analysis (HAZOP) leadership",
+  "Scale-up judgment from lab to production",
+  "Regulatory compliance sign-off for new processes"
+ ],
+ "salary": {
+  "low": 85000,
+  "high": 145000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2041, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Process Simulation (Aspen, gPROMS)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Process Safety & HAZOP Leadership",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Lab-to-Plant Scale-Up Judgment",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Simulation sweeps and balance calculations increasingly run themselves, but hazard analysis and scale-up decisions still ride on an engineer's judgment. Chemical engineers who own plant safety leadership hold the highest-value ground."
+}

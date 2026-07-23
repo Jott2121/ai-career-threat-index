@@ -1,0 +1,58 @@
+{
+ "slug": "product-owner",
+ "title": "Product Owner",
+ "category": "Project & Product Management",
+ "socCode": "13-1082",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 33,
+  "toolMaturity": 68,
+  "adoption": 56,
+  "agenticExposure": 42
+ },
+ "rationales": {
+  "taskAutomation": "Backlog grooming, acceptance-criteria drafting, and user-story writing from templates are now heavily AI-assisted, but prioritizing conflicting stakeholder demands against a fixed budget of engineering time still requires human judgment and accountability.",
+  "toolMaturity": "Jira, Azure DevOps, and Productboard now ship AI backlog-refinement and story-drafting features that are genuinely useful day to day, though they still need a human to approve trade-offs.",
+  "adoption": "Most software teams running Scrum or Kanban with a dedicated Product Owner now use AI to draft stories and groom backlogs; adoption is close to mainstream in tech but thinner in traditional industries running agile-in-name-only.",
+  "agenticExposure": "An agent can already draft a sprint's worth of user stories and acceptance criteria from a rough feature brief; deciding which of those stories actually ships this quarter stays with the Product Owner."
+ },
+ "tasksAtRisk": [
+  "Backlog grooming and story drafting",
+  "Acceptance criteria writing",
+  "Sprint planning documentation",
+  "Release notes and changelog drafting"
+ ],
+ "tasksGrowing": [
+  "Stakeholder prioritization trade-offs",
+  "Value-based roadmap decisions",
+  "Cross-team dependency negotiation"
+ ],
+ "salary": {
+  "low": 90000,
+  "high": 160000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1082 Project Management Specialists, p25-p75 rounded (no dedicated Product Owner SOC code; closest to Product Manager duties)",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Backlog & Story Drafting Tools (Jira AI, Productboard)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Value-Based Prioritization Frameworks",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Agentic AI Literacy for Product Teams",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "AI now drafts most of the backlog: user stories, acceptance criteria, even release notes, from a short feature brief. That collapses the writing half of the job but sharpens the real one: which ten stories out of a hundred actually get built this sprint. Product Owners who can defend a prioritization call to five stakeholders at once are becoming harder to replace, not easier.",
+ "industryModifiers": {
+  "Tech": 6,
+  "Finance": 3,
+  "Healthcare": -4,
+  "Government": -8
+ }
+}

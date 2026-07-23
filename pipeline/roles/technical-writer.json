@@ -2,36 +2,41 @@
  "slug": "technical-writer",
  "title": "Technical Writer",
  "category": "Creative",
- "socCode": "",
+ "socCode": "27-3042",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 62, "toolMaturity": 82, "adoption": 70, "agenticExposure": 58},
+ "rationales": {
+  "taskAutomation": "API references, user guides, release notes, and FAQ content can be generated end-to-end from code, specs, and commit history at professional quality today.",
+  "toolMaturity": "Docs-as-code AI tools and coding-copilot-adjacent generators are mature and integrated directly into engineering toolchains.",
+  "adoption": "AI-assisted documentation is now a mainstream expectation at software companies, tracking the broader adoption of AI coding tools.",
+  "agenticExposure": "Agents can read a codebase, draft and update docs, and open pull requests autonomously for routine documentation — a genuine pipeline of digital handoffs."
+ },
  "tasksAtRisk": [
-  "API documentation from code comments",
-  "User guide drafts from feature specs",
-  "FAQ and knowledge base generation",
-  "Release notes and changelog creation",
-  "Style guide-compliant formatting"
+  "API reference generation from code comments and schemas",
+  "User guide and how-to drafts from feature specs",
+  "FAQ and knowledge-base article generation",
+  "Release notes and changelog compilation",
+  "Style-guide-compliant reformatting across doc sets"
  ],
  "tasksGrowing": [
-  "Complex system documentation strategy",
-  "Developer experience and information architecture",
-  "Technical content for marketing and thought leadership"
+  "Documentation strategy for complex, multi-product systems",
+  "Developer experience (DX) and information architecture design",
+  "Technical content for developer marketing and thought leadership"
  ],
  "salary": {
   "low": 60000,
   "high": 110000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-3042 Technical Writers, p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "Docs-as-Code & API Documentation",
+   "skill": "Docs-as-Code & Agentic Documentation Pipelines",
    "link": "/guides/ai-coding-tools/"
   },
   {
-   "skill": "Information Architecture",
+   "skill": "Information Architecture for Complex Systems",
    "link": "/guides/ai-career-paths/"
   },
   {
@@ -39,7 +44,7 @@
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AI generates documentation from code effectively, but technical writers who design information architecture, improve developer experience, and create strategic content are becoming more valuable.",
+ "insight": "AI now drafts most reference and how-to documentation directly from code and specs, and agent pipelines can keep docs current without a writer opening the file. Technical writers who own information architecture and developer experience across a whole product line are the ones still driving headcount decisions.",
  "industryModifiers": {
   "Tech": 5,
   "Healthcare": -3,

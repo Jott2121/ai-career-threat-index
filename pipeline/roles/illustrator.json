@@ -1,0 +1,53 @@
+{
+ "slug": "illustrator",
+ "title": "Illustrator",
+ "category": "Creative",
+ "socCode": "27-1013",
+ "tier": 1,
+ "subscores": {"taskAutomation": 55, "toolMaturity": 85, "adoption": 60, "agenticExposure": 45},
+ "rationales": {
+  "taskAutomation": "Commercial and concept illustration for stock, editorial, and game-adjacent use is now generated end-to-end from a prompt at usable quality; gallery-grade fine art and signature-style commissioned work remain human-differentiated.",
+  "toolMaturity": "Midjourney, DALL-E, and Adobe Firefly are mature, widely-shipped image generators embedded in publishing and marketing production pipelines.",
+  "adoption": "Publishers, ad agencies, and game studios routinely use AI generation for concept art and stock illustration in production, not just pilots.",
+  "agenticExposure": "Prompt-iterate-deliver pipelines can produce and revise commercial illustration sets with minimal human input for routine briefs."
+ },
+ "tasksAtRisk": [
+  "Stock and editorial illustration for common subjects",
+  "Concept art variations and mood-board generation",
+  "Children's book and educational illustration drafts",
+  "Pattern, texture, and background art production"
+ ],
+ "tasksGrowing": [
+  "Signature-style commissioned and gallery fine art",
+  "Original character and world-building IP development",
+  "Art direction for licensed and brand-owned illustration"
+ ],
+ "salary": {
+  "low": 38000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-1013 Fine Artists, Including Painters, Sculptors, and Illustrators, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Image-Generation Direction (Midjourney, Firefly)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Original IP & Character Development",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Signature Style & Gallery/Commission Work",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Generative image tools now cover most commercial illustration briefs at production quality, collapsing day-rate stock and concept work. Illustrators building recognizable, ownable style and original IP are the ones still landing licensing and commission deals.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 5,
+  "Government": -8,
+  "Healthcare": -5
+ }
+}

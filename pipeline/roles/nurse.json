@@ -2,10 +2,20 @@
  "slug": "nurse",
  "title": "Nurse (RN)",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "29-1141",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 12,
+  "toolMaturity": 55,
+  "adoption": 40,
+  "agenticExposure": 12
+ },
+ "rationales": {
+  "taskAutomation": "Vitals charting, medication-administration documentation and standard patient education are automatable; direct assessment, hands-on care and advocacy are not.",
+  "toolMaturity": "EHR-integrated documentation assistants and clinical decision support are credible and maturing, well short of coding-copilot-level embedding.",
+  "adoption": "Large hospital systems increasingly deploy AI charting and monitoring tools; adoption is uneven outside big systems.",
+  "agenticExposure": "Agents can own routine charting and monitoring alerts, but bedside care and rapid clinical judgment stay out of reach."
+ },
  "tasksAtRisk": [
   "Vital signs monitoring and charting",
   "Medication administration documentation",
@@ -22,7 +32,7 @@
   "high": 110000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 29-1141 (Registered Nurses), p25-p75 rounded",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
@@ -38,7 +48,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI reduces documentation burden and flags potential issues, freeing nurses for what matters most — direct patient care. Nursing demand continues to outpace supply significantly.",
+ "insight": "AI documentation assistants and monitoring alerts cut real charting time, but nursing's core, hands-on assessment, advocacy and rapid judgment at the bedside, sits outside what agents can own. The supply-demand gap keeps widening.",
  "industryModifiers": {
   "Healthcare": 2,
   "Government": -3

@@ -1,0 +1,52 @@
+{
+ "title": "Real Estate Agent",
+ "category": "Marketing & Sales",
+ "socCode": "41-9022",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 62,
+  "adoption": 48,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "Listing descriptions, comparative market analyses, and basic paperwork are automatable, but showings, negotiation, and local trust-building gate most of the role's core work.",
+  "toolMaturity": "AI listing-description tools, automated valuation models, and virtual staging are credible, fast-improving products, though not yet fully mature across the industry.",
+  "adoption": "Adoption is growing among brokerages but remains uneven given the independent-contractor structure of the profession.",
+  "agenticExposure": "Back-office slices like CMA generation, listing copy, and showing scheduling are agent-ownable, but negotiation and client relationships are outside current agent reach."
+ },
+ "tasksAtRisk": [
+  "Listing description and marketing copy generation",
+  "Comparative market analysis assembly",
+  "Showing scheduling and follow-up reminders",
+  "Standard contract paperwork preparation"
+ ],
+ "tasksGrowing": [
+  "Buyer and seller negotiation",
+  "Local market expertise and pricing judgment",
+  "Complex or contingent transaction coordination"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 85000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-9022 Real Estate Sales Agents, p25-p75 rounded (highly commission-variable)",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Listing & Valuation Tools (AVMs, virtual staging)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Buyer/Seller Negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Local Market Pricing Expertise",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now writes the listing and pulls the comps in minutes. It still doesn't walk a nervous buyer through a bidding war or negotiate a contingency at 9pm.",
+ "slug": "real-estate-agent"
+}

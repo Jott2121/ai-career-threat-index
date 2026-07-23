@@ -2,10 +2,20 @@
  "slug": "medical-transcriptionist",
  "title": "Medical Transcriptionist",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "31-9094",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 75,
+  "toolMaturity": 92,
+  "adoption": 75,
+  "agenticExposure": 60
+ },
+ "rationales": {
+  "taskAutomation": "Ambient AI speech-to-text now drafts the large majority of clinical notes end to end at production quality; only edge-case dictation and non-standard formatting need a human editor.",
+  "toolMaturity": "Ambient clinical documentation tools (Nuance DAX, Abridge and similar) are commodity-grade and embedded directly into EHR workflows.",
+  "adoption": "Ambient AI scribing is now mainstream across large health systems and is spreading fast into smaller practices.",
+  "agenticExposure": "An agentic pipeline can capture, draft, format and route a note end to end; a human still reviews before it's signed into the chart."
+ },
  "tasksAtRisk": [
   "Transcribing physician dictation",
   "Formatting medical reports and letters",
@@ -23,7 +33,7 @@
   "high": 50000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 31-9094 (Medical Transcriptionists), p25-p75 rounded",
  "salaryTrend": "declining",
  "defenseSkills": [
   {
@@ -39,7 +49,7 @@
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AI speech-to-text has largely replaced manual medical transcription. Transitioning into clinical documentation improvement, health informatics, or medical coding offers a stronger career trajectory.",
+ "insight": "Ambient AI scribes now draft the majority of clinical notes directly from the patient encounter, collapsing the separate transcription step almost entirely. The remaining career path runs through documentation-quality oversight, not typing.",
  "industryModifiers": {
   "Healthcare": 3,
   "Tech": 5,

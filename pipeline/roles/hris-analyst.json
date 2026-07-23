@@ -1,0 +1,52 @@
+{
+ "slug": "hris-analyst",
+ "title": "HRIS Analyst",
+ "category": "HR & Recruiting",
+ "socCode": "13-1071",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 48,
+  "toolMaturity": 68,
+  "adoption": 55,
+  "agenticExposure": 50
+ },
+ "rationales": {
+  "taskAutomation": "AI now builds standard HRIS reports, configures routine workflow rules, and flags data-quality errors, but system architecture decisions and vendor integration design still need an analyst.",
+  "toolMaturity": "AI copilots inside Workday, SAP SuccessFactors, and UKG are mature for report-building and basic configuration.",
+  "adoption": "AI-assisted HRIS reporting and configuration is common at large employers running modern HR tech stacks.",
+  "agenticExposure": "Agents can run recurring report generation, data audits, and standard configuration change requests end-to-end."
+ },
+ "tasksAtRisk": [
+  "Standard HRIS report and dashboard generation",
+  "Routine workflow and approval-rule configuration",
+  "Data-quality audits and duplicate-record cleanup",
+  "User access provisioning and basic troubleshooting tickets"
+ ],
+ "tasksGrowing": [
+  "HR system architecture and multi-system integration design",
+  "Vendor evaluation and HR tech roadmap planning",
+  "AI-agent governance within the HRIS itself"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 105000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1071, p25-p75 rounded with allowance toward systems-analyst market postings",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "HRIS Platform Configuration (Workday, SAP SuccessFactors, UKG)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "HR System Integration & Architecture",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Agent Governance in HR Systems",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "AI copilots now build the routine reports and configuration changes that filled an HRIS analyst's queue. The role is shifting toward system architecture and governing the AI agents now embedded in the platform itself."
+}

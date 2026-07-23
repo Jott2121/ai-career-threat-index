@@ -1,0 +1,51 @@
+{
+ "slug": "epidemiologist",
+ "title": "Epidemiologist",
+ "category": "Science & Engineering",
+ "socCode": "19-1041",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 62,
+  "adoption": 45,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "AI can run outbreak-model simulations and surveillance-data analysis end to end, but designing studies and communicating risk to policymakers stay human-led.",
+  "toolMaturity": "Disease-modeling and surveillance-analytics tools with AI-assisted forecasting are mature and widely used in public health agencies.",
+  "adoption": "Large public health agencies and health systems routinely use AI-assisted surveillance analytics; adoption is thinner in smaller local health departments.",
+  "agenticExposure": "Agents can run surveillance-data pipelines and flag emerging clusters, but risk communication and policy recommendation require a human epidemiologist."
+ },
+ "tasksAtRisk": [
+  "Outbreak model simulation and forecasting runs",
+  "Surveillance-data cleaning and cluster detection",
+  "Routine statistical report generation for case data"
+ ],
+ "tasksGrowing": [
+  "Study design for novel disease and exposure questions",
+  "Risk communication to policymakers and the public",
+  "Field investigation of active outbreaks"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-1041, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Outbreak Modeling & Forecasting",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Public Health Risk Communication",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Novel Study Design for Emerging Threats",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Surveillance data pipelines and forecasting models increasingly run themselves, but translating a cluster of numbers into a policy recommendation the public will trust remains an epidemiologist's job."
+}

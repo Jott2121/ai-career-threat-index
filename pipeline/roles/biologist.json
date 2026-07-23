@@ -1,0 +1,51 @@
+{
+ "slug": "biologist",
+ "title": "Biologist",
+ "category": "Science & Engineering",
+ "socCode": "19-1029",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 26
+ },
+ "rationales": {
+  "taskAutomation": "AI can analyze sequencing data and draft literature reviews, but field sampling, wet-lab experimentation, and specimen judgment stay hands-on.",
+  "toolMaturity": "Bioinformatics and AI-assisted sequence-analysis tools are mature for genomics work but less developed for field ecology and specimen study.",
+  "adoption": "Adoption is strongest in genomics and biotech labs; field-based ecology and wildlife biology still rely on manual methods.",
+  "agenticExposure": "Agents can run sequence-analysis and literature-synthesis pipelines, but fieldwork, specimen collection, and experiment design need a biologist present."
+ },
+ "tasksAtRisk": [
+  "Genomic sequence analysis and annotation",
+  "Literature review synthesis for research proposals",
+  "Routine lab-data processing and visualization"
+ ],
+ "tasksGrowing": [
+  "Field sampling and ecological survey work",
+  "Wet-lab experimental design and execution",
+  "Specimen-based taxonomic and morphological judgment"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 120000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-1029, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Bioinformatics & Sequence Analysis",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Field Sampling & Ecological Survey Methods",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Wet-Lab Experimental Design",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Genomic analysis and literature synthesis are increasingly AI-assisted, but fieldwork and wet-lab experimentation still need a biologist's hands and judgment on the actual organism."
+}

@@ -2,13 +2,23 @@
  "slug": "healthcare-administrator",
  "title": "Healthcare Administrator",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "11-9111",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 60,
+  "adoption": 45,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Scheduling optimization, billing oversight and routine compliance reporting are largely automatable, but service-line strategy, regulatory judgment and staff leadership are not.",
+  "toolMaturity": "Healthcare-specific revenue-cycle, staffing-optimization and compliance-analytics products are credible and improving fast, short of the embedded maturity of coding copilots.",
+  "adoption": "AI-driven scheduling and revenue-cycle tools are now common in large health systems and spreading into mid-size practices.",
+  "agenticExposure": "Agentic workflows can already run scheduling, claims triage and standard compliance reporting end to end, with escalations still routed to a human administrator."
+ },
  "tasksAtRisk": [
   "Patient scheduling optimization",
-  "Claims processing and billing oversight",
+  "Agentic claims triage and billing oversight",
   "Staff scheduling and shift management",
   "Compliance reporting for standard metrics"
  ],
@@ -22,11 +32,11 @@
   "high": 130000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 11-9111 (Medical and Health Services Managers), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "Healthcare AI Implementation",
+   "skill": "Healthcare AI Implementation & Governance",
    "link": "/guides/ai-career-paths/"
   },
   {
@@ -38,7 +48,7 @@
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AI optimizes scheduling, billing, and reporting, but healthcare administrators who lead AI implementation, manage regulatory complexity, and improve patient experience are growing in strategic importance.",
+ "insight": "Agentic tools now run scheduling, billing triage and standard compliance reports end to end with light oversight, cutting the back-office headcount these functions once required. Administrators who lead AI implementation and own regulatory and quality strategy are taking on more scope, not less.",
  "industryModifiers": {
   "Healthcare": 3,
   "Government": -8,
@@ -50,5 +60,6 @@
   "Q1 2026": 38,
   "Q2 2026": 42
  },
- "prevRiskLevel": "Moderate"
+ "prevRiskLevel": "Moderate",
+ "restatement": "v2's realization ceiling (task automation as a hard cap, agentic factor weighted at only 10%) scores this role lower than v1's flatter composite; back-office administration is more agent-automatable than ever, but core management judgment still caps the ceiling well below where v1 placed it."
 }

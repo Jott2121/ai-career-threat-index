@@ -1,11 +1,20 @@
 {
- "slug": "pr-specialist",
  "title": "PR Specialist",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "27-3031",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 50,
+  "toolMaturity": 78,
+  "adoption": 62,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Press release drafting, media list building, and coverage monitoring are digital, template-driven tasks AI tools now handle for most routine releases.",
+  "toolMaturity": "AI media-monitoring and drafting tools are mature, widely-shipped products embedded in standard PR workflows.",
+  "adoption": "AI-assisted monitoring and drafting is now a mainstream expectation across corporate and agency PR teams.",
+  "agenticExposure": "Agents can run the monitor-flag-draft loop for routine coverage and releases, but crisis judgment and journalist relationships stay human."
+ },
  "tasksAtRisk": [
   "Press release drafting from templates",
   "Media list building and updates",
@@ -22,11 +31,11 @@
   "high": 95000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-3031 Public Relations Specialists, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Media Monitoring Tools",
+   "skill": "AI Media Monitoring & Drafting Tools",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -34,11 +43,11 @@
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Digital PR & Content Marketing",
+   "skill": "Journalist & Influencer Relationship Building",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI drafts releases and monitors coverage, but genuine media relationships, crisis management under pressure, and strategic narrative creation require human expertise and emotional intelligence.",
+ "insight": "Routine releases and coverage tracking now run themselves. What still needs a person under pressure is a crisis response, a real relationship with a reporter, and a narrative built to survive scrutiny.",
  "industryModifiers": {
   "Tech": 3,
   "Healthcare": -3,
@@ -50,5 +59,6 @@
   "Q1 2026": 42,
   "Q2 2026": 45
  },
- "prevRiskLevel": "Moderate"
+ "prevRiskLevel": "Moderate",
+ "slug": "pr-specialist"
 }

@@ -1,0 +1,52 @@
+{
+  "slug": "detective",
+  "title": "Detective",
+  "category": "Public Service & Safety",
+  "socCode": "33-3021",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 30,
+    "toolMaturity": 48,
+    "adoption": 20,
+    "agenticExposure": 28
+  },
+  "rationales": {
+    "taskAutomation": "Records searches, digital forensics triage, and report writing are automatable, but interviewing witnesses, judgment calls on leads, and courtroom testimony are not.",
+    "toolMaturity": "AI-assisted case-linkage and digital-forensics tools are improving fast but are not yet a standard part of most department toolchains.",
+    "adoption": "Larger metro and federal agencies use analytics tools; most local detective units still rely on manual database searches.",
+    "agenticExposure": "Cross-referencing records, evidence logs, and cold-case databases is a research-summarize loop an agent can meaningfully assist, though final investigative judgment stays human."
+  },
+  "tasksAtRisk": [
+    "Case file and records cross-referencing",
+    "Digital forensics triage on seized devices",
+    "Report and case-summary drafting",
+    "Database and warrant searches"
+  ],
+  "tasksGrowing": [
+    "Witness interviewing and rapport-building",
+    "Courtroom testimony and evidence presentation",
+    "Judgment calls on which leads to pursue"
+  ],
+  "salary": {
+    "low": 65000,
+    "high": 115000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 33-3021, p25-p75 rounded",
+  "salaryTrend": "stable",
+  "defenseSkills": [
+    {
+      "skill": "AI-assisted digital forensics and case-linkage tools",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Advanced interview and interrogation technique certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Courtroom testimony and evidence-presentation skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "Records work is automating fast, but the interview room and the witness stand still require a human."
+}

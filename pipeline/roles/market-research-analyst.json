@@ -1,11 +1,20 @@
 {
- "slug": "market-research-analyst",
  "title": "Market Research Analyst",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "13-1161",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 54,
+  "toolMaturity": 74,
+  "adoption": 58,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Survey fielding, cross-tabulation, competitive monitoring, and standard market-sizing are digital-data tasks that AI tools now handle at professional quality most of the time.",
+  "toolMaturity": "AI-native survey and analytics platforms are credible, fast-improving role-specific products, though not yet as universally embedded as coding or transcription tools.",
+  "adoption": "Large firms and tech-forward research shops have made AI-assisted analytics standard, with mid-market adoption still catching up.",
+  "agenticExposure": "Agents can run the pull-tabulate-monitor loop for competitive and quantitative tracking, but framing a novel research question and reading qualitative nuance stay human."
+ },
  "tasksAtRisk": [
   "Survey design and distribution",
   "Data tabulation and cross-tabulation",
@@ -22,11 +31,11 @@
   "high": 100000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1161 Market Research Analysts and Marketing Specialists, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Analytics & Survey Tools",
+   "skill": "Agentic Analytics & Survey Tooling",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -34,11 +43,11 @@
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Data Storytelling & Visualization",
+   "skill": "Data Storytelling for Leadership",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI processes survey data and tracks competitors faster than humans. Research analysts who excel at qualitative insight, asking the right questions, and translating data into strategy will thrive.",
+ "insight": "Tabulating data and tracking competitors is now agent work. Analysts who ask the sharper research question and translate findings into a strategic story for leadership are the ones that stay in the room.",
  "industryModifiers": {
   "Tech": 5,
   "Retail": 3,
@@ -50,5 +59,6 @@
   "Q1 2026": 50,
   "Q2 2026": 55
  },
- "prevRiskLevel": "High"
+ "prevRiskLevel": "High",
+ "slug": "market-research-analyst"
 }

@@ -1,21 +1,30 @@
 {
- "slug": "content-writer",
  "title": "Content Writer",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "27-3043",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 72,
+  "toolMaturity": 90,
+  "adoption": 76,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "First drafts, repurposing, listicles, and calendar planning are routine digital production that current models complete end-to-end at publishable quality most of the time.",
+  "toolMaturity": "LLM drafting tools are commodity-grade and embedded directly in CMSs, briefs, and editorial workflows.",
+  "adoption": "AI-assisted drafting is now a mainstream expectation for content teams, not a pilot program.",
+  "agenticExposure": "An agent can run the research-draft-revise loop across a content calendar largely unsupervised, though it still needs a human to originate reporting and set editorial direction."
+ },
  "tasksAtRisk": [
   "First drafts of informational articles",
   "Content repurposing across formats",
   "Listicle and round-up creation",
-  "Content calendar planning",
+  "Content calendar planning and briefs",
   "Basic fact-checking and research synthesis"
  ],
  "tasksGrowing": [
   "Original reporting and expert interviews",
-  "Thought leadership with unique perspectives",
+  "Thought leadership with a distinct point of view",
   "Content strategy and editorial direction"
  ],
  "salary": {
@@ -23,23 +32,23 @@
   "high": 85000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-3043 Writers and Authors, p25-p75 rounded",
  "salaryTrend": "declining",
  "defenseSkills": [
   {
-   "skill": "AI-Assisted Content Production",
+   "skill": "Agentic Drafting Pipeline Ownership",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Editorial Strategy & Voice",
+   "skill": "Original Reporting & Source Development",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Subject Matter Expertise Development",
+   "skill": "Editorial Strategy & Voice",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI generates passable content at scale, crushing demand for generic writing. Content writers with deep subject expertise, original research ability, and editorial judgment will command premium rates.",
+ "insight": "Generic drafting is now a commodity an agent can run start to finish across a full content calendar. Writers left standing are the ones who bring reporting AI can't originate, subject expertise it can't fake, and editorial judgment over what an agent produces.",
  "industryModifiers": {
   "Tech": 5,
   "Retail": 3,
@@ -51,5 +60,6 @@
   "Q1 2026": 62,
   "Q2 2026": 68
  },
- "prevRiskLevel": "High"
+ "prevRiskLevel": "High",
+ "slug": "content-writer"
 }

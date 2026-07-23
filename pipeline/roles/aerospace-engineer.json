@@ -1,0 +1,51 @@
+{
+ "slug": "aerospace-engineer",
+ "title": "Aerospace Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 58,
+  "adoption": 35,
+  "agenticExposure": 25
+ },
+ "rationales": {
+  "taskAutomation": "AI can accelerate aerodynamic CFD sweeps and structural sizing iterations, but flight-certification analysis and safety-margin decisions are tightly regulated and engineer-owned.",
+  "toolMaturity": "CFD and structural-optimization tools with AI-assisted surrogate modeling are improving fast but remain specialist, not commodity, tooling.",
+  "adoption": "Adoption is concentrated at major primes and a handful of well-funded startups; most of the supply chain still relies on traditional analysis cycles.",
+  "agenticExposure": "Agents can run overnight CFD and FEA batch sweeps and surface anomalies, but certification documentation and airworthiness sign-off stay with licensed engineers."
+ },
+ "tasksAtRisk": [
+  "Aerodynamic CFD parameter sweeps",
+  "Structural sizing and weight-optimization iterations",
+  "Routine test-data reduction and reporting"
+ ],
+ "tasksGrowing": [
+  "Flight-certification and airworthiness analysis",
+  "Novel propulsion and materials system integration",
+  "Failure investigation on physical test articles"
+ ],
+ "salary": {
+  "low": 105000,
+  "high": 160000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2011, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted CFD & Structural Optimization",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Flight Certification & Airworthiness Analysis",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Propulsion & Advanced Materials Integration",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Design-iteration cycles are compressing as AI-assisted CFD and structural tools mature, but certification and airworthiness sign-off remain tightly regulated, engineer-owned work that AI cannot touch."
+}

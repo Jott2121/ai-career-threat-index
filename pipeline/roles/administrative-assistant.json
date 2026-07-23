@@ -2,44 +2,54 @@
  "slug": "administrative-assistant",
  "title": "Administrative Assistant",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "43-6014",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 82,
+  "toolMaturity": 88,
+  "adoption": 75,
+  "agenticExposure": 65
+ },
+ "rationales": {
+  "taskAutomation": "Scheduling, inbox triage, meeting prep, travel booking, and expense reports are now handled end-to-end by agentic assistants at professional reliability; only ad hoc judgment calls and interpersonal gatekeeping resist automation.",
+  "toolMaturity": "Microsoft 365 Copilot, Google Workspace Gemini, and dedicated scheduling agents are mature, shipped products embedded directly in the tools admins already use daily.",
+  "adoption": "Most mid-size and large employers now deploy AI scheduling and email drafting as a default part of the admin toolchain, not a pilot.",
+  "agenticExposure": "Multi-step chains — read the inbox, propose meeting times, draft replies, file expense receipts — are increasingly agent-owned end-to-end for routine cases."
+ },
  "tasksAtRisk": [
-  "Calendar management and scheduling",
-  "Email drafting and response",
-  "Document formatting and organization",
-  "Meeting notes and action items",
-  "Travel booking and expense reports"
+  "Calendar management and multi-party scheduling",
+  "Inbox triage and email drafting",
+  "Meeting notes, transcription, and action-item extraction",
+  "Travel booking and expense report reconciliation",
+  "Document formatting and template assembly"
  ],
  "tasksGrowing": [
-  "Executive relationship management",
-  "Complex project coordination",
-  "Office culture and team operations"
+  "Executive relationship management and judgment calls",
+  "Cross-team project coordination",
+  "Reviewing and correcting AI agent output"
  ],
  "salary": {
   "low": 35000,
   "high": 55000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 43-6014 (Secretaries and Administrative Assistants, Except Legal, Medical, and Executive), p25-p75 rounded",
  "salaryTrend": "declining",
  "defenseSkills": [
   {
-   "skill": "AI Productivity Tools (Microsoft 365 Copilot)",
-   "link": "/guides/ai-skills-resume/"
+   "skill": "Agentic AI Workflow Orchestration (Copilot, Gemini agents)",
+   "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "Project Management Fundamentals",
+   "skill": "Cross-Functional Project Coordination",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Executive Operations & Chief of Staff Skills",
-   "link": "/guides/best-ai-certifications/"
+   "skill": "AI Output Review & Executive Judgment",
+   "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "AI scheduling assistants, email drafters, and meeting summarizers are replacing core admin tasks. Pivoting toward project coordination, operations management, or executive chief-of-staff roles is key.",
+ "insight": "Agentic assistants now run the full scheduling-to-inbox-to-expense loop with minimal supervision, which is why routine admin work keeps climbing toward Very High risk. The defensible ground is judgment-heavy coordination — reading a room, managing competing executive priorities, catching what an agent gets subtly wrong — not any single software skill.",
  "industryModifiers": {
   "Tech": 5,
   "Government": -8,

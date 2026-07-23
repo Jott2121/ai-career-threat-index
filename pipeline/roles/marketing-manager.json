@@ -1,11 +1,20 @@
 {
- "slug": "marketing-manager",
  "title": "Marketing Manager",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "11-2021",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 42,
+  "toolMaturity": 84,
+  "adoption": 66,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Reporting, A/B test setup, scheduling, and template creation are largely automatable, but brand strategy and cross-channel judgment still gate most of the role's core work.",
+  "toolMaturity": "Marketing automation and AI campaign platforms are mature, widely-shipped products embedded in the standard marketing stack.",
+  "adoption": "AI-assisted execution is now a mainstream expectation for marketing teams across most mid-size and large employers.",
+  "agenticExposure": "Agents can own reporting, test setup, and scheduling workflows end-to-end, while positioning, persona synthesis, and channel strategy stay with the manager."
+ },
  "tasksAtRisk": [
   "Campaign performance reporting",
   "A/B test setup and basic analysis",
@@ -22,11 +31,11 @@
   "high": 140000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 11-2021 Marketing Managers, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Marketing Automation",
+   "skill": "Agentic Marketing Automation Oversight",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -34,11 +43,11 @@
    "link": "/guides/best-ai-certifications/"
   },
   {
-   "skill": "AI Content Strategy",
+   "skill": "Cross-Channel Brand Strategy",
    "link": "/guides/ai-career-paths/"
   }
  ],
- "insight": "AI handles campaign execution and reporting, but marketing managers who own brand strategy, customer insight, and cross-channel orchestration are more needed as channels multiply.",
+ "insight": "Execution and reporting now run largely on autopilot. Marketing managers who own positioning, customer insight, and orchestration across an ever-multiplying set of channels are becoming more valuable, not less.",
  "industryModifiers": {
   "Tech": 5,
   "Retail": 3,
@@ -50,5 +59,6 @@
   "Q1 2026": 37,
   "Q2 2026": 40
  },
- "prevRiskLevel": "Moderate"
+ "prevRiskLevel": "Moderate",
+ "slug": "marketing-manager"
 }

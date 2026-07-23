@@ -1,0 +1,58 @@
+{
+ "slug": "statistician",
+ "title": "Statistician",
+ "category": "Science & Engineering",
+ "socCode": "15-2041",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 48,
+  "toolMaturity": 80,
+  "adoption": 62,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "AI can run standard hypothesis tests, build regression and forecasting models, and generate results write-ups end to end; designing novel study methodology and defending causal claims stay human-led.",
+  "toolMaturity": "Statistical and ML tooling (R, Python stacks, AutoML, agentic notebook assistants) is mature and widely embedded in analytics workflows.",
+  "adoption": "Large employers in tech, pharma, insurance, and government agencies routinely use AI-assisted statistical modeling in production analytics.",
+  "agenticExposure": "Agents can run full analysis pipelines, from data cleaning through model fitting to draft reporting, under a statistician's review of assumptions and study design."
+ },
+ "tasksAtRisk": [
+  "Standard hypothesis testing and regression modeling",
+  "Automated data cleaning and exploratory analysis pipelines",
+  "Forecasting model builds using established methods",
+  "Drafting results sections and statistical summary reports"
+ ],
+ "tasksGrowing": [
+  "Novel study design and causal inference methodology",
+  "Defending statistical conclusions to regulators and stakeholders",
+  "Auditing AI model bias and validity in high-stakes decisions"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 135000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 15-2041, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Causal Inference & Experimental Design",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Agentic Analysis Pipeline Auditing",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "AI Model Validity & Bias Review",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Agentic notebooks now run entire analysis pipelines from cleaning to draft reporting. Statisticians who own study design, causal reasoning, and validity auditing of AI-generated results are moving from technician to the analysis's final authority.",
+ "industryModifiers": {
+  "Tech": 8,
+  "Finance": 6,
+  "Government": -6,
+  "Healthcare": 3
+ }
+}

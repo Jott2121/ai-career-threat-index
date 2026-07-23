@@ -1,0 +1,48 @@
+{
+ "slug": "court-reporter",
+ "title": "Court Reporter",
+ "category": "Legal",
+ "socCode": "27-3092",
+ "tier": 1,
+ "subscores": {"taskAutomation": 70, "toolMaturity": 88, "adoption": 52, "agenticExposure": 42},
+ "rationales": {
+  "taskAutomation": "Real-time verbatim transcription, captioning, and transcript formatting are routine digital production AI performs directly; the remaining share is producing a legally certified record and handling complex, multi-speaker proceedings.",
+  "toolMaturity": "Speech-to-text has closed most of the accuracy gap for routine proceedings; real-time ASR and captioning products are mature, widely shipped, and near-commodity for standard audio conditions.",
+  "adoption": "Digital audio/video recording is spreading through state and municipal courts and private depositions, though many jurisdictions still statutorily require a certified stenographer for the official record.",
+  "agenticExposure": "Ingest-transcribe-format-index pipelines are largely agent-traversable for asynchronous depositions and virtual hearings, but live courtroom certification still needs a human in the loop."
+ },
+ "tasksAtRisk": [
+  "Real-time verbatim transcription of routine depositions and hearings",
+  "Automated closed-captioning and CART-style speech-to-text support",
+  "Transcript formatting, indexing, and word-search tagging",
+  "Audio/video synchronization for the record"
+ ],
+ "tasksGrowing": [
+  "Certified legal-record accuracy review and challenged-testimony correction",
+  "Complex multi-speaker, technical, or high-stakes trial transcription requiring human judgment",
+  "Court technology administration and ASR quality assurance"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 100000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-3092, p25-p75 rounded",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "Real-Time ASR & Captioning Platform Fluency",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Certified Legal Videographer / CART Specialization",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Court Technology & Record-Certification Standards",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Speech-to-text has closed most of the accuracy gap for routine depositions and hearings, and cost-pressured courts are piloting digital recording over stenographers. The remaining moat is the legally certified verbatim record: someone accountable for accuracy in complex, multi-speaker, or high-stakes proceedings.",
+ "industryModifiers": {"Government": -5, "Tech": 8, "Finance": 3, "Healthcare": -2}
+}

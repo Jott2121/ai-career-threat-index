@@ -2,10 +2,20 @@
  "slug": "medical-coder",
  "title": "Medical Coder",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "29-2072",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 62,
+  "toolMaturity": 80,
+  "adoption": 55,
+  "agenticExposure": 55
+ },
+ "rationales": {
+  "taskAutomation": "AI coding engines now assign codes for routine, single-diagnosis encounters end to end at production-grade accuracy; complex multi-comorbidity and denial-appeal cases still need a coder.",
+  "toolMaturity": "NLP-based coding engines (3M 360, Nuance, EHR-embedded coders) are mature, widely shipped and standard in most hospital systems.",
+  "adoption": "Automated coding is now mainstream in large health systems and hospital networks, expected wherever claim volume justifies the license cost.",
+  "agenticExposure": "Code-assign-verify-submit loops are meaningfully agent-owned today, with a human coder auditing outputs and handling exceptions."
+ },
  "tasksAtRisk": [
   "Assigning ICD-10 and CPT codes from notes",
   "Claims submission and follow-up",
@@ -16,18 +26,18 @@
  "tasksGrowing": [
   "Complex surgical and specialty coding",
   "Coding compliance and audit preparation",
-  "AI coding tool oversight and quality assurance"
+  "Agentic coding-pipeline oversight and exception handling"
  ],
  "salary": {
   "low": 40000,
   "high": 70000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 29-2072 (Medical Records Specialists), p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Medical Coding Tools (3M, Nuance)",
+   "skill": "Agentic Coding Pipeline Auditing",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -39,7 +49,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI coding engines now assign codes with 90%+ accuracy for common encounters. Coders who specialize in complex cases, audit AI-generated codes, and lead documentation improvement programs will stay relevant.",
+ "insight": "AI coding engines now assign codes for routine single-diagnosis visits with production-grade accuracy, and agentic pipelines are starting to run the full code-verify-submit loop with a human auditing exceptions. Coders who specialize in complex multi-comorbidity cases and own that audit layer stay essential.",
  "industryModifiers": {
   "Healthcare": 3,
   "Tech": 5,

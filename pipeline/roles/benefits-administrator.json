@@ -1,0 +1,51 @@
+{
+ "slug": "benefits-administrator",
+ "title": "Benefits Administrator",
+ "category": "HR & Recruiting",
+ "socCode": "13-1141",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 58,
+  "toolMaturity": 72,
+  "adoption": 60,
+  "agenticExposure": 50
+ },
+ "rationales": {
+  "taskAutomation": "AI now processes open enrollment, plan-change life events, and COBRA administration end-to-end; plan design and vendor negotiation still need a person.",
+  "toolMaturity": "Benefits platforms (Workday, ADP, Businessolver) ship mature AI enrollment assistants and eligibility engines.",
+  "adoption": "AI-assisted benefits enrollment and eligibility processing is standard practice at most mid-size and large employers.",
+  "agenticExposure": "Agents can run the full enrollment-eligibility-compliance-filing loop for standard plan changes without a human touching each case."
+ },
+ "tasksAtRisk": [
+  "Open enrollment processing and eligibility verification",
+  "Life-event benefit changes and COBRA administration",
+  "Benefits plan documentation and summary plan description updates",
+  "Vendor invoice reconciliation and compliance filing"
+ ],
+ "tasksGrowing": [
+  "Benefits plan design and vendor contract negotiation",
+  "Employee benefits education and total-rewards communication strategy"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 95000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1141, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Benefits Platform Administration (Workday, ADP, Businessolver)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Benefits Plan Design & Vendor Negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Total Rewards Communication",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now runs enrollment, eligibility, and COBRA administration end-to-end. Administrators who move into plan design and vendor negotiation keep the work AI can't yet own."
+}

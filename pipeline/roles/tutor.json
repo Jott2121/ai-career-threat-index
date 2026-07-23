@@ -2,10 +2,20 @@
  "slug": "tutor",
  "title": "Tutor",
  "category": "Education",
- "socCode": "",
+ "socCode": "25-3041",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 58,
+  "toolMaturity": 80,
+  "adoption": 62,
+  "agenticExposure": 55
+ },
+ "rationales": {
+  "taskAutomation": "Concept explanation, practice-problem generation and correction, and standardized test-prep drills are now handled end-to-end by AI tutoring products at high reliability.",
+  "toolMaturity": "AI tutoring apps (Khanmigo, Duolingo-style adaptive practice) are mature, widely-shipped consumer products, not just pilots.",
+  "adoption": "Students and families now routinely use free or low-cost AI tutors directly, and tutoring companies increasingly build them into service delivery.",
+  "agenticExposure": "Adaptive-practice agents already run full explain-practice-assess loops autonomously; human tutors add the most value in accountability and emotional coaching an agent can't replicate."
+ },
  "tasksAtRisk": [
   "Explaining standard concepts and formulas",
   "Practice problem generation and correction",
@@ -23,11 +33,11 @@
   "high": 60000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 25-3041 (Tutors), p25-p75 rounded; wide spread reflects gig/part-time market",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Tutoring Platforms (Khan Academy, Khanmigo)",
+   "skill": "AI Tutoring Platforms (Khanmigo, adaptive-practice apps)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -39,7 +49,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI tutors like Khanmigo explain concepts 24/7, but human tutors who provide accountability, adapt to emotional needs, and coach executive function skills offer something AI cannot match.",
+ "insight": "Free AI tutors now explain concepts and generate practice problems around the clock at high reliability. Human tutors who survive are the ones providing accountability, emotional support, and executive-function coaching AI can't replicate.",
  "industryModifiers": {
   "Tech": 5,
   "Government": -3

@@ -1,0 +1,51 @@
+{
+ "slug": "labor-relations-specialist",
+ "title": "Labor Relations Specialist",
+ "category": "HR & Recruiting",
+ "socCode": "13-1075",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 50,
+  "adoption": 28,
+  "agenticExposure": 22
+ },
+ "rationales": {
+  "taskAutomation": "AI can search contract language and flag grievance precedents, but negotiating collective bargaining terms and representing the company in arbitration remain human, legally consequential work.",
+  "toolMaturity": "Generic contract-analysis and legal-research AI applies to CBA lookup, but no dedicated labor-relations negotiation tool has real traction.",
+  "adoption": "Adoption is low: unionized and heavily regulated employers move cautiously on AI in labor relations.",
+  "agenticExposure": "Agents can retrieve contract clauses and past-grievance precedent, but the negotiation and arbitration representation itself is out of reach."
+ },
+ "tasksAtRisk": [
+  "Collective bargaining agreement clause lookup and precedent research",
+  "Grievance documentation and case-file preparation",
+  "Routine labor-law compliance monitoring and reporting"
+ ],
+ "tasksGrowing": [
+  "Collective bargaining negotiation strategy",
+  "Arbitration and mediation representation",
+  "Union relationship management during organizing campaigns"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 105000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1075, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Collective Bargaining Negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Contract & Precedent Research Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Labor Law & Arbitration Representation",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI can pull contract clauses and grievance precedent in seconds, but it can't sit across the table in a bargaining session or represent the company in arbitration. This keeps labor relations one of the lowest-exposure specialist roles in HR."
+}

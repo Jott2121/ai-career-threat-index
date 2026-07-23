@@ -1,0 +1,51 @@
+{
+ "slug": "biomedical-engineer",
+ "title": "Biomedical Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 58,
+  "adoption": 40,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "AI can accelerate device simulation and draft regulatory submission sections, but device safety validation and FDA-facing risk analysis remain firmly human.",
+  "toolMaturity": "AI-assisted simulation and regulatory-drafting tools exist and are improving, but device-specific validation tooling is still maturing.",
+  "adoption": "Adoption concentrates at large medical-device manufacturers; smaller device shops still rely on manual validation workflows.",
+  "agenticExposure": "Agents can pre-populate 510(k) sections and run simulation batches, but device risk classification and clinical validation stay with engineers."
+ },
+ "tasksAtRisk": [
+  "Device simulation and modeling parameter sweeps",
+  "Draft sections of regulatory submissions (510(k), technical files)",
+  "Routine test-protocol documentation"
+ ],
+ "tasksGrowing": [
+  "Device safety risk classification and clinical validation",
+  "Novel implant and diagnostic device design",
+  "FDA and notified-body regulatory negotiation"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2031, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Device Simulation & Modeling",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "FDA Regulatory Submission Strategy",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Device Risk Classification & Clinical Validation",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI drafts routine submission sections and runs device simulations, but clinical validation and regulatory risk sign-off still require an engineer to own patient safety."
+}

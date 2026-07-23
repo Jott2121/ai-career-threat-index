@@ -1,0 +1,58 @@
+{
+ "title": "Retail Salesperson",
+ "category": "Marketing & Sales",
+ "socCode": "41-2031",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 50,
+  "adoption": 42,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "Core work is in-person selling, stocking, and customer help on the floor; only inventory lookups and basic paperwork are fully digital and automatable.",
+  "toolMaturity": "AI clienteling apps and POS recommendation tools exist and are improving but are not yet a fully mature, universal category.",
+  "adoption": "Large retail chains are rolling out AI-assisted clienteling and inventory tools, with adoption still uneven across mid-size and independent retailers.",
+  "agenticExposure": "Back-office slices like restocking alerts and basic scheduling are agent-ownable, but the in-person sales interaction itself is outside current agent reach."
+ },
+ "tasksAtRisk": [
+  "Inventory lookups and stock checks",
+  "Basic checkout and transaction processing",
+  "Routine restocking and shelf reporting",
+  "Standard return and exchange processing"
+ ],
+ "tasksGrowing": [
+  "Personalized styling and product advice",
+  "In-store experience and upsell conversations",
+  "Handling complex complaints and loyalty relationships"
+ ],
+ "salary": {
+  "low": 25000,
+  "high": 48000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-2031 Retail Salespersons, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Clienteling & POS Recommendation Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Personalized Styling & Consultative Selling",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "In-Store Experience & Loyalty Building",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Self-checkout and inventory tools automate the paperwork, but the floor interaction that actually closes a sale is still an in-person, physical job AI doesn't reach yet.",
+ "industryModifiers": {
+  "Luxury Retail": -12,
+  "Grocery/Big Box": 8,
+  "Automotive": -5,
+  "Electronics": 6
+ },
+ "slug": "retail-salesperson"
+}

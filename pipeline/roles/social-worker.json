@@ -1,0 +1,58 @@
+{
+  "slug": "social-worker",
+  "title": "Social Worker",
+  "category": "Public Service & Safety",
+  "socCode": "21-1029",
+  "tier": 1,
+  "subscores": {
+    "taskAutomation": 22,
+    "toolMaturity": 48,
+    "adoption": 20,
+    "agenticExposure": 22
+  },
+  "rationales": {
+    "taskAutomation": "Intake screening, case notes, and benefits-matching are increasingly automatable, but home visits, crisis intervention, and the therapeutic relationship are not.",
+    "toolMaturity": "Case-management and benefits-eligibility AI tools are maturing quickly inside major EHR and human-services platforms, though far from universal.",
+    "adoption": "Public and nonprofit social-services agencies are chronically underfunded and slow to roll out new software relative to the private sector.",
+    "agenticExposure": "Intake triage and eligibility-matching are back-office slices an agent can plausibly own, but the core relationship-based casework cannot be delegated."
+  },
+  "tasksAtRisk": [
+    "Intake form completion and benefits-eligibility screening",
+    "Case-note documentation and reporting",
+    "Resource and referral matching",
+    "Scheduling and follow-up reminders"
+  ],
+  "tasksGrowing": [
+    "Crisis intervention and in-person safety assessment",
+    "Building trust with clients over time",
+    "Navigating complex family and legal situations"
+  ],
+  "salary": {
+    "low": 45000,
+    "high": 80000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 21-1029, p25-p75 rounded",
+  "salaryTrend": "rising",
+  "defenseSkills": [
+    {
+      "skill": "AI-assisted case-management documentation tools",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Trauma-informed crisis intervention certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Benefits and resource-navigation systems literacy",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "The paperwork half of social work is getting real automation help, which is good news if it frees caseworkers for the in-person visits and trust-building that no tool can substitute for. Agencies that adopt these tools fastest are still the exception, not the rule, in the public sector.",
+  "industryModifiers": {
+    "Healthcare": 6,
+    "Tech": 4,
+    "Government": -8,
+    "Finance": -5
+  }
+}

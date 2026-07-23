@@ -1,0 +1,59 @@
+{
+ "title": "Telemarketer",
+ "category": "Marketing & Sales",
+ "socCode": "41-9041",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 80,
+  "toolMaturity": 85,
+  "adoption": 60,
+  "agenticExposure": 86
+ },
+ "rationales": {
+  "taskAutomation": "Scripted outbound calling, basic objection handling, and appointment setting are routine, script-driven interactions current voice AI performs end-to-end at professional quality.",
+  "toolMaturity": "AI voice-agent platforms for outbound calling are mature and already run production call volumes for many outbound campaigns.",
+  "adoption": "Adoption is spreading fast in large call centers and lead-gen shops but is held back in regulated verticals by consent and TCPA compliance requirements.",
+  "agenticExposure": "Scripted outbound calling is close to a pure agent spec: dial, pitch, log, and route the qualified lead, with a human needed only for escalations."
+ },
+ "tasksAtRisk": [
+  "Cold outbound calling from a script",
+  "Appointment setting and calendar booking",
+  "Basic objection handling and FAQ responses",
+  "Call outcome logging in the CRM",
+  "Lead list dialing and follow-up cadences"
+ ],
+ "tasksGrowing": [
+  "Complex, regulated-product sales requiring disclosures",
+  "Escalation handling for upset or hesitant prospects",
+  "Script and offer design for new campaigns"
+ ],
+ "salary": {
+  "low": 27000,
+  "high": 45000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-9041 Telemarketers, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI Voice-Agent Campaign Management",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Regulated-Sales Compliance (TCPA, disclosures)",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Complex Objection Handling & Escalation",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Scripted cold calling is now close to a pure agent job: an AI voice agent dials, pitches, and logs outcomes at a fraction of the cost. The remaining human seats sit in regulated products and campaigns where a compliance disclosure or an angry prospect needs a person on the line, and even those seats are shrinking as call-center operators consolidate onto voice-agent platforms.",
+ "industryModifiers": {
+  "Retail": 8,
+  "Finance": -10,
+  "Government": -12,
+  "Nonprofit": -8
+ },
+ "slug": "telemarketer"
+}

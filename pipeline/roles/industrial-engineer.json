@@ -1,0 +1,51 @@
+{
+ "slug": "industrial-engineer",
+ "title": "Industrial Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2112",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 38,
+  "toolMaturity": 68,
+  "adoption": 52,
+  "agenticExposure": 38
+ },
+ "rationales": {
+  "taskAutomation": "AI can run discrete-event simulations, optimize line balancing, and generate throughput reports end to end, but negotiating floor-level process change with operators stays human.",
+  "toolMaturity": "Digital-twin and simulation-optimization tools are credible, production-deployed products at large manufacturers.",
+  "adoption": "Large manufacturing and logistics operations increasingly run AI-driven simulation and scheduling tools; smaller operations lag.",
+  "agenticExposure": "Agents can run full simulation-optimize-report loops for line balancing and scheduling with minimal supervision."
+ },
+ "tasksAtRisk": [
+  "Discrete-event simulation and line-balancing optimization",
+  "Production scheduling and capacity-planning reports",
+  "Standard time-and-motion data analysis"
+ ],
+ "tasksGrowing": [
+  "Floor-level change management with operators and supervisors",
+  "Cross-functional process redesign for new product lines",
+  "Ergonomics and safety-driven workstation design"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 125000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2112, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Digital-Twin & Simulation-Optimization Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Floor-Level Change Management",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Ergonomics & Safety-Driven Process Design",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Simulation-driven line balancing and scheduling now run largely on their own. Industrial engineers who own operator-facing change management and ergonomics design keep the roles AI can't run unsupervised."
+}

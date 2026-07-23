@@ -1,0 +1,51 @@
+{
+ "slug": "teaching-assistant",
+ "title": "Teaching Assistant",
+ "category": "Education",
+ "socCode": "25-9042",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 42,
+  "adoption": 28,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "Grading support, material prep, and basic supervision have a real digital-automatable share, but direct student support and classroom presence do not.",
+  "toolMaturity": "Generic AI tools apply to grading and material prep, but no dedicated teaching-assistant product has broad traction yet.",
+  "adoption": "Adoption is uneven and mostly limited to individual teachers sharing AI-generated materials with their aides.",
+  "agenticExposure": "Agents can pre-grade objective work and draft practice materials, but one-on-one and small-group student support in the classroom stays human."
+ },
+ "tasksAtRisk": [
+  "Grading objective assignments and quizzes",
+  "Preparing practice worksheets and materials",
+  "Basic attendance and administrative tracking"
+ ],
+ "tasksGrowing": [
+  "One-on-one and small-group student support",
+  "Classroom behavior management assistance",
+  "Individualized accommodation support"
+ ],
+ "salary": {
+  "low": 26000,
+  "high": 42000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 25-9042 (Teaching Assistants, Preschool, Elementary, Middle, and Secondary School, Except Special Education), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Grading & Material Prep Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Small-Group Instruction & Accommodation Support",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Classroom Behavior Management",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI can pre-grade quizzes and draft practice worksheets, but the one-on-one support and accommodation help teaching assistants provide inside the classroom is what schools still pay for."
+}

@@ -2,10 +2,20 @@
  "slug": "mental-health-counselor",
  "title": "Mental Health Counselor",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "21-1014",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 14,
+  "toolMaturity": 50,
+  "adoption": 35,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Session-note drafting, treatment-plan templates and screening-assessment scoring are automatable; the therapeutic relationship itself is not.",
+  "toolMaturity": "AI scribes and screening tools for behavioral health are credible and improving, but nothing role-specific yet matches the maturity of general clinical documentation tools.",
+  "adoption": "Tech-forward practices and telehealth platforms use AI note-taking and intake tools; adoption elsewhere remains early.",
+  "agenticExposure": "Agents can own intake scheduling, screening-tool scoring and note drafting, but crisis intervention and the counseling relationship stay squarely human."
+ },
  "tasksAtRisk": [
   "Session note documentation",
   "Treatment plan template completion",
@@ -22,7 +32,7 @@
   "high": 85000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 21-1014 (Mental Health Counselors), p25-p75 rounded",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
@@ -38,7 +48,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "Mental health care is fundamentally about human connection. AI chatbots handle surface-level check-ins, but therapy requires empathy, clinical judgment, and trust that AI cannot replicate. Demand is surging.",
+ "insight": "AI now drafts session notes and scores standard screening tools, cutting real administrative load. What it can't do is sit with a person in crisis, and demand for that keeps outpacing supply.",
  "industryModifiers": {
   "Healthcare": 2,
   "Government": -2

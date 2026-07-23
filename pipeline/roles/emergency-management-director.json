@@ -1,0 +1,50 @@
+{
+  "slug": "emergency-management-director",
+  "title": "Emergency Management Director",
+  "category": "Public Service & Safety",
+  "socCode": "11-9161",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 25,
+    "toolMaturity": 45,
+    "adoption": 18,
+    "agenticExposure": 22
+  },
+  "rationales": {
+    "taskAutomation": "Hazard-mitigation plans, grant paperwork, and resource-tracking are digital, but cross-agency coordination and live crisis leadership are not automatable.",
+    "toolMaturity": "AI-assisted disaster-modeling and resource-allocation tools are improving but remain niche products, not a standard part of emergency-management toolchains.",
+    "adoption": "Emergency management offices are small, government-funded operations that are slow to adopt even proven planning software.",
+    "agenticExposure": "Grant and plan drafting is a moderate agent-ownable slice, while live multi-agency crisis coordination stays firmly human."
+  },
+  "tasksAtRisk": [
+    "Hazard-mitigation plan and grant-application drafting",
+    "Resource and inventory tracking",
+    "After-action report generation"
+  ],
+  "tasksGrowing": [
+    "Live multi-agency coordination during disasters",
+    "Public risk communication under uncertainty"
+  ],
+  "salary": {
+    "low": 65000,
+    "high": 115000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 11-9161, p25-p75 rounded",
+  "salaryTrend": "rising",
+  "defenseSkills": [
+    {
+      "skill": "AI-assisted disaster-modeling and resource-allocation tools",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Incident command system (ICS) certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Crisis communication and public-messaging skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "Planning paperwork automates readily; the job's value is in the live coordination no model can run during an actual disaster."
+}

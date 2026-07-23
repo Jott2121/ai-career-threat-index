@@ -2,28 +2,37 @@
  "slug": "payroll-specialist",
  "title": "Payroll Specialist",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "43-3051",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 74,
+  "toolMaturity": 90,
+  "adoption": 75,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "Payroll runs, tax withholding calculations, and standard reporting are largely automatable end-to-end; multi-jurisdiction edge cases and dispute resolution still need a specialist.",
+  "toolMaturity": "Payroll platforms with embedded AI compliance and calculation engines are mature and near-universal in the toolchain.",
+  "adoption": "Automated payroll processing is a mainstream expectation across nearly every employer size and sector.",
+  "agenticExposure": "Payroll is substantially a pipeline of digital decisions — calculate, withhold, remit, report — that an agent can traverse end-to-end for standard cases."
+ },
  "tasksAtRisk": [
-  "Payroll processing and calculations",
-  "Tax withholding computations",
-  "Direct deposit setup and management",
-  "Time and attendance tracking",
-  "Standard payroll reporting"
+  "Routine payroll processing and calculations",
+  "Standard tax withholding computations",
+  "Time and attendance data reconciliation",
+  "Standard payroll and compliance reporting"
  ],
  "tasksGrowing": [
   "Multi-state and international payroll compliance",
-  "Payroll system integration and migration",
-  "Compensation strategy and analytics"
+  "Payroll system migration and integration projects",
+  "Compensation strategy and analytics support"
  ],
  "salary": {
   "low": 45000,
   "high": 70000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 43-3051 (Payroll and Timekeeping Clerks), p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
@@ -31,15 +40,15 @@
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Compensation Analytics",
-   "link": "/guides/ai-career-paths/"
+   "skill": "Multi-State & International Tax Compliance",
+   "link": "/guides/best-ai-certifications/"
   },
   {
-   "skill": "Multi-State Tax Compliance",
-   "link": "/guides/best-ai-certifications/"
+   "skill": "Compensation Analytics",
+   "link": "/guides/ai-career-paths/"
   }
  ],
- "insight": "Payroll automation software handles most routine processing. Specialists who master complex multi-state compliance, system integrations, and compensation analytics will remain in demand.",
+ "insight": "Standard payroll runs are now close to fully automated by platforms with built-in compliance engines, pushing this role toward High risk. The remaining ground is genuinely hard compliance — multi-state, cross-border, system-migration work — where a mistake is expensive enough that employers still want a specialist.",
  "industryModifiers": {
   "Tech": 3,
   "Finance": 2,

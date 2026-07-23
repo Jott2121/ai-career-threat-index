@@ -2,14 +2,19 @@
  "slug": "video-editor",
  "title": "Video Editor",
  "category": "Creative",
- "socCode": "",
+ "socCode": "27-4032",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 48, "toolMaturity": 80, "adoption": 55, "agenticExposure": 48},
+ "rationales": {
+  "taskAutomation": "Rough-cut assembly, auto-captioning, and preset-based color grading are now reliably automatable end-to-end; narrative pacing and complex compositing still need an editor's judgment.",
+  "toolMaturity": "Runway, Descript, and CapCut's AI features are mature and standard in most content-team editing workflows.",
+  "adoption": "AI-assisted editing is mainstream for marketing and social content teams; high-end film and broadcast post still lean heavily on manual craft.",
+  "agenticExposure": "Agents can ingest raw footage, auto-cut to a template, caption, and export for routine social and marketing formats without an editor in the loop."
+ },
  "tasksAtRisk": [
   "Rough cut assembly from raw footage",
   "Auto-captioning and subtitle generation",
-  "Color correction using presets",
+  "Color correction using trained presets",
   "Audio noise reduction and leveling"
  ],
  "tasksGrowing": [
@@ -22,11 +27,11 @@
   "high": 100000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-4032 Film and Video Editors, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Video Tools (Runway, Descript, CapCut)",
+   "skill": "Agentic Video Tools (Runway, Descript, CapCut)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -38,7 +43,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI handles rough cuts, captions, and color grading, but skilled editors who craft compelling narratives, manage complex projects, and collaborate with clients will continue to command premium rates.",
+ "insight": "AI now assembles rough cuts, captions, and color grades footage without an editor's involvement for routine formats. Editors who shape narrative pacing, run complex composites, and sit with clients through creative decisions are commanding the premium end of the rate card.",
  "industryModifiers": {
   "Tech": 3,
   "Retail": 3,

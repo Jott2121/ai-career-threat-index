@@ -2,43 +2,53 @@
  "slug": "logistics-coordinator",
  "title": "Logistics Coordinator",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "13-1081",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 58,
+  "toolMaturity": 75,
+  "adoption": 60,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Shipment tracking, route optimization, and standard carrier comparison are now largely automated, but multi-modal exception handling and customs judgment calls keep over a third of the role human-driven.",
+  "toolMaturity": "AI logistics and visibility platforms are credible, fast-improving, and increasingly the default tooling on top of transportation-management systems.",
+  "adoption": "Common among tech-forward retail, manufacturing, and 3PL employers; spreading but not yet universal among smaller shippers.",
+  "agenticExposure": "Routine tracking-and-routing chains are agent-ownable today; live-fire disruption response and carrier relationship repair still need a person."
+ },
  "tasksAtRisk": [
-  "Shipment tracking and status updates",
-  "Route optimization and scheduling",
-  "Carrier rate comparison",
+  "Shipment tracking and automated status updates",
+  "Route and carrier optimization for standard lanes",
+  "Rate comparison and carrier selection for routine loads",
   "Customs documentation preparation"
  ],
  "tasksGrowing": [
-  "Exception handling and crisis logistics",
-  "Carrier relationship management",
-  "Last-mile delivery innovation strategy"
+  "Exception handling during disruptions and delays",
+  "Carrier and 3PL relationship management",
+  "Multi-modal contingency planning"
  ],
  "salary": {
   "low": 42000,
   "high": 70000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1081 (Logisticians); range reflects coordinator-level positions within the broader logistician occupation",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Logistics Platforms (Project44, FourKites)",
+   "skill": "AI Logistics & TMS Platforms (Project44, FourKites)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Supply Chain Management Certification",
-   "link": "/guides/best-ai-certifications/"
+   "skill": "Disruption Response & Contingency Planning",
+   "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Operations Management",
-   "link": "/guides/ai-career-paths/"
+   "skill": "Carrier & Vendor Relationship Management",
+   "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI handles routing, tracking, and rate comparison. Logistics coordinators who manage exceptions, build carrier relationships, and solve complex multi-modal transportation challenges add unique value.",
+ "insight": "Tracking, routing, and standard rate comparison are now largely automated by TMS copilots, but real supply chains still break in ways only a person can untangle. Coordinators who specialize in disruption response and carrier relationships are more durable than those doing pure status-update work.",
  "industryModifiers": {
   "Retail": 3,
   "Manufacturing": 2,

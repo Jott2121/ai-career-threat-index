@@ -1,0 +1,51 @@
+{
+  "slug": "correctional-officer",
+  "title": "Correctional Officer",
+  "category": "Public Service & Safety",
+  "socCode": "33-3012",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 10,
+    "toolMaturity": 35,
+    "adoption": 12,
+    "agenticExposure": 8
+  },
+  "rationales": {
+    "taskAutomation": "Supervising incarcerated people, physical security, and in-person response to incidents dominate the role and cannot be automated end-to-end.",
+    "toolMaturity": "AI-assisted surveillance and behavior-flagging tools exist in some large facilities but are far from a standard toolchain.",
+    "adoption": "Corrections departments are among the most conservative and underfunded public employers, slowing even proven tool adoption.",
+    "agenticExposure": "The job is physical presence and security response in an unstructured, high-risk environment that agents cannot reach."
+  },
+  "tasksAtRisk": [
+    "Incident and shift-log documentation",
+    "Headcount and movement logging",
+    "Routine facility inspection checklists"
+  ],
+  "tasksGrowing": [
+    "De-escalating conflicts among incarcerated individuals",
+    "Emergency response to physical altercations",
+    "Rehabilitation-oriented supervision"
+  ],
+  "salary": {
+    "low": 40000,
+    "high": 70000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 33-3012, p25-p75 rounded",
+  "salaryTrend": "mixed",
+  "defenseSkills": [
+    {
+      "skill": "Conflict de-escalation and crisis-response certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Facility surveillance and behavior-monitoring system literacy",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Rehabilitation and reentry-program facilitation skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "One of the most physically-grounded roles in this index; AI's reach is limited to logging and monitoring at the margins."
+}

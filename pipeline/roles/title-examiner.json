@@ -1,0 +1,47 @@
+{
+ "slug": "title-examiner",
+ "title": "Title Examiner",
+ "category": "Legal",
+ "socCode": "23-2093",
+ "tier": 2,
+ "subscores": {"taskAutomation": 68, "toolMaturity": 62, "adoption": 50, "agenticExposure": 58},
+ "rationales": {
+  "taskAutomation": "Public-record search, lien and encumbrance matching, and standard residential title-chain compilation are routine digital production; complex, contested, or non-digitized-county titles are what still need a human examiner.",
+  "toolMaturity": "Automated title-search and title-plant software is a credible, fast-improving product category among large underwriters, but capability is uneven where county records are not yet fully digitized.",
+  "adoption": "Large title insurers in digitized markets run automated search in production; adoption is spreading but far from universal given inconsistent county record digitization nationally.",
+  "agenticExposure": "In modernized jurisdictions, the search-match-flag-exception workflow is largely a scripted digital pipeline an agent can traverse end-to-end for standard residential titles."
+ },
+ "tasksAtRisk": [
+  "Public record search and lien/encumbrance matching",
+  "Title chain-of-ownership compilation from digitized county records",
+  "Standard residential title report generation",
+  "Basic title-exception flagging against underwriting rules"
+ ],
+ "tasksGrowing": [
+  "Complex or contested title-defect resolution (boundary disputes, heirship, easements)",
+  "Rural and non-digitized county record investigation",
+  "Underwriting judgment on non-standard commercial and mixed-use properties"
+ ],
+ "salary": {
+  "low": 42000,
+  "high": 68000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 23-2093, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Automated Title-Search Platform Fluency (Qualia, Endpoint, title-plant AI)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Complex & Commercial Title Underwriting",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Title Insurance Underwriting Certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Automated title search now clears most standard residential resales in digitized counties end-to-end; examiners increasingly specialize in the contested, rural, or commercial titles automation still can't clear."
+}

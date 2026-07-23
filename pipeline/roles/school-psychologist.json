@@ -1,0 +1,51 @@
+{
+ "slug": "school-psychologist",
+ "title": "School Psychologist",
+ "category": "Education",
+ "socCode": "19-3034",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 40,
+  "adoption": 25,
+  "agenticExposure": 15
+ },
+ "rationales": {
+  "taskAutomation": "Test-scoring support and report-drafting boilerplate are digitizable, but assessment interpretation, therapy, and crisis response are not.",
+  "toolMaturity": "Generic AI drafting tools and some assessment-scoring software exist, but nothing purpose-built dominates school psychology practice.",
+  "adoption": "Adoption is limited mostly to report-drafting assistance in well-resourced districts.",
+  "agenticExposure": "Agents can help draft evaluation reports, but clinical judgment, IEP-meeting participation, and crisis intervention require a licensed human."
+ },
+ "tasksAtRisk": [
+  "Drafting psychoeducational evaluation report boilerplate",
+  "Test-scoring support and data compilation",
+  "Scheduling and administrative tracking of evaluations"
+ ],
+ "tasksGrowing": [
+  "Clinical assessment interpretation and diagnosis",
+  "Crisis intervention and safety planning",
+  "IEP meeting participation and family consultation"
+ ],
+ "salary": {
+  "low": 68000,
+  "high": 105000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-3034 (School Psychologists), p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Psychoeducational Report Drafting",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Clinical Assessment & Diagnostic Interpretation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Crisis Intervention Certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI can help draft evaluation-report boilerplate, but clinical interpretation, crisis response, and licensed judgment in IEP meetings keep school psychologists firmly needed."
+}

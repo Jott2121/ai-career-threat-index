@@ -2,43 +2,53 @@
  "slug": "academic-advisor",
  "title": "Academic Advisor",
  "category": "Education",
- "socCode": "",
+ "socCode": "21-1012",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 48,
+  "toolMaturity": 62,
+  "adoption": 50,
+  "agenticExposure": 42
+ },
+ "rationales": {
+  "taskAutomation": "Degree audits, prerequisite checks, scheduling conflicts, and routine FAQ responses are now largely digital matching tasks AI handles end-to-end, though career counseling and at-risk intervention still require human judgment.",
+  "toolMaturity": "Predictive-analytics advising platforms (EAB Navigate, Starfish) and general-purpose chatbots are credible, improving products now embedded in many advising offices.",
+  "adoption": "Large universities and systems increasingly deploy AI degree-audit and chat-based advising tools, though adoption in smaller colleges lags.",
+  "agenticExposure": "Agents can plan and execute multi-step advising workflows -- pulling transcripts, flagging requirement gaps, drafting outreach -- but cannot own the trust-building conversations at the center of advising."
+ },
  "tasksAtRisk": [
-  "Degree audit and requirement checking",
-  "Course scheduling and conflict resolution",
-  "Standard FAQ responses about programs",
-  "Transfer credit evaluation"
+  "Automated degree-audit and requirement checking",
+  "AI chatbot handling of routine FAQ and scheduling conflicts",
+  "Transfer-credit evaluation and articulation matching",
+  "First-pass drafting of outreach emails to at-risk students"
  ],
  "tasksGrowing": [
   "Career counseling and goal alignment",
-  "At-risk student intervention and support",
-  "Holistic student success coaching"
+  "Holistic student-success coaching and case management",
+  "Complex at-risk intervention requiring trust and judgment"
  ],
  "salary": {
-  "low": 40000,
-  "high": 65000,
+  "low": 45000,
+  "high": 78000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 21-1012 (Educational, Guidance, and Career Counselors and Advisors), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "Student Success Analytics",
+   "skill": "AI-Assisted Degree Audit & Advising Platforms (EAB Navigate, Starfish)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Career Counseling Methods",
+   "skill": "Career Counseling & Goal-Alignment Methods",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Mental Health First Aid",
+   "skill": "Student Success Case Management",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI chatbots answer routine questions and check degree requirements. Advisors who focus on student success coaching, career exploration, and at-risk intervention provide the human support students need most.",
+ "insight": "AI-assisted degree audits and chatbots now field most routine scheduling and FAQ traffic. Advisors who shift toward career coaching, case management for at-risk students, and the trust-based conversations AI can't fake stay essential.",
  "industryModifiers": {
   "Government": -3,
   "Tech": 2

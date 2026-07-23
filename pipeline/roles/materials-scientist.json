@@ -1,0 +1,51 @@
+{
+ "slug": "materials-scientist",
+ "title": "Materials Scientist",
+ "category": "Science & Engineering",
+ "socCode": "19-2032",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 35,
+  "toolMaturity": 62,
+  "adoption": 42,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "AI can screen candidate material compositions computationally and draft characterization reports, but physical synthesis, testing, and failure analysis remain lab-bound.",
+  "toolMaturity": "Materials-informatics and generative-composition tools are credible and improving quickly at research labs and materials companies.",
+  "adoption": "Large materials and semiconductor companies increasingly use AI-driven composition screening; adoption is thinner in traditional metallurgy and ceramics shops.",
+  "agenticExposure": "Agents can run high-throughput virtual screening loops across composition space, but physical synthesis and destructive testing require lab work."
+ },
+ "tasksAtRisk": [
+  "Computational screening of candidate material compositions",
+  "Drafting characterization and test-result reports",
+  "Literature synthesis for materials property prediction"
+ ],
+ "tasksGrowing": [
+  "Physical synthesis and novel material fabrication",
+  "Failure analysis on fielded material samples",
+  "Cross-disciplinary application engineering with product teams"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-2032, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "Materials Informatics & AI Composition Screening",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Physical Synthesis & Fabrication Technique",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Failure Analysis on Fielded Materials",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI-driven composition screening now narrows candidate materials before a single sample is made. Materials scientists who master physical synthesis and failure analysis on real parts stay essential downstream of the algorithm."
+}

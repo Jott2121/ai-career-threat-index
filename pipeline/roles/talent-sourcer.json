@@ -1,0 +1,51 @@
+{
+ "slug": "talent-sourcer",
+ "title": "Talent Sourcer",
+ "category": "HR & Recruiting",
+ "socCode": "13-1071",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 65,
+  "toolMaturity": 82,
+  "adoption": 65,
+  "agenticExposure": 65
+ },
+ "rationales": {
+  "taskAutomation": "AI sourcing agents now build boolean-searched candidate lists, enrich profiles, and send first-touch outreach end-to-end; sourcers increasingly step in only when a candidate replies.",
+  "toolMaturity": "Sourcing platforms (SeekOut, hireEZ, LinkedIn Recruiter, agentic outbound tools) are mature, standard products in the sourcing stack.",
+  "adoption": "AI-driven sourcing is now the mainstream default for high-volume and tech hiring pipelines.",
+  "agenticExposure": "Autonomous sourcing agents can run the full search-enrich-outreach loop across dozens of roles simultaneously without a human touching each candidate."
+ },
+ "tasksAtRisk": [
+  "Boolean and semantic candidate searches across job boards and LinkedIn",
+  "Candidate profile enrichment and contact-data lookup",
+  "First-touch outreach messaging and sequenced follow-ups",
+  "Talent-pool tagging and pipeline categorization"
+ ],
+ "tasksGrowing": [
+  "Niche and passive-talent market research for hard-to-fill roles",
+  "Sourcing strategy design for new AI-sourcing tool rollouts"
+ ],
+ "salary": {
+  "low": 45000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1071, p25-p75 rounded (entry tier within HR specialists)",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Agentic AI Sourcing Tools (SeekOut, hireEZ)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Niche & Passive-Talent Market Research",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Sourcing Strategy & Tool Rollout",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Agentic sourcing tools now run the full search-enrich-outreach loop unattended, which is why this is one of the most exposed jobs in recruiting. Sourcers who survive move into niche market research or into designing the sourcing stack instead of running it by hand."
+}

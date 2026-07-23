@@ -2,15 +2,25 @@
  "slug": "corporate-trainer",
  "title": "Corporate Trainer",
  "category": "Education",
- "socCode": "",
+ "socCode": "13-1151",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 52,
+  "toolMaturity": 70,
+  "adoption": 60,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Slide decks, handouts, knowledge-check quizzes, and completion tracking are now routinely AI-generated end-to-end, leaving live facilitation and change management as the differentiated work.",
+  "toolMaturity": "Generative-AI course-authoring tools (Synthesia, generative slide/quiz builders) are mature and widely embedded in corporate L&D toolchains.",
+  "adoption": "AI-assisted content creation is now a mainstream expectation in corporate learning and development functions at large employers.",
+  "agenticExposure": "Agent pipelines can already draft a full training module -- outline, slides, quiz, and completion report -- end to end, though live delivery and org change work stay human."
+ },
  "tasksAtRisk": [
   "Creating training slide decks and handouts",
-  "Scheduling and logistics coordination",
-  "Knowledge assessment quiz creation",
-  "Training completion tracking and reporting"
+  "Knowledge-check quiz and assessment generation",
+  "Training completion tracking and reporting",
+  "Scheduling and logistics coordination"
  ],
  "tasksGrowing": [
   "Live facilitation and workshop leadership",
@@ -22,23 +32,23 @@
   "high": 95000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1151 (Training and Development Specialists), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Training Program Design",
-   "link": "/guides/ai-career-paths/"
-  },
-  {
-   "skill": "Learning Management Systems (LMS)",
+   "skill": "AI Training-Content Pipelines (Synthesia, generative authoring tools)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Change Management Certification",
+   "skill": "Organizational Change Management",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Live Facilitation & Workshop Design",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI creates training materials and tracks progress, but live facilitation, organizational change leadership, and designing AI upskilling programs are high-value human contributions.",
+ "insight": "AI now drafts training decks, quizzes, and completion reports end to end. Trainers who lead live facilitation, drive organizational change, and design AI-upskilling programs are the ones employers still pay for.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 2,

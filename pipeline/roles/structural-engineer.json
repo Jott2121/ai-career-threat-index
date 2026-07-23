@@ -1,0 +1,51 @@
+{
+ "slug": "structural-engineer",
+ "title": "Structural Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2051",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 22
+ },
+ "rationales": {
+  "taskAutomation": "AI can run preliminary load-path analysis and draft standard structural calc packages, but stamped design responsibility and seismic/wind risk judgment stay with the licensed engineer.",
+  "toolMaturity": "Structural-analysis software with AI-assisted optimization plug-ins is credible but not yet a mature, universal standard.",
+  "adoption": "Larger structural firms use AI-assisted analysis tools on complex projects; most routine building work still runs traditional calc-and-review cycles.",
+  "agenticExposure": "Agents can run structural-analysis batches and flag code-check failures, but stamped drawing sign-off and forensic failure investigation need a licensed engineer."
+ },
+ "tasksAtRisk": [
+  "Preliminary load-path and member-sizing analysis",
+  "Standard structural calculation package drafting",
+  "Automated building-code compliance checking"
+ ],
+ "tasksGrowing": [
+  "Stamped drawing sign-off and licensed design responsibility",
+  "Seismic and wind-risk judgment for novel structures",
+  "Forensic structural failure investigation"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2051, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Structural Analysis & Optimization",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "PE Licensure & Stamped Design Responsibility",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Forensic Structural Failure Investigation",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Load-path analysis and calc-package drafting are increasingly AI-assisted, but the stamp on a structural drawing, and the legal liability it carries, still belongs to a licensed engineer."
+}

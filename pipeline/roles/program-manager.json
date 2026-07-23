@@ -2,43 +2,53 @@
  "slug": "program-manager",
  "title": "Program Manager",
  "category": "Project & Product Management",
- "socCode": "",
+ "socCode": "13-1082",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 65,
+  "adoption": 52,
+  "agenticExposure": 40
+ },
+ "rationales": {
+  "taskAutomation": "Status aggregation, dependency tracking, and capacity spreadsheets are already handled well by AI, but arbitrating trade-offs across competing programs and owning delivery risk is not.",
+  "toolMaturity": "Portfolio tools like Jira Align, Smartsheet, and Monday.com now ship credible AI status-rollup and forecasting features, though they still require human sign-off on program health calls.",
+  "adoption": "Adoption is strong in tech and finance program offices but lags in government and regulated programs where reporting cadences are still manually gated.",
+  "agenticExposure": "Agents can already draft cross-project status rollups and flag schedule slippage, but executive relationship management and cross-program risk trade-offs stay with the human program manager."
+ },
  "tasksAtRisk": [
-  "Cross-project status aggregation",
-  "Dependency tracking and visualization",
-  "Resource capacity planning spreadsheets",
-  "Executive summary report generation"
+  "Cross-project status rollups and dashboards",
+  "Dependency tracking and risk-flagging",
+  "Resource capacity spreadsheets and forecasts",
+  "Executive summary report drafting"
  ],
  "tasksGrowing": [
   "Multi-program strategic alignment",
-  "Executive stakeholder management",
-  "Complex risk mitigation across programs"
+  "Executive and sponsor relationship management",
+  "Cross-program risk arbitration and trade-off decisions"
  ],
  "salary": {
   "low": 100000,
   "high": 170000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1082 Project Management Specialists (program-level roles cross-walk to this detailed occupation), p25-p75 with upward allowance for senior tech/finance program offices",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Portfolio Management Tools",
+   "skill": "AI Portfolio & Program Dashboards (Jira Align, Smartsheet AI)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Strategic Planning & Execution",
-   "link": "/guides/ai-career-paths/"
+   "skill": "Agentic Workflow Governance for Multi-Program Delivery",
+   "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "PgMP or PMP Certification",
+   "skill": "PgMP / Strategic Program Leadership",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI aggregates status and tracks dependencies, but program managers who align multiple programs to business strategy, manage executive relationships, and mitigate complex risks are deeply valued.",
+ "insight": "AI now auto-generates the status rollups and dependency maps that used to eat a program manager's Friday afternoons. What it can't do is decide which of three conflicting program priorities the VP actually cares about, or hold a vendor accountable after a missed milestone. Program managers who move from status-reporting to risk-arbitration are becoming more valuable, not less.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

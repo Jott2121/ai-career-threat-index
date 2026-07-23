@@ -1,0 +1,52 @@
+{
+ "slug": "technical-program-manager",
+ "title": "Technical Program Manager",
+ "category": "Project & Product Management",
+ "socCode": "13-1082",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 64,
+  "adoption": 50,
+  "agenticExposure": 38
+ },
+ "rationales": {
+  "taskAutomation": "Cross-team dependency tracking and technical status rollups are increasingly AI-assisted, but arbitrating architecture trade-offs between engineering teams and driving technical risk decisions for a launch require judgment AI can't yet own.",
+  "toolMaturity": "AI-assisted dependency mapping and technical status tooling (GitHub Projects, Jira with Copilot integrations) are improving quickly but aren't yet a mature, purpose-built category the way coding copilots are.",
+  "adoption": "Adoption is concentrated in the large tech companies where TPM roles are most common; the role and its tooling haven't spread broadly into mid-market or non-tech firms.",
+  "agenticExposure": "Agents can already draft cross-team dependency maps and flag technical risk from ticket and repo data, but negotiating an architecture trade-off between two engineering leads still needs a human in the room."
+ },
+ "tasksAtRisk": [
+  "Cross-team dependency mapping and tracking",
+  "Technical status rollups from repos and ticket systems",
+  "Risk register documentation",
+  "Launch readiness checklist tracking"
+ ],
+ "tasksGrowing": [
+  "Architecture trade-off arbitration across teams",
+  "Technical risk escalation and mitigation strategy",
+  "Cross-org launch alignment and negotiation"
+ ],
+ "salary": {
+  "low": 130000,
+  "high": 210000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1082 Project Management Specialists as base anchor; high end extended toward market postings for big-tech TPM roles, which run well above the OES median for the closest detailed occupation",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Cross-Team Technical Risk Arbitration",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI-Assisted Dependency & Repo Analytics (GitHub Projects, Jira+Copilot)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Agentic AI Literacy for Engineering Programs",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "AI can already map dependencies across a dozen engineering teams and flag a slipping timeline before a human notices, but it can't sit in a room and get two staff engineers to agree on an architecture trade-off. TPMs whose value is that negotiation, not the status deck, are largely insulated."
+}

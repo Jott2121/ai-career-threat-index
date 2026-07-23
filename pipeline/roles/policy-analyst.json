@@ -1,0 +1,52 @@
+{
+  "slug": "policy-analyst",
+  "title": "Policy Analyst",
+  "category": "Public Service & Safety",
+  "socCode": "19-3099",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 48,
+    "toolMaturity": 68,
+    "adoption": 30,
+    "agenticExposure": 48
+  },
+  "rationales": {
+    "taskAutomation": "Literature review, data analysis, and memo drafting make up most of the visible output and are automatable at a high reliability today.",
+    "toolMaturity": "LLM-based research-synthesis and drafting tools are mature and widely used for exactly this kind of document-heavy analytical work.",
+    "adoption": "Government policy shops lag private-sector think tanks and consultancies in rolling these tools into daily workflows, though usage is spreading.",
+    "agenticExposure": "Research-summarize-draft is close to the canonical agent-ownable workflow, leaving final recommendation and political judgment as the human core."
+  },
+  "tasksAtRisk": [
+    "Literature and precedent review",
+    "Data analysis and chart generation for briefs",
+    "First-draft policy memo and briefing-document writing",
+    "Comparative jurisdiction research"
+  ],
+  "tasksGrowing": [
+    "Framing recommendations for political feasibility",
+    "Briefing decision-makers and answering follow-up questions",
+    "Synthesizing conflicting stakeholder input"
+  ],
+  "salary": {
+    "low": 60000,
+    "high": 115000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 19-3099, p25-p75 rounded",
+  "salaryTrend": "rising",
+  "defenseSkills": [
+    {
+      "skill": "AI research-synthesis and drafting tool fluency",
+      "link": "/guides/ai-coding-tools/"
+    },
+    {
+      "skill": "Policy framing and political-feasibility analysis",
+      "link": "/guides/ai-skills-resume/"
+    },
+    {
+      "skill": "Applied data analysis certification",
+      "link": "/guides/best-ai-certifications/"
+    }
+  ],
+  "insight": "One of the highest-automation roles in this category: the drafting and research pipeline is squarely inside what agentic tools do well today."
+}

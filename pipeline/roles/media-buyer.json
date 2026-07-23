@@ -1,0 +1,52 @@
+{
+ "title": "Media Buyer",
+ "category": "Marketing & Sales",
+ "socCode": "41-3011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 62,
+  "toolMaturity": 88,
+  "adoption": 72,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "Bid management, budget pacing, and placement reporting are digital, rules-driven tasks that programmatic systems now execute end-to-end.",
+  "toolMaturity": "Demand-side platforms and AI bid-optimization tools are mature, commodity-grade products standard across the ad-buying industry.",
+  "adoption": "Programmatic, AI-managed buying is near-universal across digital advertising, making this one of the most automated marketing functions today.",
+  "agenticExposure": "Bid placement, budget reallocation, and pacing reports form a pipeline of digital decisions an agent can traverse continuously across campaigns."
+ },
+ "tasksAtRisk": [
+  "Programmatic bid management and pacing",
+  "Budget reallocation across placements",
+  "Placement performance reporting",
+  "Inventory and rate negotiation for standard buys"
+ ],
+ "tasksGrowing": [
+  "Upfront and custom-deal negotiation with publishers",
+  "Cross-channel media mix strategy",
+  "Fraud and brand-safety oversight"
+ ],
+ "salary": {
+  "low": 40000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-3011 Advertising Sales Agents (closest match for ad-placement transactions), p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI-Managed Programmatic Bidding (DSPs)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Publisher Negotiation & Custom Deals",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Brand Safety & Fraud Oversight",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Bid pacing and reporting now run almost entirely inside AI-managed DSPs. The remaining work is negotiating the deals platforms can't auto-execute and catching the fraud and brand-safety issues an algorithm misses.",
+ "slug": "media-buyer"
+}

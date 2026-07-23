@@ -1,0 +1,51 @@
+{
+ "slug": "environmental-engineer",
+ "title": "Environmental Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2081",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 25
+ },
+ "rationales": {
+  "taskAutomation": "AI can draft permit applications, run standard dispersion and contaminant-transport models, but site remediation judgment and regulatory negotiation stay engineer-led.",
+  "toolMaturity": "Modeling software with AI-assisted scenario generation exists but is not yet a mature, embedded standard across the field.",
+  "adoption": "Adoption is uneven, concentrated at larger environmental consultancies serving industrial clients.",
+  "agenticExposure": "Agents can run compliance-scenario modeling and draft reports, but field sampling and agency negotiation require a human engineer on site."
+ },
+ "tasksAtRisk": [
+  "Permit application drafting and standard compliance reports",
+  "Dispersion and contaminant-transport modeling runs",
+  "Routine environmental impact data summarization"
+ ],
+ "tasksGrowing": [
+  "Site remediation strategy and field judgment",
+  "Regulatory agency negotiation and public-comment response",
+  "Novel pollution-control system design"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 125000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2081, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Environmental Modeling Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Site Remediation Strategy & Field Judgment",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Regulatory Agency Negotiation",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Permit drafting and dispersion modeling are increasingly AI-assisted, but remediation strategy and agency negotiation still depend on an engineer's field judgment and standing with regulators."
+}

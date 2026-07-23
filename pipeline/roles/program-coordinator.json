@@ -1,0 +1,52 @@
+{
+ "slug": "program-coordinator",
+ "title": "Program Coordinator",
+ "category": "Project & Product Management",
+ "socCode": "13-1082",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 55,
+  "toolMaturity": 70,
+  "adoption": 55,
+  "agenticExposure": 58
+ },
+ "rationales": {
+  "taskAutomation": "Scheduling, tracker updates, meeting-minute distribution, and status-deck compilation make up most of a program coordinator's week, and AI now handles that reliably; only escalation judgment and stakeholder follow-through resist full automation.",
+  "toolMaturity": "AI scheduling assistants, meeting-note tools, and project-tracker automations (Asana AI, Notion AI, Calendly AI) are mature, widely shipped, and already the default in offices that use these platforms.",
+  "adoption": "Adoption is spreading fast beyond tech into professional services, healthcare administration, and nonprofits wherever a PMO already runs on Asana, Monday, or Smartsheet.",
+  "agenticExposure": "A program coordinator's core loop, track a task, chase a status, update a tracker, remind a stakeholder, is close to an agent spec; what remains is judgment about which chases actually matter."
+ },
+ "tasksAtRisk": [
+  "Meeting scheduling and calendar coordination",
+  "Status tracker and dashboard updates",
+  "Meeting minutes and action-item distribution",
+  "Document and logistics coordination for program events"
+ ],
+ "tasksGrowing": [
+  "Escalation judgment on which follow-ups matter",
+  "Stakeholder relationship-building across teams",
+  "Onboarding and process documentation for new programs"
+ ],
+ "salary": {
+  "low": 50000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1082 Project Management Specialists (junior/coordinator-level), anchored toward the lower end of the p25-p75 range",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "AI Scheduling & Tracker Automation (Asana AI, Notion AI)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Escalation Judgment & Stakeholder Triage",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Agentic AI Literacy for Program Operations",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "Most of what fills a program coordinator's day, scheduling, tracker updates, minute-taking, is now a background agent task, not a job. Coordinators who move into judgment work, deciding which fire actually needs a human, are the ones who keep a seat."
+}

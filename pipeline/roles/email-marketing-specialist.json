@@ -1,11 +1,20 @@
 {
- "slug": "email-marketing-specialist",
  "title": "Email Marketing Specialist",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "13-1161",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 64,
+  "toolMaturity": 88,
+  "adoption": 72,
+  "agenticExposure": 54
+ },
+ "rationales": {
+  "taskAutomation": "Template building, subject-line testing, standard segmentation, and drip-sequence writing are digital production tasks AI tools now execute end-to-end.",
+  "toolMaturity": "AI-native platforms like Klaviyo and Braze ship mature generation, segmentation, and send-time optimization as embedded features.",
+  "adoption": "AI-driven email automation is now the mainstream default across ecommerce and SaaS lifecycle marketing.",
+  "agenticExposure": "Agents can own the full sequence build-test-send loop and deliverability monitoring, though revenue-attribution strategy and lifecycle architecture still need a human owner."
+ },
  "tasksAtRisk": [
   "Email template design and coding",
   "Subject line generation and testing",
@@ -23,23 +32,23 @@
   "high": 90000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1161 Market Research Analysts and Marketing Specialists, p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Email Platforms (Klaviyo, Braze)",
+   "skill": "Agentic Lifecycle Automation (Klaviyo, Braze)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Marketing Automation Architecture",
+   "skill": "Deliverability & Sender Reputation Management",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Customer Lifecycle Strategy",
+   "skill": "Revenue Attribution & Lifecycle Strategy",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI generates subject lines, segments audiences, and even writes email copy. Specialists who focus on lifecycle strategy, deliverability expertise, and revenue attribution will stay ahead.",
+ "insight": "Build, test, and send is now a loop an agent runs unattended inside modern ESPs. Specialists who own deliverability health and revenue attribution across the lifecycle stay indispensable.",
  "industryModifiers": {
   "Tech": 5,
   "Retail": 5,
@@ -51,5 +60,6 @@
   "Q1 2026": 55,
   "Q2 2026": 60
  },
- "prevRiskLevel": "High"
+ "prevRiskLevel": "High",
+ "slug": "email-marketing-specialist"
 }

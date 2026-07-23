@@ -2,10 +2,20 @@
  "slug": "scrum-master",
  "title": "Scrum Master",
  "category": "Project & Product Management",
- "socCode": "",
+ "socCode": "13-1082",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 40,
+  "toolMaturity": 75,
+  "adoption": 62,
+  "agenticExposure": 52
+ },
+ "rationales": {
+  "taskAutomation": "Sprint metrics, burndown and velocity charts, and retro data aggregation are now fully AI-generated from tool telemetry, but facilitating a team through conflict and building trust in the room is not something AI performs.",
+  "toolMaturity": "Native AI reporting is now standard in Jira, Azure DevOps, and Zoom/Teams meeting tools, giving Scrum teams auto-generated retros and velocity trends out of the box.",
+  "adoption": "Nearly every tech organization running Scrum now uses AI-generated sprint reporting by default; adoption is close to universal in software teams.",
+  "agenticExposure": "Metrics rollups and meeting-note summarization are fully agent-ownable today; team coaching, impediment removal requiring political capital, and building psychological safety are not."
+ },
  "tasksAtRisk": [
   "Sprint metrics tracking and reporting",
   "Meeting facilitation notes and summaries",
@@ -22,15 +32,15 @@
   "high": 140000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1082 Project Management Specialists, p25-p75 rounded (no dedicated Scrum Master SOC code)",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI-Enhanced Agile Practices",
+   "skill": "AI-Generated Agile Reporting (Jira, Azure DevOps)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Team Coaching & Facilitation",
+   "skill": "Team Coaching & Conflict Facilitation",
    "link": "/guides/ai-career-paths/"
   },
   {
@@ -38,7 +48,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI tracks metrics and generates reports, but Scrum Masters who build psychological safety, coach teams through conflict, and remove organizational impediments bring value that requires human skill.",
+ "insight": "Burndown charts and retro summaries are now fully automated from tool telemetry, and no one misses making them by hand. That leaves the Scrum Master's real job exposed: can they actually build a team's trust, mediate a conflict, and clear a political impediment? Those who only ran ceremonies are the most at risk.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 2,

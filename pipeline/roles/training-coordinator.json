@@ -2,43 +2,53 @@
  "slug": "training-coordinator",
  "title": "Training Coordinator",
  "category": "HR & Recruiting",
- "socCode": "",
+ "socCode": "13-1151",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 55,
+  "toolMaturity": 70,
+  "adoption": 58,
+  "agenticExposure": 45
+ },
+ "rationales": {
+  "taskAutomation": "AI now handles session scheduling, attendance certificates, catalog upkeep, and survey distribution end-to-end, but designing learning programs that actually move performance still needs a person.",
+  "toolMaturity": "LMS platforms with built-in AI scheduling, content tagging, and reporting are mature and standard in most L&D stacks.",
+  "adoption": "AI-assisted LMS administration is common practice across mid-size and large employers' training functions.",
+  "agenticExposure": "Agents can run the full scheduling-tracking-reporting loop for a training calendar; program design and vendor strategy stay human-led."
+ },
  "tasksAtRisk": [
-  "Training session scheduling and room booking",
-  "Attendance tracking and certificate generation",
-  "Course catalog management",
-  "Post-training survey distribution"
+  "Training session scheduling and room or platform booking",
+  "Attendance tracking and completion-certificate generation",
+  "Course catalog updates and content tagging",
+  "Post-training survey distribution and basic results summarization"
  ],
  "tasksGrowing": [
-  "Learning program strategy and ROI measurement",
-  "AI upskilling program design and delivery",
-  "Vendor evaluation and partnership management"
+  "Learning program strategy and ROI measurement tied to business outcomes",
+  "AI upskilling curriculum design and rollout",
+  "Vendor evaluation and learning-technology partnership management"
  ],
  "salary": {
   "low": 45000,
   "high": 70000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1151, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "Learning Management System (LMS) Administration",
+   "skill": "LMS Administration with AI Scheduling & Reporting",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "AI Training Program Design",
+   "skill": "AI Upskilling Program Design",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Training ROI Measurement",
+   "skill": "Training ROI Measurement & Analytics",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI handles scheduling, tracking, and survey distribution, but training coordinators who design AI upskilling programs and measure learning ROI position themselves as strategic partners.",
+ "insight": "AI now runs the scheduling, tracking, and survey mechanics of a training calendar without a coordinator touching it. The job is narrowing to program design and proving learning ROI, work that determines whether the AI upskilling push actually changes performance.",
  "industryModifiers": {
   "Tech": 3,
   "Government": -5,

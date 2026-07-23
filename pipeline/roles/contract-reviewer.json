@@ -2,13 +2,18 @@
  "slug": "contract-reviewer",
  "title": "Contract Reviewer",
  "category": "Legal",
- "socCode": "",
+ "socCode": "23-2011",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 72, "toolMaturity": 86, "adoption": 68, "agenticExposure": 62},
+ "rationales": {
+  "taskAutomation": "Clause identification, template comparison, obligation extraction, and risk scoring on standard commercial contracts are now routine digital production AI clears end-to-end; only non-standard terms and negotiation strategy stay human.",
+  "toolMaturity": "Contract-review AI (Ironclad, Ivo, Spellbook, Kira) is mature and embedded directly in the redlining workflow, not a bolt-on tool.",
+  "adoption": "AI-assisted contract review is now a mainstream expectation in corporate legal departments and law firms handling volume commercial paper.",
+  "agenticExposure": "Agentic pipelines already ingest, redline, and flag standard agreements end-to-end, routing only exceptions to a human reviewer."
+ },
  "tasksAtRisk": [
   "Standard clause identification and flagging",
-  "Contract comparison against templates",
+  "Contract comparison against templates and playbooks",
   "Obligation and deadline extraction",
   "Risk scoring on standard contract types",
   "Metadata extraction and categorization"
@@ -16,18 +21,18 @@
  "tasksGrowing": [
   "Negotiation strategy for non-standard terms",
   "Complex multi-party agreement analysis",
-  "AI contract tool training and oversight"
+  "AI contract tool training, playbook design, and oversight"
  ],
  "salary": {
   "low": 50000,
   "high": 90000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 23-2011, p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Contract Analysis Tools (Kira, Ironclad)",
+   "skill": "AI Contract Analysis Tools (Kira, Ironclad, Ivo, Spellbook)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -39,7 +44,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI contract analysis tools review thousands of contracts in hours. Reviewers who oversee AI output, handle complex non-standard agreements, and inform negotiation strategy will continue to add value.",
+ "insight": "AI contract-review tools now clear standard commercial paper in minutes and flag exceptions on their own. Reviewers who remain valuable are the ones who own the playbook, tune the AI, and handle the non-standard deal terms it can't yet judge.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

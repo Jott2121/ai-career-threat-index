@@ -1,0 +1,51 @@
+{
+ "slug": "curriculum-coordinator",
+ "title": "Curriculum Coordinator",
+ "category": "Education",
+ "socCode": "25-9031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 58,
+  "adoption": 40,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "Standards-alignment documentation, curriculum mapping, and resource compilation are largely automatable, but coaching teachers and building cross-stakeholder buy-in are not.",
+  "toolMaturity": "AI curriculum-alignment and content-tagging tools are credible and improving fast, though not yet a single dominant platform.",
+  "adoption": "Districts increasingly use AI to speed up standards-alignment and resource-mapping work.",
+  "agenticExposure": "An agent can map curriculum to standards and compile aligned resources largely unsupervised, but coaching teachers through adoption stays human."
+ },
+ "tasksAtRisk": [
+  "Standards-alignment documentation",
+  "Curriculum mapping and resource compilation",
+  "Generating pacing guides and unit templates"
+ ],
+ "tasksGrowing": [
+  "Teacher coaching and professional development",
+  "Cross-stakeholder curriculum adoption and buy-in",
+  "Program evaluation and needs assessment"
+ ],
+ "salary": {
+  "low": 58000,
+  "high": 98000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 25-9031 (Instructional Coordinators), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Curriculum-Alignment & Mapping Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Teacher Coaching & Professional Development Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Program Evaluation Methods",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now handles standards-alignment mapping and pacing-guide drafting quickly. Coordinators who coach teachers through real classroom adoption keep the job's most valuable part."
+}

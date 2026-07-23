@@ -20,5 +20,25 @@ jobs:
       - name: Install pytest
         run: pip install pytest
 
-      - name: Validate dataset (schema, ranges, CSV/JSON agreement, band consistency)
+      - name: Data regenerates deterministically from role sources
+        run: |
+          python3 pipeline/score.py
+          python3 pipeline/generate_svgs.py
+          git diff --exit-code -- data assets reports || {
+            echo "::error::data/assets/reports are stale — run pipeline/score.py and pipeline/generate_svgs.py and commit"; exit 1; }
+
+      - name: Validate dataset (schema, formula, CSV/JSON, crosswalk, bands)
         run: pytest tests/ -v
+
+      - name: MCP server smoke test
+        run: |
+          printf '%s\n' \
+            '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-06-18"}}' \
+            '{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"lookup_role","arguments":{"query":"software engineer"}}}' \
+            | node mcp/server.js | python3 -c "
+          import json,sys
+          lines=[json.loads(l) for l in sys.stdin if l.strip()]
+          assert lines[0]['result']['serverInfo']['name']=='ai-career-threat-index'
+          body=json.loads(lines[1]['result']['content'][0]['text'])
+          assert body['slug']=='software-engineer', body
+          print('MCP smoke OK')"

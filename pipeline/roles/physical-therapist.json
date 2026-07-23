@@ -2,10 +2,20 @@
  "slug": "physical-therapist",
  "title": "Physical Therapist",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "29-1123",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 14,
+  "toolMaturity": 50,
+  "adoption": 38,
+  "agenticExposure": 14
+ },
+ "rationales": {
+  "taskAutomation": "Exercise-program documentation and outcome-measure tracking are automatable; hands-on manual therapy and movement assessment are not.",
+  "toolMaturity": "AI motion-analysis and documentation tools are credible and improving but not yet standard practice equipment.",
+  "adoption": "Larger outpatient and telehealth-enabled PT practices are adopting AI documentation and motion-tracking tools; broader adoption is still early.",
+  "agenticExposure": "Agents can generate home-exercise plans and track outcome measures, but manual therapy and in-person motivation stay human."
+ },
  "tasksAtRisk": [
   "Exercise program documentation",
   "Progress note generation",
@@ -22,7 +32,7 @@
   "high": 110000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 29-1123 (Physical Therapists), p25-p75 rounded",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
@@ -38,7 +48,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "Physical therapy is inherently hands-on and relationship-based. AI handles documentation and tracking, actually freeing PTs to focus on what they do best — treating patients. Demand is strong and growing.",
+ "insight": "AI handles documentation and outcome tracking, freeing PTs for the hands-on treatment that actually drives recovery. Demand keeps growing faster than the pipeline of new therapists.",
  "industryModifiers": {
   "Healthcare": 2,
   "Government": -2

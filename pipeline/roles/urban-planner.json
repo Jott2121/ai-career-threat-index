@@ -1,0 +1,51 @@
+{
+  "slug": "urban-planner",
+  "title": "Urban Planner",
+  "category": "Public Service & Safety",
+  "socCode": "19-3051",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 38,
+    "toolMaturity": 55,
+    "adoption": 25,
+    "agenticExposure": 35
+  },
+  "rationales": {
+    "taskAutomation": "GIS analysis, zoning-compliance checks, and comprehensive-plan drafting are substantially digital, but public hearings and political judgment gate final decisions.",
+    "toolMaturity": "AI-assisted GIS analysis, scenario modeling, and zoning-compliance software are credible products improving quickly, though not yet standard everywhere.",
+    "adoption": "Planning departments are government employers that adopt new software more slowly than private-sector real estate and architecture firms.",
+    "agenticExposure": "Zoning research, data analysis, and draft-plan generation are a research-summarize-draft loop an agent can meaningfully own."
+  },
+  "tasksAtRisk": [
+    "Zoning-compliance checks and permit data analysis",
+    "Demographic and land-use data modeling",
+    "Comprehensive-plan and staff-report drafting",
+    "GIS map generation"
+  ],
+  "tasksGrowing": [
+    "Public hearings and community stakeholder engagement",
+    "Negotiating trade-offs among competing interests"
+  ],
+  "salary": {
+    "low": 60000,
+    "high": 100000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 19-3051, p25-p75 rounded",
+  "salaryTrend": "stable",
+  "defenseSkills": [
+    {
+      "skill": "AI-assisted GIS and scenario-modeling tool fluency",
+      "link": "/guides/ai-coding-tools/"
+    },
+    {
+      "skill": "Public engagement and stakeholder facilitation skills",
+      "link": "/guides/ai-skills-resume/"
+    },
+    {
+      "skill": "Land-use law and zoning certification",
+      "link": "/guides/best-ai-certifications/"
+    }
+  ],
+  "insight": "The analytical half of planning is automating steadily; the public-hearing, political-negotiation half is not."
+}

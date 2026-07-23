@@ -2,10 +2,15 @@
  "slug": "paralegal",
  "title": "Paralegal",
  "category": "Legal",
- "socCode": "",
+ "socCode": "23-2011",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 52, "toolMaturity": 74, "adoption": 55, "agenticExposure": 55},
+ "rationales": {
+  "taskAutomation": "Document organization, standard legal research, filing prep, and discovery processing are more than half the role's core output, but client contact, case strategy, and litigation judgment still gate the rest.",
+  "toolMaturity": "Legal AI research and document-review tools are credible and improving fast, embedded in most modern practice-management stacks, short of fully commoditized.",
+  "adoption": "AI-assisted research and document review is common at large firms and corporate legal departments, and spreading into mid-market practices.",
+  "agenticExposure": "Research-summarize-draft and discovery-triage loops are meaningfully agent-ownable today, though case strategy and client-facing judgment are not."
+ },
  "tasksAtRisk": [
   "Document organization and indexing",
   "Legal research for standard questions",
@@ -23,7 +28,7 @@
   "high": 80000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 23-2011, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
@@ -39,7 +44,8 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI handles document review and standard research at scale. Paralegals who master legal AI tools, specialize in complex practice areas, and manage technology-driven workflows will remain valuable.",
+ "insight": "AI now handles document review and standard research at scale on its own. Paralegals who master legal AI tools, specialize in complex practice areas, and manage technology-driven workflows will remain valuable.",
+ "restatement": "Methodology v2's realization model plus a role-specific reassessment of tool maturity and adoption produce a materially lower composite than the v1 weighted average; core paralegal output remains substantial, but a large share (client contact, case strategy support) is judgment-gated work AI does not yet own end-to-end.",
  "industryModifiers": {
   "Tech": 3,
   "Finance": 2,

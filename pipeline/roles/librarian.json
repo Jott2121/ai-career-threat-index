@@ -1,0 +1,57 @@
+{
+ "slug": "librarian",
+ "title": "Librarian",
+ "category": "Education",
+ "socCode": "25-4022",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 34,
+  "toolMaturity": 55,
+  "adoption": 38,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Cataloging, metadata tagging, and routine reference lookups are increasingly AI-handled, while research consultations, community programming, and collection-development judgment are not.",
+  "toolMaturity": "AI-powered discovery layers and reference chatbots are credible, fast-improving products now piloted in academic and large public library systems.",
+  "adoption": "Large academic and public library systems are adopting AI search and chat-reference tools, but budget-constrained smaller libraries lag well behind.",
+  "agenticExposure": "Agents can competently run cataloging and metadata-tagging pipelines and handle first-line reference triage, but community programming and instruction stay human."
+ },
+ "tasksAtRisk": [
+  "Cataloging and metadata tagging",
+  "First-line reference chatbot triage",
+  "Digital resource curation and licensing renewals",
+  "Overdue/circulation administrative tasks"
+ ],
+ "tasksGrowing": [
+  "Information literacy instruction",
+  "Community programming and outreach",
+  "Complex research consultation and collection-development judgment"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 80000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 25-4022 (Librarians and Media Collections Specialists), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Powered Discovery & Reference Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Information Literacy Instruction Design",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Digital Collection & Metadata Management",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI reference chatbots and discovery tools now field routine lookups and cataloging work. Librarians who teach information literacy, run community programming, and make judgment calls on collections and complex research stay firmly in demand.",
+ "industryModifiers": {
+  "Government": -5,
+  "Tech": 5,
+  "Healthcare": 4
+ }
+}

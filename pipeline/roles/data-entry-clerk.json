@@ -2,44 +2,54 @@
  "slug": "data-entry-clerk",
  "title": "Data Entry Clerk",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "43-9021",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 90,
+  "toolMaturity": 92,
+  "adoption": 80,
+  "agenticExposure": 85
+ },
+ "rationales": {
+  "taskAutomation": "Keying, transcribing, and reconciling structured data from forms, invoices, and scans is almost entirely automatable end-to-end; only messy exception cases still need a human.",
+  "toolMaturity": "OCR, document AI, and agentic data-extraction pipelines are commodity-grade capabilities deployed at scale across enterprise document systems.",
+  "adoption": "Large employers across finance, healthcare admin, and logistics have replaced manual entry queues with automated capture as standard practice.",
+  "agenticExposure": "Data entry is close to a pure agent spec: ingest, extract, validate, write to system, and flag exceptions, with almost no multi-step judgment required."
+ },
  "tasksAtRisk": [
-  "Manual data input from forms and documents",
-  "Spreadsheet population and formatting",
-  "Database record creation and updates",
-  "Invoice data extraction",
-  "Document scanning and digitization"
+  "Manual keying of forms, invoices, and scanned documents",
+  "Spreadsheet population, formatting, and reconciliation",
+  "Database record creation, deduplication, and updates",
+  "Batch document scanning and digitization",
+  "Routine data validation against source documents"
  ],
  "tasksGrowing": [
-  "Data quality assurance and exception handling",
-  "AI tool training and feedback",
-  "Process improvement identification"
+  "Exception handling and edge-case data quality review",
+  "Training and correcting AI extraction pipelines",
+  "Light process-improvement and automation configuration"
  ],
  "salary": {
   "low": 28000,
   "high": 42000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 43-9021 (Data Entry Keyers), p25-p75 rounded",
  "salaryTrend": "declining",
  "defenseSkills": [
   {
-   "skill": "Data Analytics & Spreadsheet Automation",
-   "link": "/guides/ai-skills-resume/"
-  },
-  {
-   "skill": "AI Tool Administration",
+   "skill": "AI Document Intelligence & OCR Pipeline Configuration",
    "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "Process Automation (RPA)",
+   "skill": "Data Quality Auditing & Exception Handling",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "RPA & Workflow Automation Basics",
    "link": "/guides/ai-career-paths/"
   }
  ],
- "insight": "OCR, AI document processing, and automated data extraction have made manual data entry largely obsolete. Building skills in data analytics or process automation is the strongest path forward.",
+ "insight": "Document AI and agentic extraction pipelines now handle the full capture-validate-file loop for structured data, leaving almost no defensible core to this role as historically specified. The realistic path is moving into the exception queue and the pipeline-configuration work that keeps the automation running.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

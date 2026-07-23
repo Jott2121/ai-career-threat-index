@@ -2,10 +2,20 @@
  "slug": "physician",
  "title": "Physician",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "29-1229",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 62,
+  "adoption": 48,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "Reviewing standard labs/imaging, drafting clinical notes and checking drug interactions are automatable; complex diagnostic reasoning and procedures are not.",
+  "toolMaturity": "Ambient documentation and diagnostic-support tools are credible and improving quickly across major EHR platforms.",
+  "adoption": "Large health systems increasingly deploy ambient scribing and decision-support tools; adoption varies widely by specialty and setting.",
+  "agenticExposure": "Agents can pre-draft notes and flag abnormal results for review, but diagnosis, procedures and patient communication remain physician-led."
+ },
  "tasksAtRisk": [
   "Reviewing standard lab results and imaging",
   "Drafting clinical notes and documentation",
@@ -22,7 +32,7 @@
   "high": 400000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 29-1229 (Physicians, All Other), p25-p75 rounded",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
@@ -38,7 +48,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI assists with documentation, diagnostics, and drug checks, but physicians who combine clinical judgment with AI tools become more effective — not less needed. The human element of medicine is irreplaceable.",
+ "insight": "Ambient AI scribes and decision-support tools are cutting real documentation burden, and physicians who pair clinical judgment with these tools are becoming more effective, not less needed. The complex reasoning and procedures at the core of the job stay out of reach for now.",
  "industryModifiers": {
   "Healthcare": 3,
   "Tech": 5,

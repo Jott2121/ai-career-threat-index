@@ -2,43 +2,53 @@
  "slug": "product-manager",
  "title": "Product Manager",
  "category": "Project & Product Management",
- "socCode": "",
+ "socCode": "13-1082",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 68,
+  "adoption": 58,
+  "agenticExposure": 40
+ },
+ "rationales": {
+  "taskAutomation": "Research synthesis, competitive analysis pulls, and first-draft PRDs are now largely AI-assisted, but setting product vision, making prioritization trade-offs, and owning outcomes are not automatable end-to-end.",
+  "toolMaturity": "AI copilots inside Productboard, Notion, and Jira plus generalist LLMs handle drafting and synthesis well, but purpose-built PM agents are still maturing rather than fully embedded the way coding copilots are.",
+  "adoption": "Most tech-forward companies now expect PMs to use AI for research synthesis and doc drafting, and the practice is spreading into mid-market SaaS, though it is not yet universal outside tech.",
+  "agenticExposure": "Multi-step agents can already run research-synthesize-draft loops for specs and market scans, but cannot own prioritization calls or cross-team negotiation."
+ },
  "tasksAtRisk": [
-  "Competitive analysis data gathering",
-  "User feedback synthesis and categorization",
-  "Feature specification drafting",
-  "Sprint planning documentation"
+  "Competitive analysis and market research synthesis",
+  "User feedback aggregation and theming",
+  "First-draft PRD and spec generation",
+  "Sprint and roadmap status reporting"
  ],
  "tasksGrowing": [
-  "Product vision and strategy definition",
-  "Customer discovery and market sensing",
-  "Cross-functional team alignment on priorities"
+  "Product vision and strategic bets",
+  "Cross-functional prioritization and trade-off decisions",
+  "Customer discovery and stakeholder trust-building"
  ],
  "salary": {
   "low": 100000,
   "high": 180000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1082 Project Management Specialists (closest detailed occupation; no dedicated Product Manager SOC code), p25-p75 with upward allowance for senior tech PM roles per market postings",
  "salaryTrend": "rising",
  "defenseSkills": [
   {
-   "skill": "AI Product Strategy",
-   "link": "/guides/ai-career-paths/"
+   "skill": "AI Agent Orchestration for Product Workflows",
+   "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "AI/ML Product Development",
+   "skill": "Prompt-Driven PRD and Roadmap Tooling (Productboard AI, Notion AI)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Data-Driven Decision Making",
-   "link": "/guides/best-ai-certifications/"
+   "skill": "Outcome-Based Prioritization & Strategy",
+   "link": "/guides/ai-career-paths/"
   }
  ],
- "insight": "AI gathers data and drafts specs, but product managers who define product vision, make hard prioritization calls, and align organizations around a strategy are among the most AI-resilient roles.",
+ "insight": "AI now drafts specs and synthesizes user feedback in minutes, collapsing work that used to take a day. That is compressing junior PM headcount at some startups, but it is raising the bar for PMs who can translate ambiguous business goals into hard prioritization calls. The scarcest skill in 2026 isn't writing PRDs, it's deciding which ten features not to build.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

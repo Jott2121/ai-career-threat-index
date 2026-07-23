@@ -2,43 +2,53 @@
  "slug": "hr-generalist",
  "title": "HR Generalist",
  "category": "HR & Recruiting",
- "socCode": "",
+ "socCode": "13-1071",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 48,
+  "toolMaturity": 70,
+  "adoption": 60,
+  "agenticExposure": 38
+ },
+ "rationales": {
+  "taskAutomation": "AI chatbots now resolve routine policy questions, onboarding checklists, and leave-tracking end to end, but complex employee-relations cases and culture work still need a human generalist.",
+  "toolMaturity": "General-purpose HR chatbots and HRIS AI add-ons (Workday Assistant, Lattice AI) are mature and widely deployed for FAQ and case intake.",
+  "adoption": "Most mid-size and large employers now run an AI layer in front of first-line HR inquiries and onboarding.",
+  "agenticExposure": "Agents can triage tickets, populate onboarding steps, and draft standard policy responses, but employee-relations judgment calls stay with the generalist."
+ },
  "tasksAtRisk": [
-  "Employee FAQ responses and policy lookups",
-  "New hire onboarding checklist management",
-  "Leave tracking and basic case management",
-  "Standard employment verification"
+  "Employee FAQ and policy-lookup responses handled by an HR chatbot",
+  "New-hire onboarding checklist creation and tracking automated end-to-end",
+  "Leave and time-off case intake triaged by AI before human review",
+  "Standard employment verification letters generated automatically"
  ],
  "tasksGrowing": [
-  "Employee experience and engagement programs",
-  "Complex employee relations case management",
-  "HR technology implementation and change management"
+  "Complex employee-relations investigations and conflict resolution",
+  "Employee experience and engagement program design",
+  "HR technology rollout and change management across teams"
  ],
  "salary": {
   "low": 50000,
   "high": 85000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1071, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "HRIS & AI HR Platforms",
+   "skill": "AI HR Chatbot & Case Management Tools (Workday Assistant, Lattice AI)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Employee Relations & Investigations",
+   "skill": "Employee Relations & Workplace Investigations",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "HR Analytics & Reporting",
+   "skill": "HR Technology Change Management",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI chatbots answer routine HR questions and manage onboarding checklists. Generalists who focus on employee relations, experience design, and HR technology management will see their roles expand.",
+ "insight": "Chatbots and HRIS assistants now close out most routine FAQ, onboarding, and leave-tracking work that used to fill a generalist's week. The role is consolidating around employee relations, culture, and rolling out the HR tech itself, work that still needs a person in the room.",
  "industryModifiers": {
   "Tech": 3,
   "Finance": 2,

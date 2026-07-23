@@ -1,0 +1,12 @@
+{
+  "name": "threat-index-mcp",
+  "version": "2026.3.0",
+  "description": "MCP server for the AI Career Threat Index — ask any AI agent how exposed a profession is to AI displacement. 300 roles, open methodology, MIT.",
+  "bin": { "threat-index-mcp": "server.js" },
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "ai", "careers", "jobs", "automation", "dataset"],
+  "repository": { "type": "git", "url": "git+https://github.com/Jott2121/ai-career-threat-index.git", "directory": "mcp" },
+  "author": "Jeff Otterson (https://github.com/Jott2121)",
+  "license": "MIT"
+}

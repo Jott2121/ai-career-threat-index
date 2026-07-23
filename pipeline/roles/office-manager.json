@@ -2,28 +2,38 @@
  "slug": "office-manager",
  "title": "Office Manager",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "43-1011",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 58,
+  "toolMaturity": 78,
+  "adoption": 62,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Vendor ordering, policy documentation, and routine scheduling are increasingly automated, but people management, culture-setting, and ad hoc problem-solving keep a substantial human core.",
+  "toolMaturity": "Office-operations copilots for procurement and scheduling are mature and commonly bundled into workplace software suites.",
+  "adoption": "Common at large and tech-forward employers; adoption at small offices lags since dedicated tooling budgets are smaller.",
+  "agenticExposure": "Agents can plausibly own supply reordering, onboarding paperwork, and routine scheduling chains; team culture and cross-functional leadership stay with a person."
+ },
  "tasksAtRisk": [
-  "Vendor management and ordering supplies",
-  "Policy documentation and updates",
-  "Basic facility scheduling",
+  "Vendor management and supply ordering",
+  "Policy documentation drafting and updates",
+  "Routine facility and meeting-room scheduling",
   "Onboarding paperwork coordination",
-  "Budget tracking for office expenses"
+  "Office budget tracking and expense reconciliation"
  ],
  "tasksGrowing": [
   "Workplace experience and culture design",
   "Cross-functional operations leadership",
-  "Hybrid work policy and technology management"
+  "Hybrid-work policy and technology management"
  ],
  "salary": {
   "low": 45000,
   "high": 75000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 43-1011 (First-Line Supervisors of Office and Administrative Support Workers), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
@@ -31,15 +41,15 @@
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Workplace Technology Management",
+   "skill": "Workplace AI Tool Administration",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "People Operations Fundamentals",
+   "skill": "People Operations & Culture Leadership",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "Automated procurement and digital workflows reduce traditional office manager tasks. Those who evolve into workplace experience leaders managing hybrid environments and team culture will grow.",
+ "insight": "Ordering supplies and tracking a budget are now largely automatable, but running an office still means reading a room and fixing whatever nobody planned for. Office managers who take on real cross-functional operations leadership are outgrowing the role's clerical reputation.",
  "industryModifiers": {
   "Tech": 3,
   "Government": -5,

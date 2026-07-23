@@ -2,10 +2,20 @@
  "slug": "teacher",
  "title": "Teacher (K-12)",
  "category": "Education",
- "socCode": "",
+ "socCode": "25-2021",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 60,
+  "adoption": 45,
+  "agenticExposure": 25
+ },
+ "rationales": {
+  "taskAutomation": "Lesson-plan drafting, worksheet generation, and grading of objective assessments are now largely automatable, but classroom management, mentorship, and differentiated instruction are not.",
+  "toolMaturity": "Classroom-facing AI tools (MagicSchool AI, Khanmigo, Diffit) are credible and improving fast, approaching mature adoption in many districts.",
+  "adoption": "A growing majority of districts now permit or actively deploy AI lesson-planning and grading-assist tools, though policy and funding vary widely by state.",
+  "agenticExposure": "Agents can draft lesson plans and grade structured work in a supervised loop, but classroom presence, behavior management, and real-time adaptation to students remain squarely human."
+ },
  "tasksAtRisk": [
   "Lesson plan drafting and resource gathering",
   "Grading objective assessments",
@@ -22,11 +32,11 @@
   "high": 80000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 25-2021 (Elementary School Teachers), representative anchor for K-12 classroom teachers; middle/secondary levels run similar, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Teaching Tools (Khan Academy, Diffit)",
+   "skill": "AI Teaching Tools (MagicSchool AI, Khanmigo, Diffit)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -38,7 +48,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI generates lesson plans and grades quizzes, freeing teachers for what matters most — mentoring students, managing classrooms, and providing the human connection young learners need.",
+ "insight": "AI now drafts lesson plans and grades routine quizzes, freeing time -- but classroom management, mentoring, and differentiated instruction for diverse learners are the parts of teaching AI still can't do.",
  "industryModifiers": {
   "Government": -5,
   "Tech": 3

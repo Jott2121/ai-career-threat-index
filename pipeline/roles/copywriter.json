@@ -1,11 +1,20 @@
 {
- "slug": "copywriter",
  "title": "Copywriter",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "27-3043",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 60,
+  "toolMaturity": 88,
+  "adoption": 70,
+  "agenticExposure": 50
+ },
+ "rationales": {
+  "taskAutomation": "Product descriptions, subject lines, ad variants, and landing-page copy from a brief are high-volume, formulaic outputs AI now produces reliably at scale.",
+  "toolMaturity": "AI writing tools are mature, commodity products embedded directly in ad platforms, CMSs, and ecommerce catalogs.",
+  "adoption": "Most marketing and ecommerce teams already generate first-pass copy with AI as standard practice.",
+  "agenticExposure": "Agents can generate and A/B-test copy variants across a catalog unsupervised, but brand-defining and high-stakes launch copy still needs a human author."
+ },
  "tasksAtRisk": [
   "Product descriptions and catalog copy",
   "Email subject lines and preview text",
@@ -23,23 +32,23 @@
   "high": 90000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-3043 Writers and Authors, p25-p75 rounded",
  "salaryTrend": "declining",
  "defenseSkills": [
   {
-   "skill": "AI Writing Tool Mastery",
+   "skill": "Agentic Copy Testing & Prompt Direction",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Brand Strategy & Voice Architecture",
+   "skill": "Brand Voice Architecture",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Conversion Optimization",
+   "skill": "Conversion & Launch Copywriting",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI writes adequate copy fast and cheap. Copywriters who survive will be those who create brand voice, craft high-stakes persuasive copy, and develop creative campaigns AI cannot replicate.",
+ "insight": "Catalog and variant copy is now an agent job, run and A/B-tested at volumes no human team could match. Copywriters who survive own the brand voice an agent works from and the high-stakes launch copy nobody trusts it to write alone.",
  "industryModifiers": {
   "Tech": 5,
   "Retail": 3,
@@ -51,5 +60,6 @@
   "Q1 2026": 60,
   "Q2 2026": 65
  },
- "prevRiskLevel": "High"
+ "prevRiskLevel": "High",
+ "slug": "copywriter"
 }

@@ -1,0 +1,51 @@
+{
+ "slug": "research-scientist",
+ "title": "Research Scientist",
+ "category": "Science & Engineering",
+ "socCode": "19-1042",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 60,
+  "adoption": 42,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "AI can run literature synthesis, propose experiment variants, and draft manuscript sections, but designing the core hypothesis and validating results experimentally stay with the scientist.",
+  "toolMaturity": "AI research-assistant tools (literature review, hypothesis generation, lab-notebook copilots) are mature and widely used in industry R&D.",
+  "adoption": "Large pharma, biotech, and industrial R&D labs have adopted AI research assistants broadly; smaller labs and academia trail.",
+  "agenticExposure": "Agents can run full literature-to-draft-experiment loops and manage lab-notebook documentation, but experimental execution and validation need a scientist."
+ },
+ "tasksAtRisk": [
+  "Literature review synthesis and gap-analysis drafting",
+  "Experiment-variant proposal generation",
+  "Manuscript and technical-report drafting"
+ ],
+ "tasksGrowing": [
+  "Core hypothesis formulation and research direction-setting",
+  "Experimental validation and results interpretation",
+  "Cross-team scientific leadership and grant strategy"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-1042, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI Research-Assistant Tools & Literature Synthesis",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Hypothesis Formulation & Research Direction",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Experimental Validation & Results Interpretation",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI research assistants now draft literature reviews and propose experiment variants, but deciding which hypothesis is worth testing, and validating the result, is still a scientist's call."
+}

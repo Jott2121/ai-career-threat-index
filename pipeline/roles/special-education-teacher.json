@@ -1,0 +1,57 @@
+{
+ "slug": "special-education-teacher",
+ "title": "Special Education Teacher",
+ "category": "Education",
+ "socCode": "25-2058",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 24,
+  "toolMaturity": 32,
+  "adoption": 22,
+  "agenticExposure": 18
+ },
+ "rationales": {
+  "taskAutomation": "IEP paperwork drafting and progress-report generation are digitizable, but behavior support, physical accommodations, and legally-mandated case management dominate the role and resist automation.",
+  "toolMaturity": "Generic LLM tools can draft IEP goal language, but no purpose-built special-education product has real classroom traction yet.",
+  "adoption": "Only early-adopter districts use AI for IEP-drafting assistance; most special education staff still write documentation manually.",
+  "agenticExposure": "An agent could pre-fill IEP paperwork and progress notes, but individualized behavior intervention and compliance meetings require a certified human in the room."
+ },
+ "tasksAtRisk": [
+  "Drafting IEP goal language and progress-report boilerplate",
+  "Generating differentiated worksheet variants",
+  "Compliance and case-management paperwork",
+  "Scheduling related-service sessions (OT/PT/speech)"
+ ],
+ "tasksGrowing": [
+  "Individualized behavior intervention and support",
+  "IEP meeting facilitation with families",
+  "Hands-on adaptive-equipment and physical support",
+  "Crisis de-escalation"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 82000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 25-2058 (Special Education Teachers, Secondary School), representative anchor across special-education teacher levels, p25-p75 rounded",
+ "salaryTrend": "rising",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted IEP Documentation & Progress Tracking",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Behavior Intervention & Individualized Support Planning",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Assistive Technology Certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI can draft IEP paperwork and generate differentiated worksheets, cutting real administrative load. But behavior intervention, physical support, and the legally-mandated human judgment in IEP meetings keep this one of the lowest-displacement roles in education.",
+ "industryModifiers": {
+  "Government": -5,
+  "Healthcare": 3
+ }
+}

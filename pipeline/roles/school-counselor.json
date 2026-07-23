@@ -1,0 +1,57 @@
+{
+ "slug": "school-counselor",
+ "title": "School Counselor",
+ "category": "Education",
+ "socCode": "21-1012",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 45,
+  "adoption": 32,
+  "agenticExposure": 22
+ },
+ "rationales": {
+  "taskAutomation": "Scheduling, resource referral, and college-application document review are partly automatable, but crisis intervention, mental-health support, and relationship-building are not.",
+  "toolMaturity": "Generic LLM tools and emerging school-specific advising bots exist, but nothing purpose-built for K-12 counseling has broad traction.",
+  "adoption": "Districts are slowly adding AI tools for scheduling and college-matching, but core counseling caseloads are still handled manually.",
+  "agenticExposure": "Agents can handle scheduling and resource-lookup slices of the job, but crisis response and trust-based student relationships are squarely human."
+ },
+ "tasksAtRisk": [
+  "Course scheduling and conflict resolution",
+  "College/scholarship resource lookup and referral",
+  "Standard FAQ responses about programs and requirements",
+  "Administrative tracking of counseling caseloads"
+ ],
+ "tasksGrowing": [
+  "Crisis intervention and mental-health support",
+  "Individualized college and career counseling",
+  "Building trust with at-risk students and families"
+ ],
+ "salary": {
+  "low": 48000,
+  "high": 82000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 21-1012 (Educational, Guidance, and Career Counselors and Advisors), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Scheduling & College-Match Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Crisis Intervention & Mental-Health First Aid",
+   "link": "/guides/best-ai-certifications/"
+  },
+  {
+   "skill": "Individualized Career & College Counseling",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI can handle scheduling and routine resource lookups, but the crisis intervention, mental-health support, and trust-building at the core of school counseling remain firmly human work.",
+ "industryModifiers": {
+  "Government": -5,
+  "Healthcare": 3,
+  "Tech": 2
+ }
+}

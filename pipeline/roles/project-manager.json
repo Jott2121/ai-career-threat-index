@@ -2,19 +2,29 @@
  "slug": "project-manager",
  "title": "Project Manager",
  "category": "Project & Product Management",
- "socCode": "",
+ "socCode": "13-1082",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 38,
+  "toolMaturity": 72,
+  "adoption": 60,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Status reports, scheduling updates, meeting notes, and resource allocation for standard projects are now largely AI-generated, but scope negotiation, stakeholder conflict resolution, and judgment calls under uncertainty remain human-led.",
+  "toolMaturity": "AI features are now default in mainstream PM software (Asana, Monday, MS Project, Notion) with auto-summarized meetings and predictive scheduling shipped, not experimental.",
+  "adoption": "AI-assisted project tracking is now the norm across tech, finance, and increasingly construction and healthcare IT projects; only the most bespoke or compliance-heavy shops still run manual boards.",
+  "agenticExposure": "Agents can already own the reporting-scheduling-tracking loop end to end for straightforward projects, but escalations, vendor negotiation, and team motivation still route to the human project manager."
+ },
  "tasksAtRisk": [
   "Status report creation and distribution",
-  "Schedule and timeline management",
+  "Schedule and timeline updates",
   "Meeting notes and action item tracking",
   "Resource allocation for standard projects"
  ],
  "tasksGrowing": [
   "Stakeholder management and conflict resolution",
-  "Risk management for complex programs",
+  "Risk management for complex, ambiguous programs",
   "Cross-functional team leadership and motivation"
  ],
  "salary": {
@@ -22,23 +32,23 @@
   "high": 140000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1082 Project Management Specialists, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Project Management Tools (Notion AI, Asana AI)",
+   "skill": "AI Project Copilots (Asana AI, Monday AI, MS Project Copilot)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Agile & SAFe Certification",
-   "link": "/guides/best-ai-certifications/"
+   "skill": "Agentic Workflow Oversight & Exception Handling",
+   "link": "/guides/ai-agents-guide/"
   },
   {
-   "skill": "AI Project Delivery & Implementation",
-   "link": "/guides/ai-career-paths/"
+   "skill": "PMP / Agile & SAFe Certification",
+   "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI automates status reports, scheduling, and action tracking. Project managers who lead stakeholder alignment, manage risks, and motivate teams through complex programs are more needed, not less.",
+ "insight": "Status decks, timeline updates, and action-item chasing are now a few prompts, not a Friday afternoon. Project managers whose entire job was reporting are being squeezed hardest, while those who negotiate scope, resolve conflict, and keep a team moving through ambiguity are seeing their role expand into program-level trust-building.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 2,

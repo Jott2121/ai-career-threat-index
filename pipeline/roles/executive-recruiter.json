@@ -1,0 +1,57 @@
+{
+ "slug": "executive-recruiter",
+ "title": "Executive Recruiter",
+ "category": "HR & Recruiting",
+ "socCode": "13-1071",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 55,
+  "adoption": 35,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "AI can generate long-lists and map talent markets, but courting confidential C-suite candidates, closing negotiations, and board-level trust-building resist automation.",
+  "toolMaturity": "General AI market-mapping and sourcing tools apply, but no dedicated executive-search product has real traction beyond assisting research.",
+  "adoption": "Executive search remains a relationship-first, low-adoption niche; most firms use AI only for background research, not candidate engagement.",
+  "agenticExposure": "Agents can build longlists and compile market-intelligence briefs, but the confidential, high-trust engagement work stays entirely human."
+ },
+ "tasksAtRisk": [
+  "Market-mapping and long-list generation from AI-searched public data",
+  "Background research and compensation benchmarking on shortlisted candidates",
+  "Search-status reporting and pipeline documentation for the client"
+ ],
+ "tasksGrowing": [
+  "Confidential C-suite candidate engagement and trust-building",
+  "Board-level search strategy and succession-planning advisory",
+  "Offer negotiation and counter-offer management for senior hires"
+ ],
+ "salary": {
+  "low": 90000,
+  "high": 180000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 13-1071 (Human Resources Specialists), p75 extended toward executive-search market postings",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Confidential Search & Executive Talent Mapping",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "AI Market-Intelligence & Longlist Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Board & Succession-Planning Advisory",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI compiles the market maps and background research that used to take a search associate weeks, but persuading a sitting CEO to consider a move is not a prompt-able task. Executive recruiters who lean into board relationships and succession advisory are among the least exposed roles in recruiting.",
+ "industryModifiers": {
+  "Tech": 3,
+  "Finance": 5,
+  "Healthcare": -3,
+  "Government": -10
+ }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "probation-officer",
+  "title": "Probation Officer",
+  "category": "Public Service & Safety",
+  "socCode": "21-1092",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 28,
+    "toolMaturity": 55,
+    "adoption": 28,
+    "agenticExposure": 25
+  },
+  "rationales": {
+    "taskAutomation": "Risk-assessment scoring, case notes, and check-in scheduling are largely digital, but supervision decisions and the client relationship remain judgment-gated.",
+    "toolMaturity": "Risk-assessment algorithms are already embedded in many probation departments' case-management systems and have been for years.",
+    "adoption": "Courts and probation departments have adopted risk-assessment tools faster than most public-safety functions, though still trailing private-sector norms.",
+    "agenticExposure": "Case-note generation and scheduling form an agent-ownable slice, while in-person supervision and relapse-risk judgment stay with the officer."
+  },
+  "tasksAtRisk": [
+    "Risk-assessment score generation and case notes",
+    "Check-in scheduling and compliance tracking",
+    "Standard violation-report drafting"
+  ],
+  "tasksGrowing": [
+    "In-person supervision and relationship-building with clients",
+    "Judgment calls on treatment referrals and sanctions"
+  ],
+  "salary": {
+    "low": 45000,
+    "high": 80000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 21-1092, p25-p75 rounded",
+  "salaryTrend": "stable",
+  "defenseSkills": [
+    {
+      "skill": "Risk-assessment algorithm interpretation and case-management software",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Motivational interviewing certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Reentry and treatment-referral navigation skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "Risk-scoring tools already do a chunk of the analytic work here; the supervisory relationship is what remains distinctly human."
+}

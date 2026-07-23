@@ -2,31 +2,41 @@
  "slug": "hr-manager",
  "title": "HR Manager",
  "category": "HR & Recruiting",
- "socCode": "",
+ "socCode": "11-3121",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 42,
+  "toolMaturity": 68,
+  "adoption": 60,
+  "agenticExposure": 36
+ },
+ "rationales": {
+  "taskAutomation": "AI drafts policy documentation, schedules compliance training, and processes routine benefits questions, but building culture and resolving complex people issues remains squarely managerial judgment.",
+  "toolMaturity": "AI-assisted HR platforms (Workday AI, Lattice, LLM-based policy drafting) are mature and standard across most HRIS stacks.",
+  "adoption": "AI-assisted policy drafting and reporting workflows are now mainstream in mid-size and large HR departments.",
+  "agenticExposure": "Agents can handle policy drafting and scheduling workflows, but org design, culture strategy, and workforce planning stay with the manager."
+ },
  "tasksAtRisk": [
-  "Policy documentation and handbook updates",
-  "Standard employee inquiry responses",
-  "Benefits enrollment processing",
-  "Compliance training scheduling"
+  "Policy documentation and handbook drafting from templates",
+  "Standard employee inquiry and benefits-question responses",
+  "Compliance training scheduling and completion tracking",
+  "Routine HR reporting and headcount dashboards"
  ],
  "tasksGrowing": [
-  "Employee relations and conflict resolution",
+  "Employee relations and complex conflict resolution",
   "Organizational culture and engagement strategy",
-  "AI policy development and workforce planning"
+  "AI workforce-planning and internal AI-use policy development"
  ],
  "salary": {
   "low": 70000,
   "high": 130000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 11-3121, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI HR Tools (Workday AI, Lattice)",
+   "skill": "AI HR Platform Administration (Workday AI, Lattice)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -34,11 +44,11 @@
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "AI Governance & Ethics in HR",
+   "skill": "AI Governance & Internal AI-Use Policy",
    "link": "/guides/ai-agents-guide/"
   }
  ],
- "insight": "AI automates policy lookups and benefits processing, but HR managers who build culture, resolve complex employee situations, and develop AI workforce strategies are more important than ever.",
+ "insight": "AI now drafts the policy documents and runs the routine reporting that used to eat an HR manager's calendar. What's left, and growing, is the part that scales with judgment: culture strategy, thorny employee-relations calls, and writing the rules for how the org itself uses AI.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 2,

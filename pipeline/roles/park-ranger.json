@@ -1,0 +1,50 @@
+{
+  "slug": "park-ranger",
+  "title": "Park Ranger",
+  "category": "Public Service & Safety",
+  "socCode": "19-1031",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 10,
+    "toolMaturity": 32,
+    "adoption": 10,
+    "agenticExposure": 6
+  },
+  "rationales": {
+    "taskAutomation": "Patrol, visitor safety response, search-and-rescue, and interpretive education happen outdoors in unstructured environments AI cannot perform.",
+    "toolMaturity": "Camera-trap and wildlife-monitoring analytics exist but are research-grade tools, not a mature standard toolchain for ranger work.",
+    "adoption": "Park agencies are small, chronically underfunded government employers with little budget for new AI tooling.",
+    "agenticExposure": "The role is overwhelmingly physical fieldwork in remote, unstructured terrain that autonomous software has no way to reach."
+  },
+  "tasksAtRisk": [
+    "Visitor-count and incident logging",
+    "Trail-condition report drafting",
+    "Permit and reservation data entry"
+  ],
+  "tasksGrowing": [
+    "Search-and-rescue response",
+    "In-person interpretive education and wildlife-conflict response"
+  ],
+  "salary": {
+    "low": 40000,
+    "high": 70000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 19-1031 (closest detailed occupation), p25-p75 rounded",
+  "salaryTrend": "stable",
+  "defenseSkills": [
+    {
+      "skill": "Wildlife-monitoring analytics and camera-trap data tools",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Wilderness first responder certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Interpretive education and visitor-safety communication",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "Among the least automatable roles in this index; the job exists precisely where digital tools don't reach."
+}

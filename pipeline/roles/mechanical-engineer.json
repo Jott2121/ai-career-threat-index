@@ -1,0 +1,58 @@
+{
+ "slug": "mechanical-engineer",
+ "title": "Mechanical Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2141",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 62,
+  "adoption": 45,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "AI can generate first-pass CAD variants, run parametric FEA sweeps, and draft design calc reports, but stamped drawings, tolerance trade-offs, and prototype validation still require an engineer's sign-off.",
+  "toolMaturity": "Generative-design add-ons inside SolidWorks, Fusion 360, and Ansys are shipping and improving quickly, but full autonomous design-to-manufacture loops are not yet standard.",
+  "adoption": "Generative design and simulation copilots have reached large aerospace, automotive, and industrial-equipment OEMs but are still uneven at small and mid-size manufacturers.",
+  "agenticExposure": "Agents can run overnight simulation sweeps, flag out-of-tolerance results, and pre-populate BOMs, but physical prototyping and PE-stamped release remain human gates."
+ },
+ "tasksAtRisk": [
+  "Generating parametric CAD variants for early design exploration",
+  "Running routine finite element and thermal simulation sweeps",
+  "Drafting design calculation reports and bill-of-materials documentation",
+  "Producing first-pass tolerance stack-up analyses"
+ ],
+ "tasksGrowing": [
+  "Physical prototype testing and failure investigation",
+  "Cross-disciplinary systems integration and trade-off judgment",
+  "Design-for-manufacturability review with production teams"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 130000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2141, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Generative Design & Simulation Tools (Fusion 360, Ansys)",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Design-for-Manufacturability & Prototyping",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Agentic Simulation Workflow Oversight",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI now runs simulation sweeps and drafts CAD variants overnight, compressing the early design loop. Mechanical engineers who own physical validation, manufacturability trade-offs, and final design sign-off stay indispensable.",
+ "industryModifiers": {
+  "Manufacturing": 6,
+  "Tech": 4,
+  "Government": -8,
+  "Healthcare": -3
+ }
+}

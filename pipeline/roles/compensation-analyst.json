@@ -2,43 +2,53 @@
  "slug": "compensation-analyst",
  "title": "Compensation Analyst",
  "category": "HR & Recruiting",
- "socCode": "",
+ "socCode": "13-1141",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 60,
+  "toolMaturity": 72,
+  "adoption": 60,
+  "agenticExposure": 50
+ },
+ "rationales": {
+  "taskAutomation": "AI now benchmarks market pay data, runs job-evaluation matrices, and drafts pay-equity reports end-to-end, but executive comp design and total-rewards strategy still require human judgment.",
+  "toolMaturity": "Comp platforms like Payscale, Pave, and Mercer's AI tools are mature, widely-shipped products for market pricing and pay-equity modeling.",
+  "adoption": "Most large employers and a growing share of the mid-market now run AI-assisted compensation benchmarking as standard practice.",
+  "agenticExposure": "Multi-step agents can pull survey data, run equity audits, and draft benchmarking reports unattended, though sign-off on pay decisions stays human."
+ },
  "tasksAtRisk": [
-  "Market salary data collection and benchmarking",
-  "Pay equity analysis and reporting",
-  "Job evaluation and grading calculations",
-  "Compensation survey participation"
+  "Market salary benchmarking pulled and normalized by AI across survey sources",
+  "Pay equity audits run end-to-end by compliance-analytics agents",
+  "Job evaluation and leveling scored against AI-built architecture models",
+  "Compensation survey submission and participation handled by automated data feeds"
  ],
  "tasksGrowing": [
-  "Total rewards strategy design",
-  "Executive compensation and equity planning",
-  "AI-driven pay transparency compliance"
+  "Executive and equity compensation design for retention-critical roles",
+  "Total rewards strategy tied to AI-driven workforce planning",
+  "Pay transparency law interpretation and multi-state compliance strategy"
  ],
  "salary": {
   "low": 65000,
   "high": 110000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1141, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Compensation Platforms (Payscale, Pave)",
+   "skill": "AI Compensation Analytics Platforms (Payscale, Pave, Mercer AI)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Total Rewards Strategy",
+   "skill": "Executive & Equity Compensation Design",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "People Analytics & Data Science",
+   "skill": "Pay Transparency & Multi-State Compliance",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI automates benchmarking and analysis, but compensation analysts who design total rewards strategy, handle executive comp, and ensure pay transparency compliance are in growing demand.",
+ "insight": "AI now runs most market benchmarking and pay-equity audits directly from survey data, collapsing the analyst hours once spent compiling comp studies. Analysts who move into executive compensation design, equity strategy, and multi-state pay-transparency compliance are absorbing the higher-value work employers still won't hand to a model.",
  "industryModifiers": {
   "Tech": 5,
   "Finance": 3,

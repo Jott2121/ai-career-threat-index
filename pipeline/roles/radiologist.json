@@ -2,10 +2,20 @@
  "slug": "radiologist",
  "title": "Radiologist",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "29-1224",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 80,
+  "adoption": 58,
+  "agenticExposure": 38
+ },
+ "rationales": {
+  "taskAutomation": "AI now screens and pre-measures the large majority of normal-study volume end to end; complex, ambiguous and interventional cases still require a radiologist.",
+  "toolMaturity": "FDA-cleared imaging AI for triage, measurement and normal-study flagging is mature and embedded directly into PACS workflows.",
+  "adoption": "AI triage and flagging tools are now common across large and tech-forward hospital systems, spreading into community radiology groups.",
+  "agenticExposure": "Agentic pipelines can pre-screen studies, flag urgent findings and draft normal-study reports, with the radiologist signing off and handling complex reads."
+ },
  "tasksAtRisk": [
   "Screening standard imaging for common findings",
   "Measurements and quantification on routine scans",
@@ -22,7 +32,7 @@
   "high": 500000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 29-1224 (Radiologists), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {

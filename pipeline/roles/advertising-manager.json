@@ -1,44 +1,53 @@
 {
- "slug": "advertising-manager",
  "title": "Advertising Manager",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "11-2011",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 46,
+  "toolMaturity": 82,
+  "adoption": 64,
+  "agenticExposure": 46
+ },
+ "rationales": {
+  "taskAutomation": "Bid optimization, audience targeting, and campaign reporting are now handled end-to-end by ad platforms, but budget strategy and agency/creative direction still require a manager's judgment.",
+  "toolMaturity": "Programmatic bidding, Meta Advantage+, and Google Performance Max are mature, production-embedded tools that most advertising teams already run on by default.",
+  "adoption": "Automated bidding and AI-generated creative variants are now a mainstream expectation across mid-size and large advertisers, not just early adopters.",
+  "agenticExposure": "Agents can already run bid-and-reallocate loops and generate/rotate ad creative variants unsupervised, but cross-channel strategy and client narrative remain human-owned."
+ },
  "tasksAtRisk": [
-  "Ad creative testing and optimization",
-  "Budget allocation across channels",
-  "Campaign performance reporting",
-  "Audience targeting and segmentation"
+  "Ad creative testing and variant generation",
+  "Bid and budget reallocation across channels",
+  "Campaign performance reporting and dashboards",
+  "Audience targeting and segmentation setup"
  ],
  "tasksGrowing": [
   "Creative strategy and brand storytelling",
   "Cross-platform campaign architecture",
-  "Privacy-first advertising strategy"
+  "Privacy-first, cookieless measurement strategy"
  ],
  "salary": {
   "low": 70000,
   "high": 130000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 11-2011 Advertising and Promotions Managers, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Ad Platforms & Optimization",
+   "skill": "Agentic Ad Platform Management (Advantage+, PMax)",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Privacy-First Marketing Strategy",
+   "skill": "Privacy-First Measurement Strategy",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Creative Strategy & Direction",
+   "skill": "Creative Direction & Campaign Architecture",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI optimizes bids and targeting automatically, but advertising managers who own creative strategy, manage privacy regulations, and orchestrate multi-channel campaigns remain essential.",
+ "insight": "Bidding, targeting, and creative rotation now run themselves inside agentic ad platforms. Advertising managers who still own the budget strategy, agency relationships, and the creative narrative across channels are the ones platforms can't route around.",
  "industryModifiers": {
   "Tech": 5,
   "Retail": 3,
@@ -50,5 +59,6 @@
   "Q1 2026": 38,
   "Q2 2026": 42
  },
- "prevRiskLevel": "Moderate"
+ "prevRiskLevel": "Moderate",
+ "slug": "advertising-manager"
 }

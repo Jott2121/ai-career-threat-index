@@ -1,0 +1,53 @@
+{
+ "slug": "voice-actor",
+ "title": "Voice Actor",
+ "category": "Creative",
+ "socCode": "27-2011",
+ "tier": 1,
+ "subscores": {"taskAutomation": 45, "toolMaturity": 82, "adoption": 58, "agenticExposure": 45},
+ "rationales": {
+  "taskAutomation": "AI voice cloning and TTS now produce broadcast-usable narration, IVR prompts, and background character voices end-to-end; lead character work, emotional range, and union-protected game/animation roles are harder to fully automate.",
+  "toolMaturity": "Voice-cloning and text-to-speech tools (ElevenLabs and peers) are mature and shipped directly in audiobook, e-learning, and IVR production platforms.",
+  "adoption": "E-learning, corporate narration, and IVR production have largely adopted synthetic voice as the default; premium game and animation casting still leans human.",
+  "agenticExposure": "Script-to-voice agent pipelines can generate and iterate full narration tracks for routine formats without a voice actor in the loop."
+ },
+ "tasksAtRisk": [
+  "E-learning and corporate narration voiceover",
+  "IVR, phone-tree, and app notification voice prompts",
+  "Background and crowd character voices in games",
+  "Audiobook narration for mid-list titles"
+ ],
+ "tasksGrowing": [
+  "Lead character voice work in premium games and animation",
+  "Union-protected performance capture and dubbing",
+  "Live and interactive voice performance (events, improv)"
+ ],
+ "salary": {
+  "low": 35000,
+  "high": 90000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-2011 Actors, p25-p75 rounded",
+ "salaryTrend": "declining",
+ "defenseSkills": [
+  {
+   "skill": "Voice-Cloning Consent, Licensing & Synthetic-Voice Direction",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Lead Character & Performance-Capture Acting",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Union/AI-Rights Contract Literacy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Synthetic voice is now broadcast-quality for narration, IVR, and background game voices, and studios default to it for cost reasons. Voice actors who hold lead roles, union protections, and irreplaceable performance range are the ones still getting booked.",
+ "industryModifiers": {
+  "Tech": 8,
+  "Retail": 5,
+  "Government": -10,
+  "Healthcare": -5
+ }
+}

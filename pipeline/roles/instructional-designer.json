@@ -2,10 +2,20 @@
  "slug": "instructional-designer",
  "title": "Instructional Designer",
  "category": "Education",
- "socCode": "",
+ "socCode": "25-9031",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 55,
+  "toolMaturity": 70,
+  "adoption": 55,
+  "agenticExposure": 50
+ },
+ "rationales": {
+  "taskAutomation": "Storyboarding, assessment-question generation, and format conversion for standard e-learning courses are largely AI-automatable; learning-experience strategy and needs analysis are not.",
+  "toolMaturity": "AI course-creation platforms (Synthesia, Articulate AI features) are mature, production-deployed tools already standard in many L&D toolchains.",
+  "adoption": "Mid-2026 adoption of AI-assisted course authoring is common across corporate and higher-ed learning teams.",
+  "agenticExposure": "An agent can run the outline-to-storyboard-to-assessment pipeline for a standard course largely unsupervised; immersive/simulation design and performance consulting still need a human designer."
+ },
  "tasksAtRisk": [
   "Storyboard creation for standard courses",
   "Assessment question generation",
@@ -22,11 +32,11 @@
   "high": 100000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 25-9031 (Instructional Coordinators), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Course Creation Tools (Synthesia, Articulate)",
+   "skill": "AI Course-Creation Tools (Synthesia, Articulate AI)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -34,11 +44,11 @@
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Immersive Learning Technologies",
+   "skill": "Immersive Learning Technologies (VR/AR/Simulation)",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI generates course content and assessments quickly, but instructional designers who apply learning science, design immersive experiences, and align training with business outcomes will stay in demand.",
+ "insight": "AI now storyboards and drafts assessments for standard e-learning courses in minutes. Designers who apply learning science, build immersive/simulation experiences, and tie training to business outcomes keep the strategic seat.",
  "industryModifiers": {
   "Tech": 5,
   "Healthcare": -3,

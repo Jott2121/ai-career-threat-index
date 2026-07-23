@@ -2,31 +2,36 @@
  "slug": "music-producer",
  "title": "Music Producer",
  "category": "Creative",
- "socCode": "",
+ "socCode": "27-2012",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 45, "toolMaturity": 78, "adoption": 45, "agenticExposure": 40},
+ "rationales": {
+  "taskAutomation": "AI now generates full instrumental beats, loops, and passable mixes end-to-end, but shaping an artist's sonic identity and directing a full album remain outside reliable automation.",
+  "toolMaturity": "Suno, Udio, Soundraw, and AI mastering tools (LANDR) are mature and widely used for track generation and finishing.",
+  "adoption": "Adoption is concentrated among independent and bedroom producers; major-label studios still lean on human engineers for signature sound.",
+  "agenticExposure": "Generate-mix-master pipelines are agent-ownable for demos and background tracks, but live session direction and artist collaboration are not."
+ },
  "tasksAtRisk": [
-  "Creating beats and loops from samples",
-  "Basic mixing and mastering",
-  "Generating background music and jingles",
-  "Sound effect creation and editing"
+  "Generating beats, loops, and instrumental backing tracks",
+  "Rough mixing and stem balancing",
+  "AI mastering passes for streaming release",
+  "Royalty-free background music and jingle production"
  ],
  "tasksGrowing": [
-  "Artist development and creative vision",
-  "Live performance and sound engineering",
-  "Complex album production and sonic identity"
+  "Artist development and creative vision-setting",
+  "Live session direction and performance engineering",
+  "Full album production and cohesive sonic identity"
  ],
  "salary": {
   "low": 40000,
   "high": 120000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-2012 Producers and Directors, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Music Tools (Suno, Udio, Soundraw)",
+   "skill": "Generative Music Tools (Suno, Udio, AI Mastering)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -38,7 +43,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI generates beats and background music, but producers who shape an artist's sonic vision, engineer live performances, and craft full albums bring creative judgment AI lacks.",
+ "insight": "Generative tools now produce usable beats and masters in minutes, pulling revenue from commodity production work. Producers who build an artist's sound over a full body of work, and who can run a live session, are the ones labels still pay for.",
  "industryModifiers": {
   "Tech": 3,
   "Retail": 2

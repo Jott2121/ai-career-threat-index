@@ -1,0 +1,51 @@
+{
+  "slug": "court-clerk",
+  "title": "Court Clerk",
+  "category": "Public Service & Safety",
+  "socCode": "43-4031",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 52,
+    "toolMaturity": 60,
+    "adoption": 25,
+    "agenticExposure": 42
+  },
+  "rationales": {
+    "taskAutomation": "Docketing, filing, records requests, and fee processing are routine document handling that current AI and e-filing systems already do at high reliability.",
+    "toolMaturity": "E-filing, document management, and OCR systems are mature and widely deployed in modern court administration.",
+    "adoption": "Court systems are government bodies that adopt e-filing and automation more slowly than private legal-services firms, and many still run on legacy systems.",
+    "agenticExposure": "Filing, docketing, and routine public-counter queries form an agent-traversable pipeline of digital handoffs."
+  },
+  "tasksAtRisk": [
+    "Docketing and case-file management",
+    "Records requests and fee processing",
+    "Standard court-date scheduling",
+    "Routine public-counter information queries"
+  ],
+  "tasksGrowing": [
+    "Handling unusual or contested procedural questions",
+    "In-person courtroom support during proceedings"
+  ],
+  "salary": {
+    "low": 35000,
+    "high": 55000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 43-4031, p25-p75 rounded",
+  "salaryTrend": "stable",
+  "defenseSkills": [
+    {
+      "skill": "E-filing and court case-management system fluency",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Court procedure and records-management certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Public-facing customer service and courtroom support skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "A document-heavy government role where mature e-filing and OCR tools already cover much of the routine workload."
+}

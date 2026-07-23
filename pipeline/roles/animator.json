@@ -1,0 +1,53 @@
+{
+ "slug": "animator",
+ "title": "Animator",
+ "category": "Creative",
+ "socCode": "27-1014",
+ "tier": 1,
+ "subscores": {"taskAutomation": 48, "toolMaturity": 68, "adoption": 42, "agenticExposure": 42},
+ "rationales": {
+  "taskAutomation": "Templated motion graphics, lower-thirds, and simple 2D animation are largely automatable today; character animation, rigging, and complex VFX sequences still require skilled human animators.",
+  "toolMaturity": "Generative video tools (Runway, Pika) are improving fast and credible for short-form and pre-visualization work, but aren't yet reliable for production-grade character animation.",
+  "adoption": "Adoption is concentrated in marketing and indie production; major studio animation pipelines remain largely manual and proprietary.",
+  "agenticExposure": "Storyboard-to-rough-animation agent pipelines can produce pre-vis and short-form drafts, but final character and VFX work stays human-directed."
+ },
+ "tasksAtRisk": [
+  "Templated motion graphics and lower-thirds animation",
+  "Simple explainer and social-video animation",
+  "Rough pre-visualization from storyboards",
+  "In-between frame generation for basic 2D sequences"
+ ],
+ "tasksGrowing": [
+  "Character rigging and performance animation",
+  "Complex VFX sequence direction and compositing",
+  "Original visual style development for franchises"
+ ],
+ "salary": {
+  "low": 55000,
+  "high": 115000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 27-1014 Special Effects Artists and Animators, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "Generative Video Tools for Pre-Vis (Runway, Pika)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Character Rigging & Performance Animation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "VFX Pipeline Direction",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Generative video tools now handle rough pre-visualization and templated motion graphics, compressing early-stage production time. Animators who own character performance, rigging, and full VFX pipelines remain the load-bearing talent studios build schedules around.",
+ "industryModifiers": {
+  "Tech": 5,
+  "Retail": 3,
+  "Government": -8,
+  "Manufacturing": -5
+ }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "building-inspector",
+  "title": "Building Inspector",
+  "category": "Public Service & Safety",
+  "socCode": "47-4011",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 34,
+    "toolMaturity": 52,
+    "adoption": 20,
+    "agenticExposure": 30
+  },
+  "rationales": {
+    "taskAutomation": "Plan review against code checklists is increasingly automatable, but on-site inspection judgment and sign-off liability keep most of the job gated.",
+    "toolMaturity": "AI-assisted code-compliance plan review tools are a credible, fast-improving product category, though not yet embedded everywhere.",
+    "adoption": "Municipal building departments are budget-constrained government offices that adopt new review software slower than private engineering firms.",
+    "agenticExposure": "Automated plan-check against code is a workflow an agent can meaningfully own, while physical site inspection stays human."
+  },
+  "tasksAtRisk": [
+    "Code-compliance plan review checklists",
+    "Permit-application data verification",
+    "Inspection-report drafting"
+  ],
+  "tasksGrowing": [
+    "On-site structural and safety inspection judgment",
+    "Explaining violations and remediation to owners and contractors"
+  ],
+  "salary": {
+    "low": 50000,
+    "high": 90000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 47-4011, p25-p75 rounded",
+  "salaryTrend": "stable",
+  "defenseSkills": [
+    {
+      "skill": "AI-assisted code-compliance plan-review software",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Building code and structural-safety certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "On-site inspection and client communication skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "Plan-check paperwork is a good fit for automated compliance review; the physical walkthrough and sign-off liability are not."
+}

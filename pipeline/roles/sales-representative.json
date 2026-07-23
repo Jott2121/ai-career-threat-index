@@ -1,11 +1,20 @@
 {
- "slug": "sales-representative",
  "title": "Sales Representative",
  "category": "Marketing & Sales",
- "socCode": "",
+ "socCode": "41-3091",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 42,
+  "toolMaturity": 78,
+  "adoption": 62,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Lead scoring, CRM updates, and follow-up email drafting are digital tasks AI now performs reliably, but negotiation and deal-closing stay judgment- and trust-gated.",
+  "toolMaturity": "AI sales tools like Gong, Outreach, and Clari are mature, widely-adopted products embedded in the standard sales stack.",
+  "adoption": "AI-assisted prospecting and pipeline management is now a mainstream expectation across B2B sales organizations.",
+  "agenticExposure": "Agents can run outbound sequencing, lead scoring, and meeting-prep loops largely unsupervised, but closing complex deals still requires a human in the room."
+ },
  "tasksAtRisk": [
   "Lead scoring and qualification",
   "CRM data entry and pipeline updates",
@@ -22,11 +31,11 @@
   "high": 130000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 41-3091 Sales Representatives of Services, p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Sales Tools (Gong, Outreach, Clari)",
+   "skill": "Agentic Sales Tools (Gong, Outreach, Clari)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -38,7 +47,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI handles lead scoring and outreach automation, but complex B2B sales still depend on human trust, relationship-building, and the ability to understand nuanced client needs.",
+ "insight": "Prospecting and pipeline admin now run largely on agents. Reps who win are the ones clients trust to understand a nuanced problem and negotiate a complex deal, which no agent closes alone yet.",
  "industryModifiers": {
   "Tech": 3,
   "Retail": 5,
@@ -50,5 +59,6 @@
   "Q1 2026": 35,
   "Q2 2026": 38
  },
- "prevRiskLevel": "Moderate"
+ "prevRiskLevel": "Moderate",
+ "slug": "sales-representative"
 }

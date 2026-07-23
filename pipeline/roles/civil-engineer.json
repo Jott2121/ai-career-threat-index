@@ -1,0 +1,57 @@
+{
+ "slug": "civil-engineer",
+ "title": "Civil Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2051",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 28,
+  "toolMaturity": 55,
+  "adoption": 40,
+  "agenticExposure": 25
+ },
+ "rationales": {
+  "taskAutomation": "AI can draft preliminary site layouts, run routine structural load checks, and generate permit paperwork, but stamped drawings, public-safety liability, and site-specific judgment remain firmly human.",
+  "toolMaturity": "BIM-integrated AI plug-ins for clash detection and quantity takeoffs are credible and improving, but full autonomous civil design is far from mature.",
+  "adoption": "Large engineering firms use AI-assisted BIM and takeoff tools; most municipal and small-firm civil engineering work still runs on traditional workflows.",
+  "agenticExposure": "Agents can pre-check drawings for code compliance and flag clashes across disciplines, but site inspection, stakeholder negotiation, and PE stamping are not agent-reachable."
+ },
+ "tasksAtRisk": [
+  "Preliminary site layout and grading drafts",
+  "Routine structural load and code-compliance checks",
+  "Quantity takeoffs and permit application paperwork",
+  "BIM clash detection across disciplines"
+ ],
+ "tasksGrowing": [
+  "Site inspection and field condition assessment",
+  "Public-safety liability sign-off on stamped drawings",
+  "Stakeholder negotiation on public infrastructure projects"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 125000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2051, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted BIM & Clash Detection Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "PE Licensure & Stamped-Drawing Responsibility",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Public Infrastructure Stakeholder Management",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI now handles quantity takeoffs and BIM clash checks, but stamped drawings still carry an engineer's legal liability. Civil engineers who lean into field inspection and public-project stakeholder work stay ahead of the automation curve.",
+ "industryModifiers": {
+  "Government": -10,
+  "Tech": 3,
+  "Manufacturing": 2
+ }
+}

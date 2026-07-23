@@ -1,0 +1,58 @@
+{
+  "slug": "911-dispatcher",
+  "title": "911 Dispatcher",
+  "category": "Public Service & Safety",
+  "socCode": "43-5031",
+  "tier": 1,
+  "subscores": {
+    "taskAutomation": 32,
+    "toolMaturity": 58,
+    "adoption": 25,
+    "agenticExposure": 45
+  },
+  "rationales": {
+    "taskAutomation": "Call intake, location lookup, and unit routing are largely scripted digital work, but life-safety triage judgment under time pressure keeps most of the role gated.",
+    "toolMaturity": "Next-gen 911 systems, automatic location/translation, and AI-assisted call triage are already embedded in modern CAD platforms.",
+    "adoption": "Only well-funded metro 911 centers have deployed the newer AI-assisted triage tools; most county and rural centers still run on older CAD systems.",
+    "agenticExposure": "Call intake, routing, and unit dispatch form a pipeline of digital decisions an agent can traverse, tempered by the liability of getting a life-safety call wrong."
+  },
+  "tasksAtRisk": [
+    "Caller location lookup and unit routing",
+    "Call transcription and CAD data entry",
+    "Routine non-emergency call triage",
+    "Shift and resource-status logging"
+  ],
+  "tasksGrowing": [
+    "Live triage judgment on ambiguous or high-stress calls",
+    "Cross-agency coordination during major incidents",
+    "De-escalating callers in crisis"
+  ],
+  "salary": {
+    "low": 40000,
+    "high": 65000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 43-5031, p25-p75 rounded",
+  "salaryTrend": "rising",
+  "defenseSkills": [
+    {
+      "skill": "Next-gen 911 (NG911) and AI-assisted CAD platform fluency",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Emergency medical dispatch (EMD) certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "High-stress call triage and de-escalation skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "Dispatch is one of the most digitally automatable public-safety jobs on this index, and NG911 tooling is already mature. What keeps adoption slow is money and liability, not capability: the gap between a well-funded metro center and a rural county center is enormous.",
+  "industryModifiers": {
+    "Tech": 10,
+    "Healthcare": 4,
+    "Government": -9,
+    "Finance": -4
+  }
+}

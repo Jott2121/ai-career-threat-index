@@ -2,32 +2,37 @@
  "slug": "graphic-designer",
  "title": "Graphic Designer",
  "category": "Creative",
- "socCode": "",
+ "socCode": "27-1024",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 58, "toolMaturity": 80, "adoption": 68, "agenticExposure": 50},
+ "rationales": {
+  "taskAutomation": "Template-driven production work like social graphics, icon sets, and layout variations is now generated end-to-end; brand strategy and creative direction still require human judgment.",
+  "toolMaturity": "Midjourney, Adobe Firefly, and Figma AI generate production-ready assets natively inside standard design toolchains.",
+  "adoption": "Most marketing teams and agencies now default to AI-assisted design for first-pass concepts and routine production work.",
+  "agenticExposure": "Agents can run brief-to-asset pipelines end-to-end for routine formats, though brand-critical work still routes through a human."
+ },
  "tasksAtRisk": [
-  "Creating social media graphics from templates",
-  "Generating logo concepts and variations",
-  "Photo editing and retouching",
-  "Banner and ad creative production",
-  "Icon and illustration generation"
+  "Generating social media graphics and ad variants from a brief",
+  "Producing logo concepts and iteration sets",
+  "Batch photo retouching and background removal",
+  "Resizing and reformatting creative across channels",
+  "Icon, pattern, and stock illustration generation"
  ],
  "tasksGrowing": [
-  "Brand identity system development",
-  "Creative direction and art direction",
-  "Complex multi-channel design systems"
+  "Brand identity systems and visual strategy",
+  "Creative direction across multi-channel campaigns",
+  "Motion design and interactive brand experiences"
  ],
  "salary": {
   "low": 50000,
   "high": 95000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-1024 Graphic Designers, p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Design Tools (Midjourney, Firefly, Figma AI)",
+   "skill": "Agentic design pipelines (Firefly, Figma AI)",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -39,7 +44,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI generates graphics and variations in seconds, reducing demand for production design. Graphic designers who own brand systems, creative direction, and motion design will remain highly valued.",
+ "insight": "AI now produces most first-pass design work in seconds, and agentic pipelines can take a brief through export without a human touch for template-driven formats. Designers who own brand systems, creative direction, and motion work are pulling further ahead of production-only roles.",
  "industryModifiers": {
   "Tech": 5,
   "Retail": 3,

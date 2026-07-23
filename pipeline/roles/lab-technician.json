@@ -2,10 +2,20 @@
  "slug": "lab-technician",
  "title": "Lab Technician",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "29-2012",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 36,
+  "toolMaturity": 62,
+  "adoption": 46,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "Routine sample processing, QC logging and standard result interpretation are largely automatable, but specimen handling and equipment troubleshooting remain physical, hands-on work.",
+  "toolMaturity": "Lab automation platforms and AI-assisted QC/anomaly flagging are credible and improving fast, short of full embedding across most clinical labs.",
+  "adoption": "Automated analyzers and AI flagging are common in large hospital and reference labs, spreading into smaller clinical labs.",
+  "agenticExposure": "Agents can already own QC logging, result flagging and calibration scheduling, but physical specimen handling keeps the core role out of reach."
+ },
  "tasksAtRisk": [
   "Routine sample processing and analysis",
   "Quality control data logging",
@@ -22,11 +32,11 @@
   "high": 70000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 29-2012 (Medical and Clinical Laboratory Technicians), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "Lab Automation Technology",
+   "skill": "Lab Automation System Management",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -38,7 +48,7 @@
    "link": "/guides/ai-career-paths/"
   }
  ],
- "insight": "Automated analyzers and AI handle routine testing, but lab techs who manage automation systems, troubleshoot complex specimens, and validate new testing methods remain essential to clinical labs.",
+ "insight": "Automated analyzers and AI-based QC flagging now handle the bulk of routine testing volume end to end, but someone still has to load, prep and troubleshoot the physical specimen path. Techs who manage lab automation systems and validate new assays keep growing scope.",
  "industryModifiers": {
   "Healthcare": 3,
   "Manufacturing": 2,
@@ -50,5 +60,6 @@
   "Q1 2026": 44,
   "Q2 2026": 48
  },
- "prevRiskLevel": "Moderate"
+ "prevRiskLevel": "Moderate",
+ "restatement": "Under v2's realization ceiling, hands-on specimen handling caps automation well below where v1's flatter composite placed this role; instrument and QC automation are real but don't reach the physical core of the job."
 }

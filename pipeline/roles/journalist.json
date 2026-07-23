@@ -2,31 +2,37 @@
  "slug": "journalist",
  "title": "Journalist",
  "category": "Creative",
- "socCode": "",
+ "socCode": "27-3023",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 47, "toolMaturity": 76, "adoption": 56, "agenticExposure": 54},
+ "rationales": {
+  "taskAutomation": "AI reliably drafts commodity stories today — earnings recaps, sports summaries, weather, and aggregation — but original reporting, sourcing, and verification remain human-gated.",
+  "toolMaturity": "LLM-based drafting, transcription, and summarization tools are mature and embedded in most newsroom CMS workflows.",
+  "adoption": "AI drafting and research assistance is now standard at large digital newsrooms and wire services, spreading to mid-market outlets.",
+  "agenticExposure": "Research-summarize-draft agent loops can own routine beat coverage and news aggregation, but original sourcing and editorial judgment stay outside agent reach."
+ },
  "tasksAtRisk": [
-  "Earnings report summaries and data-driven stories",
-  "Sports scores and game recaps",
-  "Aggregating news from multiple sources",
-  "Fact-checking standard claims"
+  "Earnings, market, and data-driven story drafts",
+  "Sports recaps and box-score summaries",
+  "Aggregating and summarizing wire and multi-source coverage",
+  "Routine fact-checking against structured sources",
+  "SEO headline and social copy variants for published stories"
  ],
  "tasksGrowing": [
-  "Investigative reporting and original sourcing",
-  "Feature writing with narrative depth",
-  "Analysis and opinion with unique perspective"
+  "Original investigative reporting and human sourcing",
+  "Long-form feature writing with narrative voice",
+  "Analysis and opinion built on verified, on-the-record reporting"
  ],
  "salary": {
   "low": 40000,
   "high": 90000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-3023 News Analysts, Reporters, and Journalists, p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
-   "skill": "AI Research & OSINT Tools",
+   "skill": "AI-Assisted Research & OSINT Verification",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -34,11 +40,11 @@
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Audience Growth & Newsletter Strategy",
+   "skill": "Source Development & Investigative Reporting",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI writes commodity news (earnings, scores, weather), but journalists who do original reporting, investigate stories, and bring unique perspective are more important in an AI-saturated information environment.",
+ "insight": "AI now drafts most commodity news competently, and journalists increasingly edit AI output rather than write it from scratch. In an AI-saturated information environment, original reporting and verified sourcing carry a trust premium algorithms can't replicate.",
  "industryModifiers": {
   "Tech": 3,
   "Government": -3

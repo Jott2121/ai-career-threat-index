@@ -1,0 +1,58 @@
+{
+ "title": "Customer Success Manager",
+ "category": "Marketing & Sales",
+ "socCode": "11-9199",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 42,
+  "toolMaturity": 72,
+  "adoption": 58,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Onboarding sequences, usage-health monitoring, and renewal reminders are digital and increasingly automated, but enterprise relationship management and escalation judgment gate the core role.",
+  "toolMaturity": "Customer-success platforms like Gainsight and ChurnZero now ship credible AI health-scoring and playbook automation that is improving quickly.",
+  "adoption": "AI-assisted health scoring and automated onboarding are common at scale in SaaS but far from universal outside tech.",
+  "agenticExposure": "Agents can run onboarding checklists, usage alerts, and low-touch renewal workflows end-to-end, while high-ACV account strategy stays with the human CSM."
+ },
+ "tasksAtRisk": [
+  "Onboarding checklist execution and follow-ups",
+  "Usage and health-score monitoring",
+  "Low-touch renewal reminders and paperwork",
+  "Standard QBR deck assembly"
+ ],
+ "tasksGrowing": [
+  "Enterprise relationship and escalation management",
+  "Strategic account expansion planning",
+  "Cross-functional advocacy for at-risk accounts"
+ ],
+ "salary": {
+  "low": 65000,
+  "high": 120000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-9199 Managers, All Other (closest match; high end extended toward SaaS market postings)",
+ "salaryTrend": "mixed",
+ "defenseSkills": [
+  {
+   "skill": "AI Health-Scoring & Playbook Platforms (Gainsight)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Enterprise Escalation & Renewal Negotiation",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Account Expansion Strategy",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Low-touch onboarding and renewal reminders now run on automated playbooks, which is exactly why headcount is under pressure at SaaS companies in 2026. CSMs who survive own the enterprise accounts where an escalation or expansion conversation still needs a trusted human relationship.",
+ "industryModifiers": {
+  "SaaS/Tech": 10,
+  "Enterprise B2B": -8,
+  "Healthcare SaaS": -6,
+  "SMB-focused CS": 6
+ },
+ "slug": "customer-success-manager"
+}

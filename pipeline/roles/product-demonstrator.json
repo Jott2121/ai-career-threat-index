@@ -1,0 +1,51 @@
+{
+ "title": "Product Demonstrator",
+ "category": "Marketing & Sales",
+ "socCode": "41-9011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 16,
+  "toolMaturity": 40,
+  "adoption": 22,
+  "agenticExposure": 8
+ },
+ "rationales": {
+  "taskAutomation": "The core work is live, in-person product sampling and demonstration; only pitch-script drafting is a fully digital, automatable task.",
+  "toolMaturity": "Generic LLM tools can draft talking points, but no role-specific automation exists for physical in-store or event demonstration.",
+  "adoption": "Very few brands use structured AI-scripted demo content today; this remains an early-adopter niche.",
+  "agenticExposure": "This is physical, in-person work that current agents cannot reach; nothing in the core role is agent-ownable."
+ },
+ "tasksAtRisk": [
+  "Pitch script and talking-point drafting",
+  "Basic promotional signage copy",
+  "Post-event attendance and sample-count reporting"
+ ],
+ "tasksGrowing": [
+  "Live product demonstration and sampling",
+  "In-person Q&A and objection handling",
+  "Event setup and brand-experience delivery"
+ ],
+ "salary": {
+  "low": 24000,
+  "high": 42000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-9011 Demonstrators and Product Promoters, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Pitch Script Drafting",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Live Demonstration & Audience Engagement",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Event Brand Experience Delivery",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "This is one of the most physically-grounded, in-person roles in marketing, and it stays that way: AI can write the script, but it can't stand at the sample table and make the pitch.",
+ "slug": "product-demonstrator"
+}

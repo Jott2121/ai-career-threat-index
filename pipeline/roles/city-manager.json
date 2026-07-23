@@ -1,0 +1,51 @@
+{
+  "slug": "city-manager",
+  "title": "City Manager",
+  "category": "Public Service & Safety",
+  "socCode": "11-1011",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 20,
+    "toolMaturity": 42,
+    "adoption": 18,
+    "agenticExposure": 15
+  },
+  "rationales": {
+    "taskAutomation": "Budget oversight, personnel decisions, council relations, and public accountability define the role and rest on judgment and relationships AI cannot replace.",
+    "toolMaturity": "Budget-analytics and reporting-dashboard tools are useful but generic; nothing purpose-built for municipal executive leadership has real traction.",
+    "adoption": "Municipal government is one of the slowest sectors to change executive workflows, and most cities still run budget and reporting processes manually.",
+    "agenticExposure": "Cross-department coordination and public accountability require human authority and relationships that autonomous agents cannot hold."
+  },
+  "tasksAtRisk": [
+    "Budget-report compilation and dashboard generation",
+    "Routine council-meeting briefing documents",
+    "Standard grant and compliance paperwork"
+  ],
+  "tasksGrowing": [
+    "Council and community relationship management",
+    "Personnel leadership and organizational decision-making",
+    "Crisis and public-accountability leadership"
+  ],
+  "salary": {
+    "low": 90000,
+    "high": 180000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 11-1011 (closest detailed occupation), adjusted toward ICMA municipal-manager survey data",
+  "salaryTrend": "stable",
+  "defenseSkills": [
+    {
+      "skill": "AI-assisted budget-analytics and dashboard tools",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Public-sector executive leadership certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Council relations and public communication skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "An executive role where AI helps with reporting mechanics but not the accountability and relationship work that defines the job."
+}

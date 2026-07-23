@@ -1,0 +1,52 @@
+{
+ "slug": "esl-teacher",
+ "title": "ESL Teacher",
+ "category": "Education",
+ "socCode": "25-3011",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 38,
+  "toolMaturity": 72,
+  "adoption": 45,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Vocabulary drills, pronunciation practice, and basic grammar exercises are now handled well by language-learning AI, but assessing real communicative competence and cultural context is not.",
+  "toolMaturity": "AI language tools (adaptive practice apps, real-time translation, conversational AI partners) are mature and widely shipped.",
+  "adoption": "Language-learning apps are now commonly used to supplement formal ESL instruction in schools and adult-education programs.",
+  "agenticExposure": "Adaptive-practice agents can already run drill-and-assess loops autonomously, though placement testing and classroom-level communicative teaching remain human-led."
+ },
+ "tasksAtRisk": [
+  "Vocabulary and grammar drill generation",
+  "Pronunciation practice and feedback",
+  "Basic placement-test administration and scoring",
+  "Take-home practice material creation"
+ ],
+ "tasksGrowing": [
+  "Communicative competence assessment",
+  "Cultural context and idiom instruction",
+  "Individualized language-acquisition coaching"
+ ],
+ "salary": {
+  "low": 44000,
+  "high": 78000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 25-3011 (Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI Language-Learning Platforms (adaptive practice, real-time translation)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Communicative Competence Assessment",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "TESOL/TEFL Certification",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI language apps now handle vocabulary drills and pronunciation practice well. ESL teachers who assess real communicative competence and teach cultural context remain the harder-to-automate part of the job."
+}

@@ -2,15 +2,24 @@
  "slug": "supply-chain-analyst",
  "title": "Supply Chain Analyst",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "13-1081",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 52,
+  "toolMaturity": 74,
+  "adoption": 58,
+  "agenticExposure": 48
+ },
+ "rationales": {
+  "taskAutomation": "Demand forecasting and inventory-optimization calculations are increasingly automated, but network design and disruption strategy require judgment models can't yet own.",
+  "toolMaturity": "AI forecasting and supply-chain optimization tools are credible and improving quickly, approaching the maturity of established analytics platforms.",
+  "adoption": "Common at large manufacturing, retail, and tech-forward supply chains; spreading to mid-market operations.",
+  "agenticExposure": "Forecast generation and scorecarding are agent-ownable; multi-tier network redesign and crisis response stay with a human analyst."
+ },
  "tasksAtRisk": [
-  "Demand forecasting with historical data",
-  "Inventory level optimization calculations",
-  "Standard logistics reporting",
-  "Supplier performance scorecarding"
+  "Demand forecasting from historical and real-time data",
+  "Inventory-level optimization calculations",
+  "Standard logistics and supplier-performance reporting"
  ],
  "tasksGrowing": [
   "Supply chain disruption response strategy",
@@ -22,23 +31,23 @@
   "high": 100000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1081 (Logisticians); range reflects analyst-level positions within the broader logistician occupation",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Supply Chain Optimization Tools",
+   "skill": "AI Supply Chain Forecasting & Optimization Tools",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Supply Chain Risk & Resilience",
+   "skill": "Supply Chain Risk & Resilience Design",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Data Science for Operations",
+   "skill": "Applied Data Science for Operations",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI excels at demand forecasting and inventory optimization, but supply chain analysts who manage disruptions, design resilient networks, and plan for sustainability remain essential.",
+ "insight": "Forecasting and inventory math are now largely AI-generated starting points, but building a network that survives a real disruption still takes an analyst who understands the business, not just the model. That keeps this role Moderate rather than sliding toward High.",
  "industryModifiers": {
   "Tech": 3,
   "Manufacturing": 5,

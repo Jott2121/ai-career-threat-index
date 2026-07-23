@@ -1,0 +1,58 @@
+{
+ "slug": "electrical-engineer",
+ "title": "Electrical Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2071",
+ "tier": 1,
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 65,
+  "adoption": 48,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "AI can auto-route PCB layouts, generate schematic-to-netlist checks, and draft compliance documentation, but power-system safety margins and novel circuit topology design stay with the engineer.",
+  "toolMaturity": "AI-assisted EDA tools (auto-placement, DRC checking, signal-integrity analysis) are mature in mainstream PCB and chip-design suites.",
+  "adoption": "Semiconductor and consumer-electronics firms use AI-assisted layout and verification broadly; industrial and utility electrical engineering adopts more slowly.",
+  "agenticExposure": "Agents can run design-rule checks, regression test suites, and compliance-doc generation end to end, but field commissioning and safety-critical sign-off require a licensed engineer."
+ },
+ "tasksAtRisk": [
+  "Automated PCB placement, routing, and design-rule checking",
+  "Generating schematic-to-netlist verification reports",
+  "Drafting standard compliance and test documentation",
+  "Running routine signal-integrity and power-analysis simulations"
+ ],
+ "tasksGrowing": [
+  "Novel circuit topology and power-system architecture design",
+  "Field commissioning and safety-critical system validation",
+  "Cross-domain integration with mechanical and software teams"
+ ],
+ "salary": {
+  "low": 85000,
+  "high": 140000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2071, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted EDA & PCB Design Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Power Systems & Safety-Critical Design",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Agentic Test-Bench Automation Oversight",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Layout, routing, and compliance paperwork are increasingly automated by AI-assisted EDA tools. Electrical engineers who specialize in power-system architecture, safety-critical validation, and system integration hold the ground AI can't reach yet.",
+ "industryModifiers": {
+  "Tech": 8,
+  "Manufacturing": 5,
+  "Government": -8,
+  "Healthcare": -3
+ }
+}

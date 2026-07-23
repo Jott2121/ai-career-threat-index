@@ -2,15 +2,25 @@
  "slug": "procurement-specialist",
  "title": "Procurement Specialist",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "13-1023",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 58,
+  "toolMaturity": 72,
+  "adoption": 58,
+  "agenticExposure": 45
+ },
+ "rationales": {
+  "taskAutomation": "Purchase-order creation, catalog management, and routine vendor comparison are largely automatable; strategic sourcing and contract negotiation are not.",
+  "toolMaturity": "AI procurement platforms with spend-analysis and vendor-matching are credible and improving fast, though not yet as embedded as mainstream coding or writing copilots.",
+  "adoption": "Adoption is common at large enterprises with mature procurement functions, spreading toward mid-market.",
+  "agenticExposure": "Routine PO processing and invoice-matching chains are agent-ownable; complex negotiation and supplier-risk judgment remain human."
+ },
  "tasksAtRisk": [
   "Purchase order creation and processing",
-  "Vendor comparison for standard items",
+  "Vendor comparison for standard, non-strategic items",
   "Invoice matching and approval routing",
-  "Catalog management and pricing updates"
+  "Catalog and pricing data management"
  ],
  "tasksGrowing": [
   "Strategic supplier relationship management",
@@ -22,15 +32,15 @@
   "high": 90000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 13-1023 (Purchasing Agents, Except Wholesale, Retail, and Farm Products), p25-p75 rounded",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Procurement Platforms",
+   "skill": "AI Procurement & Spend-Analysis Platforms",
    "link": "/guides/ai-skills-resume/"
   },
   {
-   "skill": "Strategic Sourcing & Negotiation",
+   "skill": "Strategic Sourcing & Contract Negotiation",
    "link": "/guides/ai-career-paths/"
   },
   {
@@ -38,7 +48,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI automates purchase orders and vendor comparisons, but strategic sourcing, complex negotiations, and supply chain risk assessment need human judgment and relationship skills.",
+ "insight": "AI now handles the transactional half of procurement — POs, catalog pricing, invoice matching — leaving negotiation and supplier risk as the durable core. Specialists who move up into strategic sourcing hold a clearly defensible High-but-not-Very-High position.",
  "industryModifiers": {
   "Tech": 3,
   "Manufacturing": -3,

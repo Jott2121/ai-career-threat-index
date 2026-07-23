@@ -1,0 +1,51 @@
+{
+ "slug": "chemist",
+ "title": "Chemist",
+ "category": "Science & Engineering",
+ "socCode": "19-2031",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 34,
+  "toolMaturity": 58,
+  "adoption": 40,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "AI can propose candidate reaction pathways and draft analytical reports, but bench synthesis, purification, and instrument calibration remain physical lab work.",
+  "toolMaturity": "AI-assisted retrosynthesis and spectral-analysis tools are credible and gaining traction in pharma and specialty-chemical labs.",
+  "adoption": "Adoption concentrates in large pharmaceutical and chemical-manufacturing R&D labs; academic and small-lab settings lag.",
+  "agenticExposure": "Agents can propose synthesis routes and interpret routine spectra, but physical bench work and safety judgment in the lab require a chemist present."
+ },
+ "tasksAtRisk": [
+  "Reaction pathway proposal and retrosynthesis screening",
+  "Routine spectral data interpretation",
+  "Analytical method report drafting"
+ ],
+ "tasksGrowing": [
+  "Bench synthesis, purification, and hands-on lab technique",
+  "Novel compound discovery and hypothesis generation",
+  "Lab safety judgment and hazardous-material handling"
+ ],
+ "salary": {
+  "low": 60000,
+  "high": 110000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-2031, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Retrosynthesis Tools",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Bench Synthesis & Lab Technique",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Novel Compound Discovery & Hypothesis Design",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI can now suggest reaction routes and read routine spectra, but someone still has to run the bench, handle the hazards, and judge when a novel result is real. That physical and hypothesis-generation work keeps chemists in the lab."
+}

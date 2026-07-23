@@ -1,0 +1,52 @@
+{
+ "title": "Account Executive",
+ "category": "Marketing & Sales",
+ "socCode": "41-3091",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 38,
+  "toolMaturity": 80,
+  "adoption": 68,
+  "agenticExposure": 46
+ },
+ "rationales": {
+  "taskAutomation": "AI SDR tools and CRM automation now handle prospecting, sequencing, and pipeline hygiene, but negotiating and closing complex, high-value deals stays trust- and judgment-gated.",
+  "toolMaturity": "AI sales platforms like Gong, Clari, and AI SDR tools are mature, widely-shipped products embedded in modern sales stacks.",
+  "adoption": "AI-assisted prospecting and deal intelligence are now mainstream in tech and SaaS sales organizations.",
+  "agenticExposure": "Agents can run outbound sequencing, meeting prep, and pipeline updates largely unsupervised, but they don't close enterprise deals on their own."
+ },
+ "tasksAtRisk": [
+  "Outbound prospecting and sequencing",
+  "Pipeline hygiene and CRM updates",
+  "Meeting prep and call summarization",
+  "Proposal and quote generation"
+ ],
+ "tasksGrowing": [
+  "Enterprise deal negotiation and closing",
+  "Multi-stakeholder relationship management",
+  "Complex solution scoping with technical buyers"
+ ],
+ "salary": {
+  "low": 70000,
+  "high": 160000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 41-3091 Sales Representatives of Services (base+OTE high end extended toward SaaS market postings)",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI SDR & Deal-Intelligence Tools (Gong, Clari)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Enterprise Negotiation & Closing",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Multi-Stakeholder Solution Selling",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "Prospecting and pipeline admin now run largely on AI SDR agents. What still requires a human is reading the room across a multi-stakeholder buying committee and closing a deal a prospect has to trust.",
+ "slug": "account-executive"
+}

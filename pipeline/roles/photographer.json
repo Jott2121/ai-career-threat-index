@@ -2,27 +2,32 @@
  "slug": "photographer",
  "title": "Photographer",
  "category": "Creative",
- "socCode": "",
+ "socCode": "27-4021",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {"taskAutomation": 38, "toolMaturity": 78, "adoption": 50, "agenticExposure": 38},
+ "rationales": {
+  "taskAutomation": "Stock and product photography, plus batch retouching, are largely reproducible by generative image tools; event, portrait, and photojournalism work still require physical presence and human rapport.",
+  "toolMaturity": "Generative image tools (Midjourney, Firefly) and AI editing suites (Lightroom AI, Luminar) are mature and standard in the workflow.",
+  "adoption": "E-commerce and stock-photo buyers have shifted much of their volume to AI generation; event and portrait segments show far less adoption.",
+  "agenticExposure": "Agent pipelines can shoot-list, batch-edit, and tag product catalogs end-to-end; they cannot replace a photographer's physical presence at a shoot."
+ },
  "tasksAtRisk": [
-  "Basic photo editing and batch processing",
-  "Product photography for e-commerce",
-  "Stock photo production",
-  "Photo metadata and keywording"
+  "Stock photography production for common subjects",
+  "Product photography for e-commerce catalogs",
+  "Batch photo editing, retouching, and background removal",
+  "Photo metadata, tagging, and catalog organization"
  ],
  "tasksGrowing": [
-  "Event and portrait photography (physical presence)",
+  "Event and portrait photography requiring physical presence",
   "Creative direction and art direction for shoots",
-  "Specialized photography (architecture, food, fashion)"
+  "Specialized photography (architecture, food, fashion editorial)"
  ],
  "salary": {
   "low": 35000,
   "high": 85000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 27-4021 Photographers, p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
@@ -38,7 +43,7 @@
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI generates stock imagery and handles editing, but photographers who show up in person — for events, portraits, and specialized shoots — provide an experience AI cannot replicate.",
+ "insight": "Generative image tools have largely displaced commodity stock and product photography. Photographers whose work depends on being physically present — weddings, events, editorial shoots — remain far more insulated than catalog and stock work.",
  "industryModifiers": {
   "Retail": 3,
   "Tech": 2,

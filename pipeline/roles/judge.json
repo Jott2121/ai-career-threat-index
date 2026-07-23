@@ -1,0 +1,48 @@
+{
+ "slug": "judge",
+ "title": "Judge",
+ "category": "Legal",
+ "socCode": "23-1023",
+ "tier": 1,
+ "subscores": {"taskAutomation": 12, "toolMaturity": 30, "adoption": 10, "agenticExposure": 8},
+ "rationales": {
+  "taskAutomation": "AI can draft bench-memo summaries and check sentencing math, but the constitutional and statutory requirement for a human decision-maker keeps the core act of adjudication essentially non-delegable regardless of AI capability.",
+  "toolMaturity": "Generic legal-research and drafting tools apply in chambers, but no widely deployed product targets judicial decision-making itself; adoption for the bench remains niche and unproven.",
+  "adoption": "Use of AI directly in judicial decision-making is rare and actively discouraged by judicial ethics guidance; courts remain among the most conservative institutional adopters.",
+  "agenticExposure": "Autonomous agents can prep case files and flag precedent, but binding rulings, sentencing, and courtroom credibility findings sit outside current agentic reach by law, not just capability."
+ },
+ "tasksAtRisk": [
+  "Case-law research and precedent summarization for pending motions",
+  "Sentencing-guideline calculation and consistency checks",
+  "Docket scheduling and case-management logistics",
+  "First-draft procedural order and boilerplate ruling generation"
+ ],
+ "tasksGrowing": [
+  "Courtroom fact-finding and witness credibility assessment",
+  "Novel constitutional and first-impression legal questions",
+  "Sentencing and equitable discretion in ambiguous, high-stakes cases"
+ ],
+ "salary": {
+  "low": 95000,
+  "high": 200000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 23-1023, p25-p75 rounded (state/local judiciary; federal Article III judicial pay is set by statute, not OES)",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Judicial Research Oversight (CoCounsel, Westlaw AI)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Case-Management Technology Administration",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "Judicial Ethics & AI Governance in Court Technology",
+   "link": "/guides/ai-agents-guide/"
+  }
+ ],
+ "insight": "AI now drafts bench memos and flags precedent for chambers staff, but the requirement for a human judicial officer to weigh credibility and issue binding rulings structurally insulates the bench regardless of AI capability. The real disruption lands on the clerks and researchers who prepare the record a judge reviews, not the judge's own docket.",
+ "industryModifiers": {"Government": -12, "Tech": 4, "Finance": 2, "Healthcare": -3}
+}

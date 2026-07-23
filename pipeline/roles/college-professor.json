@@ -2,15 +2,25 @@
  "slug": "college-professor",
  "title": "College Professor",
  "category": "Education",
- "socCode": "",
+ "socCode": "25-1199",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 32,
+  "toolMaturity": 55,
+  "adoption": 42,
+  "agenticExposure": 28
+ },
+ "rationales": {
+  "taskAutomation": "Lecture-slide generation, first-pass grading of structured assignments, and syllabus/reading-list assembly are automatable, but original research, seminar facilitation, and mentorship are not.",
+  "toolMaturity": "AI writing detectors, grading assistants, and generative slide/content tools are credible and improving but not yet a unified professor toolchain.",
+  "adoption": "AI use for course-material drafting and grading support is spreading across universities, though research and tenure-track work remain largely unaffected.",
+  "agenticExposure": "Agents can competently run literature-summary and first-draft loops for course content, but cannot conduct original research or graduate mentorship."
+ },
  "tasksAtRisk": [
-  "Creating standard lecture materials",
-  "Grading essays with rubrics (first pass)",
+  "Drafting standard lecture slides and materials",
+  "First-pass grading of essays against a rubric",
   "Generating reading lists and syllabi",
-  "Administrative paperwork and reporting"
+  "Administrative reporting and accreditation paperwork"
  ],
  "tasksGrowing": [
   "Original research and knowledge creation",
@@ -22,11 +32,11 @@
   "high": 150000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 25-1199 (Postsecondary Teachers, All Other), p25-p75 with upward allowance for high-paying fields (business, law, medicine)",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI-Enhanced Research Methods",
+   "skill": "AI-Enhanced Research Methods & Literature Synthesis",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -34,11 +44,11 @@
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Digital Pedagogy",
+   "skill": "Digital Pedagogy & Academic Integrity Tools",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI assists with course materials and grading, but professors who produce original research, facilitate deep learning through discussion, and mentor the next generation are irreplaceable in higher education.",
+ "insight": "Course prep and first-pass grading increasingly run through AI, but professors who produce original research, run genuine seminar discussion, and mentor graduate students remain hard to displace. The bigger near-term shift is defending academic integrity against AI-written student work.",
  "industryModifiers": {
   "Government": -3,
   "Tech": 3

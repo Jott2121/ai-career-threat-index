@@ -2,44 +2,54 @@
  "slug": "executive-assistant",
  "title": "Executive Assistant",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "43-6011",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 66,
+  "toolMaturity": 82,
+  "adoption": 62,
+  "agenticExposure": 52
+ },
+ "rationales": {
+  "taskAutomation": "Scheduling and correspondence are largely automatable, but confidential judgment calls, stakeholder diplomacy, and ambiguous prioritization for a specific executive still require a person.",
+  "toolMaturity": "AI scheduling, email drafting, and briefing-prep tools are mature and widely embedded in executive productivity suites.",
+  "adoption": "Adoption is common at large and tech-forward employers but slower where confidentiality and single-principal trust matter most.",
+  "agenticExposure": "Agents can own discrete chains such as briefing assembly and travel logistics, but the trusted, principal-specific judgment core of the role resists autonomous ownership."
+ },
  "tasksAtRisk": [
-  "Calendar coordination and scheduling",
-  "Email screening and drafting responses",
-  "Travel arrangements and itineraries",
-  "Meeting preparation and materials assembly",
+  "Calendar coordination across multiple stakeholders",
+  "Email screening, prioritization, and draft responses",
+  "Travel arrangements and itinerary assembly",
+  "Meeting briefing packets and materials preparation",
   "Expense report processing"
  ],
  "tasksGrowing": [
   "Strategic executive support and decision prep",
-  "Confidential project management",
-  "Stakeholder relationship management"
+  "Confidential project and stakeholder management",
+  "Directing and quality-checking AI-assisted work product"
  ],
  "salary": {
   "low": 55000,
   "high": 95000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 43-6011 (Executive Secretaries and Executive Administrative Assistants), p25-p75; upper end reflects senior EA postings at large tech/finance employers",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "AI Executive Productivity Tools",
-   "link": "/guides/ai-skills-resume/"
-  },
-  {
-   "skill": "Project & Program Management",
+   "skill": "Executive Judgment & Confidential Stakeholder Management",
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Business Operations Strategy",
+   "skill": "AI-Assisted Briefing & Decision-Prep Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Chief-of-Staff Style Operations",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI handles scheduling and email, but executive assistants who function as strategic partners — managing confidential projects, preparing decision briefs, and handling stakeholder relationships — remain essential.",
+ "insight": "AI now assembles the calendar, drafts the emails, and preps the briefing deck; what it can't do is read a principal's unstated priorities or manage the politics around them. EAs who move toward chief-of-staff-style trusted advising hold their ground better than those who stay purely logistical.",
  "industryModifiers": {
   "Tech": 3,
   "Finance": 2,

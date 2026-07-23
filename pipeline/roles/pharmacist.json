@@ -2,10 +2,20 @@
  "slug": "pharmacist",
  "title": "Pharmacist",
  "category": "Healthcare",
- "socCode": "",
+ "socCode": "29-1051",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 40,
+  "toolMaturity": 70,
+  "adoption": 55,
+  "agenticExposure": 35
+ },
+ "rationales": {
+  "taskAutomation": "Prescription verification, interaction screening, claims adjudication and inventory ordering are substantially automatable; clinical consultation and complex therapy management are not.",
+  "toolMaturity": "Robotic dispensing and AI interaction-checking are mature and standard in most large pharmacy operations.",
+  "adoption": "AI-driven dispensing and adjudication tools are common across large retail and hospital pharmacy chains.",
+  "agenticExposure": "Agentic workflows can run verification-to-dispensing end to end with a pharmacist checking exceptions, though the final clinical check-off stays licensed and human."
+ },
  "tasksAtRisk": [
   "Prescription verification and dispensing",
   "Drug interaction screening",
@@ -22,7 +32,7 @@
   "high": 160000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 29-1051 (Pharmacists), p25-p75 rounded",
  "salaryTrend": "mixed",
  "defenseSkills": [
   {
@@ -38,7 +48,7 @@
    "link": "/guides/ai-skills-resume/"
   }
  ],
- "insight": "Automated dispensing and AI interaction checkers handle routine pharmacy tasks. Pharmacists expanding into clinical consultation, medication therapy management, and personalized medicine will flourish.",
+ "insight": "Robotic dispensing and AI interaction-checking now run routine fills close to end to end, with a pharmacist reviewing exceptions. Pharmacists moving into clinical consultation and medication-therapy management are seeing their scope grow, not shrink.",
  "industryModifiers": {
   "Healthcare": 3,
   "Retail": 5,

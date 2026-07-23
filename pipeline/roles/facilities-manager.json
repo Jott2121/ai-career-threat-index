@@ -2,31 +2,41 @@
  "slug": "facilities-manager",
  "title": "Facilities Manager",
  "category": "Administrative & Operations",
- "socCode": "",
+ "socCode": "11-3013",
  "tier": 1,
- "subscores": {},
- "rationales": {},
+ "subscores": {
+  "taskAutomation": 42,
+  "toolMaturity": 65,
+  "adoption": 50,
+  "agenticExposure": 32
+ },
+ "rationales": {
+  "taskAutomation": "Work-order routing, maintenance scheduling, and energy/space reporting are meaningfully automatable, but vendor negotiation, safety judgment, and on-site building operations are not.",
+  "toolMaturity": "Smart-building IoT platforms and AI-driven maintenance-prediction tools are credible and improving quickly, though not yet universal across building stock.",
+  "adoption": "Adoption is growing in large commercial portfolios and tech-forward campuses but remains uneven across older or smaller facilities.",
+  "agenticExposure": "Agents can plausibly own ticket triage, preventive-maintenance scheduling, and energy-anomaly flagging; the physical response and vendor relationship layer stays human."
+ },
  "tasksAtRisk": [
-  "Work order management and tracking",
+  "Work order intake, routing, and status tracking",
   "Preventive maintenance scheduling",
-  "Energy usage monitoring and reporting",
-  "Space utilization data collection"
+  "Energy usage monitoring and anomaly reporting",
+  "Space utilization data collection and reporting"
  ],
  "tasksGrowing": [
   "Workplace experience design for hybrid teams",
-  "Sustainability program leadership",
-  "Building technology integration and smart building management"
+  "Sustainability program leadership and ESG reporting",
+  "Smart building technology integration and vendor oversight"
  ],
  "salary": {
   "low": 60000,
   "high": 100000,
   "currency": "USD"
  },
- "salarySource": "",
+ "salarySource": "BLS OES May 2024, SOC 11-3013 (Facilities Managers); range reflects single-site/mid-portfolio facilities management, below the senior multi-site tail of the occupation",
  "salaryTrend": "stable",
  "defenseSkills": [
   {
-   "skill": "Smart Building Technology (IoT)",
+   "skill": "Smart Building IoT & Predictive Maintenance Platforms",
    "link": "/guides/ai-skills-resume/"
   },
   {
@@ -34,11 +44,11 @@
    "link": "/guides/ai-career-paths/"
   },
   {
-   "skill": "Workplace Experience Design",
+   "skill": "Vendor & Contractor Relationship Management",
    "link": "/guides/best-ai-certifications/"
   }
  ],
- "insight": "AI sensors and smart building systems automate monitoring, but facilities managers who design workplace experiences, lead sustainability programs, and manage building technology portfolios are growing in importance.",
+ "insight": "AI now triages work orders and flags maintenance needs before a person notices, but someone still has to stand in the mechanical room, manage the contractor, and own the safety call. Facilities managers who add sustainability and smart-building program leadership to core operations are growing in scope, not shrinking.",
  "industryModifiers": {
   "Tech": 3,
   "Manufacturing": -2,

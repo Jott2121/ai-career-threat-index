@@ -1,0 +1,51 @@
+{
+ "slug": "quality-engineer",
+ "title": "Quality Engineer",
+ "category": "Science & Engineering",
+ "socCode": "17-2199",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 42,
+  "toolMaturity": 68,
+  "adoption": 55,
+  "agenticExposure": 38
+ },
+ "rationales": {
+  "taskAutomation": "AI can run statistical process control analysis, flag defect-rate anomalies, and draft nonconformance reports end to end, but root-cause investigation on the physical line and supplier audits stay human.",
+  "toolMaturity": "AI-assisted SPC, defect-detection vision systems, and quality-analytics platforms are credible and improving fast across manufacturing.",
+  "adoption": "Large manufacturers increasingly deploy AI-assisted quality analytics and vision inspection; smaller operations still rely on manual checks.",
+  "agenticExposure": "Agents can run full SPC-monitoring-to-report loops and flag out-of-control processes, but physical root-cause investigation on the shop floor needs an engineer."
+ },
+ "tasksAtRisk": [
+  "Statistical process control monitoring and reporting",
+  "Automated defect-rate anomaly detection",
+  "Nonconformance report and CAPA documentation drafting"
+ ],
+ "tasksGrowing": [
+  "Physical root-cause investigation on the production line",
+  "Supplier quality audits and on-site process review",
+  "Cross-functional quality-system design for new products"
+ ],
+ "salary": {
+  "low": 80000,
+  "high": 135000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 17-2199, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted SPC & Vision Inspection Systems",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Physical Root-Cause Investigation (8D, Fishbone)",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Supplier Quality Audit Leadership",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "AI vision systems and SPC dashboards now catch defects and flag anomalies automatically, but tracing the anomaly back to its physical cause on the line still needs a quality engineer walking the floor."
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "firefighter",
+  "title": "Firefighter",
+  "category": "Public Service & Safety",
+  "socCode": "33-2011",
+  "tier": 1,
+  "subscores": {
+    "taskAutomation": 8,
+    "toolMaturity": 38,
+    "adoption": 12,
+    "agenticExposure": 5
+  },
+  "rationales": {
+    "taskAutomation": "Suppression, rescue, and emergency medical response are physical, unstructured, and licensed acts that AI cannot perform end-to-end.",
+    "toolMaturity": "Predictive-dispatch routing and drone/thermal-imaging tools exist and help incident commanders, but nothing role-specific has reached the standard toolchain.",
+    "adoption": "Fire departments are conservative, budget-limited public employers; adoption of even mature dispatch-support tools is still early-adopter only.",
+    "agenticExposure": "Firefighting is entirely physical-world work; autonomous software agents have no path into suppression or rescue."
+  },
+  "tasksAtRisk": [
+    "Post-incident report and NFIRS data entry",
+    "Equipment and inventory logging",
+    "Routine inspection scheduling and paperwork"
+  ],
+  "tasksGrowing": [
+    "Live incident command decision-making under uncertainty",
+    "Technical rescue and hazmat response",
+    "Public fire-safety education and community engagement"
+  ],
+  "salary": {
+    "low": 40000,
+    "high": 85000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 33-2011, p25-p75 rounded",
+  "salaryTrend": "rising",
+  "defenseSkills": [
+    {
+      "skill": "Technical rescue and hazmat response certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Incident command software and predictive-dispatch tool literacy",
+      "link": "/guides/ai-agents-guide/"
+    },
+    {
+      "skill": "Fire investigation and cause-and-origin analysis",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "Firefighting sits at the physical floor of this index: suppression and rescue can't be automated at any reliability AI offers today. The only real AI pressure is on the administrative tail of the job.",
+  "industryModifiers": {
+    "Tech": 6,
+    "Manufacturing": 5,
+    "Government": -6,
+    "Healthcare": -3
+  }
+}

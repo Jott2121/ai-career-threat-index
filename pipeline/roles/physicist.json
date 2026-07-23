@@ -1,0 +1,51 @@
+{
+ "slug": "physicist",
+ "title": "Physicist",
+ "category": "Science & Engineering",
+ "socCode": "19-2012",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 30,
+  "toolMaturity": 60,
+  "adoption": 38,
+  "agenticExposure": 30
+ },
+ "rationales": {
+  "taskAutomation": "AI can run large-scale numerical simulations and data-reduction pipelines, but formulating novel theory and designing new experiments remain deeply human.",
+  "toolMaturity": "AI-assisted simulation, symbolic-math, and data-analysis tools are mature in computational physics workflows.",
+  "adoption": "National labs and large research universities have adopted AI-assisted simulation broadly; smaller institutions lag on compute and tooling access.",
+  "agenticExposure": "Agents can run simulation batches and reduce experimental data, but hypothesis generation and experimental apparatus design are not agent-reachable."
+ },
+ "tasksAtRisk": [
+  "Large-scale numerical simulation and parameter sweeps",
+  "Experimental data reduction and statistical analysis pipelines",
+  "Literature survey synthesis for grant proposals"
+ ],
+ "tasksGrowing": [
+  "Novel theoretical framework development",
+  "Experimental apparatus design and instrumentation",
+  "Cross-disciplinary collaboration on frontier research questions"
+ ],
+ "salary": {
+  "low": 105000,
+  "high": 180000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 19-2012, p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Simulation & Numerical Methods",
+   "link": "/guides/ai-coding-tools/"
+  },
+  {
+   "skill": "Experimental Apparatus Design",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Novel Theoretical Framework Development",
+   "link": "/guides/ai-career-paths/"
+  }
+ ],
+ "insight": "Simulation and data reduction increasingly run on AI-assisted pipelines, but designing the experiment and formulating the theory behind it remain the physicist's irreplaceable core."
+}

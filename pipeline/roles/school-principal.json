@@ -1,0 +1,52 @@
+{
+ "slug": "school-principal",
+ "title": "School Principal",
+ "category": "Education",
+ "socCode": "11-9032",
+ "tier": 2,
+ "subscores": {
+  "taskAutomation": 26,
+  "toolMaturity": 48,
+  "adoption": 35,
+  "agenticExposure": 20
+ },
+ "rationales": {
+  "taskAutomation": "Compliance reporting, scheduling, and budget administration are increasingly digital and assistable, but personnel decisions, school culture, and stakeholder relationships are not.",
+  "toolMaturity": "General administrative and reporting AI tools are mature, but nothing purpose-built for school leadership dominates yet.",
+  "adoption": "AI use for compliance reporting and scheduling is spreading among districts seeking administrative efficiency.",
+  "agenticExposure": "Agents can draft reports and manage scheduling logistics, but personnel management, discipline, and community relations require an accountable human leader."
+ },
+ "tasksAtRisk": [
+  "Compliance and accreditation reporting",
+  "Master scheduling and resource allocation",
+  "Budget tracking and grant reporting",
+  "Routine parent/staff communication drafting"
+ ],
+ "tasksGrowing": [
+  "Personnel management and teacher coaching",
+  "School culture and climate leadership",
+  "Crisis response and community relations"
+ ],
+ "salary": {
+  "low": 75000,
+  "high": 135000,
+  "currency": "USD"
+ },
+ "salarySource": "BLS OES May 2024, SOC 11-9032 (Education Administrators, Kindergarten through Secondary), p25-p75 rounded",
+ "salaryTrend": "stable",
+ "defenseSkills": [
+  {
+   "skill": "AI-Assisted Compliance & Reporting Tools",
+   "link": "/guides/ai-skills-resume/"
+  },
+  {
+   "skill": "Instructional Leadership & Teacher Coaching",
+   "link": "/guides/ai-career-paths/"
+  },
+  {
+   "skill": "School Culture & Crisis Management",
+   "link": "/guides/best-ai-certifications/"
+  }
+ ],
+ "insight": "AI now drafts compliance reports and helps with scheduling logistics, but the accountable, relationship-heavy work of leading a school -- coaching teachers, shaping culture, and handling crises -- stays firmly with the principal."
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "tax-examiner",
+  "title": "Tax Examiner",
+  "category": "Public Service & Safety",
+  "socCode": "13-2081",
+  "tier": 2,
+  "subscores": {
+    "taskAutomation": 55,
+    "toolMaturity": 62,
+    "adoption": 32,
+    "agenticExposure": 45
+  },
+  "rationales": {
+    "taskAutomation": "Matching returns against third-party data, flagging discrepancies, and routine adjustment notices are routine digital production that AI already performs reliably.",
+    "toolMaturity": "Return-matching and fraud-detection systems have been in production at tax agencies for years and are a mature, embedded toolchain.",
+    "adoption": "Government revenue agencies have actually deployed automated matching at scale, though procurement and policy still lag private-sector tax-prep automation.",
+    "agenticExposure": "Discrepancy triage and reconciliation queues are a textbook agent-ownable workflow, while complex audits and taxpayer disputes require human review."
+  },
+  "tasksAtRisk": [
+    "Return-to-third-party-data matching",
+    "Discrepancy flagging and routine adjustment notices",
+    "Standard refund-eligibility checks",
+    "Basic correspondence-audit case triage"
+  ],
+  "tasksGrowing": [
+    "Complex audit judgment on ambiguous filings",
+    "Resolving taxpayer disputes and appeals"
+  ],
+  "salary": {
+    "low": 50000,
+    "high": 85000,
+    "currency": "USD"
+  },
+  "salarySource": "BLS OES May 2024, SOC 13-2081, p25-p75 rounded",
+  "salaryTrend": "mixed",
+  "defenseSkills": [
+    {
+      "skill": "Automated matching and fraud-detection system fluency",
+      "link": "/guides/ai-coding-tools/"
+    },
+    {
+      "skill": "Complex audit and tax-law certification",
+      "link": "/guides/best-ai-certifications/"
+    },
+    {
+      "skill": "Taxpayer dispute resolution and communication skills",
+      "link": "/guides/ai-skills-resume/"
+    }
+  ],
+  "insight": "One of the most exposed public-sector roles here: matching and flagging is exactly the routine digital work automation already handles well."
+}
