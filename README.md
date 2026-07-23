@@ -105,12 +105,12 @@ More in [`examples/`](examples/).
 
 ## Ask it through your AI assistant
 
-The repo ships a zero-dependency [MCP server](mcp/) so Claude (or any MCP client)
-can query the dataset directly:
+The repo ships a zero-dependency [MCP server](mcp/) —
+[`threat-index-mcp` on npm](https://www.npmjs.com/package/threat-index-mcp) — so Claude
+(or any MCP client) can query the dataset directly:
 
 ```bash
-git clone https://github.com/Jott2121/ai-career-threat-index.git
-claude mcp add threat-index -- node ./ai-career-threat-index/mcp/server.js
+claude mcp add threat-index -- npx -y threat-index-mcp
 ```
 
 Then ask: *"Compare paralegal, bookkeeper, and welder — which is most exposed to

@@ -10,8 +10,7 @@ otherwise fetches it from GitHub raw — the single `server.js` file works anywh
 ## Add it to Claude Code
 
 ```bash
-git clone https://github.com/Jott2121/ai-career-threat-index.git
-claude mcp add threat-index -- node ./ai-career-threat-index/mcp/server.js
+claude mcp add threat-index -- npx -y threat-index-mcp
 ```
 
 ## Add it to Claude Desktop
@@ -20,12 +19,14 @@ claude mcp add threat-index -- node ./ai-career-threat-index/mcp/server.js
 {
   "mcpServers": {
     "threat-index": {
-      "command": "node",
-      "args": ["/path/to/ai-career-threat-index/mcp/server.js"]
+      "command": "npx",
+      "args": ["-y", "threat-index-mcp"]
     }
   }
 }
 ```
+
+(From a clone, `node mcp/server.js` works identically and reads the local data.)
 
 ## Tools
 
